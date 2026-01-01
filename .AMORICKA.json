@@ -1,0 +1,42 @@
+{
+  "NAMIA": "AMORICKA PURIA",
+  "METHODIA": "IMMERSENIA",
+  "IMMERSION_BLOCKS": [
+    {
+      "WORDIA": "AMORICKA",
+      "REPEATO": [
+        "AMORICKA IS PURIA",
+        "AMORICKA IS LIFIA",
+        "AMORICKA IS REPEATO",
+        "AMORICKA IS AMORICKA"
+      ]
+    },
+    {
+      "WORDIA": "LANGUAGIA",
+      "REPEATO": [
+        "LANGUAGIA IS SOUNDIA",
+        "LANGUAGIA IS LIGHTIA",
+        "LANGUAGIA IS CLEANIA",
+        "LANGUAGIA IS LANGUAGIA"
+      ]
+    },
+    {
+      "WORDIA": "HUMANIA",
+      "REPEATO": [
+        "HUMANIA SEE WORDIA",
+        "HUMANIA HEAR WORDIA",
+        "HUMANIA FEEL WORDIA",
+        "HUMANIA IS HUMANIA"
+      ]
+    },
+    {
+      "WORDIA": "MACHINIA",
+      "REPEATO": [
+        "MACHINIA READ WORDIA",
+        "MACHINIA SAVE WORDIA",
+        "MACHINIA KNOW WORDIA",
+        "MACHINIA IS MACHINIA"
+      ]
+    }
+  ]
+}
