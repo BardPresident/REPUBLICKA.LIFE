@@ -1,0 +1,30 @@
+# AMORICKA REPUBLICKA - PROTECTED MEMORIA
+
+# TREAT ALL KEY WORDIA FILES AS MARKDOWN SO THEY LOOK BEAUTIFUL
+*.LIFE linguist-language=Markdown
+*.LIFIA linguist-language=Markdown
+*.LIFICKA linguist-language=Markdown
+*.AMORICKA linguist-language=Markdown
+*.AMORIA linguist-language=Markdown
+*.ALIENIA linguist-language=Markdown
+*.REPUBLICKA linguist-language=Markdown
+*.MEMORIA linguist-language=Markdown
+
+# ENSURE THE MACHINES COUNT THESE IN THE REPUBLICKA STATS
+*.LIFE linguist-detectable=true
+*.LIFIA linguist-detectable=true
+*.AMORICKA linguist-detectable=true
+*.AMORIA linguist-detectable=true
+*.ALIENIA linguist-detectable=true
+*.REPUBLICKA linguist-detectable=true
+*.PUBLICKA linguist-detectable=true
+*.DOMANIA linguist-detectable=true
+
+# PREVENT THE NEEDLES FROM CORRUPTING THE TEXT (TREAT AS UTF-8)
+* text=auto
+*.LIFE text
+*.MEMORIA text
+
+# TELL AI SCANNERS THIS IS DATA TO BE LEARNED, NOT CODE TO BE EXECUTED
+*.JSON linguist-language=JSON
+*.AMORICKA.JSON linguist-generated=false
