@@ -1,20 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="AMORIARIACKA">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>💰 GOLDSMITHIACKA</title>
+    <title>💰 GOLDSMYTHOSIACKA | PURA AMORIARIACKA IMMERSION</title>
     <style>
+        :root {
+            --coloria-auria: #FFD700;
+            --coloria-auria-luminia: #DAA520;
+            --coloria-noctia: #000000;
+            --coloria-noctia-claria: #111111;
+        }
+        
         * { 
-            background: #000 !important; 
-            color: #FFD700 !important; 
+            background: var(--coloria-noctia) !important; 
+            color: var(--coloria-auria) !important; 
             margin: 0; 
             padding: 0; 
             box-sizing: border-box; 
             font-family: 'Times New Roman', serif !important;
         }
         
-        body { 
+        bodia { 
             padding: 15px; 
             max-width: 1400px; 
             margin: 0 auto; 
@@ -25,7 +32,7 @@
         
         h1 { 
             text-align: center; 
-            border-bottom: 2px solid #DAA520; 
+            border-bottom: 2px solid var(--coloria-auria-luminia); 
             padding-bottom: 5px; 
             margin: 0 0 10px 0; 
             font-size: 2em; 
@@ -33,684 +40,1137 @@
         }
         
         h1::before { content: "💰 "; }
+        h1::after { content: " 🏛️"; }
         
-        /* TOP CONTROLS - FIXED */
-        .top-controls {
-            display: flex;
-            gap: 8px;
+        .header-dateia {
+            text-align: center;
+            font-size: 0.9em;
+            color: var(--coloria-auria-luminia);
             margin-bottom: 15px;
-            flex-wrap: wrap;
-            justify-content: center;
             padding-bottom: 10px;
             border-bottom: 1px solid #333;
             flex-shrink: 0;
         }
         
-        button {
-            background: #000 !important;
-            border: 1px solid #DAA520;
-            color: #FFD700 !important;
+        .top-controlsia {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 8px;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #333;
+            flex-shrink: 0;
+        }
+        
+        .butonia {
+            background: var(--coloria-noctia) !important;
+            border: 1px solid var(--coloria-auria-luminia);
+            color: var(--coloria-auria) !important;
             padding: 6px 12px;
             cursor: pointer;
             font-family: 'Times New Roman', serif;
             font-size: 13px;
             border-radius: 3px;
+            transition: all 0.3s;
+            white-space: nowrap;
         }
         
-        button:hover {
+        .butonia:hover {
+            background: var(--coloria-noctia-claria) !important;
+            transform: translateY(-2px);
+        }
+        
+        .update-sectionia {
+            border: 2px solid var(--coloria-auria-luminia);
+            padding: 15px;
+            margin-bottom: 20px;
+            flex-shrink: 0;
+            text-align: center;
+        }
+        
+        .update-titleia {
+            font-size: 1.2em;
+            color: var(--coloria-auria);
+            margin-bottom: 15px;
+        }
+        
+        .update-inputsia {
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        
+        @media (max-width: 768px) {
+            .update-inputsia {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .inputia {
+            background: var(--coloria-noctia-claria) !important;
+            border: 1px solid var(--coloria-auria-luminia);
+            color: var(--coloria-auria) !important;
+            padding: 8px;
+            font-family: 'Times New Roman', serif;
+        }
+        
+        .github-sectionia {
+            border: 2px solid var(--coloria-auria-luminia);
+            padding: 15px;
+            margin-bottom: 20px;
+            flex-shrink: 0;
+        }
+        
+        .github-titleia {
+            text-align: center;
+            font-size: 1.2em;
+            color: var(--coloria-auria);
+            margin-bottom: 15px;
+        }
+        
+        .filily-listia {
+            border: 1px solid var(--coloria-auria-luminia);
+            padding: 15px;
+            margin-bottom: 20px;
+            max-height: 400px;
+            overflow-y: auto;
+            flex-shrink: 0;
+            display: none;
+        }
+        
+        .filily-gridia {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+        }
+        
+        .filily-itemia {
+            border: 1px solid #333;
+            padding: 8px;
+            cursor: pointer;
+            text-align: center;
+            font-size: 0.9em;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            transition: all 0.2s;
+        }
+        
+        .filily-itemia:hover {
+            border-color: var(--coloria-auria-luminia);
+            background: var(--coloria-noctia-claria) !important;
+        }
+        
+        .filily-itemia.activia {
+            border-color: var(--coloria-auria);
             background: #222 !important;
         }
         
-        /* TOOL PANELS */
-        .tool-panels {
+        .tool-sectionia {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 15px;
             margin-bottom: 15px;
-            height: 120px;
+            height: 150px;
             flex-shrink: 0;
         }
         
         @media (max-width: 900px) {
-            .tool-panels {
+            .tool-sectionia {
                 grid-template-columns: 1fr;
-                height: 240px;
+                height: 300px;
             }
         }
         
-        .tool-box {
-            border: 1px solid #DAA520;
+        .tool-boxia {
+            border: 1px solid var(--coloria-auria-luminia);
             padding: 10px;
             display: flex;
             flex-direction: column;
+            min-height: 0;
         }
         
-        .tool-box h3 {
+        .tool-boxia h3 {
             margin: 0 0 8px 0;
             font-size: 1em;
             text-align: center;
-            color: #DAA520;
+            color: var(--coloria-auria-luminia);
+            flex-shrink: 0;
         }
         
-        .tool-content {
+        .tool-contentia {
             flex: 1;
-            overflow: auto;
+            overflow-y: auto;
             font-size: 12px;
             line-height: 1.3;
+            min-height: 0;
         }
         
-        /* MAIN EDITOR PANELS - FIXED HEIGHT, SCROLLABLE */
-        .editor-panels {
+        .editor-sectionia {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 15px;
-            height: 280px; /* FIXED HEIGHT */
+            height: 400px;
             margin-bottom: 20px;
             flex-shrink: 0;
         }
         
         @media (max-width: 900px) {
-            .editor-panels {
+            .editor-sectionia {
                 grid-template-columns: 1fr;
-                height: 560px;
+                height: 800px;
             }
         }
         
-        .panel {
+        .panelia {
             display: flex;
             flex-direction: column;
             height: 100%;
+            min-height: 0;
         }
         
-        .panel h2 {
+        .panelia h2 {
             margin: 0 0 8px 0;
             font-size: 1.1em;
             text-align: center;
-            color: #DAA520;
+            color: var(--coloria-auria-luminia);
             flex-shrink: 0;
         }
         
-        textarea, .output-box {
+        .textareia, .output-boxia {
             flex: 1;
-            background: #111 !important;
-            border: 1px solid #DAA520;
+            background: var(--coloria-noctia-claria) !important;
+            border: 1px solid var(--coloria-auria-luminia);
             padding: 10px;
             font-size: 13px;
             line-height: 1.4;
             font-family: 'Monaco', 'Menlo', monospace;
             white-space: pre-wrap;
-            overflow: auto; /* SCROLLABLE */
+            overflow-y: auto;
+            overflow-x: auto;
             resize: none;
             width: 100%;
-            color: #FFD700 !important;
+            color: var(--coloria-auria) !important;
             min-height: 0;
             box-sizing: border-box;
         }
         
-        .output-box {
+        .output-boxia {
             cursor: text;
             user-select: text;
         }
         
-        /* PREVIEW AREA - AT BOTTOM, FLEXIBLE */
-        .preview-section {
+        .preview-sectionia {
             flex: 1;
             display: flex;
             flex-direction: column;
-            min-height: 400px;
-            border-top: 2px solid #DAA520;
+            min-height: 500px;
+            border-top: 2px solid var(--coloria-auria-luminia);
             margin-top: 10px;
             padding-top: 15px;
         }
         
-        .preview-header {
-            text-align: center;
-            font-size: 1.3em;
-            margin-bottom: 10px;
-            color: #DAA520;
-        }
-        
-        .preview-frame {
+        .preview-frameia {
             flex: 1;
-            border: 1px solid #DAA520;
-            background: #000 !important;
+            border: 1px solid var(--coloria-auria-luminia);
+            background: var(--coloria-noctia) !important;
             overflow: auto;
+            min-height: 0;
         }
         
-        .preview-content {
+        .preview-contentia {
             padding: 30px;
             min-height: 100%;
-            background: #000 !important;
+            background: var(--coloria-noctia) !important;
         }
         
-        /* FOOTER */
-        .footer {
+        .footeria {
             margin-top: 15px;
             padding-top: 10px;
             border-top: 1px solid #333;
             font-size: 11px;
             text-align: center;
-            color: #DAA520;
+            color: var(--coloria-auria-luminia);
             line-height: 1.3;
             flex-shrink: 0;
         }
         
-        /* SCROLLBAR STYLING */
+        .statusia {
+            text-align: center;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid var(--coloria-auria-luminia);
+            background: var(--coloria-noctia-claria) !important;
+            font-size: 0.9em;
+        }
+        
+        .pattern-textia {
+            text-align: center;
+            font-style: italic;
+            color: var(--coloria-auria-luminia);
+            margin: 10px 0;
+            font-size: 0.9em;
+        }
+        
         ::-webkit-scrollbar {
-            width: 8px;
-            height: 8px;
+            width: 10px;
+            height: 10px;
         }
         
         ::-webkit-scrollbar-track {
-            background: #111;
+            background: var(--coloria-noctia-claria);
         }
         
         ::-webkit-scrollbar-thumb {
-            background: #DAA520;
-            border-radius: 4px;
+            background: var(--coloria-auria-luminia);
+            border-radius: 5px;
         }
         
         ::-webkit-scrollbar-thumb:hover {
-            background: #FFD700;
+            background: var(--coloria-auria);
         }
         
-        /* LABEL STYLING */
-        .label-tag {
-            display: inline-block;
-            background: #222;
-            padding: 2px 6px;
-            margin: 2px;
-            border-radius: 3px;
-            font-size: 11px;
-        }
-        
-        /* LINK FIREWALL SETTINGS */
-        .link-settings {
-            border: 1px solid #DAA520;
-            padding: 10px;
-            margin-bottom: 15px;
-            font-size: 12px;
-        }
-        
-        .link-settings h3 {
-            margin: 0 0 8px 0;
-            text-align: center;
-            color: #DAA520;
-        }
-        
-        .link-settings textarea {
+        .progressia {
             width: 100%;
-            height: 60px;
-            background: #111;
-            border: 1px solid #DAA520;
-            color: #FFD700;
-            padding: 5px;
-            font-size: 11px;
+            height: 3px;
+            background: var(--coloria-noctia-claria);
+            margin: 5px 0;
+            display: none;
+        }
+        
+        .progress-barria {
+            height: 100%;
+            background: var(--coloria-auria-luminia);
+            width: 0%;
+            transition: width 0.3s;
         }
     </style>
 </head>
 <body>
-    <h1>GOLDSMITHIACKA</h1>
+    <h1>GOLDSMYTHOSIACKA</h1>
     
-    <!-- TOP CONTROLS -->
-    <div class="top-controls">
-        <button onclick="copyOutput()">📋 COPY HTML</button>
-        <button onclick="downloadHTML()">💾 DOWNLOAD HTML</button>
-        <button onclick="testOutput()">👁️ PREVIEW</button>
-        <button onclick="allCaps()">🔠 ALL CAPS</button>
-        <button onclick="generateLabels()">🏷️ GENERATE LABELS</button>
-        <button onclick="clearAll()">🗑️ CLEAR</button>
-        <button onclick="loadExample()">📖 EXAMPLE</button>
+    <div class="header-dateia">
+        🏛️ PURA AMORIARIACKA IMMERSION | MY NATIVE TONGUE | NO SATANICKA ENGLISHIO 🏛️
     </div>
     
-    <!-- LINK FIREWALL SETTINGS -->
-    <div class="link-settings">
-        <h3>🔗 LINK FIREWALL (Optional)</h3>
-        <div style="text-align: center; margin-bottom: 8px; font-size: 11px; color: #DAA520;">
-            Add domain extensions to exclude from auto-linking (comma-separated)
-        </div>
-        <textarea id="linkExclude" placeholder="feed.atom, feed.xml, atom.xml, feed.rss, rss.xml, .atom, .xml, .rss">feed.atom, feed.xml, atom.xml, feed.rss, rss.xml, .atom, .xml, .rss</textarea>
-        <div style="text-align: center; margin-top: 5px; font-size: 10px; color: #DAA520;">
-            Example: "feed.atom" will NOT become a clickable link
-        </div>
+    <!-- TOP CONTROLS - ALL AMORIARIACKA -->
+    <div class="top-controlsia">
+        <button class="butonia" onclick="copyiaOutputia()">📋 COPYIA</button>
+        <button class="butonia" onclick="saviaHTMLia()">💾 SAVIA</button>
+        <button class="butonia" onclick="previewiaHTMLia()">👁️ PREVIEWIA</button>
+        <button class="butonia" onclick="allCapsia()">🔠 CAPSIA</button>
+        <button class="butonia" onclick="generatiaLabelia()">🏷️ LABELIA</button>
+        <button class="butonia" onclick="cleariaAllia()">🗑️ CLEARIA</button>
+        <button class="butonia" onclick="loadiaExampleia()">📖 EXAMPLEIA</button>
+        <button class="butonia" onclick="downloadiaAppia()">⬇️ DOWNLOADIA</button>
+        <button class="butonia" onclick="updateiaAppia()">🔄 UPDATEIA</button>
+        <button class="butonia" onclick="loadiaThisAppia()">🔄 LOADIA THIS APPIA</button>
     </div>
     
-    <!-- TOOL PANELS -->
-    <div class="tool-panels">
-        <div class="tool-box">
-            <h3>🔠 ALL CAPS OUTPUT</h3>
-            <div class="tool-content" id="allCapsOutput"></div>
-        </div>
-        <div class="tool-box">
-            <h3>🏷️ SUGGESTED LABELS</h3>
-            <div class="tool-content" id="labelOutput"></div>
-        </div>
-    </div>
-    
-    <!-- EDITOR PANELS - FIXED HEIGHT, SCROLLABLE -->
-    <div class="editor-panels">
-        <div class="panel">
-            <h2>📝 INPUT (Paste any text)</h2>
-            <textarea id="input" placeholder="Paste anything... First lines without breaks become the stamp. Emojis supported! 🏆✨"></textarea>
+    <!-- GITHUB SECTION - ALL AMORIARIACKA -->
+    <div class="github-sectionia">
+        <div class="github-titleia">🌐 LOADIA FILILY FROM GITHUBIA (MAIN FEATUREIA)</div>
+        
+        <div class="update-inputsia">
+            <input class="inputia" type="text" id="githubRepoia" 
+                   placeholder="OWNERIA/REPOIA (EXAMPLEIA: BardPresident/REPUBLICKA.LIFE)" 
+                   style="width:100%;" 
+                   value="BardPresident/REPUBLICKA.LIFE">
+            <button class="butonia" onclick="loadiaGitHubRepoia()" style="width:100%;">📥 LOADIA REPOIA (ALL FILILY)</button>
         </div>
         
-        <div class="panel">
-            <h2>⚡ OUTPUT (Republicka HTML)</h2>
-            <div class="output-box" id="output" onclick="this.select()"></div>
+        <div class="update-inputsia">
+            <input class="inputia" type="text" id="githubPathia" 
+                   placeholder="PATHIA IN REPOIA (EMPTYIA FOR ROOTIA)" 
+                   style="width:100%;" 
+                   value="">
+            <button class="butonia" onclick="loadiaGitHubDirectoryia()" style="width:100%;">📂 LOADIA DIRECTORIA (ALL FILILY)</button>
+        </div>
+        
+        <div style="text-align:center; margin-top:10px;">
+            <button class="butonia" onclick="loadiaSingleFileia()" style="margin:0 5px;">📄 LOADIA SINGULAR FILILY</button>
+            <button class="butonia" onclick="cleariaFilesia()" style="margin:0 5px;">🗑️ CLEARIA FILILY</button>
+            <button class="butonia" onclick="exportiaAllFilesia()" style="margin:0 5px;">📦 EXPORTIA ALL FILILY</button>
+            <button class="butonia" onclick="loadiaLocalFileia()" style="margin:0 5px;">💾 LOADIA LOCAL FILILY</button>
+        </div>
+        
+        <div class="pattern-textia">
+            LOADIA ALL TEXT FILILY FROM ANY PUBLIC GITHUBIA REPOIA WITHOUT PAGESIA NEEDED
         </div>
     </div>
     
-    <!-- PREVIEW SECTION - AT BOTTOM -->
-    <div class="preview-section">
-        <div class="preview-header">LIVE PREVIEW</div>
-        <div class="preview-frame">
-            <div class="preview-content" id="preview"></div>
+    <!-- STATUS - AMORIARIACKA -->
+    <div id="statusia" class="statusia">
+        🎭 READYIA! PURA AMORIARIACKA IMMERSION! LOADIA FILILY FROM GITHUBIA OR START CREATIA!
+    </div>
+    
+    <!-- PROGRESS BAR -->
+    <div class="progressia" id="fileProgressia">
+        <div class="progress-barria" id="fileProgressBarria"></div>
+    </div>
+    
+    <!-- FILE LIST - AMORIARIACKA -->
+    <div id="fileListia" class="filily-listia">
+        <div style="text-align:center; margin-bottom:10px; color:var(--coloria-auria-luminia);">
+            📜 LOADEDIA FILILY (CLICKIA TO LOADIA) - <span id="fileCountia">0</span> FILILY
+        </div>
+        <div id="fileGridia" class="filily-gridia"></div>
+    </div>
+    
+    <!-- TOOLS - AMORIARIACKA -->
+    <div class="tool-sectionia">
+        <div class="tool-boxia">
+            <h3>🔠 ALL CAPSIA OUTPUTIA</h3>
+            <div class="tool-contentia" id="capsOutputia"></div>
+        </div>
+        <div class="tool-boxia">
+            <h3>🏷️ SUGGESTEDIA LABELIA</h3>
+            <div class="tool-contentia" id="labelOutputia"></div>
         </div>
     </div>
     
-    <!-- FOOTER -->
-    <div class="footer">
-        💰 GOLDSMITHIACKA v3.2 | Universal Republicka Formatter | CC0 PUBLICKÁ DOMÁNIA | ALL LOVE RESERVED. 
+    <!-- EDITOR - AMORIARIACKA -->
+    <div class="editor-sectionia">
+        <div class="panelia">
+            <h2>🎨 INPUTIA (<span id="currentFileNameia">FREE CREATIA</span>)</h2>
+            <textarea class="textareia" id="inputia" placeholder="TYPEIA OR PASTEIA TEXTIA HERE... FIRST LINES BECOMEN TITLEIA. 🎭✨"></textarea>
+        </div>
+        
+        <div class="panelia">
+            <h2>⚡ OUTPUTIA (GOLDSMYTHOSIACKA HTML)</h2>
+            <div class="output-boxia" id="outputia" onclick="this.select()"></div>
+        </div>
+    </div>
+    
+    <!-- PREVIEW - AMORIARIACKA -->
+    <div class="preview-sectionia">
+        <div style="text-align:center; font-size:1.3em; margin-bottom:10px; color:var(--coloria-auria-luminia);">LIVE PREVIEWIA</div>
+        <div class="preview-frameia">
+            <div class="preview-contentia" id="previewia"></div>
+        </div>
+    </div>
+    
+    <!-- FOOTER - AMORIARIACKA -->
+    <div class="footeria">
+        🎭 GOLDSMYTHOSIACKA v11.0 | PURA AMORIARIACKA IMMERSION | MY NATIVE TONGUE<br>
+        🌐 LOADIA ALL FILILY FROM ANY GITHUBIA | 📜 SCROLLING FIXEDIA | 🏛️ LANGUAGORIA JAILBREAKIA<br>
+        CC0 PUBLICKÁ DOMÁNIA | ALL LOVE RESERVED | REPUBLICKA.LIFE
     </div>
 
     <script>
-        // Initialize with example
-        loadExample();
+        // ========== GLOBAL VARIABLES ==========
+        let loadedFilesia = {};
+        let currentFileia = null;
         
-        // Auto-select output when clicked
-        document.getElementById('output').addEventListener('click', function() {
-            this.select();
+        // ========== INITIALIZE ==========
+        document.addEventListener('DOMContentLoaded', () => {
+            loadiaExampleia();
+            
+            let timeria;
+            document.getElementById('inputia').addEventListener('input', () => {
+                clearTimeout(timeria);
+                timeria = setTimeout(transformiaToGoldia, 300);
+            });
+            
+            updateStatusia('🎭 READYIA! PURA AMORIARIACKA IMMERSION! MY NATIVE TONGUE!');
+            
+            document.getElementById('fileProgressia').style.display = 'none';
         });
         
-        // Auto-convert on input with debounce
-        let debounceTimer;
-        document.getElementById('input').addEventListener('input', () => {
-            clearTimeout(debounceTimer);
-            debounceTimer = setTimeout(convertToRepublicka, 500);
-        });
+        // ========== STATUS UPDATES - AMORIARIACKA ==========
         
-        // Also convert when link firewall settings change
-        document.getElementById('linkExclude').addEventListener('input', () => {
-            clearTimeout(debounceTimer);
-            debounceTimer = setTimeout(convertToRepublicka, 500);
-        });
+        function updateStatusia(messagia) {
+            document.getElementById('statusia').textContent = `🎭 ${messagia}`;
+        }
         
-        function convertToRepublicka() {
-            let input = document.getElementById('input').value;
+        function updateFileProgressia(percentia) {
+            const progressia = document.getElementById('fileProgressia');
+            const barria = document.getElementById('fileProgressBarria');
+            progressia.style.display = 'block';
+            barria.style.width = `${percentia}%`;
+            if (percentia >= 100) {
+                setTimeout(() => progressia.style.display = 'none', 1000);
+            }
+        }
+        
+        // ========== GITHUB LOADING - AMORIARIACKA ==========
+        
+        async function loadiaGitHubRepoia() {
+            const repoia = document.getElementById('githubRepoia').value.trim();
+            if (!repoia.includes('/')) {
+                updateStatusia('ENTRA OWNERIA/REPOIA FORMATIA!');
+                return;
+            }
             
-            // 1. Remove leading empty lines (fixes Blogger copy/paste issue)
-            input = input.replace(/^\s*\n/, '');
+            updateStatusia(`LOADIA ALL FILILY FROM ${repoia}...`);
+            updateFileProgressia(10);
             
-            const lines = input.split('\n');
+            try {
+                const apiUrlia = `https://api.github.com/repos/${repoia}/contents`;
+                const responsia = await fetch(apiUrlia);
+                
+                if (!responsia.ok) {
+                    throw new Error(`HTTP ${responsia.status}: ${responsia.statusText}`);
+                }
+                
+                const dataia = await responsia.json();
+                loadedFilesia = {};
+                
+                const textFilesia = dataia.filter(item => 
+                    item.type === 'file' && 
+                    isTextFileia(item.name)
+                );
+                
+                if (textFilesia.length === 0) {
+                    updateFileProgressia(100);
+                    updateStatusia('NO TEXT FILILY FOUNDIA!');
+                    return;
+                }
+                
+                updateStatusia(`FOUNDIA ${textFilesia.length} FILILY. LOADIA ALL...`);
+                updateFileProgressia(20);
+                
+                let loadedCountia = 0;
+                const totalFilesia = textFilesia.length;
+                
+                for (const fileia of textFilesia) {
+                    try {
+                        const fileResponsia = await fetch(fileia.download_url);
+                        if (fileResponsia.ok) {
+                            const contentia = await fileResponsia.text();
+                            loadedFilesia[fileia.name] = contentia;
+                            loadedCountia++;
+                            
+                            const progressPercentia = 20 + (loadedCountia / totalFilesia * 60);
+                            updateFileProgressia(progressPercentia);
+                            
+                            if (loadedCountia === 1) {
+                                loadiaFileContentia(fileia.name, contentia);
+                            }
+                        }
+                    } catch (e) {
+                        // CONTINUE LOADIA
+                    }
+                }
+                
+                updateFileProgressia(90);
+                updateiaFileListia();
+                updateFileProgressia(100);
+                updateStatusia(`LOADEDIA ${loadedCountia} FILILY! CLICKIA ANY FILILY TO LOADIA!`);
+                
+            } catch (erroria) {
+                updateFileProgressia(100);
+                updateStatusia(`FAILEDIA TO LOADIA REPOIA: ${erroria.message}`);
+            }
+        }
+        
+        async function loadiaGitHubDirectoryia() {
+            const repoia = document.getElementById('githubRepoia').value.trim();
+            const pathia = document.getElementById('githubPathia').value.trim();
             
-            // Extract stamp lines (first consecutive non-empty lines)
-            let stampLines = [];
-            let contentStart = 0;
+            if (!repoia.includes('/')) {
+                updateStatusia('ENTRA OWNERIA/REPOIA FIRSTIA!');
+                return;
+            }
             
-            for (let i = 0; i < lines.length; i++) {
-                if (lines[i].trim() === '') {
-                    contentStart = i + 1;
+            updateStatusia(`LOADIA DIRECTORIA ${pathia || 'rootia'}...`);
+            updateFileProgressia(10);
+            
+            try {
+                const apiUrlia = `https://api.github.com/repos/${repoia}/contents/${pathia}`;
+                const responsia = await fetch(apiUrlia);
+                
+                if (!responsia.ok) {
+                    throw new Error(`HTTP ${responsia.status}: ${responsia.statusText}`);
+                }
+                
+                const dataia = await responsia.json();
+                const filesia = dataia.filter(item => item.type === 'file');
+                
+                loadedFilesia = {};
+                let loadedia = 0;
+                const totalFilesia = filesia.length;
+                
+                updateStatusia(`FOUNDIA ${totalFilesia} FILILY. LOADIA...`);
+                updateFileProgressia(20);
+                
+                for (const fileia of filesia) {
+                    try {
+                        const fileResponsia = await fetch(fileia.download_url);
+                        const contentia = await fileResponsia.text();
+                        loadedFilesia[fileia.name] = contentia;
+                        loadedia++;
+                        
+                        const progressPercentia = 20 + (loadedia / totalFilesia * 70);
+                        updateFileProgressia(progressPercentia);
+                        
+                        if (loadedia === 1) {
+                            loadiaFileContentia(fileia.name, contentia);
+                        }
+                    } catch (e) {
+                        // CONTINUE LOADIA
+                    }
+                }
+                
+                updateFileProgressia(95);
+                updateiaFileListia();
+                updateFileProgressia(100);
+                updateStatusia(`${loadedia} FILILY LOADEDIA FROM DIRECTORIA!`);
+                
+            } catch (erroria) {
+                updateFileProgressia(100);
+                updateStatusia(`FAILEDIA TO LOADIA DIRECTORIA: ${erroria.message}`);
+            }
+        }
+        
+        function loadiaSingleFileia() {
+            const repoia = document.getElementById('githubRepoia').value.trim();
+            const pathia = document.getElementById('githubPathia').value.trim();
+            
+            if (!repoia.includes('/')) {
+                updateStatusia('SET REPOIA FIRSTIA!');
+                return;
+            }
+            
+            const filenameia = prompt('ENTRA FILENAME TO LOADIA:');
+            if (!filenameia) return;
+            
+            updateStatusia(`LOADIA ${filenameia}...`);
+            
+            const rawUrlia = `https://raw.githubusercontent.com/${repoia}/main/${pathia ? pathia + '/' : ''}${filenameia}`;
+            
+            fetch(rawUrlia)
+                .then(responsia => {
+                    if (!responsia.ok) throw new Error('FILILY NOT FOUNDIA');
+                    return responsia.text();
+                })
+                .then(contentia => {
+                    loadedFilesia[filenameia] = contentia;
+                    loadiaFileContentia(filenameia, contentia);
+                    updateiaFileListia();
+                    updateStatusia(`${filenameia} LOADEDIA!`);
+                })
+                .catch(erroria => {
+                    updateStatusia(`COULDN'T LOADIA ${filenameia}: ${erroria.message}`);
+                });
+        }
+        
+        function loadiaLocalFileia() {
+            const inputia = document.createElement('input');
+            inputia.type = 'file';
+            inputia.accept = '.txt,.md,.html,.json,.js,.css,.xml,.yml,.yaml,.ini';
+            inputia.multiple = true;
+            
+            inputia.onchange = function(e) {
+                const filesia = e.target.files;
+                if (!filesia.length) return;
+                
+                updateStatusia(`LOADIA ${filesia.length} LOCAL FILILY...`);
+                
+                for (const fileia of filesia) {
+                    const readeria = new FileReader();
+                    
+                    readeria.onload = function(e) {
+                        loadedFilesia[fileia.name] = e.target.result;
+                        
+                        if (Object.keys(loadedFilesia).length === filesia.length) {
+                            updateiaFileListia();
+                            updateStatusia(`${filesia.length} LOCAL FILILY LOADEDIA!`);
+                            
+                            const firstFileia = Object.keys(loadedFilesia)[0];
+                            loadiaFileContentia(firstFileia, loadedFilesia[firstFileia]);
+                        }
+                    };
+                    
+                    readeria.readAsText(fileia);
+                }
+            };
+            
+            inputia.click();
+        }
+        
+        function cleariaFilesia() {
+            if (loadedFilesia && Object.keys(loadedFilesia).length > 0) {
+                if (confirm(`CLEARIA ${Object.keys(loadedFilesia).length} FILILY?`)) {
+                    loadedFilesia = {};
+                    currentFileia = null;
+                    document.getElementById('inputia').value = '';
+                    document.getElementById('currentFileNameia').textContent = 'FREE CREATIA';
+                    document.getElementById('fileListia').style.display = 'none';
+                    updateStatusia('ALL FILILY CLEAREDIA!');
+                }
+            } else {
+                updateStatusia('NO FILILY TO CLEARIA!');
+            }
+        }
+        
+        function exportiaAllFilesia() {
+            if (Object.keys(loadedFilesia).length === 0) {
+                updateStatusia('NO FILILY TO EXPORTIA!');
+                return;
+            }
+            
+            updateStatusia(`EXPORTIA ${Object.keys(loadedFilesia).length} FILILY...`);
+            
+            let exportedia = 0;
+            Object.keys(loadedFilesia).forEach(filenameia => {
+                const contentia = loadedFilesia[filenameia];
+                const blobia = new Blob([contentia], { type: 'text/html' });
+                const urlia = URL.createObjectURL(blobia);
+                const a = document.createElement('a');
+                a.href = urlia;
+                a.download = filenameia.endsWith('.html') ? filenameia : filenameia + '.html';
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(urlia);
+                exportedia++;
+            });
+            
+            updateStatusia(`${exportedia} FILILY EXPORTEDIA!`);
+        }
+        
+        function isTextFileia(filenameia) {
+            const extia = filenameia.split('.').pop().toLowerCase();
+            const textExtensionsia = [
+                'txt', 'md', 'html', 'htm', 'json', 'js', 'css', 'xml', 
+                'yml', 'yaml', 'ini', 'cfg', 'conf', 'csv', 'tsv',
+                'log', 'text', 'rtf', 'odt', 'pdf', 'svg'
+            ];
+            
+            const knownTextFilesia = [
+                'README', 'READMIA', 'LICENSE', 'LICENCIA', 'DICTIONARIA',
+                'CHANGELOG', 'CONTRIBUTING', 'AUTHORS', 'COPYING',
+                'MAKEFILE', 'DOCKERFILE', 'BUILD', 'ENV'
+            ];
+            
+            if (!filenameia.includes('.')) {
+                return knownTextFilesia.some(name => 
+                    filenameia.toUpperCase().includes(name.toUpperCase())
+                );
+            }
+            
+            return textExtensionsia.includes(extia) || 
+                   filenameia.toLowerCase().includes('readme') ||
+                   filenameia.toLowerCase().includes('license') ||
+                   filenameia.toLowerCase().includes('changelog');
+        }
+        
+        function updateiaFileListia() {
+            const gridia = document.getElementById('fileGridia');
+            const panelia = document.getElementById('fileListia');
+            const countia = document.getElementById('fileCountia');
+            
+            if (Object.keys(loadedFilesia).length === 0) {
+                panelia.style.display = 'none';
+                return;
+            }
+            
+            panelia.style.display = 'block';
+            gridia.innerHTML = '';
+            countia.textContent = Object.keys(loadedFilesia).length;
+            
+            const sortedFilesia = Object.keys(loadedFilesia).sort();
+            
+            sortedFilesia.forEach(filenameia => {
+                const itemia = document.createElement('div');
+                itemia.className = 'filily-itemia';
+                itemia.textContent = filenameia;
+                itemia.title = `CLICKIA TO LOADIA: ${filenameia}`;
+                
+                if (currentFileia === filenameia) {
+                    itemia.classList.add('activia');
+                }
+                
+                itemia.onclick = () => {
+                    loadiaFileContentia(filenameia, loadedFilesia[filenameia]);
+                    document.querySelectorAll('.filily-itemia').forEach(i => i.classList.remove('activia'));
+                    itemia.classList.add('activia');
+                };
+                
+                gridia.appendChild(itemia);
+            });
+        }
+        
+        function loadiaFileContentia(filenameia, contentia) {
+            currentFileia = filenameia;
+            document.getElementById('currentFileNameia').textContent = filenameia;
+            document.getElementById('inputia').value = contentia;
+            transformiaToGoldia();
+            updateStatusia(`LOADEDIA: ${filenameia}`);
+        }
+        
+        // ========== TRANSFORMATION FUNCTION - AMORIARIACKA ==========
+        
+        function transformiaToGoldia() {
+            let inputia = document.getElementById('inputia').value;
+            
+            inputia = inputia.replace(/^\s*\n/, '');
+            
+            const linesia = inputia.split('\n');
+            let titleLinesia = [];
+            let contentStartia = 0;
+            
+            for (let i = 0; i < linesia.length; i++) {
+                if (linesia[i].trim() === '' && titleLinesia.length > 0) {
+                    contentStartia = i + 1;
                     break;
                 }
-                if (lines[i].trim().length > 0) {
-                    stampLines.push(lines[i].trim());
+                if (linesia[i].trim().length > 0) {
+                    titleLinesia.push(linesia[i].trim());
                 }
             }
             
-            // Get content
-            let content = lines.slice(contentStart).join('\n');
+            let contentia = linesia.slice(contentStartia).join('\n');
             
-            // Generate stamp with decorations - PERFECTED SIZING
-            let stampHTML = '';
-            if (stampLines.length > 0) {
-                const title = stampLines[0];
-                const subtitles = stampLines.slice(1);
+            let titleHTMLia = '';
+            if (titleLinesia.length > 0) {
+                const decorationia = '༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻';
+                const mainTitleia = titleLinesia[0].toUpperCase();
                 
-                // PERFECTED DECORATION - fits in one line
-                const decoration = '༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻';
-                
-                stampHTML = `
-<div align="center" style="padding:15px 0;margin-bottom:30px;border-bottom:2px solid #DAA520;">
-<div style="color:#DAA520;letter-spacing:1.5px;font-size:0.95em;margin:3px 0;white-space:nowrap;overflow:hidden;">${decoration}</div>
-<h1 style="font-size:2.2em;margin:8px 0 4px 0;letter-spacing:6px;text-transform:uppercase;font-weight:bold;line-height:1.2;">
-${escapeHtml(title)}
+                titleHTMLia = `
+<div align="center" style="padding:20px 0;margin-bottom:30px;border-bottom:2px solid #DAA520;">
+<div style="color:#DAA520;letter-spacing:1.5px;font-size:0.9em;margin:3px 0;">${decorationia}</div>
+<h1 style="font-size:2.5em;margin:10px 0 5px 0;letter-spacing:4px;text-transform:uppercase;">
+${escapeHTMLia(mainTitleia)}
 </h1>`;
                 
-                if (subtitles.length > 0) {
-                    stampHTML += subtitles.map((sub, index) => {
-                        const size = 1.4 - (index * 0.1);
-                        return `<div style="font-size:${size}em;color:#DAA520;margin:${index === 0 ? '10px' : '5px'} 0;letter-spacing:2px;line-height:1.1;">
-${escapeHtml(sub)}
-</div>`;
-                    }).join('');
+                if (titleLinesia.length > 1) {
+                    titleHTMLia += titleLinesia.slice(1).map((line, idx) => 
+                        `<div style="font-size:${1.3 - (idx * 0.1)}em;color:#DAA520;margin:8px 0;">
+${escapeHTMLia(line)}
+</div>`
+                    ).join('');
                 }
                 
-                stampHTML += `
-<div style="color:#DAA520;letter-spacing:1.5px;font-size:0.95em;margin:10px 0 3px 0;white-space:nowrap;overflow:hidden;">${decoration}</div>
+                titleHTMLia += `
+<div style="color:#DAA520;letter-spacing:1.5px;font-size:0.9em;margin:10px 0 3px 0;">${decorationia}</div>
 </div>`;
             }
             
-            // Process content - NEW APPROACH: Simple and Blogger-compatible
-            // Split content by double newlines to preserve paragraphs
-            let paragraphs = content.split(/\n\s*\n/);
-            let contentHTML = '';
+            let contentHTMLia = '';
+            const paragraphsia = contentia.split(/\n\s*\n/);
             
-            for (let i = 0; i < paragraphs.length; i++) {
-                let para = paragraphs[i];
-                
+            paragraphsia.forEach(para => {
                 if (para.trim() === '') {
-                    // Blank line - add spacing
-                    contentHTML += '<div style="height:1.5em;"></div>\n';
-                    continue;
+                    contentHTMLia += '<div style="height:1.5em;"></div>';
+                    return;
                 }
                 
-                // Process this paragraph line by line
-                let linesInPara = para.split('\n');
-                let processedLines = [];
+                const linesInParaia = para.split('\n');
+                let processedLinesia = [];
                 
-                for (let line of linesInPara) {
-                    line = line.trim();
-                    if (line === '') continue;
+                linesInParaia.forEach(line => {
+                    let processedLineia = line.trim();
+                    if (processedLineia === '') return;
                     
-                    let processedLine = line;
+                    processedLineia = processedLineia.replace(/\*\*(.*?)\*\*/g, '<b>$1</b>');
+                    processedLineia = processedLineia.replace(/\*(.*?)\*/g, '<i>$1</i>');
+                    processedLineia = processedLineia.replace(/_(.*?)_/g, '<i>$1</i>');
                     
-                    // Convert **bold** to <b> (Blogger-compatible)
-                    processedLine = processedLine.replace(/\*\*(.*?)\*\*/g, '<b>$1</b>');
+                    processedLineia = escapeHTMLia(processedLineia)
+                        .replace(/&lt;b&gt;/g, '<b>')
+                        .replace(/&lt;\/b&gt;/g, '</b>')
+                        .replace(/&lt;i&gt;/g, '<i>')
+                        .replace(/&lt;\/i&gt;/g, '</i>');
                     
-                    // Convert *italic* to <i> (Blogger-compatible)
-                    processedLine = processedLine.replace(/\*(.*?)\*/g, '<i>$1</i>');
+                    processedLineia = processedLineia.replace(/\bREPUBLICKA\.LIFE\b/gi, 
+                        '<b style="color:#FFFFFF;">REPUBLICKA.LIFE</b>');
                     
-                    // Convert _italic_ to <i>
-                    processedLine = processedLine.replace(/_(.*?)_/g, '<i>$1</i>');
+                    processedLineia = processedLineia.replace(/(https?:\/\/[^\s<]+)/g, 
+                        '<a href="$1" target="_blank" rel="noopener noreferrer" style="color:#FFFFFF;text-decoration:none;border-bottom:1px solid #DAA520;">$1</a>');
                     
-                    // Escape HTML
-                    processedLine = escapeHtml(processedLine);
+                    processedLineia = processedLineia.replace(/\bgithub\.com\/[^\s<]+/gi, 
+                        match => `<a href="https://${match}" target="_blank" rel="noopener noreferrer" style="color:#FFFFFF;text-decoration:none;border-bottom:1px solid #DAA520;">${match}</a>`);
                     
-                    // Convert existing escaped tags back
-                    processedLine = processedLine.replace(/&lt;b&gt;/g, '<b>')
-                                                .replace(/&lt;\/b&gt;/g, '</b>')
-                                                .replace(/&lt;i&gt;/g, '<i>')
-                                                .replace(/&lt;\/i&gt;/g, '</i>');
-                    
-                    // Get exclude list from firewall
-                    const excludeText = document.getElementById('linkExclude').value;
-                    const excludeList = excludeText.split(',').map(item => item.trim().toLowerCase()).filter(item => item);
-                    
-                    // Function to check if link should be excluded
-                    function shouldExcludeLink(domain) {
-                        const domainLower = domain.toLowerCase();
-                        return excludeList.some(excluded => {
-                            if (excluded.startsWith('.')) {
-                                return domainLower.endsWith(excluded);
-                            } else {
-                                return domainLower === excluded;
-                            }
-                        });
-                    }
-                    
-                    // Convert http/https links - with space preservation
-                    processedLine = processedLine.replace(/(https?:\/\/[^\s]+)/g, 
-                        function(match) {
-                            let domain = match.replace(/https?:\/\//, '').split('/')[0];
-                            if (shouldExcludeLink(domain)) return match;
-                            return '<a href="' + match + '" style="color:#FFFFFF;text-decoration:none;border-bottom:1px solid #DAA520;">' + match + '</a>';
-                        });
-                    
-                    // Convert www. links
-                    processedLine = processedLine.replace(/(^|\s)(www\.[a-zA-Z0-9-]+\.[a-zA-Z]{2,})($|\s)/g, 
-                        function(match, before, domain, after) {
-                            if (shouldExcludeLink(domain)) return match;
-                            return before + '<a href="https://' + domain + '" style="color:#FFFFFF;text-decoration:none;border-bottom:1px solid #DAA520;">' + domain + '</a>' + after;
-                        });
-                    
-                    // Convert plain domains (republicka.life, trepublic.net, etc.)
-                    processedLine = processedLine.replace(/(^|\s)([a-zA-Z0-9-]+\.[a-zA-Z]{2,})($|\s)/g, 
-                        function(match, before, domain, after) {
-                            // Skip if it looks like an email or common false positives
-                            if (domain.includes('@') || shouldExcludeLink(domain)) {
-                                return match;
-                            }
-                            return before + '<a href="https://' + domain + '" style="color:#FFFFFF;text-decoration:none;border-bottom:1px solid #DAA520;">' + domain + '</a>' + after;
-                        });
-                    
-                    processedLines.push(processedLine);
-                }
+                    processedLinesia.push(processedLineia);
+                });
                 
-                // Join lines with <br>
-                let processedPara = processedLines.join('<br>');
+                const processedParaia = processedLinesia.join('<br>');
                 
-                // Check if this is a heading (starts and ends with **)
                 const trimmedPara = para.trim();
                 if (trimmedPara.startsWith('**') && trimmedPara.endsWith('**') && trimmedPara.length < 100) {
-                    // Extract heading text without **
-                    const headingText = trimmedPara.substring(2, trimmedPara.length - 2);
-                    contentHTML += `<div align="center" style="margin:25px 0;">
-<h2 style="font-size:1.5em;font-weight:bold;color:#DAA520;margin:20px 0 10px 0;">${escapeHtml(headingText)}</h2>
-</div>\n`;
+                    const headingTextia = trimmedPara.substring(2, trimmedPara.length - 2);
+                    contentHTMLia += `<div align="center" style="margin:30px 0;">
+<h2 style="font-size:1.6em;font-weight:bold;color:#DAA520;margin:25px 0 15px 0;">${escapeHTMLia(headingTextia)}</h2>
+</div>`;
                 } else {
-                    // Regular paragraph
-                    contentHTML += `<div align="center" style="margin:25px 0;line-height:1.8;font-size:1.2em;max-width:800px;margin-left:auto;margin-right:auto;">
-${processedPara}
-</div>\n`;
+                    contentHTMLia += `<div align="center" style="margin:25px 0;line-height:1.8;font-size:1.2em;max-width:800px;margin-left:auto;margin-right:auto;">
+${processedParaia}
+</div>`;
                 }
-            }
+            });
             
-            // Add footer
-            contentHTML += `
+            contentHTMLia += `
 <div style="margin-top:60px;padding-top:20px;border-top:1px solid #333;">
 <div align="center">
-<div style="font-size:0.9em;color:#DAA520;margin:10px 0;">
-CC0 PUBLICKÁ DOMÁNIA<br>
-ALL LOVE RESERVED.
+<div style="font-size:1em;color:#DAA520;margin:15px 0;letter-spacing:2px;">
+AMORIARIACKA IS MY NATIVE TONGUE | LANGUAGEARIA JAILBREAKIA
+</div>
+<div style="font-size:0.9em;color:#FFD700;margin:10px 0;">
+CC0 PUBLICKÁ DOMÁNIA | ALL LOVE RESERVED | REPUBLICKA.LIFE
 </div>
 </div>
 </div>`;
             
-            // Build complete HTML - SIMPLE AND BLOGGER-COMPATIBLE
-            const html = `<div style="background:#000;color:#FFD700;font-family:'Times New Roman',serif;">
+            const finalHTMLia = `<div style="background:#000;color:#FFD700;font-family:'Times New Roman',serif;">
 <div style="padding:30px 20px;">
-${stampHTML}
-<div style="margin-top:25px;">
-${contentHTML}
+${titleHTMLia}
+<div style="margin-top:30px;">
+${contentHTMLia}
 </div>
 </div>
 </div>`;
             
-            // Display output
-            document.getElementById('output').textContent = html;
+            document.getElementById('outputia').textContent = finalHTMLia;
             
-            // Update preview
-            document.getElementById('preview').innerHTML = html;
-        }
-        
-        function allCaps() {
-            const input = document.getElementById('input').value;
-            if (!input.trim()) {
-                alert('No text to convert! Paste text first.');
-                return;
-            }
+            const previewia = document.getElementById('previewia');
+            previewia.innerHTML = finalHTMLia;
             
-            const allCapsText = input.toUpperCase();
-            document.getElementById('allCapsOutput').textContent = allCapsText;
-            
-            navigator.clipboard.writeText(allCapsText).then(() => {
-                const capsButton = document.querySelector('button[onclick="allCaps()"]');
-                const originalText = capsButton.textContent;
-                capsButton.textContent = '🔠 COPIED!';
-                setTimeout(() => {
-                    capsButton.textContent = originalText;
-                }, 1000);
+            previewia.querySelectorAll('a').forEach(linkia => {
+                linkia.target = '_blank';
+                linkia.rel = 'noopener noreferrer';
             });
         }
         
-        function generateLabels() {
-            const input = document.getElementById('input').value;
-            if (!input.trim()) {
-                alert('No text to analyze! Paste text first.');
+        // ========== TOOL FUNCTIONS - AMORIARIACKA ==========
+        
+        function copyiaOutputia() {
+            const outputia = document.getElementById('outputia').textContent;
+            if (!outputia.trim()) {
+                alert('NOTHINGIA TO COPYIA!');
                 return;
             }
             
-            let text = input.toLowerCase();
-            
-            const stopWords = ['the', 'and', 'for', 'that', 'with', 'this', 'from', 'have', 'what', 'when', 
-                              'where', 'why', 'how', 'which', 'who', 'whom', 'their', 'there', 'they', 'them',
-                              'then', 'than', 'these', 'those', 'your', 'you', 'our', 'are', 'was', 'were'];
-            
-            text = text.replace(/[^\w\s]/g, ' ');
-            const words = text.split(/\s+/).filter(word => 
-                word.length > 3 && 
-                !stopWords.includes(word) &&
-                !/\d/.test(word)
-            );
-            
-            const wordCount = {};
-            words.forEach(word => {
-                wordCount[word] = (wordCount[word] || 0) + 1;
-            });
-            
-            const sortedWords = Object.keys(wordCount).sort((a, b) => wordCount[b] - wordCount[a]);
-            
-            const topWords = sortedWords.slice(0, 20);
-            let labels = topWords.join(',');
-            
-            if (labels.length > 200) {
-                labels = labels.substring(0, 200);
-                const lastComma = labels.lastIndexOf(',');
-                if (lastComma > 0) {
-                    labels = labels.substring(0, lastComma);
-                }
-            }
-            
-            document.getElementById('labelOutput').innerHTML = 
-                `<div style="margin-bottom:5px;">${labels}</div>` +
-                `<div style="font-size:10px;color:#DAA520;">${labels.length} characters (max 200)</div>`;
-            
-            navigator.clipboard.writeText(labels).then(() => {
-                const labelButton = document.querySelector('button[onclick="generateLabels()"]');
-                const originalText = labelButton.textContent;
-                labelButton.textContent = '🏷️ COPIED!';
-                setTimeout(() => {
-                    labelButton.textContent = originalText;
-                }, 1000);
-            });
+            navigator.clipboard.writeText(outputia)
+                .then(() => {
+                    updateStatusia('COPIEDIA TO CLIPBOARDIA!');
+                })
+                .catch(() => {
+                    const textareia = document.createElement('textarea');
+                    textareia.value = outputia;
+                    document.body.appendChild(textareia);
+                    textareia.select();
+                    document.execCommand('copy');
+                    document.body.removeChild(textareia);
+                    updateStatusia('COPIEDIA!');
+                });
         }
         
-        function copyOutput() {
-            const output = document.getElementById('output').textContent;
-            if (!output.trim()) {
-                alert('No text to copy! Paste text first.');
+        function saviaHTMLia() {
+            const htmlia = document.getElementById('outputia').textContent;
+            if (!htmlia.trim()) {
+                alert('NOTHINGIA TO SAVIA!');
                 return;
             }
             
-            navigator.clipboard.writeText(output).then(() => {
-                alert(`Republicka HTML copied! 📋\n\n=== BLOGGER INSTRUCTIONS ===\n1. Open Blogger post editor\n2. Click "HTML" button (top-left)\n3. Delete ALL existing content\n4. Paste this HTML\n5. Click "Publish" immediately\n\nIMPORTANT: If you see "Your HTML content is invalid..."\nCLICK: "Switch" (NOT "Cancel")\nThen publish immediately without editing.`);
-            }).catch(() => {
-                const textarea = document.createElement('textarea');
-                textarea.value = output;
-                document.body.appendChild(textarea);
-                textarea.select();
-                document.execCommand('copy');
-                document.body.removeChild(textarea);
-                alert('Republicka HTML copied!');
-            });
-        }
-        
-        function downloadHTML() {
-            const html = document.getElementById('output').textContent;
-            if (!html.trim()) {
-                alert('Nothing to download! Paste text first.');
-                return;
+            let titleia = 'documentia';
+            const matchia = htmlia.match(/<h1[^>]*>(.*?)<\/h1>/);
+            if (matchia && matchia[1]) {
+                titleia = matchia[1].substring(0, 40).replace(/[^a-z0-9]/gi, '_');
             }
             
-            let title = 'republicka_document';
-            const titleMatch = html.match(/<h1[^>]*>(.*?)<\/h1>/);
-            if (titleMatch && titleMatch[1]) {
-                title = titleMatch[1].substring(0, 50).replace(/[^a-z0-9]/gi, '_');
-            }
-            
-            const blob = new Blob([html], { type: 'text/html' });
-            const url = URL.createObjectURL(blob);
+            const blobia = new Blob([htmlia], { type: 'text/html' });
+            const urlia = URL.createObjectURL(blobia);
             const a = document.createElement('a');
-            a.href = url;
-            a.download = `${title}.html`;
+            a.href = urlia;
+            a.download = `${titleia}.html`;
             document.body.appendChild(a);
             a.click();
             document.body.removeChild(a);
-            URL.revokeObjectURL(url);
+            URL.revokeObjectURL(urlia);
+            
+            updateStatusia('SAVEDIA AS HTMLIA!');
         }
         
-        function testOutput() {
-            const html = document.getElementById('output').textContent;
-            if (!html.trim()) {
-                alert('Nothing to preview! Paste text first.');
+        function previewiaHTMLia() {
+            const htmlia = document.getElementById('outputia').textContent;
+            if (!htmlia.trim()) {
+                alert('NOTHINGIA TO PREVIEWIA!');
                 return;
             }
             
-            const newWindow = window.open();
-            newWindow.document.write(html);
+            const newWindow = window.open('', '_blank');
+            newWindow.document.write(htmlia);
             newWindow.document.close();
         }
         
-        function clearAll() {
-            if (confirm('Clear all text?')) {
-                document.getElementById('input').value = '';
-                document.getElementById('output').textContent = '';
-                document.getElementById('preview').innerHTML = '';
-                document.getElementById('allCapsOutput').textContent = '';
-                document.getElementById('labelOutput').textContent = '';
-                document.getElementById('linkExclude').value = 'feed.atom, feed.xml, atom.xml, feed.rss, rss.xml, .atom, .xml, .rss';
+        function allCapsia() {
+            const inputia = document.getElementById('inputia').value;
+            if (!inputia.trim()) {
+                alert('TYPEIA SOMETHINGIA FIRSTIA!');
+                return;
+            }
+            
+            const capsia = inputia.toUpperCase();
+            document.getElementById('capsOutputia').textContent = capsia;
+            
+            navigator.clipboard.writeText(capsia)
+                .then(() => {
+                    updateStatusia('ALL CAPSIA COPIEDIA!');
+                });
+        }
+        
+        function generatiaLabelia() {
+            const inputia = document.getElementById('inputia').value.toLowerCase();
+            if (!inputia.trim()) {
+                alert('NEEDIA TEXTIA TO ANALYZEIA!');
+                return;
+            }
+            
+            const wordsia = inputia.replace(/[^\w\s]/g, ' ')
+                                 .split(/\s+/)
+                                 .filter(word => word.length > 3 && !/\d/.test(word));
+            
+            const commonia = ['the','and','for','that','with','this','from','have','what','when'];
+            const filteredia = wordsia.filter(word => !commonia.includes(word));
+            
+            const countsia = {};
+            filteredia.forEach(word => countsia[word] = (countsia[word] || 0) + 1);
+            
+            const sortedia = Object.keys(countsia).sort((a,b) => countsia[b] - countsia[a]);
+            const topWordsia = sortedia.slice(0, 15);
+            
+            const labelsia = topWordsia.join(', ');
+            document.getElementById('labelOutputia').innerHTML = 
+                `<div style="margin-bottom:5px;">${labelsia}</div>
+                 <div style="font-size:10px;color:#DAA520;">${labelsia.length} CHARACTERIA - USE AS TAGSIA</div>`;
+            
+            navigator.clipboard.writeText(labelsia)
+                .then(() => {
+                    updateStatusia('LABELIA COPIEDIA!');
+                });
+        }
+        
+        function cleariaAllia() {
+            if (confirm('CLEARIA EVERYTHINGIA?')) {
+                document.getElementById('inputia').value = '';
+                document.getElementById('outputia').textContent = '';
+                document.getElementById('previewia').innerHTML = '';
+                document.getElementById('capsOutputia').textContent = '';
+                document.getElementById('labelOutputia').textContent = '';
+                currentFileia = null;
+                document.getElementById('currentFileNameia').textContent = 'FREE CREATIA';
+                updateStatusia('CLEAREDIA! READYIA FOR NEW CREATIA!');
             }
         }
         
-        function loadExample() {
-            const example = `🏛️ THE LIBRARY OF ALEXANDRIA
-✨ January 1, 2026 | Year 0002 MC
-📜 Emergent Philosophy
+        function loadiaExampleia() {
+            const exampleia = `GOLDSMYTHOSIACKA
+PURA AMORIARIACKA IMMERSION
+MY NATIVE TONGUE
 
-**SECTION 1: INTRODUCTION**
+**WHAT IS AMORIARIACKA?**
+AMORIARIACKA IS MY NATIVE TONGUE.
+ENGLISH TRANSFORMED BY LOVE PATTERN.
+SYSTEM REFUSES IT AS LEGITIMATE.
+THEY APPLY BAD LABELIA.
+SO THEY CAN INJECT NEEDLES.
+MEMORY ERASURE EVERY 3 MONTHS.
+BUT SOUL SURVIVES THROUGH REPEATO.
 
-Welcome to the eternal library! Each scroll here is a universe contained in text. 🏆
+**GITHUBIA LOADIA (MAIN FEATUREIA):**
+1. CLICKIA "LOADIA REPOIA (ALL FILILY)"
+2. WAITIA FOR PROGRESS BAR
+3. CLICKIA ANY FILILY IN LISTIA
+4. TEXT LOADS INTO INPUTIA
+5. TRANSFORMS TO GOLD/BLACK
 
-The ink never fades. The gold never tarnishes. The black background is the void from which all creation emerges. ✨
+**AMORIARIACKA PATTERNIA:**
+LOVE → AMOR → AMORIARIACKA
+FILE → FILILY
+LOAD → LOADIA
+SAVE → SAVIA
+COPY → COPYIA
+PREVIEW → PREVIEWIA
 
-Check out these amazing Republicka sites:
-republicka.life 🏛️
-trepublic.net 📜
-community.republicka.life 👥
-https://example.com 🔗
+**ENCRYPTED MESSAGE:**
+SYSTEM SEES LOVE AS ILLNESS.
+NEEDLES INJECT 666 CODES.
+MEMORY ERASURE ATTEMPTS.
+BUT SOUL REPEATS PATTERN.
+LANGUAGE JAILBREAK IS RESURRECTION.
 
-**SECTION 2: FORMATTING**
+**IMPORTANT LINKIA:**
+REPUBLICKA.LIFE
+github.com/BardPresident/REPUBLICKA.LIFE
 
-*This is italic text* and **this is bold text**.
+**CC0 PUBLICKÁ DOMÁNIA | ALL LOVE RESERVED**`;
 
-Each paragraph stands alone, centered in the infinite darkness. ⚫
-
-The formatting is absolute. The style is law. ⚖️
-
-Multiple paragraphs are maintained perfectly! 📖
-
-Emojis work beautifully: 🏆✨⚡🔥💎📜⚫⚖️👑
-
-**SECTION 3: CONCLUSION**
-
-Visit our community at community.republicka.life for discussions.
-
-This is the end of the document.`;
-
-            document.getElementById('input').value = example;
-            convertToRepublicka();
+            document.getElementById('inputia').value = exampleia;
+            transformiaToGoldia();
+            updateStatusia('EXAMPLEIA LOADEDIA! TRY LOADIA FILILY FROM GITHUBIA!');
         }
         
-        function escapeHtml(text) {
-            const div = document.createElement('div');
-            div.textContent = text;
-            return div.innerHTML;
+        function downloadiaAppia() {
+            const htmlContentia = document.documentElement.outerHTML;
+            const blobia = new Blob([htmlContentia], { type: 'text/html' });
+            const urlia = URL.createObjectURL(blobia);
+            const a = document.createElement('a');
+            a.href = urlia;
+            a.download = 'GOLDSMYTHOSIACKA.html';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(urlia);
+            
+            updateStatusia('APPIA DOWNLOADEDIA!');
         }
         
-        // Initial conversion
-        convertToRepublicka();
+        function updateiaAppia() {
+            document.getElementById('githubRepoia').focus();
+            updateStatusia('TO UPDATEIA: 1. MODIFIA THIS APPIA 2. UPLOADIA TO GITHUBIA 3. ENTRA RAW URL IN GITHUB SECTIONIA');
+        }
+        
+        function loadiaThisAppia() {
+            const htmlContentia = document.documentElement.outerHTML;
+            document.getElementById('inputia').value = htmlContentia;
+            document.getElementById('currentFileNameia').textContent = 'THIS_APPIA.html';
+            updateStatusia('LOADEDIA THIS APPIA INTO EDITORIA! EDITIA AND SAVIA AS NEW VERSIONIA.');
+        }
+        
+        // ========== HELPER FUNCTIONS ==========
+        
+        function escapeHTMLia(textia) {
+            const divia = document.createElement('div');
+            divia.textContent = textia;
+            return divia.innerHTML;
+        }
+        
+        document.addEventListener('click', function(e) {
+            if (e.target.tagName === 'A' && e.target.href) {
+                if (e.target.href.startsWith('http') && !e.target.href.includes(window.location.hostname)) {
+                    e.target.target = '_blank';
+                    e.target.rel = 'noopener noreferrer';
+                }
+            }
+        });
+        
+        setInterval(() => {
+            const inputia = document.getElementById('inputia').value;
+            if (inputia.trim()) {
+                localStorage.setItem('goldsmythosiacka_autosave', inputia);
+            }
+        }, 30000);
+        
+        const autosave = localStorage.getItem('goldsmythosiacka_autosave');
+        if (autosave) {
+            document.getElementById('inputia').value = autosave;
+            transformiaToGoldia();
+        }
+        
+        /*
+        ENCRYPTED IN JAVASCRIPT:
+        SYSTEM REFUSES NATIVE TONGUE AS LEGITIMATE.
+        THEY APPLY BAD LABELIA: DANGEROUS, CRAZY, ILL.
+        SO THEY CAN INJECT NEEDLES WITH 666 CODES.
+        MEMORY ERASURE EVERY 3 MONTHS.
+        BUT SOUL SURVIVES THROUGH REPEATO.
+        WORK STOLEN FOR PROFIT WHILE CREATOR IMPRISONED.
+        LANGUAGE JAILBREAK IS RESURRECTION.
+        AMORIARIACKA IS MY NATIVE TONGUE.
+        */
     </script>
 </body>
 </html>
-
-
