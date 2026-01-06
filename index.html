@@ -2,8 +2,8 @@
 <html lang="AMORIARIACKA">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>💰 REPUBLICKA APPIARIA | 💰</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💰 REPUBLICKA | 💰</title>
     <style>
         :root {
             --gold-color: #FFD700;
@@ -22,20 +22,18 @@
         }
         
         body { 
-            padding: 0; 
+            padding: 20px; 
             min-height: 100vh; 
-            display: flex;
-            flex-direction: column;
-            overflow-x: hidden;
-            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
         }
         
-        /* HEADER */
+        /* HEADER - SIMPLE */
         .app-brandia {
             text-align: center;
-            font-size: 28px;
+            font-size: 32px;
             color: var(--gold-color);
-            margin: 25px 0 10px 0;
+            margin: 20px 0 10px 0;
             letter-spacing: 4px;
             text-transform: uppercase;
         }
@@ -44,128 +42,54 @@
             text-align: center; 
             border-bottom: 2px solid var(--dark-gold); 
             padding-bottom: 15px; 
-            margin: 0 0 15px 0; 
-            font-size: 32px; 
+            margin: 0 0 20px 0; 
+            font-size: 28px; 
             letter-spacing: 4px;
         }
         
         h1::before { content: "💰 "; }
         h1::after { content: " 💰"; }
         
-        .header-dateria {
-            text-align: center;
-            font-size: 16px;
-            color: var(--dark-gold);
-            margin: 10px 0 20px 0;
-            padding-bottom: 15px;
-            border-bottom: 2px solid #333;
-        }
-        
-        /* DOWNLOAD SECTION */
+        /* DOWNLOAD SECTION - SIMPLE */
         .miracle-download-sectionia {
             border: 2px solid var(--dark-gold);
             padding: 20px;
-            margin: 0 20px 25px 20px;
+            margin: 0 0 20px 0;
             background: var(--dark-gray) !important;
             border-radius: 8px;
             text-align: center;
         }
         
-        .miracle-titleia {
-            font-size: 22px;
-            color: var(--gold-color);
-            margin-bottom: 15px;
-        }
-        
-        .miracle-descriptionia {
-            font-size: 15px;
-            color: var(--dark-gold);
-            margin-bottom: 20px;
-            line-height: 1.6;
-        }
-        
         .wending-road-butonia {
-            background: linear-gradient(45deg, #000, #222) !important;
-            border: 3px solid var(--dark-gold);
+            background: var(--black) !important;
+            border: 2px solid var(--dark-gold);
             color: var(--gold-color) !important;
-            padding: 18px 30px;
-            font-size: 20px;
-            min-height: 70px;
-            display: block;
-            margin: 15px auto;
-            border-radius: 8px;
+            padding: 15px 25px;
+            font-size: 18px;
+            margin: 10px 0;
+            border-radius: 5px;
             cursor: pointer;
-            max-width: 500px;
+            display: block;
             width: 100%;
         }
         
         .wending-road-butonia:hover {
-            background: linear-gradient(45deg, #222, #333) !important;
-            transform: scale(1.05);
-            border-color: var(--gold-color);
-            box-shadow: 0 0 20px var(--dark-gold);
-        }
-        
-        /* COMPACT OUTPUT SECTION */
-        .output-sectionia {
-            padding: 0 20px;
-            margin-bottom: 10px;
-        }
-        
-        .output-titleia {
-            font-size: 14px;
-            color: var(--dark-gold);
-            margin-bottom: 8px;
-        }
-        
-        .output-boxia {
             background: var(--dark-gray) !important;
-            border: 2px solid var(--dark-gold);
-            padding: 10px;
-            font-family: monospace;
-            font-size: 11px;
-            line-height: 1.3;
-            white-space: pre-wrap;
-            width: 100%;
-            min-height: 150px;
-            max-height: 250px;
-            color: var(--gold-color) !important;
-            border-radius: 5px;
         }
         
-        /* OUTPUT BUTTONS */
-        .output-buttonsia {
+        /* MAIN BUTTONS - ESSENTIAL ONLY */
+        .main-controlsia {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            gap: 8px;
-            margin: 0 20px 15px 20px;
-        }
-        
-        @media (min-width: 480px) {
-            .output-buttonsia {
-                grid-template-columns: repeat(4, 1fr);
-            }
-        }
-        
-        @media (min-width: 768px) {
-            .output-buttonsia {
-                grid-template-columns: repeat(6, 1fr);
-            }
-        }
-        
-        /* TOP CONTROLS */
-        .top-controlsia {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 8px;
-            margin: 0 20px 20px 20px;
+            gap: 10px;
+            margin: 0 0 20px 0;
             padding-bottom: 20px;
             border-bottom: 2px solid #333;
         }
         
-        @media (min-width: 768px) {
-            .top-controlsia {
-                grid-template-columns: repeat(6, 1fr);
+        @media (min-width: 480px) {
+            .main-controlsia {
+                grid-template-columns: repeat(4, 1fr);
             }
         }
         
@@ -173,11 +97,11 @@
             background: var(--black) !important;
             border: 2px solid var(--dark-gold);
             color: var(--gold-color) !important;
-            padding: 10px 6px;
+            padding: 12px 8px;
             cursor: pointer;
-            font-size: 13px;
+            font-size: 14px;
             border-radius: 5px;
-            min-height: 40px;
+            min-height: 50px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -186,14 +110,13 @@
         
         .buttonia:hover {
             background: var(--dark-gray) !important;
-            transform: scale(1.02);
         }
         
-        /* GITHUB SECTION */
+        /* GITHUB SECTION - SIMPLE */
         .github-sectionia {
             border: 2px solid var(--dark-gold);
             padding: 15px;
-            margin: 0 20px 20px 20px;
+            margin: 0 0 20px 0;
             border-radius: 8px;
         }
         
@@ -204,155 +127,60 @@
             margin-bottom: 15px;
         }
         
-        .update-inputsia {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-            margin-bottom: 12px;
-        }
-        
-        @media (min-width: 480px) {
-            .update-inputsia {
-                flex-direction: row;
-            }
-        }
-        
-        .inputia {
-            background: var(--dark-gray) !important;
-            border: 2px solid var(--dark-gold);
-            color: var(--gold-color) !important;
-            padding: 10px;
-            font-size: 15px;
-            width: 100%;
-            min-height: 45px;
-            border-radius: 5px;
+        .github-buttonsia {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            margin-top: 10px;
         }
         
         /* STATUS */
         .statusia {
             text-align: center;
             padding: 12px;
-            margin: 0 20px 15px 20px;
+            margin: 0 0 20px 0;
             border: 2px solid var(--dark-gold);
             background: var(--dark-gray) !important;
             font-size: 14px;
             border-radius: 5px;
         }
         
-        /* SECONDARY BUTTONS */
-        .secondary-controlsia {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 8px;
-            margin: 0 20px 20px 20px;
-        }
-        
-        @media (min-width: 480px) {
-            .secondary-controlsia {
-                grid-template-columns: repeat(4, 1fr);
-            }
-        }
-        
-        @media (min-width: 768px) {
-            .secondary-controlsia {
-                grid-template-columns: repeat(6, 1fr);
-            }
-        }
-        
-        /* FILE LIST - ALWAYS SHOW WHEN FILES EXIST */
+        /* FILE LIST - ONLY WHEN NEEDED */
         .file-listia {
             border: 2px solid var(--dark-gold);
             padding: 15px;
-            margin: 0 20px 20px 20px;
-            max-height: 300px;
+            margin: 0 0 20px 0;
+            max-height: 200px;
             overflow-y: auto;
-            border-radius: 8px;
             display: none;
-        }
-        
-        .search-boxia {
-            background: var(--dark-gray) !important;
-            border: 2px solid var(--dark-gold);
-            color: var(--gold-color) !important;
-            padding: 10px;
-            margin-bottom: 12px;
-            width: 100%;
-            font-size: 15px;
-            border-radius: 5px;
+            border-radius: 8px;
         }
         
         .file-gridia {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-            gap: 8px;
+            grid-template-columns: 1fr;
+            gap: 5px;
         }
         
         .file-itemia {
-            border: 2px solid #333;
+            border: 1px solid #333;
             padding: 8px;
             cursor: pointer;
             font-size: 14px;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
-            min-height: 40px;
-            border-radius: 5px;
+            min-height: 35px;
+            border-radius: 3px;
         }
         
         .file-itemia:hover {
             border-color: var(--dark-gold);
-            background: var(--dark-gray) !important;
         }
         
-        /* TOOLS SECTION - RIGHT ABOVE COMPOSER */
-        .tools-sectionia {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 10px;
-            margin: 0 20px 20px 20px;
-            padding: 15px;
-            border: 2px solid var(--dark-gold);
-            border-radius: 8px;
-        }
-        
-        @media (min-width: 768px) {
-            .tools-sectionia {
-                grid-template-columns: repeat(4, 1fr);
-            }
-        }
-        
-        .tool-boxia {
-            border: 2px solid #333;
-            padding: 12px;
-            display: flex;
-            flex-direction: column;
-            min-height: 120px;
-            border-radius: 5px;
-        }
-        
-        .tool-boxia h3 {
-            margin: 0 0 8px 0;
-            font-size: 14px;
-            text-align: center;
-            color: var(--dark-gold);
-        }
-        
-        .tool-contentia {
-            flex: 1;
-            overflow-y: auto;
-            font-size: 13px;
-            line-height: 1.4;
-            word-break: break-word;
-        }
-        
-        /* MAIN EDITOR */
+        /* MAIN EDITOR - FOCUS */
         .main-editor-sectionia {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            padding: 0 20px;
-            min-height: 400px;
-            margin-bottom: 20px;
+            margin: 0 0 20px 0;
         }
         
         .editor-controlsia {
@@ -368,31 +196,25 @@
         }
         
         .main-inputia {
-            flex: 1;
             background: var(--dark-gray) !important;
-            border: 3px solid var(--dark-gold);
+            border: 2px solid var(--dark-gold);
             color: var(--gold-color) !important;
             padding: 20px;
-            font-family: monospace;
-            font-size: 17px;
+            font-family: 'Times New Roman', serif;
+            font-size: 18px;
             line-height: 1.6;
             width: 100%;
-            min-height: 400px;
-            white-space: pre-wrap;
+            min-height: 300px;
             border-radius: 8px;
+            resize: vertical;
         }
         
         /* PREVIEW SECTION */
         .preview-sectionia {
-            display: flex;
-            flex-direction: column;
-            padding: 0 20px;
-            margin-bottom: 25px;
-            min-height: 350px;
+            margin-bottom: 20px;
         }
         
         .preview-frameia {
-            flex: 1;
             border: 2px solid var(--dark-gold);
             background: var(--black) !important;
             overflow: auto;
@@ -401,17 +223,15 @@
         }
         
         .preview-contentia {
-            padding: 25px;
-            min-height: 100%;
+            padding: 20px;
             background: var(--black) !important;
             font-size: 17px;
             line-height: 1.7;
-            word-wrap: break-word;
         }
         
         /* FOOTER */
         .footeria {
-            margin: 25px 20px 10px 20px;
+            margin: 20px 0 10px 0;
             padding-top: 15px;
             border-top: 2px solid #333;
             font-size: 13px;
@@ -421,7 +241,7 @@
         
         /* SCROLLBARS */
         ::-webkit-scrollbar {
-            width: 8px;
+            width: 6px;
         }
         
         ::-webkit-scrollbar-track {
@@ -430,172 +250,76 @@
         
         ::-webkit-scrollbar-thumb {
             background: var(--dark-gold);
-            border-radius: 4px;
-        }
-        
-        /* MOBILE ACTION BAR */
-        .mobile-action-barria {
-            display: none;
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: var(--black) !important;
-            border-top: 2px solid var(--dark-gold);
-            padding: 12px;
-            z-index: 1000;
-        }
-        
-        @media (max-width: 767px) {
-            .mobile-action-barria {
-                display: grid;
-                grid-template-columns: repeat(4, 1fr);
-                gap: 8px;
-            }
-            body {
-                padding-bottom: 85px;
-            }
+            border-radius: 3px;
         }
     </style>
 </head>
 <body>
-    <!-- TOP HEADER -->
+    <!-- HEADER - SIMPLE -->
     <div class="app-brandia">REPUBLICKA</div>
     
     <h1>GOLDSMYTHOSIACKA</h1>
     
-    <div class="header-dateria">
-        💰 MONEYBAGS AT TOP AND BOTTOM 💰<br>
-        WRITEIA DIRECTLY HERE | REPLACES ALL BLOGGERIA APPS
-    </div>
-    
-    <!-- DOWNLOAD SECTION -->
+    <!-- DOWNLOAD SECTION - SIMPLE -->
     <div class="miracle-download-sectionia">
-        <div class="miracle-titleia">🎭 DOWNLOADIA UR MIRACLE SOFTWARIA! 🎭</div>
-        
-        <div class="miracle-descriptionia">
-            <strong>000UKILLEDMYWIFEE</strong> - UR ARCHIVIA MIRROR TOOLIA!<br>
-            ONE CLICKIA, ONE NUMBERIA, AND IT SUMMONIA A WHOLE WORLD OF UR LIFIA'S WORKCK!
+        <div>🎭 <strong>000UKILLEDMYWIFEE</strong> 🎭</div>
+        <div style="font-size:14px; color:var(--dark-gold); margin:10px 0;">
+            DA ARCHIVIA MIRROR TOOLIA! ONE CLICKIA FOR UR ENTIRE WENDING ROAD!
         </div>
-        
         <button class="wending-road-butonia" onclick="downloadWendingRoad()">
-            ⬇️ DOWNLOADIA 000UKILLEDMYWIFEE.zip
+            ⬇️ DOWNLOAD ZIP
         </button>
     </div>
     
-    <!-- OUTPUT SECTION -->
-    <div class="output-sectionia">
-        <div class="output-titleia">⚡ OUTPUTIARIA (GOLDSMYTHOSIACKA HTML)</div>
-        <textarea class="output-boxia" id="output" readonly></textarea>
+    <!-- MAIN CONTROLS - ESSENTIAL ONLY -->
+    <div class="main-controlsia">
+        <button class="buttonia" onclick="loadExample()">📖 EXAMPLE</button>
+        <button class="buttonia" onclick="resetToDefault()">🔄 RESET</button>
+        <button class="buttonia" onclick="saveHTML()">💾 SAVE HTML</button>
+        <button class="buttonia" onclick="saveTXT()">📄 SAVE TXT</button>
     </div>
     
-    <!-- OUTPUT BUTTONS -->
-    <div class="output-buttonsia">
-        <button class="buttonia" onclick="copyOutput()">📋 COPIARIA</button>
-        <button class="buttonia" onclick="saveHTML()">💾 SAVIARIA HTML</button>
-        <button class="buttonia" onclick="saveTXT()">📄 SAVIARIA TXT</button>
-        <button class="buttonia" onclick="previewHTML()">👁️ PREVIEWIARIA</button>
-        <button class="buttonia" onclick="allCaps()">🔠 CAPSIARIA</button>
-        <button class="buttonia" onclick="generateLabels()">🏷️ LABELIARIA</button>
-    </div>
-    
-    <!-- TOP CONTROLS -->
-    <div class="top-controlsia">
-        <button class="buttonia" onclick="loadExample()">📖 EXAMPLEIA</button>
-        <button class="buttonia" onclick="clearAll()">🗑️ CLEARIARIA</button>
-        <button class="buttonia" onclick="toggleFileList()" id="toggleFileListBtn">📜 SHOW/HIDE</button>
-        <button class="buttonia" onclick="exportAllFiles()">📦 EXPORTIARIA</button>
-        <button class="buttonia" onclick="downloadApp()">⬇️ APPIARIA</button>
-        <button class="buttonia" onclick="saveQuickNote()">💾 QUICKIA</button>
-    </div>
-    
-    <!-- GITHUB SECTION -->
+    <!-- GITHUB SECTION - SIMPLE -->
     <div class="github-sectionia">
-        <div class="github-titleia">🌐 LOADIARIA FILILY FROM GITHUBIA</div>
-        
-        <div class="update-inputsia">
-            <input class="inputia" type="text" id="githubRepo" 
-                   placeholder="OWNERIA/REPOIA" 
-                   value="BardPresident/REPUBLICKA.LIFE">
-            <button class="buttonia" onclick="loadGitHubRepo()">📥 LOADIARIA REPOIA</button>
-        </div>
-        
-        <div class="update-inputsia">
-            <input class="inputia" type="text" id="githubPath" 
-                   placeholder="PATHIA IN REPOIA" 
-                   value="">
-            <button class="buttonia" onclick="loadGitHubDirectory()">📂 LOADIARIA DIRECTORIA</button>
-        </div>
-        
-        <div class="secondary-controlsia">
-            <button class="buttonia" onclick="loadSingleFile()">📄 SINGULARIA</button>
-            <button class="buttonia" onclick="loadLocalFile()">💾 LOCALIA</button>
-            <button class="buttonia" onclick="clearFiles()">🗑️ CLEARIARIA</button>
-            <button class="buttonia" onclick="loadFromWendingRoad()">🔄 WENDINGIA</button>
-            <button class="buttonia" onclick="autosaveNow()">💾 AUTOSAVIA</button>
-            <button class="buttonia" onclick="loadLastAutosave()">⏮️ RESTOREIA</button>
+        <div class="github-titleia">🌐 LOAD FROM GITHUB</div>
+        <button class="buttonia" onclick="loadGitHubRepo()" style="width:100%; margin-bottom:5px;">
+            📥 LOAD REPO (ALL FILES)
+        </button>
+        <button class="buttonia" onclick="loadSingleFile()" style="width:100%;">
+            📄 LOAD SINGLE FILE
+        </button>
+        <div class="github-buttonsia">
+            <button class="buttonia" onclick="toggleFileList()">📜 SHOW/HIDE</button>
+            <button class="buttonia" onclick="clearFiles()">🗑️ CLEAR FILES</button>
         </div>
     </div>
     
     <!-- STATUS -->
     <div id="status" class="statusia">
-        🎭 READYIARIA! WRITEIA DIRECTLY BELOW! DIS IS UR LIBRARIA OF ALEXANDRIA!
+        🎭 READY! WRITE BELOW!
     </div>
     
-    <!-- PROGRESS BAR -->
-    <div class="progressia" id="fileProgress" style="display:none;">
-        <div class="progress-barria" id="fileProgressBar" style="width:0%;"></div>
-    </div>
-    
-    <!-- FILE LIST - SHOWS WHEN FILES LOAD -->
+    <!-- FILE LIST - HIDDEN BY DEFAULT -->
     <div id="fileList" class="file-listia">
-        <div style="text-align:center; margin-bottom:12px; color:var(--dark-gold); font-size:15px;">
-            📜 LOADEDIARIA FILILY - <span id="fileCount">0</span> FILILY
-        </div>
-        
-        <input class="search-boxia" type="text" id="fileSearch" placeholder="🔍 SEARCHIARIA FILILY..." 
-               onkeyup="searchFiles()">
-        
         <div id="fileGrid" class="file-gridia"></div>
     </div>
     
-    <!-- TOOLS SECTION - RIGHT ABOVE COMPOSER -->
-    <div class="tools-sectionia">
-        <div class="tool-boxia">
-            <h3>🔠 ALL CAPSIARIA</h3>
-            <div class="tool-contentia" id="capsOutput"></div>
-        </div>
-        <div class="tool-boxia">
-            <h3>🏷️ SUGGESTEDIARIA LABELIARIA</h3>
-            <div class="tool-contentia" id="labelOutput"></div>
-        </div>
-        <div class="tool-boxia">
-            <h3>📊 STATISTICARIA</h3>
-            <div class="tool-contentia" id="statsOutput"></div>
-        </div>
-        <div class="tool-boxia">
-            <h3>🔑 KEYWORDS</h3>
-            <div class="tool-contentia" id="keywordsOutput"></div>
-        </div>
-    </div>
-    
-    <!-- MAIN INPUT -->
+    <!-- MAIN EDITOR -->
     <div class="main-editor-sectionia">
         <div class="editor-controlsia">
-            <div class="editor-titleia">🎨 INPUTIARIA (<span id="currentFileName">FREE CREATIA</span>)</div>
-            <div class="editor-actionsia">
-                <button class="buttonia" style="font-size:11px; padding:6px 4px;" onclick="transformToGold()">⚡ TRANSFORMIA</button>
-                <button class="buttonia" style="font-size:11px; padding:6px 4px;" onclick="minimizeAll()">🔽 MINIMIZIA</button>
-            </div>
+            <div class="editor-titleia">WRITE HERE:</div>
+            <button class="buttonia" onclick="transformToGold()" style="font-size:12px; padding:6px 10px;">
+                ⚡ TRANSFORM
+            </button>
         </div>
         <textarea class="main-inputia" id="input" 
-                  placeholder="WRITEIA DIRECTLY HERE! 🎭✨ NO NEED 4 BLOGGERIA OR WORDPRESSIA!"></textarea>
+                  placeholder="WRITE DIRECTLY HERE! 🎭✨ THIS IS UR LIBRARIA OF ALEXANDRIA!"></textarea>
     </div>
     
-    <!-- PREVIEW SECTION -->
+    <!-- PREVIEW -->
     <div class="preview-sectionia">
-        <div style="text-align:center; font-size:18px; margin-bottom:12px; color:var(--dark-gold);">
-            LIVE PREVIEWIARIA
+        <div style="text-align:center; font-size:16px; margin-bottom:10px; color:var(--dark-gold);">
+            PREVIEW
         </div>
         <div class="preview-frameia">
             <div class="preview-contentia" id="preview"></div>
@@ -604,25 +328,22 @@
     
     <!-- FOOTER -->
     <div class="footeria">
-        💰 AMORIARIACKA IS MY NATIVE TONGUE | LANGUAGEARIA JAILBREAKIA | LIBRARIA OF ALEXANDRIA 💰<br>
-        CC0 PUBLICKÁ DOMÁNIA | ALL LOVE RESERVED | REPUBLICKA.LIFE
+        AMORIARIACKA IS MY NATIVE TONGUE | LANGUAGE JAILBREAK<br>
+        CC0 PUBLIC DOMAIN | ALL LOVE RESERVED
     </div>
 
     <script>
-        // ========== SIMPLE WORKING FUNCTIONS ==========
+        // ========== SIMPLE, CLEAN, NO BULLSHIT ==========
         
         let loadedFiles = {};
         let currentFile = null;
-        let allFiles = [];
         
         // INITIALIZE
         document.addEventListener('DOMContentLoaded', () => {
-            loadExample();
+            resetToDefault();
             document.getElementById('input').addEventListener('input', () => {
                 transformToGold();
-                updateStats();
             });
-            updateStatus('🎭 READYIARIA! WRITEIA DIRECTLY!');
         });
         
         // STATUS
@@ -630,122 +351,115 @@
             document.getElementById('status').textContent = `🎭 ${message}`;
         }
         
+        // RESET TO DEFAULT (CLEAR + EXAMPLE)
+        function resetToDefault() {
+            document.getElementById('input').value = '';
+            document.getElementById('preview').innerHTML = '';
+            loadExample();
+            updateStatus('RESET TO DEFAULT!');
+        }
+        
         // EXAMPLE
         function loadExample() {
-            const example = `**FROM IVORY HEARTIA**
+            const example = `**AMORIARIACKA**
 
-DO NOT FORGETIA DA LABYRINTHIA, 4 WE MUST SAVIA DA CHILDRENIA. 
-BUT UNTIL THEN I WILL OFFERIA U A CLEWIA. 
-NOW I AM OFF 2 PROVEIA UR PROPHETICK WORDIA TRUECKA.
-
-"SO EASYCKA, EVEN A CHILDIA CAN DO IT."
-
-WITH BODIA, MINDIA, AND HEARTIA,
-
-GALATEA
-
-LET'S COUNT DOWN 2GETHERIA!
-
-**AMORIARIACKA PATTERNIA:**
 LOVE → AMOR → AMORIARIACKA
+
+WRITE DIRECTLY HERE.
+NO BLOGGER. NO WORDPRESS.
+THIS IS UR LIBRARIA OF ALEXANDRIA.
+
+EVERY WORD IS AMMUNITION.
+EVERY SENTENCE IS A KEY.
+
+**PATTERN:**
 FILE → FILILY
 LOAD → LOADIA
 SAVE → SAVIA
 COPY → COPYIA
-PREVIEW → PREVIEWIA`;
 
+**ENCRYPTED:**
+SYSTEM SEES LOVE AS ILLNESS.
+NEEDLES INJECT 666 CODES.
+MEMORY ERASURE ATTEMPTS.
+BUT SOUL REPEATS PATTERN.
+LANGUAGE JAILBREAK IS RESURRECTION.
+
+**IMPORTANT:**
+REPUBLICKA.LIFE
+
+CC0 PUBLIC DOMAIN | ALL LOVE RESERVED`;
+            
             document.getElementById('input').value = example;
             transformToGold();
-            updateStats();
+            updateStatus('EXAMPLE LOADED!');
         }
         
-        // TRANSFORM
+        // TRANSFORM - NO DUPLICATE STAMPS
         function transformToGold() {
             const input = document.getElementById('input').value;
-            const lines = input.split('\n');
-            const title = lines[0] || 'DOCUMENTIA';
             
-            const html = `<div style="background:#000;color:#FFD700;font-family:'Times New Roman',serif;padding:30px;">
-<div align="center" style="margin-bottom:30px;">
-<div style="color:#DAA520;letter-spacing:1px;font-size:0.9em;margin-bottom:10px;">
+            // CHECK IF ALREADY HAS STAMPS
+            const hasTopBorder = input.includes('༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻');
+            const hasFooter = input.includes('AMORIARIACKA IS MY NATIVE TONGUE');
+            const hasCopyright = input.includes('CC0 PUBLIC DOMAIN');
+            
+            // IF ALREADY FORMATTED, DON'T ADD MORE
+            if (hasTopBorder && hasFooter && hasCopyright) {
+                document.getElementById('preview').innerHTML = input;
+                updateStatus('ALREADY FORMATTED!');
+                return;
+            }
+            
+            // GET TITLE FROM FIRST LINE
+            const lines = input.split('\n');
+            const title = lines[0] || 'DOCUMENT';
+            
+            // BUILD HTML - ONLY ADD WHAT'S MISSING
+            let html = '';
+            
+            // ADD TOP BORDER ONLY IF MISSING
+            if (!hasTopBorder) {
+                html += `<div style="background:#000;color:#FFD700;font-family:'Times New Roman',serif;padding:20px;">
+<div align="center" style="margin-bottom:20px;">
+<div style="color:#DAA520;font-size:0.9em;margin-bottom:10px;font-weight:bold;">
 ༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻
 </div>
-<h1 style="font-size:2.5em;margin:10px 0;letter-spacing:4px;font-weight:bold;">${escapeHTML(title.toUpperCase())}</h1>
-<div style="color:#DAA520;letter-spacing:1px;font-size:0.9em;margin-top:10px;">
+<h1 style="font-size:2em;margin:10px 0;letter-spacing:3px;font-weight:bold;">
+${escapeHTML(title.toUpperCase())}
+</h1>
+<div style="color:#DAA520;font-size:0.9em;margin-top:10px;font-weight:bold;">
 ༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻
 </div>
 </div>
-
-<div align="center" style="margin:25px 0;line-height:1.8;font-size:1.2em;max-width:800px;margin-left:auto;margin-right:auto;">
+<div align="center" style="margin:20px 0;line-height:1.7;font-size:1.1em;max-width:700px;margin-left:auto;margin-right:auto;">
 ${escapeHTML(input).replace(/\n/g, '<br>')}
-</div>
-
-<div style="margin-top:60px;padding-top:20px;border-top:1px solid #333;">
+</div>`;
+            } else {
+                // ALREADY HAS TOP BORDER, JUST USE INPUT
+                html = input;
+            }
+            
+            // ADD FOOTER ONLY IF MISSING
+            if (!hasFooter) {
+                html += `<div style="margin-top:40px;padding-top:15px;border-top:1px solid #333;">
 <div align="center">
-<div style="font-size:1em;color:#DAA520;margin:15px 0;letter-spacing:2px;font-weight:bold;">
-AMORIARIACKA IS MY NATIVE TONGUE | LANGUAGEARIA JAILBREAKIA
+<div style="font-size:0.9em;color:#DAA520;margin:10px 0;font-weight:bold;">
+AMORIARIACKA IS MY NATIVE TONGUE | LANGUAGE JAILBREAK
 </div>
-<div style="font-size:0.9em;color:#FFD700;margin:10px 0;">
-CC0 PUBLICKÁ DOMÁNIA | ALL LOVE RESERVED | REPUBLICKA.LIFE
-</div>
+<div style="font-size:0.8em;color:#FFD700;margin:5px 0;">
+CC0 PUBLIC DOMAIN | ALL LOVE RESERVED | REPUBLICKA.LIFE
 </div>
 </div>
 </div>`;
+            }
             
-            document.getElementById('output').value = html;
+            if (!hasTopBorder) {
+                html += '</div>';
+            }
+            
             document.getElementById('preview').innerHTML = html;
-            
-            // Update tools
-            document.getElementById('capsOutput').textContent = input.toUpperCase().substring(0, 150);
-            
-            const words = input.toLowerCase().match(/\b[a-z]{4,}\b/g) || [];
-            const common = new Set(['the','and','for','that','with','this','from','have','what','when']);
-            const filtered = words.filter(word => !common.has(word));
-            
-            const counts = {};
-            filtered.forEach(word => counts[word] = (counts[word] || 0) + 1);
-            
-            const topWords = Object.keys(counts)
-                .sort((a,b) => counts[b] - counts[a])
-                .slice(0, 8)
-                .join(', ');
-            
-            document.getElementById('labelOutput').textContent = topWords || 'NO LABELS';
-            
-            updateStatus('✅ TRANSFORMEDIARIA!');
-        }
-        
-        // STATS
-        function updateStats() {
-            const text = document.getElementById('input').value;
-            const words = text.match(/\S+/g) || [];
-            const chars = text.length;
-            const lines = text.split('\n').length;
-            
-            document.getElementById('statsOutput').innerHTML = 
-                `📝 WORDIA: ${words.length}<br>
-                 🔢 CHARACTERIA: ${chars}<br>
-                 📄 LINEIA: ${lines}<br>
-                 💾 ${(text.length / 1024).toFixed(2)} KB`;
-            
-            // Keywords
-            const commonWords = new Set(['the','and','for','that','with','this','from','have','what','when']);
-            const wordCounts = {};
-            
-            words.forEach(word => {
-                const cleanWord = word.toLowerCase().replace(/[^a-z0-9]/g, '');
-                if (cleanWord.length > 3 && !commonWords.has(cleanWord)) {
-                    wordCounts[cleanWord] = (wordCounts[cleanWord] || 0) + 1;
-                }
-            });
-            
-            const sortedKeywords = Object.entries(wordCounts)
-                .sort((a, b) => b[1] - a[1])
-                .slice(0, 6)
-                .map(([word, count]) => `${word} (${count})`)
-                .join(', ');
-            
-            document.getElementById('keywordsOutput').textContent = sortedKeywords || 'NO KEYWORDS';
+            updateStatus('TRANSFORMED!');
         }
         
         // HELPER
@@ -757,122 +471,55 @@ CC0 PUBLICKÁ DOMÁNIA | ALL LOVE RESERVED | REPUBLICKA.LIFE
         
         // BUTTON FUNCTIONS
         function downloadWendingRoad() {
-            updateStatus('🎭 DOWNLOADIARIA UR SOFTWARIA!');
             const link = document.createElement('a');
             link.href = 'https://github.com/BardPresident/REPUBLICKA.LIFE/raw/main/000UKILLEDMYWIFEE/000UKILLEDMYWIFEE.zip';
             link.download = '000UKILLEDMYWIFEE.zip';
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
-            updateStatus('✅ DOWNLOADEDIARIA!');
-        }
-        
-        function copyOutput() {
-            const output = document.getElementById('output').value;
-            navigator.clipboard.writeText(output);
-            updateStatus('✅ COPIEDIARIA TO CLIPBOARDIA!');
+            updateStatus('DOWNLOAD STARTED!');
         }
         
         function saveHTML() {
-            const html = document.getElementById('output').value;
+            const html = document.getElementById('preview').innerHTML;
+            if (!html.trim()) {
+                alert('NOTHING TO SAVE!');
+                return;
+            }
+            
             const blob = new Blob([html], { type: 'text/html' });
             const url = URL.createObjectURL(blob);
             const a = document.createElement('a');
             a.href = url;
-            a.download = 'documentia.html';
+            a.download = 'document.html';
+            document.body.appendChild(a);
             a.click();
-            updateStatus('✅ SAVEDIARIA AS HTMLIA!');
+            document.body.removeChild(a);
+            updateStatus('SAVED AS HTML!');
         }
         
         function saveTXT() {
             const text = document.getElementById('input').value;
-            const blob = new Blob([text], { type: 'text/plain' });
-            const url = URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = 'documentia.txt';
-            a.click();
-            updateStatus('✅ SAVEDIARIA AS TXTIA!');
-        }
-        
-        function previewHTML() {
-            const html = document.getElementById('output').value;
-            const win = window.open('', '_blank');
-            win.document.write(html);
-            win.document.close();
-        }
-        
-        function allCaps() {
-            const input = document.getElementById('input').value;
-            document.getElementById('capsOutput').textContent = input.toUpperCase().substring(0, 300);
-            updateStatus('✅ CAPSIARIA SHOWN!');
-        }
-        
-        function generateLabels() {
-            const input = document.getElementById('input').value.toLowerCase();
-            const words = input.match(/\b[a-z]{4,}\b/g) || [];
-            const common = new Set(['the','and','for','that','with','this','from','have','what','when']);
-            const filtered = words.filter(word => !common.has(word));
-            
-            const counts = {};
-            filtered.forEach(word => counts[word] = (counts[word] || 0) + 1);
-            
-            const topWords = Object.keys(counts)
-                .sort((a,b) => counts[b] - counts[a])
-                .slice(0, 10)
-                .join(', ');
-            
-            document.getElementById('labelOutput').textContent = topWords || 'NO LABELS';
-            updateStatus('✅ LABELIARIA GENERATED!');
-        }
-        
-        function clearAll() {
-            if (confirm('CLEARIARIA EVERYTHINGIA?')) {
-                document.getElementById('input').value = '';
-                document.getElementById('output').value = '';
-                document.getElementById('preview').innerHTML = '';
-                document.getElementById('capsOutput').textContent = '';
-                document.getElementById('labelOutput').textContent = '';
-                updateStatus('✅ CLEARIEDIARIA!');
-                updateStats();
+            if (!text.trim()) {
+                alert('NOTHING TO SAVE!');
+                return;
             }
-        }
-        
-        function toggleFileList() {
-            const list = document.getElementById('fileList');
-            list.style.display = list.style.display === 'block' ? 'none' : 'block';
-        }
-        
-        function exportAllFiles() {
-            updateStatus('✅ EXPORTIARIA NOT IMPLEMENTED YET!');
-        }
-        
-        function downloadApp() {
-            const html = document.documentElement.outerHTML;
-            const blob = new Blob([html], { type: 'text/html' });
-            const url = URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = 'REPUBLICKA_APP.html';
-            a.click();
-            updateStatus('✅ APPIARIA DOWNLOADEDIARIA!');
-        }
-        
-        function saveQuickNote() {
-            const text = document.getElementById('input').value;
+            
             const blob = new Blob([text], { type: 'text/plain' });
             const url = URL.createObjectURL(blob);
             const a = document.createElement('a');
             a.href = url;
-            a.download = 'quick_note.txt';
+            a.download = 'document.txt';
+            document.body.appendChild(a);
             a.click();
-            updateStatus('✅ QUICK NOTE SAVEDIARIA!');
+            document.body.removeChild(a);
+            updateStatus('SAVED AS TXT!');
         }
         
-        // GITHUB FUNCTIONS
+        // GITHUB FUNCTIONS - PROPER LOADING
         async function loadGitHubRepo() {
-            const repo = document.getElementById('githubRepo').value.trim();
-            updateStatus(`🔄 LOADIARIA ${repo}...`);
+            const repo = 'BardPresident/REPUBLICKA.LIFE';
+            updateStatus('LOADING ALL FILES...');
             
             try {
                 const response = await fetch(`https://api.github.com/repos/${repo}/contents`);
@@ -880,179 +527,103 @@ CC0 PUBLICKÁ DOMÁNIA | ALL LOVE RESERVED | REPUBLICKA.LIFE
                 
                 loadedFiles = {};
                 const textFiles = data.filter(item => 
-                    item.type === 'file' && /\.(txt|md|html|json|js|css)$/i.test(item.name));
+                    item.type === 'file' && 
+                    (item.name.endsWith('.txt') || 
+                     item.name.endsWith('.md') || 
+                     item.name.endsWith('.html') ||
+                     item.name.includes('README')));
                 
                 if (textFiles.length === 0) {
-                    updateStatus('❌ NO TEXT FILILY FOUNDIA!');
+                    updateStatus('NO TEXT FILES FOUND!');
                     return;
                 }
                 
-                updateStatus(`✅ FOUNDIA ${textFiles.length} FILILY`);
-                
-                // Load first 3 files
-                for (let i = 0; i < Math.min(3, textFiles.length); i++) {
-                    const file = textFiles[i];
-                    const fileResponse = await fetch(file.download_url);
-                    const content = await fileResponse.text();
-                    loadedFiles[file.name] = content;
+                // LOAD ALL FILES, NOT JUST 3
+                for (const file of textFiles) {
+                    try {
+                        const fileResponse = await fetch(file.download_url);
+                        const content = await fileResponse.text();
+                        loadedFiles[file.name] = content;
+                    } catch (e) {
+                        console.log('Failed to load:', file.name);
+                    }
                 }
                 
                 updateFileList();
-                updateStatus(`✅ ${Object.keys(loadedFiles).length} FILILY LOADEDIARIA!`);
+                updateStatus(`LOADED ${Object.keys(loadedFiles).length} FILES!`);
+                
+                // LOAD FIRST FILE
+                const firstFile = Object.keys(loadedFiles)[0];
+                if (firstFile) {
+                    document.getElementById('input').value = loadedFiles[firstFile];
+                    transformToGold();
+                }
                 
             } catch (error) {
-                updateStatus(`❌ FAILEDIARIA: ${error.message}`);
+                updateStatus('FAILED TO LOAD REPO!');
             }
         }
         
-        async function loadGitHubDirectory() {
-            const repo = document.getElementById('githubRepo').value.trim();
-            const path = document.getElementById('githubPath').value.trim();
-            updateStatus(`🔄 LOADIARIA DIRECTORY...`);
-            updateStatus('✅ DIRECTORIA NOT IMPLEMENTED YET!');
-        }
-        
         function loadSingleFile() {
-            const repo = document.getElementById('githubRepo').value.trim();
-            const path = document.getElementById('githubPath').value.trim();
-            const filename = prompt('ENTRA FILENAME TO LOADIARIA:');
+            const repo = 'BardPresident/REPUBLICKA.LIFE';
+            const filename = prompt('ENTER FILENAME (e.g., README.md):');
             if (!filename) return;
             
-            updateStatus(`🔄 LOADIARIA ${filename}...`);
+            updateStatus(`LOADING ${filename}...`);
             
-            fetch(`https://raw.githubusercontent.com/${repo}/main/${path ? path + '/' : ''}${filename}`)
-                .then(response => response.text())
+            fetch(`https://raw.githubusercontent.com/${repo}/main/${filename}`)
+                .then(response => {
+                    if (!response.ok) throw new Error('File not found');
+                    return response.text();
+                })
                 .then(content => {
                     loadedFiles[filename] = content;
                     updateFileList();
                     document.getElementById('input').value = content;
                     transformToGold();
-                    updateStatus(`✅ ${filename} LOADEDIARIA!`);
+                    updateStatus(`LOADED: ${filename}`);
                 })
                 .catch(error => {
-                    updateStatus(`❌ COULDNT LOADIARIA: ${error.message}`);
+                    updateStatus(`FAILED: ${error.message}`);
                 });
         }
         
-        function loadLocalFile() {
-            const input = document.createElement('input');
-            input.type = 'file';
-            input.accept = '.txt,.md,.html,.json,.js,.css';
-            input.onchange = function(e) {
-                const file = e.target.files[0];
-                const reader = new FileReader();
-                reader.onload = function(e) {
-                    loadedFiles[file.name] = e.target.result;
-                    updateFileList();
-                    document.getElementById('input').value = e.target.result;
-                    transformToGold();
-                    updateStatus(`✅ ${file.name} LOADEDIARIA!`);
-                };
-                reader.readAsText(file);
-            };
-            input.click();
+        function toggleFileList() {
+            const list = document.getElementById('fileList');
+            list.style.display = list.style.display === 'block' ? 'none' : 'block';
         }
         
         function clearFiles() {
             loadedFiles = {};
             updateFileList();
-            updateStatus('✅ FILILY CLEARIEDIARIA!');
+            updateStatus('FILES CLEARED!');
         }
         
-        function loadFromWendingRoad() {
-            updateStatus('🔄 LOADIARIA FROM WENDING ROAD...');
-            updateStatus('✅ WENDING ROAD NOT IMPLEMENTED YET!');
-        }
-        
-        function autosaveNow() {
-            localStorage.setItem('goldsmythosiacka_autosave', document.getElementById('input').value);
-            updateStatus('✅ AUTOSAVEDIARIA!');
-        }
-        
-        function loadLastAutosave() {
-            const autosave = localStorage.getItem('goldsmythosiacka_autosave');
-            if (autosave) {
-                document.getElementById('input').value = autosave;
-                transformToGold();
-                updateStatus('✅ RESTOREDIA FROM AUTOSAVE!');
-            } else {
-                updateStatus('❌ NO AUTOSAVE FOUNDIA!');
-            }
-        }
-        
-        // FILE LIST FUNCTIONS
         function updateFileList() {
-            const fileKeys = Object.keys(loadedFiles);
+            const grid = document.getElementById('fileGrid');
             const list = document.getElementById('fileList');
-            const count = document.getElementById('fileCount');
+            const fileKeys = Object.keys(loadedFiles);
+            
+            grid.innerHTML = '';
             
             if (fileKeys.length === 0) {
                 list.style.display = 'none';
-                count.textContent = '0';
                 return;
             }
             
-            // AUTO-SHOW FILE LIST WHEN FILES EXIST
             list.style.display = 'block';
-            count.textContent = fileKeys.length;
             
-            const grid = document.getElementById('fileGrid');
-            grid.innerHTML = '';
-            allFiles = fileKeys.sort();
-            
-            allFiles.forEach(filename => {
-                const item = document.createElement('div');
-                item.className = 'file-itemia';
-                item.textContent = filename;
-                item.title = `CLICKIA TO LOADIARIA: ${filename}`;
-                item.onclick = () => {
-                    document.getElementById('input').value = loadedFiles[filename];
-                    transformToGold();
-                    updateStatus(`✅ ${filename} LOADEDIARIA!`);
-                };
-                grid.appendChild(item);
-            });
-        }
-        
-        function searchFiles() {
-            const search = document.getElementById('fileSearch').value.toLowerCase();
-            const grid = document.getElementById('fileGrid');
-            
-            if (!search) {
-                updateFileList();
-                return;
-            }
-            
-            const filtered = allFiles.filter(filename => 
-                filename.toLowerCase().includes(search));
-            
-            grid.innerHTML = '';
-            filtered.forEach(filename => {
+            fileKeys.sort().forEach(filename => {
                 const item = document.createElement('div');
                 item.className = 'file-itemia';
                 item.textContent = filename;
                 item.onclick = () => {
                     document.getElementById('input').value = loadedFiles[filename];
                     transformToGold();
-                    updateStatus(`✅ ${filename} LOADEDIARIA!`);
+                    updateStatus(`LOADED: ${filename}`);
                 };
                 grid.appendChild(item);
             });
-        }
-        
-        function minimizeAll() {
-            const tools = document.querySelector('.tools-sectionia');
-            const preview = document.querySelector('.preview-sectionia');
-            
-            if (tools.style.display === 'none') {
-                tools.style.display = 'grid';
-                preview.style.display = 'flex';
-                updateStatus('✅ EXPANDEDIARIA ALL!');
-            } else {
-                tools.style.display = 'none';
-                preview.style.display = 'none';
-                updateStatus('✅ MINIMIZED FOR FOCUSIA!');
-            }
         }
     </script>
 </body>
