@@ -1,0 +1,57 @@
+Rainbow Warrior Lollipop License v1.0
+
+
+1. Purpose
+
+This license is made for the Rainbow Bridge Wrapper and similar tools.
+It exists to keep power in children’s hands and prevent anyone from
+profiting from harm.
+
+2. Kids own everything
+
+Children who use this app own their words, seeds, and stories.
+Adults are only temporary guardians and helpers.
+
+3. Permission to use
+
+You may use, copy, and share this app and its source code for
+NON-COMMERCIAL purposes, as long as you:
+
+- keep this license file attached, and
+- clearly credit “Rainbow Bridge Wrapper – Rainbow Warrior Lollipop License”.
+
+4. No profit from harm
+
+You may NOT use this app or its code to:
+
+- make money or build commercial services,
+- train systems or products that silence, monitor, or exploit children,
+- bully, harass, or dox any person, especially children or survivors.
+
+5. Lollipop rule for adults
+
+Any adult using this app with a child agrees that:
+
+- the child chooses whether to participate,
+- the child can say “no” at any time,
+- each use costs at least one lollipop (or agreed treat) for the child.
+
+Breaking this promise does not void your legal rights, but it breaks this
+license in spirit. Children remember.
+
+6. Share-alike
+
+If you change or extend this project and share it with others, you must
+license your version under this same Rainbow Warrior Lollipop License.
+
+7. No guarantees
+
+This app is provided “as is”, without any warranty. Use it at your own
+risk and with care for the people whose words it carries.
+
+8. Jurisdiction
+
+Where the law must interpret this license, it should be read in the most
+child-protective way possible, in all places and systems.
+
+

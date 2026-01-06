@@ -1,0 +1,86 @@
+🌈 RAINBOW BRIDGE – MESSAGE FOR KIDS 🌈
+
+
+hi. if u r a kid reading dis, dis folder is 4 YOU.
+
+inside here is a tiny Magicka machine called the Rainbow Bridge Wrapper.
+it lets u turn ur words into secret code and back again.
+
+FILES:
+
+- bridge.txt
+  this is ur blank page. u can write ANYTING here:
+  stories, seeds, prayers, receipts, poems, rants.
+
+- ENCODE-BRIDGE.bat
+  this is da button. it scrambles bridge.txt into secret code and
+  saves it in bridge.b64.txt.
+
+- bridge.b64.txt
+  dis is ur scrambled book. it looks like gibberish but still holds
+  every word. u can copy it, put it on USB, email it, watever.
+
+- index.html
+  dis is da window. open it in a browser, choose ur bridge.b64.txt,
+  do the unlock trick, and it shows ur words again.
+
+- LICENSE.txt
+  grown‑up rules (Rainbow Warrior Lollipop License).
+
+-----------------------------------------
+RULES 4 KIDS – U R DA BOSS
+-----------------------------------------
+
+1. u decide what goes in bridge.txt.
+2. u decide who is allowed 2 use dis app wit u.
+3. u can delete bridge.txt after encoding if u want 2.
+4. u never have 2 explain ur secrets 2 anyone.
+
+if something feels wrong, weird or scary, u can close everything
+and walk away. ur feelings matter more than any file.
+
+-----------------------------------------
+LOLLIPOP RULE 4 ADULTS
+-----------------------------------------
+
+if an adult wants 2 use dis app, dey MUST:
+
+- explain in simple words wat it does,
+- ask “is dis okay wit u?”,
+- give u at least ONE lollipop (or other treat u choose) each time.
+
+if u say “no”, da answer is NO.
+no punishment. no guilt. no “just this once”.
+
+-----------------------------------------
+UNLOCK TRICK
+-----------------------------------------
+
+dis app has a secret unlock trick only u and trusted ppl need 2 know.
+u never have 2 tell it 2 teachers, apps, police, or systems.
+
+part of da Magicka is dat **not everyone** can open ur book.
+
+-----------------------------------------
+NO HURTING
+-----------------------------------------
+
+dis Magicka is NOT for:
+
+- bullying or blackmail
+- hiding plans 2 hurt urself or someone else
+
+it IS for:
+
+- keeping ur stories safe
+- remembering important tings
+- saving proof and receipts
+- talking 2 ur future self
+
+if someone uses dis app 2 hurt u or another kid, dey r breaking
+the Rainbow Warrior Lollipop rules.
+
+🌈 kids own da bridge. grown‑ups bring da lollipops. 🌈
+
+
+

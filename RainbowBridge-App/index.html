@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Rainbow Bridge – Local Wrapper</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body style="font-family: system-ui, sans-serif; max-width: 800px; margin: 20px auto; line-height: 1.6;">
+
+  <h1>🌈 Rainbow Bridge Wrapper (Local)</h1>
+
+  <p>
+    dis wrapper runs 100% on ur device. it never talks 2 a server.
+    u pick an encoded <code>bridge.b64.txt</code> file from disk, enter da key,
+    and it decodes everything locally in ur browser.
+  </p>
+
+  <div id="lock">
+    <p><strong>Step 1:</strong> choose <code>bridge.b64.txt</code> from ur RainbowBridgeApp folder.</p>
+    <input id="bridge-file" type="file" accept=".txt">
+
+    <p style="margin-top:12px;"><strong>Step 2:</strong> Enter 3‑digit key 2 unlock:</p>
+    <input id="key" type="password" maxlength="3"
+           style="padding:4px 6px; width:60px; text-align:center;">
+    <button id="unlock">Unlock</button>
+
+    <div id="msg" style="margin-top:8px; color:#b91c1c; font-size:0.9rem;"></div>
+  </div>
+
+  <pre id="content"
+       style="display:none; margin-top:16px; padding:12px; border:1px solid #ccc; border-radius:8px; white-space:pre-wrap;"></pre>
+
+  <script>
+    function decodeBase64Utf8(b64) {
+      const bin = atob(b64);
+      const bytes = Uint8Array.from(bin, c => c.charCodeAt(0));
+      const decoder = new TextDecoder('utf-8');
+      return decoder.decode(bytes);
+    }
+
+    const unlockBtn = document.getElementById('unlock');
+    const keyInput  = document.getElementById('key');
+    const msg       = document.getElementById('msg');
+    const content   = document.getElementById('content');
+    const fileInput = document.getElementById('bridge-file');
+
+    unlockBtn.addEventListener('click', async () => {
+      const key = keyInput.value.trim();
+      if (key !== '666') {
+        msg.textContent = 'wrong key.';
+        content.style.display = 'none';
+        return;
+      }
+      if (!fileInput.files[0]) {
+        msg.textContent = 'choose bridge.b64.txt first.';
+        content.style.display = 'none';
+        return;
+      }
+      msg.textContent = '';
+
+      try {
+        const file = fileInput.files[0];
+        const b64 = (await file.text()).trim();
+        const decoded = decodeBase64Utf8(b64);
+        content.textContent = decoded;
+        content.style.display = 'block';
+      } catch (e) {
+        msg.textContent = 'error decoding bridge: ' + e.message;
+        content.style.display = 'none';
+      }
+    });
+  </script>
+
+</body>
+</html>
