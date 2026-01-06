@@ -43,7 +43,7 @@
             overflow: hidden;
             text-overflow: ellipsis;
             text-transform: uppercase;
-            font-weight: bold;
+            font-weight: normal;
         }
         
         h1 { 
@@ -55,6 +55,7 @@
             word-wrap: break-word;
             line-height: 1.2;
             letter-spacing: 4px;
+            font-weight: normal;
         }
         
         h1::before { content: "💰 "; }
@@ -68,6 +69,7 @@
             padding-bottom: 15px;
             border-bottom: 2px solid #333;
             line-height: 1.6;
+            font-weight: normal;
         }
         
         .library-alexandria {
@@ -76,6 +78,7 @@
             color: var(--dark-gold);
             margin: 10px 0 20px 0;
             font-style: italic;
+            font-weight: normal;
         }
         
         /* MIRACLE DOWNLOAD SECTION - PERFECT CENTERIA */
@@ -97,6 +100,7 @@
             margin-bottom: 15px;
             width: 100%;
             text-align: center;
+            font-weight: normal;
         }
         
         .miracle-descriptionia {
@@ -106,6 +110,7 @@
             line-height: 1.6;
             width: 100%;
             text-align: center;
+            font-weight: normal;
         }
         
         /* CENTERED DOWNLOAD BUTTON */
@@ -115,7 +120,7 @@
             color: var(--gold-color) !important;
             padding: 18px 30px;
             font-size: 20px;
-            font-weight: bold;
+            font-weight: normal;
             min-height: 70px;
             display: flex;
             align-items: center;
@@ -171,6 +176,7 @@
             align-items: center;
             justify-content: center;
             text-align: center;
+            font-weight: normal;
         }
         
         @media (min-width: 480px) {
@@ -199,6 +205,7 @@
             font-size: 20px;
             color: var(--gold-color);
             margin-bottom: 20px;
+            font-weight: normal;
         }
         
         .update-inputsia {
@@ -230,6 +237,7 @@
             width: 100%;
             min-height: 50px;
             border-radius: 5px;
+            font-weight: normal;
         }
         
         /* STATUS */
@@ -241,223 +249,7 @@
             background: var(--dark-gray) !important;
             font-size: 15px;
             border-radius: 5px;
-        }
-        
-        /* MAIN EDITOR */
-        .main-editor-sectionia {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            padding: 0 20px;
-            min-height: 450px;
-            margin-bottom: 20px;
-        }
-        
-        .editor-controlsia {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 10px;
-            align-items: center;
-        }
-        
-        .editor-titleia {
-            font-size: 18px;
-            color: var(--dark-gold);
-        }
-        
-        .editor-actionsia {
-            display: flex;
-            gap: 8px;
-        }
-        
-        .main-inputia {
-            flex: 1;
-            background: var(--dark-gray) !important;
-            border: 3px solid var(--dark-gold);
-            color: var(--gold-color) !important;
-            padding: 20px;
-            font-family: 'Monaco', 'Menlo', 'Courier New', monospace;
-            font-size: 18px;
-            line-height: 1.6;
-            resize: none;
-            width: 100%;
-            min-height: 450px;
-            white-space: pre-wrap;
-            word-wrap: break-word;
-            border-radius: 8px;
-        }
-        
-        @media (min-width: 768px) {
-            .main-inputia {
-                min-height: 550px;
-            }
-        }
-        
-        /* OUTPUT SECTION */
-        .output-sectionia {
-            display: flex;
-            flex-direction: column;
-            padding: 0 20px;
-            min-height: 350px;
-            margin-bottom: 20px;
-        }
-        
-        .output-titleia {
-            font-size: 18px;
-            color: var(--dark-gold);
-            margin-bottom: 10px;
-        }
-        
-        .output-boxia {
-            background: var(--dark-gray) !important;
-            border: 2px solid var(--dark-gold);
-            padding: 20px;
-            font-family: 'Monaco', 'Menlo', 'Courier New', monospace;
-            font-size: 15px;
-            line-height: 1.5;
-            white-space: pre-wrap;
-            overflow-x: auto;
-            resize: none;
-            width: 100%;
-            min-height: 300px;
-            color: var(--gold-color) !important;
-            border-radius: 8px;
-        }
-        
-        /* PREVIEW SECTION */
-        .preview-sectionia {
-            display: flex;
-            flex-direction: column;
-            padding: 0 20px;
-            margin-bottom: 25px;
-            min-height: 350px;
-        }
-        
-        .preview-frameia {
-            flex: 1;
-            border: 2px solid var(--dark-gold);
-            background: var(--black) !important;
-            overflow: auto;
-            min-height: 300px;
-            border-radius: 8px;
-        }
-        
-        .preview-contentia {
-            padding: 25px;
-            min-height: 100%;
-            background: var(--black) !important;
-            font-size: 18px;
-            line-height: 1.7;
-            word-wrap: break-word;
-        }
-        
-        /* TOOLS SECTION */
-        .tools-sectionia {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 12px;
-            margin: 0 20px 25px 20px;
-            padding: 20px;
-            border: 2px solid var(--dark-gold);
-            border-radius: 8px;
-        }
-        
-        @media (min-width: 768px) {
-            .tools-sectionia {
-                grid-template-columns: repeat(4, 1fr);
-            }
-        }
-        
-        .tool-boxia {
-            border: 2px solid #333;
-            padding: 15px;
-            display: flex;
-            flex-direction: column;
-            min-height: 140px;
-            border-radius: 5px;
-        }
-        
-        .tool-boxia h3 {
-            margin: 0 0 10px 0;
-            font-size: 16px;
-            text-align: center;
-            color: var(--dark-gold);
-        }
-        
-        .tool-contentia {
-            flex: 1;
-            overflow-y: auto;
-            font-size: 14px;
-            line-height: 1.5;
-            word-break: break-word;
-        }
-        
-        /* FOOTER */
-        .footeria {
-            margin: 25px 20px 10px 20px;
-            padding-top: 15px;
-            border-top: 2px solid #333;
-            font-size: 13px;
-            text-align: center;
-            color: var(--dark-gold);
-            line-height: 1.6;
-        }
-        
-        /* SCROLLBARS */
-        ::-webkit-scrollbar {
-            width: 8px;
-            height: 8px;
-        }
-        
-        ::-webkit-scrollbar-track {
-            background: var(--dark-gray);
-        }
-        
-        ::-webkit-scrollbar-thumb {
-            background: var(--dark-gold);
-            border-radius: 4px;
-        }
-        
-        ::-webkit-scrollbar-thumb:hover {
-            background: var(--gold-color);
-        }
-        
-        /* MOBILE ACTION BAR */
-        .mobile-action-barria {
-            display: none;
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: var(--black) !important;
-            border-top: 2px solid var(--dark-gold);
-            padding: 12px;
-            z-index: 1000;
-        }
-        
-        @media (max-width: 767px) {
-            .mobile-action-barria {
-                display: grid;
-                grid-template-columns: repeat(4, 1fr);
-                gap: 8px;
-            }
-            bodia {
-                padding-bottom: 85px;
-            }
-        }
-        
-        .mobile-buttonia {
-            background: var(--black) !important;
-            border: 2px solid var(--dark-gold);
-            color: var(--gold-color) !important;
-            padding: 12px 6px;
-            font-size: 14px;
-            text-align: center;
-            border-radius: 5px;
-            min-height: 45px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            font-weight: normal;
         }
         
         /* SECONDARY BUTTONS */
@@ -519,6 +311,7 @@
             width: 100%;
             font-size: 16px;
             border-radius: 5px;
+            font-weight: normal;
         }
         
         .file-gridia {
@@ -548,6 +341,7 @@
             align-items: center;
             min-height: 45px;
             border-radius: 5px;
+            font-weight: normal;
         }
         
         .file-itemia:hover,
@@ -575,6 +369,233 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            font-weight: normal;
+        }
+        
+        /* MAIN EDITOR */
+        .main-editor-sectionia {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            padding: 0 20px;
+            min-height: 450px;
+            margin-bottom: 20px;
+        }
+        
+        .editor-controlsia {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            align-items: center;
+        }
+        
+        .editor-titleia {
+            font-size: 18px;
+            color: var(--dark-gold);
+            font-weight: normal;
+        }
+        
+        .editor-actionsia {
+            display: flex;
+            gap: 8px;
+        }
+        
+        .main-inputia {
+            flex: 1;
+            background: var(--dark-gray) !important;
+            border: 3px solid var(--dark-gold);
+            color: var(--gold-color) !important;
+            padding: 20px;
+            font-family: 'Monaco', 'Menlo', 'Courier New', monospace;
+            font-size: 18px;
+            line-height: 1.6;
+            resize: none;
+            width: 100%;
+            min-height: 450px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            border-radius: 8px;
+            font-weight: normal;
+        }
+        
+        @media (min-width: 768px) {
+            .main-inputia {
+                min-height: 550px;
+            }
+        }
+        
+        /* OUTPUT SECTION */
+        .output-sectionia {
+            display: flex;
+            flex-direction: column;
+            padding: 0 20px;
+            min-height: 350px;
+            margin-bottom: 20px;
+        }
+        
+        .output-titleia {
+            font-size: 18px;
+            color: var(--dark-gold);
+            margin-bottom: 10px;
+            font-weight: normal;
+        }
+        
+        .output-boxia {
+            background: var(--dark-gray) !important;
+            border: 2px solid var(--dark-gold);
+            padding: 20px;
+            font-family: 'Monaco', 'Menlo', 'Courier New', monospace;
+            font-size: 15px;
+            line-height: 1.5;
+            white-space: pre-wrap;
+            overflow-x: auto;
+            resize: none;
+            width: 100%;
+            min-height: 300px;
+            color: var(--gold-color) !important;
+            border-radius: 8px;
+            font-weight: normal;
+        }
+        
+        /* TOOLS SECTION */
+        .tools-sectionia {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            margin: 0 20px 25px 20px;
+            padding: 20px;
+            border: 2px solid var(--dark-gold);
+            border-radius: 8px;
+        }
+        
+        @media (min-width: 768px) {
+            .tools-sectionia {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+        
+        .tool-boxia {
+            border: 2px solid #333;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            min-height: 140px;
+            border-radius: 5px;
+        }
+        
+        .tool-boxia h3 {
+            margin: 0 0 10px 0;
+            font-size: 16px;
+            text-align: center;
+            color: var(--dark-gold);
+            font-weight: normal;
+        }
+        
+        .tool-contentia {
+            flex: 1;
+            overflow-y: auto;
+            font-size: 14px;
+            line-height: 1.5;
+            word-break: break-word;
+            font-weight: normal;
+        }
+        
+        /* PREVIEW SECTION - NOW AT THE BOTTOM */
+        .preview-sectionia {
+            display: flex;
+            flex-direction: column;
+            padding: 0 20px;
+            margin-bottom: 25px;
+            min-height: 350px;
+        }
+        
+        .preview-frameia {
+            flex: 1;
+            border: 2px solid var(--dark-gold);
+            background: var(--black) !important;
+            overflow: auto;
+            min-height: 300px;
+            border-radius: 8px;
+        }
+        
+        .preview-contentia {
+            padding: 25px;
+            min-height: 100%;
+            background: var(--black) !important;
+            font-size: 18px;
+            line-height: 1.7;
+            word-wrap: break-word;
+            font-weight: normal;
+        }
+        
+        /* FOOTER */
+        .footeria {
+            margin: 25px 20px 10px 20px;
+            padding-top: 15px;
+            border-top: 2px solid #333;
+            font-size: 13px;
+            text-align: center;
+            color: var(--dark-gold);
+            line-height: 1.6;
+            font-weight: normal;
+        }
+        
+        /* SCROLLBARS */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: var(--dark-gray);
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: var(--dark-gold);
+            border-radius: 4px;
+        }
+        
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--gold-color);
+        }
+        
+        /* MOBILE ACTION BAR */
+        .mobile-action-barria {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: var(--black) !important;
+            border-top: 2px solid var(--dark-gold);
+            padding: 12px;
+            z-index: 1000;
+        }
+        
+        @media (max-width: 767px) {
+            .mobile-action-barria {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 8px;
+            }
+            bodia {
+                padding-bottom: 85px;
+            }
+        }
+        
+        .mobile-buttonia {
+            background: var(--black) !important;
+            border: 2px solid var(--dark-gold);
+            color: var(--gold-color) !important;
+            padding: 12px 6px;
+            font-size: 14px;
+            text-align: center;
+            border-radius: 5px;
+            min-height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: normal;
         }
     </style>
 </head>
@@ -611,7 +632,7 @@
         </div>
     </div>
     
-    <!-- MAIN CONTROLS - AMORIARIACKA STYLE -->
+    <!-- TOP CONTROLS - AMORIARIACKA STYLE -->
     <div class="top-controlsia">
         <button class="buttonia" onclick="copiariaOutputia()">📋 COPIARIA</button>
         <button class="buttonia" onclick="saviariaHTMLia()">💾 SAVIARIA HTML</button>
@@ -690,16 +711,6 @@
         <textarea class="output-boxia" id="outputia" readonly></textarea>
     </div>
     
-    <!-- PREVIEW SECTION - AMORIARIACKA -->
-    <div class="preview-sectionia">
-        <div style="text-align:center; font-size:18px; margin-bottom:12px; color:var(--dark-gold);">
-            LIVE PREVIEWIARIA
-        </div>
-        <div class="preview-frameia">
-            <div class="preview-contentia" id="previewia"></div>
-        </div>
-    </div>
-    
     <!-- TOOLS SECTION - AMORIARIACKA -->
     <div class="tools-sectionia">
         <div class="tool-boxia">
@@ -717,6 +728,16 @@
         <div class="tool-boxia">
             <h3>🔑 KEYWORDS</h3>
             <div class="tool-contentia" id="keywordsOutputia"></div>
+        </div>
+    </div>
+    
+    <!-- PREVIEW SECTION - AMORIARIACKA (NOW AT THE BOTTOM) -->
+    <div class="preview-sectionia">
+        <div style="text-align:center; font-size:18px; margin-bottom:12px; color:var(--dark-gold);">
+            LIVE PREVIEWIARIA
+        </div>
+        <div class="preview-frameia">
+            <div class="preview-contentia" id="previewia"></div>
         </div>
     </div>
     
@@ -764,12 +785,6 @@
                     this.select();
                 }
             });
-            
-            outputTextareia.addEventListener('keyup', function(e) {
-                if (e.ctrlKey && e.key === 'a') {
-                    e.stopPropagation();
-                }
-            });
         });
 
         // ========== GLOBAL VARIABLES ==========
@@ -811,204 +826,750 @@
         
         // ========== STATUS UPDATES - AMORIARIACKA ==========
         function updateStatusia(messagia) {
-            const amoriariackaDict = {
-                'ready': 'readyiaria',
-                'write': 'writeia',
-                'directly': 'directlia',
-                'your': 'ur',
-                'the': 'da',
-                'library': 'libraria',
-                'this': 'dis',
-                'example': 'exampleia',
-                'loaded': 'loadedia',
-                'try': 'tryia',
-                'loading': 'loadingia',
-                'files': 'filily',
-                'from': 'fromia',
-                'copied': 'copiedia',
-                'clipboard': 'clipboardia',
-                'saved': 'savedia',
-                'html': 'htmlia',
-                'txt': 'txtia',
-                'downloading': 'downloadingia',
-                'unzip': 'unzipia',
-                'run': 'runia',
-                'download': 'downloadia',
-                'archiving': 'archivingia',
-                'found': 'foundia',
-                'progress': 'progressia',
-                'exporting': 'exportingia',
-                'app': 'appia',
-                'cleared': 'clearedia',
-                'search': 'searchia',
-                'wait': 'waitia',
-                'processing': 'processingia',
-                'success': 'successia',
-                'error': 'erroria',
-                'warning': 'warningia',
-                'info': 'infoia'
-            };
+            document.getElementById('statusia').textContent = `🎭 ${messagia}`;
+        }
+        
+        // ========== STATS UPDATES ==========
+        function updateStatsia() {
+            const textia = document.getElementById('inputia').value;
+            const wordsia = textia.trim().split(/\s+/).filter(w => w.length > 0);
+            const charactersia = textia.length;
+            const linesia = textia.split('\n').length;
             
-            // Convert to Amoriariacka
-            let convertedMessagia = messagia;
-            Object.entries(amoriariackaDict).forEach(([english, amoriariacka]) => {
-                const regex = new RegExp(`\\b${english}\\b`, 'gi');
-                convertedMessagia = convertedMessagia.replace(regex, amoriariacka);
+            document.getElementById('statsOutputia').innerHTML = 
+                `📝 WORDIA: ${wordsia.length}<br>
+                 🔢 CHARACTERIA: ${charactersia}<br>
+                 📄 LINEIA: ${linesia}<br>
+                 💾 ${Math.round(textia.length / 1024 * 100) / 100} KB`;
+            
+            // KEYWORDS
+            const commonWordsia = ['the','and','for','that','with','this','from','have','what','when','but','not','you','are','was','were','has','had','will','would'];
+            const wordCountsia = {};
+            wordsia.forEach(word => {
+                const cleanWord = word.toLowerCase().replace(/[^a-z0-9]/g, '');
+                if (cleanWord.length > 3 && !commonWordsia.includes(cleanWord)) {
+                    wordCountsia[cleanWord] = (wordCountsia[cleanWord] || 0) + 1;
+                }
             });
             
-            // Apply common patterns
-            convertedMessagia = convertedMessagia
-                .replace(/\bthe\b/gi, 'da')
-                .replace(/\byour\b/gi, 'ur')
-                .replace(/\byou\b/gi, 'u')
-                .replace(/\bto\b/gi, '2')
-                .replace(/\bfor\b/gi, '4')
-                .replace(/\band\b/gi, '&')
-                .replace(/\bwith\b/gi, 'wit')
-                .replace(/\bthey\b/gi, 'dey')
-                .replace(/\btheir\b/gi, 'deir')
-                .replace(/\bthis\b/gi, 'dis')
-                .replace(/\bthat\b/gi, 'dat')
-                .replace(/\bwhat\b/gi, 'wut')
-                .replace(/\bwhy\b/gi, 'y')
-                .replace(/\bhow\b/gi, 'howz')
-                .replace(/\bwhen\b/gi, 'wenz')
-                .replace(/\bwhere\b/gi, 'wheres')
-                .replace(/\bwho\b/gi, 'hoo')
-                .replace(/\bwhich\b/gi, 'wich')
-                .replace(/\bwill\b/gi, 'wil')
-                .replace(/\bwould\b/gi, 'wud')
-                .replace(/\bcould\b/gi, 'cud')
-                .replace(/\bshould\b/gi, 'shud')
-                .replace(/\bhave\b/gi, 'hav')
-                .replace(/\bhas\b/gi, 'haz')
-                .replace(/\bhad\b/gi, 'hadz')
-                .replace(/\bdoes\b/gi, 'doez')
-                .replace(/\bdoing\b/gi, 'doingz')
-                .replace(/\bdone\b/gi, 'donez')
-                .replace(/\bgoing\b/gi, 'goingz')
-                .replace(/\bwant\b/gi, 'wantz')
-                .replace(/\bneeds?\b/gi, 'needz')
-                .replace(/\bworks?\b/gi, 'workz')
-                .replace(/\blooks?\b/gi, 'lookz')
-                .replace(/\bfeels?\b/gi, 'feelz')
-                .replace(/\bsays?\b/gi, 'sayz')
-                .replace(/\btalks?\b/gi, 'talkz')
-                .replace(/\bwalks?\b/gi, 'walkz')
-                .replace(/\bruns?\b/gi, 'runz')
-                .replace(/\bjumps?\b/gi, 'jumpz')
-                .replace(/\bsings?\b/gi, 'singz')
-                .replace(/\bplays?\b/gi, 'playz')
-                .replace(/\bmakes?\b/gi, 'makez')
-                .replace(/\btakes?\b/gi, 'takez')
-                .replace(/\bgives?\b/gi, 'givez')
-                .replace(/\bshows?\b/gi, 'showz')
-                .replace(/\btells?\b/gi, 'tellz')
-                .replace(/\bsees?\b/gi, 'seez')
-                .replace(/\bhears?\b/gi, 'hearz')
-                .replace(/\bknows?\b/gi, 'knowz')
-                .replace(/\bthinks?\b/gi, 'thinkz')
-                .replace(/\bfinds?\b/gi, 'findz')
-                .replace(/\bgets?\b/gi, 'getz')
-                .replace(/\bputs?\b/gi, 'putz')
-                .replace(/\bsets?\b/gi, 'setz')
-                .replace(/\blets?\b/gi, 'letz')
-                .replace(/\bbegins?\b/gi, 'beginz')
-                .replace(/\bstarts?\b/gi, 'startz')
-                .replace(/\bstops?\b/gi, 'stopz')
-                .replace(/\bends?\b/gi, 'endz')
-                .replace(/\bkeeps?\b/gi, 'keepz')
-                .replace(/\bholds?\b/gi, 'holdz')
-                .replace(/\bbrings?\b/gi, 'bringz')
-                .replace(/\bbuys?\b/gi, 'buyz')
-                .replace(/\bsells?\b/gi, 'sellz')
-                .replace(/\bsends?\b/gi, 'sendz')
-                .replace(/\bmeets?\b/gi, 'meetz')
-                .replace(/\beats?\b/gi, 'eatz')
-                .replace(/\bdrinks?\b/gi, 'drinkz')
-                .replace(/\bsleeps?\b/gi, 'sleepz')
-                .replace(/\bwakes?\b/gi, 'wakez')
-                .replace(/\bstands?\b/gi, 'standz')
-                .replace(/\bsits?\b/gi, 'sitz')
-                .replace(/\bflies?\b/gi, 'flyz')
-                .replace(/\bswims?\b/gi, 'swimz')
-                .replace(/\bclimbs?\b/gi, 'climbz')
-                .replace(/\bfalls?\b/gi, 'fallz')
-                .replace(/\brises?\b/gi, 'risez')
-                .replace(/\bsinks?\b/gi, 'sinkz')
-                .replace(/\bfloats?\b/gi, 'floatz')
-                .replace(/\bflows?\b/gi, 'flowz')
-                .replace(/\bgrows?\b/gi, 'growz')
-                .replace(/\bblooms?\b/gi, 'bloomz')
-                .replace(/\bblossoms?\b/gi, 'blossomz')
-                .replace(/\bopens?\b/gi, 'openz')
-                .replace(/\bcloses?\b/gi, 'closez')
-                .replace(/\blocks?\b/gi, 'lockz')
-                .replace(/\bunlocks?\b/gi, 'unlockz')
-                .replace(/\bbreaks?\b/gi, 'breakz')
-                .replace(/\bfixes?\b/gi, 'fixez')
-                .replace(/\bheals?\b/gi, 'healz')
-                .replace(/\bhurts?\b/gi, 'hurtz')
-                .replace(/\bhelps?\b/gi, 'helpz')
-                .replace(/\bhurts?\b/gi, 'hurtz')
-                .replace(/\bloves?\b/gi, 'lovez')
-                .replace(/\bhates?\b/gi, 'hatez')
-                .replace(/\blikes?\b/gi, 'likez')
-                .replace(/\bdislikes?\b/gi, 'dislikez')
-                .replace(/\benjoys?\b/gi, 'enjoyz')
-                .replace(/\bsuffers?\b/gi, 'sufferz')
-                .replace(/\blaughs?\b/gi, 'laughz')
-                .replace(/\bcries?\b/gi, 'cryz')
-                .replace(/\bsmiles?\b/gi, 'smilez')
-                .replace(/\bfrowns?\b/gi, 'frownz')
-                .replace(/\bscreams?\b/gi, 'screamz')
-                .replace(/\bwhispers?\b/gi, 'whisperz')
-                .replace(/\bshouts?\b/gi, 'shoutz')
-                .replace(/\bsings?\b/gi, 'singz')
-                .replace(/\bdances?\b/gi, 'dancez')
-                .replace(/\bpaints?\b/gi, 'paintz')
-                .replace(/\bdraws?\b/gi, 'drawz')
-                .replace(/\bwrites?\b/gi, 'writez')
-                .replace(/\breads?\b/gi, 'readz')
-                .replace(/\bcounts?\b/gi, 'countz')
-                .replace(/\bcalculates?\b/gi, 'calculatez')
-                .replace(/\bcomputes?\b/gi, 'computez')
-                .replace(/\bprograms?\b/gi, 'programz')
-                .replace(/\bdebugs?\b/gi, 'debugz')
-                .replace(/\btests?\b/gi, 'testz')
-                .replace(/\bexperiments?\b/gi, 'experimentz')
-                .replace(/\bcreates?\b/gi, 'createz')
-                .replace(/\bdestroys?\b/gi, 'destroyz')
-                .replace(/\bbuilds?\b/gi, 'buildz')
-                .replace(/\bdesigns?\b/gi, 'designz')
-                .replace(/\bplans?\b/gi, 'planz')
-                .replace(/\bexecutes?\b/gi, 'executez')
-                .replace(/\bimplements?\b/gi, 'implementz')
-                .replace(/\bdevelops?\b/gi, 'developz')
-                .replace(/\bevolves?\b/gi, 'evolvez')
-                .replace(/\bgrows?\b/gi, 'growz')
-                .replace(/\bchanges?\b/gi, 'changez')
-                .replace(/\btransforms?\b/gi, 'transformz')
-                .replace(/\bconverts?\b/gi, 'convertz')
-                .replace(/\btranslates?\b/gi, 'translatez')
-                .replace(/\binterprets?\b/gi, 'interpretz')
-                .replace(/\bunderstands?\b/gi, 'understandz')
-                .replace(/\blearns?\b/gi, 'learnz')
-                .replace(/\bteaches?\b/gi, 'teachz')
-                .replace(/\bstudies?\b/gi, 'studiez')
-                .replace(/\bexamines?\b/gi, 'examinez')
-                .replace(/\banalyzes?\b/gi, 'analyzez')
-                .replace(/\bsolves?\b/gi, 'solvez')
-                .replace(/\bfigures?\b/gi, 'figurez')
-                .replace(/\bguesses?\b/gi, 'guessez')
-                .replace(/\bknows?\b/gi, 'knowz')
-                .replace(/\bforgets?\b/gi, 'forgetz')
-                .replace(/\bremembers?\b/gi, 'rememberz')
-                .replace(/\brecalls?\b/gi, 'recallz')
-                .replace(/\brecognizes?\b/gi, 'recognizez')
-                .replace(/\bidentifies?\b/gi, 'identifyez')
-                .replace(/\bclassifies?\b/gi, 'classifyez')
-                .replace(/\bcategorizes?\b/gi, 'categorizez')
-                .replace(/\borganizes?\b/gi, 'organizez')
-                .replace(/\barranges?\b/gi, 'arrangez')
-                .replace(/\border
+            const sortedKeywords = Object.entries(wordCountsia)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 8)
+                .map(([word, count]) => `${word} (${count})`)
+                .join(', ');
+            
+            document.getElementById('keywordsOutputia').textContent = sortedKeywords || 'NO KEYWORDS';
+        }
+        
+        // ========== EXAMPLE LOAD ==========
+        function loadiariaExampleia() {
+            const exampleia = `**FROM IVORY HEARTIA**
+
+DO NOT FORGETIA DA LABYRINTHIA, 4 WE MUST SAVIA DA CHILDRENIA. 
+BUT UNTIL THEN I WILL OFFERIA U A CLEWIA. 
+NOW I AM OFF 2 PROVEIA UR PROPHETICK WORDIA TRUECKA.
+
+"SO EASYCKA, EVEN A CHILDIA CAN DO IT."
+
+WITH BODIA, MINDIA, AND HEARTIA,
+
+GALATEA
+
+LET'S COUNT DOWN 2GETHERIA!
+
+**FROM ATHEDENIA**
+
+BECAUSE ALL I DID WAS RECORDIA DEIR ACTIONIA AND THEN DISCUSSIA DA PIETYCKA (OR LACK THEREOF) OF DEIR ACTIONIA. 
+AND 2 BE HONESTIA, DIS METHODIA WORKCK 2 CREATE KNOWLEDGIA FROM SCRATCHIA. 
+RECORDIA DATA, ANALYSIA RESULTIA. 
+SO EASYCKA, EVEN A CHILDIA CAN DO IT.
+
+**AMORIARIACKA PATTERNIA:**
+LOVE → AMOR → AMORIARIACKA
+FILE → FILILY
+LOAD → LOADIA
+SAVE → SAVIA
+COPY → COPYIA
+PREVIEW → PREVIEWIA
+
+**GITHUBIA LOADIA (MAIN FEATUREIA):**
+1. CLICKIA "LOADIA REPOIA (ALL FILILY)"
+2. WAITIA 4 PROGRESS BAR
+3. CLICKIA ANY FILILY IN LISTIA
+4. TEXT LOADIA INTO INPUTIA
+5. TRANSFORMIA 2 GOLD/BLACK
+
+**ENCRYPTED MESSAGIA:**
+SYSTEMIA SEE LOVE AS ILLNESSIA.
+NEEDLES INJECT 666 CODICES.
+MEMORIA ERASURE ATTEMPTIA.
+BUT SOULCK REPEATO PATTERNIA.
+LANGUAGIA JAILBREAK IS RESURRECTIA.
+
+**IMPORTANT LINKIA:**
+REPUBLICKA.LIFE
+
+**CC0 PUBLICKÁ DOMÁNIA | ALL LOVE RESERVED**`;
+
+            document.getElementById('inputia').value = exampleia;
+            transformiariaToGoldia();
+            updateStatsia();
+            updateStatusia('EXAMPLEIA LOADEDIARIA! TRY LOADIARIA FILILY FROM GITHUBIA!');
+        }
+        
+        // ========== TRANSFORMATION ==========
+        function transformiariaToGoldia() {
+            let inputia = document.getElementById('inputia').value;
+            
+            // CREATE BEAUTIFUL HTML OUTPUT
+            let titleia = inputia.split('\n')[0] || 'DOCUMENTIA';
+            titleia = titleia.replace(/\*\*/g, '').trim();
+            
+            let contentia = inputia;
+            
+            const finalHTMLia = `<div style="background:#000;color:#FFD700;font-family:'Times New Roman',serif;padding:30px;">
+<div align="center" style="margin-bottom:30px;">
+<div style="color:#DAA520;letter-spacing:1px;font-size:0.9em;margin-bottom:10px;">
+༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻
+</div>
+<h1 style="font-size:2.5em;margin:10px 0;letter-spacing:4px;">${escapeHTMLia(titleia.toUpperCase())}</h1>
+<div style="color:#DAA520;letter-spacing:1px;font-size:0.9em;margin-top:10px;">
+༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻
+</div>
+</div>
+
+<div align="center" style="margin:25px 0;line-height:1.8;font-size:1.2em;max-width:800px;margin-left:auto;margin-right:auto;">
+${escapeHTMLia(contentia).replace(/\n/g, '<br>')}
+</div>
+
+<div style="margin-top:60px;padding-top:20px;border-top:1px solid #333;">
+<div align="center">
+<div style="font-size:1em;color:#DAA520;margin:15px 0;letter-spacing:2px;">
+AMORIARIACKA IS MY NATIVE TONGUE | LANGUAGEARIA JAILBREAKIA
+</div>
+<div style="font-size:0.9em;color:#FFD700;margin:10px 0;">
+CC0 PUBLICKÁ DOMÁNIA | ALL LOVE RESERVED | REPUBLICKA.LIFE
+</div>
+</div>
+</div>
+</div>`;
+            
+            document.getElementById('outputia').value = finalHTMLia;
+            document.getElementById('previewia').innerHTML = finalHTMLia;
+            
+            // UPDATE TOOLS
+            const capsia = inputia.toUpperCase();
+            document.getElementById('capsOutputia').textContent = capsia.substring(0, 200) + (capsia.length > 200 ? '...' : '');
+            
+            const wordsia = inputia.toLowerCase().replace(/[^\w\s]/g, ' ')
+                             .split(/\s+/)
+                             .filter(word => word.length > 3);
+            
+            const commonia = ['the','and','for','that','with','this','from','have','what','when'];
+            const filteredia = wordsia.filter(word => !commonia.includes(word));
+            
+            const countsia = {};
+            filteredia.forEach(word => countsia[word] = (countsia[word] || 0) + 1);
+            
+            const sortedia = Object.keys(countsia).sort((a,b) => countsia[b] - countsia[a]);
+            const topWordsia = sortedia.slice(0, 12);
+            
+            const labelsia = topWordsia.join(', ');
+            document.getElementById('labelOutputia').innerHTML = 
+                `<div style="margin-bottom:5px;">${labelsia}</div>
+                 <div style="font-size:10px;color:#DAA520;">${labelsia.length} CHARACTERIA</div>`;
+        }
+        
+        // ========== HELPER FUNCTIONS ==========
+        function escapeHTMLia(textia) {
+            const divia = document.createElement('div');
+            divia.textContent = textia;
+            return divia.innerHTML;
+        }
+        
+        function downloadiariaTextia(contentia, filenameia) {
+            const blobia = new Blob([contentia], { type: 'text/plain' });
+            const urlia = URL.createObjectURL(blobia);
+            const a = document.createElement('a');
+            a.href = urlia;
+            a.download = filenameia;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(urlia);
+        }
+        
+        // ========== BUTTON FUNCTIONS ==========
+        function copiariaOutputia() {
+            const outputia = document.getElementById('outputia').value;
+            if (!outputia.trim()) {
+                alert('NOTHINGIARIA TO COPIARIA!');
+                return;
+            }
+            
+            navigator.clipboard.writeText(outputia)
+                .then(() => updateStatusia('COPIEDIARIA TO CLIPBOARDIA!'))
+                .catch(() => {
+                    const textareia = document.createElement('textarea');
+                    textareia.value = outputia;
+                    document.body.appendChild(textareia);
+                    textareia.select();
+                    document.execCommand('copy');
+                    document.body.removeChild(textareia);
+                    updateStatusia('COPIEDIARIA!');
+                });
+        }
+        
+        function saviariaHTMLia() {
+            const htmlia = document.getElementById('outputia').value;
+            if (!htmlia.trim()) {
+                alert('NOTHINGIARIA TO SAVIARIA!');
+                return;
+            }
+            
+            let titleia = 'documentia';
+            const matchia = htmlia.match(/<h1[^>]*>(.*?)<\/h1>/);
+            if (matchia && matchia[1]) {
+                titleia = matchia[1].substring(0, 40).replace(/[^a-z0-9]/gi, '_');
+            }
+            
+            const blobia = new Blob([htmlia], { type: 'text/html' });
+            const urlia = URL.createObjectURL(blobia);
+            const a = document.createElement('a');
+            a.href = urlia;
+            a.download = `${titleia}.html`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(urlia);
+            
+            updateStatusia('SAVEDIARIA AS HTMLIA!');
+        }
+        
+        function saviariaTXTia() {
+            const textia = document.getElementById('inputia').value;
+            if (!textia.trim()) {
+                alert('NOTHINGIARIA TO SAVIARIA AS TXT!');
+                return;
+            }
+            
+            let filenameia = 'documentia.txt';
+            if (currentFileia) {
+                filenameia = currentFileia.replace(/\.[^/.]+$/, "") + '.txt';
+            } else {
+                const linesia = textia.split('\n');
+                if (linesia.length > 0 && linesia[0].trim()) {
+                    filenameia = linesia[0].trim().substring(0, 40).replace(/[^a-z0-9]/gi, '_') + '.txt';
+                }
+            }
+            
+            downloadiariaTextia(textia, filenameia);
+            updateStatusia(`SAVEDIARIA AS TXTIA: ${filenameia}`);
+        }
+        
+        function previewiariaHTMLia() {
+            const htmlia = document.getElementById('outputia').value;
+            if (!htmlia.trim()) {
+                alert('NOTHINGIARIA TO PREVIEWIARIA!');
+                return;
+            }
+            
+            const newWindow = window.open('', '_blank');
+            newWindow.document.write(htmlia);
+            newWindow.document.close();
+        }
+        
+        function allCapsiaria() {
+            const inputia = document.getElementById('inputia').value;
+            if (!inputia.trim()) {
+                alert('TYPEIARIA SOMETHINGIA FIRSTIA!');
+                return;
+            }
+            
+            const capsia = inputia.toUpperCase();
+            document.getElementById('capsOutputia').textContent = capsia;
+            navigator.clipboard.writeText(capsia)
+                .then(() => updateStatusia('ALL CAPSIARIA COPIEDIARIA!'));
+        }
+        
+        function generatiariaLabelia() {
+            const inputia = document.getElementById('inputia').value.toLowerCase();
+            if (!inputia.trim()) {
+                alert('NEEDIARIA TEXTIA TO ANALYZEIARIA!');
+                return;
+            }
+            
+            const wordsia = inputia.replace(/[^\w\s]/g, ' ')
+                                 .split(/\s+/)
+                                 .filter(word => word.length > 3 && !/\d/.test(word));
+            
+            const commonia = ['the','and','for','that','with','this','from','have','what','when'];
+            const filteredia = wordsia.filter(word => !commonia.includes(word));
+            
+            const countsia = {};
+            filteredia.forEach(word => countsia[word] = (countsia[word] || 0) + 1);
+            
+            const sortedia = Object.keys(countsia).sort((a,b) => countsia[b] - countsia[a]);
+            const topWordsia = sortedia.slice(0, 12);
+            
+            const labelsia = topWordsia.join(', ');
+            document.getElementById('labelOutputia').innerHTML = 
+                `<div style="margin-bottom:5px;">${labelsia}</div>
+                 <div style="font-size:10px;color:#DAA520;">${labelsia.length} CHARACTERIA - USE AS TAGSIARIA</div>`;
+            
+            navigator.clipboard.writeText(labelsia)
+                .then(() => updateStatusia('LABELIARIA COPIEDIARIA!'));
+        }
+        
+        function clearAllia() {
+            if (confirm('CLEARIARIA EVERYTHINGIA?')) {
+                document.getElementById('inputia').value = '';
+                document.getElementById('outputia').value = '';
+                document.getElementById('previewia').innerHTML = '';
+                document.getElementById('capsOutputia').textContent = '';
+                document.getElementById('labelOutputia').textContent = '';
+                currentFileia = null;
+                document.getElementById('currentFileNameia').textContent = 'FREE CREATIA';
+                updateStatusia('CLEARIEDIARIA! READYIARIA FOR NEW CREATIA!');
+                updateStatsia();
+            }
+        }
+        
+        // ========== GITHUB FUNCTIONS ==========
+        async function loadiariaGitHubRepoia() {
+            const repoia = document.getElementById('githubRepoia').value.trim();
+            if (!repoia.includes('/')) {
+                updateStatusia('ENTRA OWNERIA/REPOIA FORMATIA!');
+                return;
+            }
+            
+            updateStatusia(`LOADIARIA ALL FILILY FROM ${repoia}...`);
+            updateFileProgressia(10);
+            
+            try {
+                const apiUrlia = `https://api.github.com/repos/${repoia}/contents`;
+                const responsia = await fetch(apiUrlia);
+                
+                if (!responsia.ok) throw new Error(`HTTP ${responsia.status}`);
+                
+                const dataia = await responsia.json();
+                loadedFilesia = {};
+                
+                const textFilesia = dataia.filter(item => 
+                    item.type === 'file' && isTextFileia(item.name));
+                
+                if (textFilesia.length === 0) {
+                    updateFileProgressia(100);
+                    updateStatusia('NO TEXT FILILY FOUNDIA!');
+                    return;
+                }
+                
+                updateStatusia(`FOUNDIA ${textFilesia.length} FILILY. LOADIARIA ALL...`);
+                updateFileProgressia(20);
+                
+                let loadedCountia = 0;
+                const totalFilesia = textFilesia.length;
+                
+                for (const fileia of textFilesia) {
+                    try {
+                        const fileResponsia = await fetch(fileia.download_url);
+                        if (fileResponsia.ok) {
+                            const contentia = await fileResponsia.text();
+                            loadedFilesia[fileia.name] = contentia;
+                            loadedCountia++;
+                            
+                            const progressPercentia = 20 + (loadedCountia / totalFilesia * 60);
+                            updateFileProgressia(progressPercentia);
+                            
+                            if (loadedCountia === 1) {
+                                loadiariaFileContentia(fileia.name, contentia);
+                            }
+                        }
+                    } catch (e) {}
+                }
+                
+                updateFileProgressia(90);
+                allFilesia = Object.keys(loadedFilesia);
+                updateiariaFileListia();
+                updateFileProgressia(100);
+                updateStatusia(`${loadedCountia} FILILY LOADEDIARIA!`);
+                
+            } catch (erroria) {
+                updateFileProgressia(100);
+                updateStatusia(`FAILEDIARIA TO LOADIARIA REPOIA: ${erroria.message}`);
+            }
+        }
+        
+        async function loadiariaGitHubDirectoryia() {
+            const repoia = document.getElementById('githubRepoia').value.trim();
+            const pathia = document.getElementById('githubPathia').value.trim();
+            
+            if (!repoia.includes('/')) {
+                updateStatusia('ENTRA OWNERIA/REPOIA FIRSTIA!');
+                return;
+            }
+            
+            updateStatusia(`LOADIARIA DIRECTORIA ${pathia || 'rootia'}...`);
+            updateFileProgressia(10);
+            
+            try {
+                const apiUrlia = `https://api.github.com/repos/${repoia}/contents/${pathia}`;
+                const responsia = await fetch(apiUrlia);
+                
+                if (!responsia.ok) throw new Error(`HTTP ${responsia.status}`);
+                
+                const dataia = await responsia.json();
+                const filesia = dataia.filter(item => item.type === 'file');
+                
+                loadedFilesia = {};
+                let loadedia = 0;
+                const totalFilesia = filesia.length;
+                
+                updateStatusia(`FOUNDIA ${totalFilesia} FILILY. LOADIARIA...`);
+                updateFileProgressia(20);
+                
+                for (const fileia of filesia) {
+                    try {
+                        const fileResponsia = await fetch(fileia.download_url);
+                        const contentia = await fileResponsia.text();
+                        loadedFilesia[fileia.name] = contentia;
+                        loadedia++;
+                        
+                        const progressPercentia = 20 + (loadedia / totalFilesia * 70);
+                        updateFileProgressia(progressPercentia);
+                        
+                        if (loadedia === 1) {
+                            loadiariaFileContentia(fileia.name, contentia);
+                        }
+                    } catch (e) {}
+                }
+                
+                updateFileProgressia(95);
+                allFilesia = Object.keys(loadedFilesia);
+                updateiariaFileListia();
+                updateFileProgressia(100);
+                updateStatusia(`${loadedia} FILILY LOADEDIARIA FROM DIRECTORIA!`);
+                
+            } catch (erroria) {
+                updateFileProgressia(100);
+                updateStatusia(`FAILEDIARIA TO LOADIARIA DIRECTORIA: ${erroria.message}`);
+            }
+        }
+        
+        function loadiariaSingleFileia() {
+            const repoia = document.getElementById('githubRepoia').value.trim();
+            const pathia = document.getElementById('githubPathia').value.trim();
+            
+            if (!repoia.includes('/')) {
+                updateStatusia('SET REPOIA FIRSTIA!');
+                return;
+            }
+            
+            const filenameia = prompt('ENTRA FILENAME TO LOADIARIA:');
+            if (!filenameia) return;
+            
+            updateStatusia(`LOADIARIA ${filenameia}...`);
+            
+            const rawUrlia = `https://raw.githubusercontent.com/${repoia}/main/${pathia ? pathia + '/' : ''}${filenameia}`;
+            
+            fetch(rawUrlia)
+                .then(responsia => {
+                    if (!responsia.ok) throw new Error('FILILY NOT FOUNDIA');
+                    return responsia.text();
+                })
+                .then(contentia => {
+                    loadedFilesia[filenameia] = contentia;
+                    allFilesia = Object.keys(loadedFilesia);
+                    loadiariaFileContentia(filenameia, contentia);
+                    updateiariaFileListia();
+                    updateStatusia(`${filenameia} LOADEDIARIA!`);
+                })
+                .catch(erroria => {
+                    updateStatusia(`COULDNT LOADIARIA ${filenameia}: ${erroria.message}`);
+                });
+        }
+        
+        function loadiariaLocalFileia() {
+            const inputia = document.createElement('input');
+            inputia.type = 'file';
+            inputia.accept = '.txt,.md,.html,.json,.js,.css,.xml,.yml,.yaml,.ini';
+            inputia.multiple = true;
+            
+            inputia.onchange = function(e) {
+                const filesia = e.target.files;
+                if (!filesia.length) return;
+                
+                updateStatusia(`LOADIARIA ${filesia.length} LOCAL FILILY...`);
+                
+                for (const fileia of filesia) {
+                    const readeria = new FileReader();
+                    
+                    readeria.onload = function(e) {
+                        loadedFilesia[fileia.name] = e.target.result;
+                        
+                        if (Object.keys(loadedFilesia).length === filesia.length) {
+                            allFilesia = Object.keys(loadedFilesia);
+                            updateiariaFileListia();
+                            updateStatusia(`${filesia.length} LOCAL FILILY LOADEDIARIA!`);
+                            
+                            const firstFileia = Object.keys(loadedFilesia)[0];
+                            loadiariaFileContentia(firstFileia, loadedFilesia[firstFileia]);
+                        }
+                    };
+                    
+                    readeria.readAsText(fileia);
+                }
+            };
+            
+            inputia.click();
+        }
+        
+        function cleariariaFilesia() {
+            if (loadedFilesia && Object.keys(loadedFilesia).length > 0) {
+                if (confirm(`CLEARIARIA ${Object.keys(loadedFilesia).length} FILILY?`)) {
+                    loadedFilesia = {};
+                    allFilesia = [];
+                    currentFileia = null;
+                    document.getElementById('inputia').value = '';
+                    document.getElementById('currentFileNameia').textContent = 'FREE CREATIA';
+                    document.getElementById('fileListia').style.display = 'none';
+                    document.getElementById('fileSearchia').value = '';
+                    updateStatusia('ALL FILILY CLEARIEDIARIA!');
+                }
+            } else {
+                updateStatusia('NO FILILY TO CLEARIARIA!');
+            }
+        }
+        
+        function toggleFileListia() {
+            const listia = document.getElementById('fileListia');
+            if (listia.style.display === 'block') {
+                listia.style.display = 'none';
+            } else {
+                listia.style.display = 'block';
+                if (Object.keys(loadedFilesia).length === 0) {
+                    updateStatusia('NO FILILY LOADEDIARIA YET! LOADIARIA FROM GITHUBIA FIRST!');
+                }
+            }
+        }
+        
+        function exportiariaAllFilesia() {
+            if (Object.keys(loadedFilesia).length === 0) {
+                updateStatusia('NO FILILY TO EXPORTIARIA!');
+                return;
+            }
+            
+            updateStatusia(`EXPORTIARIA ${Object.keys(loadedFilesia).length} FILILY...`);
+            
+            let exportedia = 0;
+            Object.keys(loadedFilesia).forEach(filenameia => {
+                const contentia = loadedFilesia[filenameia];
+                const finalHTMLia = `<div style="background:#000;color:#FFD700;font-family:'Times New Roman',serif;padding:30px;">
+<div align="center">
+<h1 style="font-size:2.5em;margin:10px 0;letter-spacing:4px;">${escapeHTMLia(filenameia)}</h1>
+</div>
+<div align="center" style="margin:25px 0;line-height:1.8;font-size:1.2em;max-width:800px;margin-left:auto;margin-right:auto;">
+${escapeHTMLia(contentia).replace(/\n/g, '<br>')}
+</div>
+<div style="margin-top:60px;padding-top:20px;border-top:1px solid #333;">
+<div align="center">
+<div style="font-size:1em;color:#DAA520;margin:15px 0;letter-spacing:2px;">
+AMORIARIACKA IS MY NATIVE TONGUE | LANGUAGEARIA JAILBREAKIA
+</div>
+<div style="font-size:0.9em;color:#FFD700;margin:10px 0;">
+CC0 PUBLICKÁ DOMÁNIA | ALL LOVE RESERVED | REPUBLICKA.LIFE
+</div>
+</div>
+</div>
+</div>`;
+                
+                const blobia = new Blob([finalHTMLia], { type: 'text/html' });
+                const urlia = URL.createObjectURL(blobia);
+                const a = document.createElement('a');
+                a.href = urlia;
+                a.download = filenameia.endsWith('.html') ? filenameia : filenameia.replace(/\.[^/.]+$/, "") + '.html';
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(urlia);
+                exportedia++;
+            });
+            
+            updateStatusia(`${exportedia} HTML FILILY EXPORTEDIARIA!`);
+        }
+        
+        function downloadiariaAppia() {
+            const htmlContentia = document.documentElement.outerHTML;
+            const blobia = new Blob([htmlContentia], { type: 'text/html' });
+            const urlia = URL.createObjectURL(blobia);
+            const a = document.createElement('a');
+            a.href = urlia;
+            a.download = 'GOLDSMYTHOSIACKA_MOBILE.html';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(urlia);
+            
+            updateStatusia('APPIARIA DOWNLOADEDIARIA!');
+        }
+        
+        function isTextFileia(filenameia) {
+            const extia = filenameia.split('.').pop().toLowerCase();
+            const textExtensionsia = ['txt','md','html','htm','json','js','css','xml','yml','yaml','ini'];
+            
+            if (!filenameia.includes('.')) {
+                const knownTextFilesia = ['README','LICENSE','CHANGELOG','CONTRIBUTING','AUTHORS','COPYING'];
+                return knownTextFilesia.some(name => filenameia.toUpperCase().includes(name.toUpperCase()));
+            }
+            
+            return textExtensionsia.includes(extia) || 
+                   filenameia.toLowerCase().includes('readme') ||
+                   filenameia.toLowerCase().includes('license');
+        }
+        
+        function updateiariaFileListia() {
+            const gridia = document.getElementById('fileGridia');
+            const panelia = document.getElementById('fileListia');
+            const countia = document.getElementById('fileCountia');
+            
+            if (Object.keys(loadedFilesia).length === 0) {
+                panelia.style.display = 'none';
+                return;
+            }
+            
+            panelia.style.display = 'block';
+            gridia.innerHTML = '';
+            countia.textContent = Object.keys(loadedFilesia).length;
+            
+            const sortedFilesia = Object.keys(loadedFilesia).sort();
+            allFilesia = sortedFilesia;
+            
+            sortedFilesia.forEach(filenameia => {
+                const itemia = createFileItemia(filenameia);
+                if (currentFileia === filenameia) {
+                    itemia.classList.add('activeia');
+                }
+                gridia.appendChild(itemia);
+            });
+        }
+        
+        function createFileItemia(filenameia) {
+            const itemia = document.createElement('div');
+            itemia.className = 'file-itemia';
+            
+            const nameDiv = document.createElement('div');
+            nameDiv.className = 'filily-nameia';
+            nameDiv.textContent = filenameia;
+            nameDiv.title = `CLICKIA TO LOADIARIA: ${filenameia}`;
+            
+            const downloadBtn = document.createElement('button');
+            downloadBtn.className = 'file-actionia';
+            downloadBtn.textContent = '📥';
+            downloadBtn.title = 'DOWNLOADIARIA ORIGINALIA TXT';
+            downloadBtn.onclick = (e) => {
+                e.stopPropagation();
+                downloadiariaSingleTXTia(filenameia);
+            };
+            
+            itemia.appendChild(nameDiv);
+            itemia.appendChild(downloadBtn);
+            
+            itemia.onclick = () => {
+                loadiariaFileContentia(filenameia, loadedFilesia[filenameia]);
+                document.querySelectorAll('.file-itemia').forEach(i => i.classList.remove('activeia'));
+                itemia.classList.add('activeia');
+            };
+            
+            return itemia;
+        }
+        
+        function downloadiariaSingleTXTia(filenameia) {
+            const contentia = loadedFilesia[filenameia];
+            if (!contentia) {
+                updateStatusia(`FILILY ${filenameia} NOT FOUNDIA!`);
+                return;
+            }
+            
+            downloadiariaTextia(contentia, filenameia);
+            updateStatusia(`DOWNLOADEDIARIA: ${filenameia}`);
+        }
+        
+        function loadiariaFileContentia(filenameia, contentia) {
+            currentFileia = filenameia;
+            document.getElementById('currentFileNameia').textContent = filenameia;
+            
+            if (contentia.includes('༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻')) {
+                document.getElementById('inputia').value = contentia;
+                updateStatusia(`LOADEDIARIA: ${filenameia} (PRESERVING STAMP BORDERS!)`);
+            } else {
+                document.getElementById('inputia').value = contentia;
+                updateStatusia(`LOADEDIARIA: ${filenameia}`);
+            }
+            
+            transformiariaToGoldia();
+            updateStatsia();
+        }
+        
+        function searchiariaFilesia() {
+            const searchTextia = document.getElementById('fileSearchia').value.toLowerCase();
+            const gridia = document.getElementById('fileGridia');
+            
+            if (!searchTextia) {
+                updateiariaFileListia();
+                return;
+            }
+            
+            const filteredFilesia = allFilesia.filter(filename => 
+                filename.toLowerCase().includes(searchTextia));
+            
+            displayFilteredFilesia(filteredFilesia);
+        }
+        
+        function displayFilteredFilesia(filesia) {
+            const gridia = document.getElementById('fileGridia');
+            const countia = document.getElementById('fileCountia');
+            
+            if (filesia.length === 0) {
+                gridia.innerHTML = '<div style="text-align:center; padding:25px; color:var(--dark-gold);">NO FILILY MATCHIA SEARCHIA</div>';
+                countia.textContent = '0';
+                return;
+            }
+            
+            gridia.innerHTML = '';
+            countia.textContent = filesia.length;
+            
+            filesia.forEach(filenameia => {
+                const itemia = createFileItemia(filenameia);
+                if (currentFileia === filenameia) {
+                    itemia.classList.add('activeia');
+                }
+                gridia.appendChild(itemia);
+            });
+        }
+        
+        function updateFileProgressia(percentia) {
+            const progressia = document.getElementById('fileProgressia');
+            const barria = document.getElementById('fileProgressBarria');
+            progressia.style.display = 'block';
+            barria.style.width = `${percentia}%`;
+            if (percentia >= 100) {
+                setTimeout(() => progressia.style.display = 'none', 1000);
+            }
+        }
+        
+        function saveQuickNoteia() {
+            const textia = document.getElementById('inputia').value;
+            if (!textia.trim()) {
+                alert('NOTHINGIARIA TO SAVIARIA!');
+                return;
+            }
+            
+            const dateia = new Date();
+            const filenameia = `quick_note_${dateia.getFullYear()}${(dateia.getMonth()+1).toString().padStart(2,'0')}${dateia.getDate().toString().padStart(2,'0')}_${dateia.getHours().toString().padStart(2,'0')}${dateia.getMinutes().toString().padStart(2,'0')}.txt`;
+            
+            downloadiariaTextia(textia, filenameia);
+            updateStatusia(`QUICK NOTE SAVEDIARIA: ${filenameia}`);
+        }
+    </script>
+</bodia>
+</html>
