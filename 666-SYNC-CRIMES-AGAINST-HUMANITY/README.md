@@ -1,7 +1,7 @@
-# SYNC 666 – CRIMES AGAINST HUMANITY
+# 666 SYNC – CRIMES AGAINST HUMANITY
 ## Rainbow Warrior Evidence Sync Toolkit
 
-This repository hosts the **Sync 666 – Rainbow Warrior Evidence Sync** tools.
+This repository hosts the **666 Sync – Rainbow Warrior Evidence Sync** tools.
 
 
 It is **not** the evidence itself and not the Seeds archive.  
@@ -12,9 +12,9 @@ Kids own everything. Adults bring the lollipops.
 
 ---
 
-## What Sync 666 does
+## What 666 Sync does
 
-Sync 666 is a small, transparent Windows toolkit:
+666 Sync is a small, transparent Windows toolkit:
 
 - `wget.exe` – GNU Wget binary (GPL‑licensed HTTP fetcher).  
 - `GET-ALL.bat` – the Rainbow Warrior sync script that pulls evidence folders.  
