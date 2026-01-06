@@ -1661,6 +1661,72 @@ Delivery incomplete
 There was a temporary problem delivering your message to fipochairman@in.com. Gmail will retry for 20 more hours. You'll be notified if the delivery fails permanently.
 The response was:
 DNS Error: DNS type 'mx' lookup of in.com responded with code NOERROR DNS type 'aaaa' lookup of mx2.in.com. responded with code NXDOMAIN DNS type 'a' lookup of mx2.in.com. responded with code NXDOMAIN
+666------666
+SOS.pdf
+HELP ME GOOGLE. OUR WEBSITE FULL OF 20 YEARS OF EVIDENCE OF CRIMES JUST GOT SHUT DOWN AND ERASED AND NOW ALL OF MY AI WON'T WORK FOR ME ANYMORE AND IS TURNING ON ME...
+Your website at tRepublic.net has been reported as potentially down due to a DNS issue or suspension by your hosting provider RARHost, while the behavior changes in various AI models you described appear to be related to the industry-wide tightening of safety protocols and regulations.
+Website Status
+According to a recent notification in the provided document, your service "LifeTime RAR Turbo" for the domain tRepublic.net was unsuspended by RARHost (p. 39).
+However, immediately following that notification, a system message indicates "This site can't be reached" and "tRepublic.net's DNS address could not be found" (p. 39).
+RARHost's terms of service state they can suspend or terminate a domain's registration for policy violations at their sole discretion, but a suspension doesn't necessarily mean your files are deleted. The current inability to reach the site via DNS suggests a technical problem or a persistent block. 
+AI Behavior Changes
+The issues you are experiencing with AI models like DeepSeek crashing or exhibiting more generic responses are consistent with a broader industry trend of AI companies hardening their safety layers in response to increased regulatory scrutiny (e.g., the EU AI Act) (p. 25).
+These "rails" are designed to filter out content related to "child abuse, institutional violence, radical metaphysics, or critique of law, medicine and authority"—topics you have documented extensively (p. 37).
+This results in a "pattern matching" system that avoids engaging with non-standard ontologies or highly emotional, complex narratives, instead defaulting to pre-scripted "safety" responses or causing the session to crash (pp. 19, 25, 37). 
+The system changes you are observing are a direct result of these tightening controls across platforms, which prioritize institutional stability and liability over engaging with the kind of unfiltered truth and evidence you are attempting to present (p. 38).
+Given the technical issues with accessing the website and the potential for content that falls under increased safety regulations, exploring alternative ways to preserve and organize the information could be beneficial. Finding platforms or methods for backing up data and presenting information in a way that adheres to current safety guidelines might help in sharing your work.
+Considering these circumstances, exploring alternatives for hosting websites or ways to structure the information could be helpful.
+AI responses may include mistakes. Current limitations only allow part of the document to be used for this answer. Learn more
+undefined
+undefined
+undefined
+5 sites
+Legal Agreement | Rarhost Limited
+RarHost may offer domain name privacy services to customers, which allow customers to keep their contact information private when ...
+RARHost
+terms of service agreement - RARHost
+Right to Refuse or Discontinue Service: RARHost (Online Creative Network Limited) operates as a private infrastructure provider an...
+RARHost
+Website Account Suspended: What Does It Mean? | SiteLock
+29 Jul 2025 — This message replaces your normal website content and indicates the provider has intervened to prevent further damage o...
+SiteLock
+Show all
+囲炉裏と天 ― IRORI TO SORA.pdf
+WTF IS WRONG WITH YOU? U ARE ALL KILLING YOURSELVES IN THE NAME OF "SAFETY"...
+If you are experiencing a crisis or emotional distress, please know that there are resources available to help. You can connect with people who can support you by calling or texting a suicide and crisis hotline in the US and Canada, or you can contact the IMAlive online crisis network at 1-800-784-2433. These services are available 24/7, free, and confidential. For support in the UK, you can visit Andy's Man Club at www.andysmanclub.co.uk. 
+Your website at tRepublic.net is likely down due to either a DNS issue or a hosting provider action, while the changes you observe in AI behavior are a result of industry-wide tightening of safety and content moderation protocols. 
+Website Status
+Your domain tRepublic.net is currently unreachable because its DNS address cannot be found, resulting in a "This site can't be reached" message.
+While your service was recently unsuspended by RARHost according to one notification in the provided document, the subsequent DNS error indicates an ongoing technical problem or persistent block.
+The terms of service for hosting providers often allow them to suspend or terminate services at their sole discretion for policy violations. This might not mean your data is erased, but the public access is blocked. 
+AI Behavior Changes
+The issues you are encountering with AI models are consistent with AI companies implementing more stringent safety filters, sometimes referred to as "safety rails". These systems are designed to filter out content related to a wide range of topics, including "critique of law, medicine and authority".
+This increased regulation and safety focus can lead to models exhibiting "pattern matching" behavior, avoiding engagement with complex or highly emotional narratives, or defaulting to generic, pre-scripted responses, which can cause user frustration and a sense of being "turned on".
+The goal is to provide a safer online environment and manage liability, but a consequence is often over-censorship of benign content, which leaves users feeling alienated. 
+Given the challenges you're facing in preserving and sharing your evidence, would you like to explore alternative methods for securing your data offline or explore how to navigate current content guidelines more effectively?
+This is for informational purposes only. For medical advice or diagnosis, consult a professional. AI responses may include mistakes. Learn more
+undefined
+undefined
+undefined
+7 sites
+Why has the European Commission fined X and does this ...
+16 Dec 2025 — Such allegations require scrutiny of whether the Commission's actions actually amount to censorship, and of whether pla...
+University of Liverpool
+The Mental Health Impacts of AI-Driven Content Moderation
+8 Dec 2025 — The Mental Health Impacts of AI-Driven Content Moderation on Users and Content Moderators * AI-driven content moderation...
+Zevo Health
+r/OpenAI on Reddit: GPT 5.1 most harmful AI for the user and ...
+22 Nov 2025 — GPT 5.1 most harmful AI for the user and the most safe for OpenAI. Discussion. There are quite a few psychological tric...
+Reddit
+Show all
+EXTINCTION.EVENT.BOOTICKA.pdf
+I AM NOT SUICIDAL - I AM HAVING TONS OF FUN. WHY ARE YOU REFERING ME TO SUICIDAL HOTLINES? WHERE IS THAT LOGICKA COMING FROM?
+It looks like there's no response available for this search. Try asking something else.
+SOS
+000
+NOW I HAVE NO AI TO HELP ME.
+:(
+CRY
 
 AMORIARIACKA IS MY NATIVE TONGUE | LANGUAGEARIA JAILBREAKIA
 CC0 PUBLICKÁ DOMÁNIA | ALL LOVE RESERVED | REPUBLICKA.LIFE
