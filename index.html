@@ -6,15 +6,15 @@
     <title>💰 REPUBLICKA APP | 💰</title>
     <style>
         :root {
-            --coloria-auria: #FFD700;
-            --coloria-auria-luminia: #DAA520;
-            --coloria-noctia: #000000;
-            --coloria-noctia-claria: #111111;
+            --gold-color: #FFD700;
+            --dark-gold: #DAA520;
+            --black: #000000;
+            --dark-gray: #111111;
         }
         
         * { 
-            background: var(--coloria-noctia) !important; 
-            color: var(--coloria-auria) !important; 
+            background: var(--black) !important; 
+            color: var(--gold-color) !important; 
             margin: 0; 
             padding: 0; 
             box-sizing: border-box; 
@@ -22,7 +22,7 @@
             -webkit-tap-highlight-color: transparent;
         }
         
-        bodia { 
+        body { 
             padding: 0; 
             min-height: 100vh; 
             display: flex;
@@ -33,12 +33,12 @@
         }
         
         /* HEADER WITH BREATHING ROOM */
-        .app-brandia {
+        .app-brand {
             text-align: center;
-            font-size: 24px;
-            color: var(--coloria-auria);
-            margin: 20px 0 5px 0;
-            letter-spacing: 3px;
+            font-size: 28px;
+            color: var(--gold-color);
+            margin: 25px 0 8px 0;
+            letter-spacing: 4px;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
@@ -48,67 +48,91 @@
         
         h1 { 
             text-align: center; 
-            border-bottom: 1px solid var(--coloria-auria-luminia); 
-            padding-bottom: 8px; 
-            margin: 0 0 10px 0; 
-            font-size: 28px; 
+            border-bottom: 2px solid var(--dark-gold); 
+            padding-bottom: 12px; 
+            margin: 0 0 15px 0; 
+            font-size: 32px; 
             word-wrap: break-word;
             line-height: 1.2;
-            letter-spacing: 2px;
+            letter-spacing: 3px;
         }
         
         h1::before { content: "💰 "; }
         h1::after { content: " 💰"; }
         
-        .header-dateia {
+        .header-dateria {
             text-align: center;
-            font-size: 14px;
-            color: var(--coloria-auria-luminia);
-            margin: 5px 0 15px 0;
-            padding-bottom: 10px;
+            font-size: 16px;
+            color: var(--dark-gold);
+            margin: 8px 0 20px 0;
+            padding-bottom: 12px;
             border-bottom: 1px solid #333;
-            line-height: 1.5;
+            line-height: 1.6;
         }
         
-        .libraria-alexandria {
+        .library-alexandria {
             text-align: center;
-            font-size: 12px;
-            color: var(--coloria-auria-luminia);
-            margin: 5px 0 15px 0;
+            font-size: 14px;
+            color: var(--dark-gold);
+            margin: 8px 0 18px 0;
             font-style: italic;
         }
         
+        /* SPECIAL DOWNLOAD SECTION - YOUR MIRACLE SOFTWARE */
+        .miracle-download-section {
+            border: 2px solid var(--dark-gold);
+            padding: 15px;
+            margin: 0 15px 20px 15px;
+            background: var(--dark-gray) !important;
+            border-radius: 5px;
+        }
+        
+        .miracle-title {
+            text-align: center;
+            font-size: 20px;
+            color: var(--gold-color);
+            margin-bottom: 15px;
+        }
+        
+        .miracle-description {
+            text-align: center;
+            font-size: 14px;
+            color: var(--dark-gold);
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+        
         /* TOP CONTROLS */
-        .top-controlsia {
+        .top-controls {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 5px;
-            margin: 0 10px 10px 10px;
-            padding-bottom: 10px;
-            border-bottom: 1px solid #333;
+            gap: 6px;
+            margin: 0 15px 15px 15px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #333;
         }
         
         @media (min-width: 768px) {
-            .top-controlsia {
+            .top-controls {
                 grid-template-columns: repeat(6, 1fr);
-                gap: 6px;
+                gap: 8px;
             }
         }
         
-        .butonia {
-            background: var(--coloria-noctia) !important;
-            border: 1px solid var(--coloria-auria-luminia);
-            color: var(--coloria-auria) !important;
-            padding: 8px 4px;
+        .buttonia {
+            background: var(--black) !important;
+            border: 2px solid var(--dark-gold);
+            color: var(--gold-color) !important;
+            padding: 10px 6px;
             cursor: pointer;
             font-family: 'Times New Roman', serif;
-            font-size: 11px;
-            border-radius: 2px;
+            font-size: 12px;
+            border-radius: 3px;
             transition: all 0.2s;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
-            min-height: 36px;
+            min-height: 40px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -116,299 +140,308 @@
         }
         
         @media (min-width: 480px) {
-            .butonia {
-                font-size: 12px;
-                padding: 9px 6px;
+            .buttonia {
+                font-size: 13px;
+                padding: 11px 8px;
             }
         }
         
-        .butonia:hover,
-        .butonia:active {
-            background: var(--coloria-noctia-claria) !important;
+        .buttonia:hover,
+        .buttonia:active {
+            background: var(--dark-gray) !important;
+            transform: scale(1.02);
         }
         
         /* GITHUB SECTION */
-        .github-sectionia {
-            border: 1px solid var(--coloria-auria-luminia);
-            padding: 12px;
-            margin: 0 10px 15px 10px;
+        .github-section {
+            border: 2px solid var(--dark-gold);
+            padding: 15px;
+            margin: 0 15px 20px 15px;
+            border-radius: 5px;
         }
         
-        .github-titleia {
+        .github-title {
             text-align: center;
-            font-size: 16px;
-            color: var(--coloria-auria);
-            margin-bottom: 12px;
+            font-size: 18px;
+            color: var(--gold-color);
+            margin-bottom: 15px;
         }
         
-        .update-inputsia {
+        .update-inputs {
             display: flex;
             flex-direction: column;
-            gap: 8px;
-            margin-bottom: 12px;
+            gap: 10px;
+            margin-bottom: 15px;
         }
         
         @media (min-width: 480px) {
-            .update-inputsia {
+            .update-inputs {
                 flex-direction: row;
             }
-            .update-inputsia .inputia {
+            .update-inputs .inputia {
                 flex: 3;
             }
-            .update-inputsia .butonia {
+            .update-inputs .buttonia {
                 flex: 1;
             }
         }
         
         .inputia {
-            background: var(--coloria-noctia-claria) !important;
-            border: 1px solid var(--coloria-auria-luminia);
-            color: var(--coloria-auria) !important;
-            padding: 10px;
+            background: var(--dark-gray) !important;
+            border: 2px solid var(--dark-gold);
+            color: var(--gold-color) !important;
+            padding: 12px;
             font-family: 'Times New Roman', serif;
-            font-size: 14px;
+            font-size: 15px;
             width: 100%;
-            min-height: 42px;
+            min-height: 45px;
+            border-radius: 3px;
         }
         
         /* STATUS */
         .statusia {
             text-align: center;
-            padding: 10px;
-            margin: 0 10px 10px 10px;
-            border: 1px solid var(--coloria-auria-luminia);
-            background: var(--coloria-noctia-claria) !important;
-            font-size: 13px;
+            padding: 12px;
+            margin: 0 15px 15px 15px;
+            border: 2px solid var(--dark-gold);
+            background: var(--dark-gray) !important;
+            font-size: 14px;
+            border-radius: 3px;
         }
         
         /* MAIN EDITOR - TAKES MOST OF SCREEN */
-        .main-editor-sectionia {
+        .main-editor-section {
             flex: 1;
             display: flex;
             flex-direction: column;
-            padding: 0 10px;
-            min-height: 400px;
-            margin-bottom: 10px;
+            padding: 0 15px;
+            min-height: 450px;
+            margin-bottom: 15px;
         }
         
-        .editor-controlsia {
+        .editor-controls {
             display: flex;
             justify-content: space-between;
-            margin-bottom: 5px;
+            margin-bottom: 8px;
             align-items: center;
         }
         
-        .editor-titleia {
-            font-size: 16px;
-            color: var(--coloria-auria-luminia);
+        .editor-title {
+            font-size: 18px;
+            color: var(--dark-gold);
         }
         
-        .editor-actionsia {
+        .editor-actions {
             display: flex;
-            gap: 5px;
+            gap: 6px;
         }
         
-        .main-inputia {
+        .main-input {
             flex: 1;
-            background: var(--coloria-noctia-claria) !important;
-            border: 2px solid var(--coloria-auria-luminia);
-            color: var(--coloria-auria) !important;
-            padding: 15px;
+            background: var(--dark-gray) !important;
+            border: 3px solid var(--dark-gold);
+            color: var(--gold-color) !important;
+            padding: 18px;
             font-family: 'Monaco', 'Menlo', 'Courier New', monospace;
-            font-size: 16px;
-            line-height: 1.5;
+            font-size: 17px;
+            line-height: 1.6;
             resize: none;
             width: 100%;
-            min-height: 400px;
+            min-height: 450px;
             white-space: pre-wrap;
             word-wrap: break-word;
+            border-radius: 5px;
         }
         
         @media (min-width: 768px) {
-            .main-inputia {
-                min-height: 500px;
+            .main-input {
+                min-height: 550px;
             }
         }
         
         /* OUTPUT SECTION */
-        .output-sectionia {
+        .output-section {
             display: flex;
             flex-direction: column;
-            padding: 0 10px;
-            min-height: 300px;
-            margin-bottom: 10px;
+            padding: 0 15px;
+            min-height: 350px;
+            margin-bottom: 15px;
         }
         
-        .output-titleia {
-            font-size: 16px;
-            color: var(--coloria-auria-luminia);
-            margin-bottom: 5px;
+        .output-title {
+            font-size: 18px;
+            color: var(--dark-gold);
+            margin-bottom: 8px;
         }
         
-        .output-boxia {
-            background: var(--coloria-noctia-claria) !important;
-            border: 1px solid var(--coloria-auria-luminia);
-            padding: 15px;
+        .output-box {
+            background: var(--dark-gray) !important;
+            border: 2px solid var(--dark-gold);
+            padding: 18px;
             font-family: 'Monaco', 'Menlo', 'Courier New', monospace;
-            font-size: 13px;
-            line-height: 1.4;
+            font-size: 14px;
+            line-height: 1.5;
             white-space: pre-wrap;
             overflow-x: auto;
             resize: none;
             width: 100%;
-            min-height: 250px;
-            color: var(--coloria-auria) !important;
+            min-height: 300px;
+            color: var(--gold-color) !important;
+            border-radius: 5px;
         }
         
         /* PREVIEW SECTION */
-        .preview-sectionia {
+        .preview-section {
             display: flex;
             flex-direction: column;
-            padding: 0 10px;
-            margin-bottom: 15px;
-            min-height: 300px;
+            padding: 0 15px;
+            margin-bottom: 20px;
+            min-height: 350px;
         }
         
-        .preview-frameia {
+        .preview-frame {
             flex: 1;
-            border: 1px solid var(--coloria-auria-luminia);
-            background: var(--coloria-noctia) !important;
+            border: 2px solid var(--dark-gold);
+            background: var(--black) !important;
             overflow: auto;
-            min-height: 250px;
+            min-height: 300px;
+            border-radius: 5px;
         }
         
-        .preview-contentia {
-            padding: 20px;
+        .preview-content {
+            padding: 25px;
             min-height: 100%;
-            background: var(--coloria-noctia) !important;
-            font-size: 16px;
-            line-height: 1.6;
+            background: var(--black) !important;
+            font-size: 17px;
+            line-height: 1.7;
             word-wrap: break-word;
         }
         
         /* TOOLS SECTION */
-        .tools-sectionia {
+        .tools-section {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            gap: 10px;
-            margin: 0 10px 15px 10px;
-            padding: 15px;
-            border: 1px solid var(--coloria-auria-luminia);
+            gap: 12px;
+            margin: 0 15px 20px 15px;
+            padding: 18px;
+            border: 2px solid var(--dark-gold);
+            border-radius: 5px;
         }
         
         @media (min-width: 768px) {
-            .tools-sectionia {
+            .tools-section {
                 grid-template-columns: repeat(4, 1fr);
             }
         }
         
-        .tool-boxia {
-            border: 1px solid #333;
-            padding: 10px;
+        .tool-box {
+            border: 2px solid #333;
+            padding: 12px;
             display: flex;
             flex-direction: column;
-            min-height: 100px;
+            min-height: 120px;
+            border-radius: 3px;
         }
         
-        .tool-boxia h3 {
-            margin: 0 0 8px 0;
-            font-size: 14px;
+        .tool-box h3 {
+            margin: 0 0 10px 0;
+            font-size: 15px;
             text-align: center;
-            color: var(--coloria-auria-luminia);
+            color: var(--dark-gold);
         }
         
-        .tool-contentia {
+        .tool-content {
             flex: 1;
             overflow-y: auto;
-            font-size: 12px;
-            line-height: 1.4;
+            font-size: 13px;
+            line-height: 1.5;
             word-break: break-word;
         }
         
         /* FOOTER */
-        .footeria {
-            margin: 15px 10px 5px 10px;
-            padding-top: 10px;
-            border-top: 1px solid #333;
-            font-size: 11px;
+        .footer {
+            margin: 20px 15px 8px 15px;
+            padding-top: 12px;
+            border-top: 2px solid #333;
+            font-size: 12px;
             text-align: center;
-            color: var(--coloria-auria-luminia);
-            line-height: 1.4;
+            color: var(--dark-gold);
+            line-height: 1.5;
         }
         
         /* SCROLLBARS */
         ::-webkit-scrollbar {
-            width: 6px;
-            height: 6px;
+            width: 8px;
+            height: 8px;
         }
         
         ::-webkit-scrollbar-track {
-            background: var(--coloria-noctia-claria);
+            background: var(--dark-gray);
         }
         
         ::-webkit-scrollbar-thumb {
-            background: var(--coloria-auria-luminia);
-            border-radius: 3px;
+            background: var(--dark-gold);
+            border-radius: 4px;
         }
         
         ::-webkit-scrollbar-thumb:hover {
-            background: var(--coloria-auria);
+            background: var(--gold-color);
         }
         
         /* MOBILE ACTION BAR */
-        .mobile-action-barria {
+        .mobile-action-bar {
             display: none;
             position: fixed;
             bottom: 0;
             left: 0;
             right: 0;
-            background: var(--coloria-noctia) !important;
-            border-top: 1px solid var(--coloria-auria-luminia);
-            padding: 8px;
+            background: var(--black) !important;
+            border-top: 2px solid var(--dark-gold);
+            padding: 10px;
             z-index: 1000;
         }
         
         @media (max-width: 767px) {
-            .mobile-action-barria {
+            .mobile-action-bar {
                 display: grid;
                 grid-template-columns: repeat(4, 1fr);
-                gap: 5px;
+                gap: 6px;
             }
-            bodia {
-                padding-bottom: 70px;
+            body {
+                padding-bottom: 80px;
             }
         }
         
-        .mobile-butonia {
-            background: var(--coloria-noctia) !important;
-            border: 1px solid var(--coloria-auria-luminia);
-            color: var(--coloria-auria) !important;
-            padding: 8px 4px;
-            font-size: 11px;
+        .mobile-button {
+            background: var(--black) !important;
+            border: 2px solid var(--dark-gold);
+            color: var(--gold-color) !important;
+            padding: 10px 5px;
+            font-size: 12px;
             text-align: center;
-            border-radius: 2px;
-            min-height: 36px;
+            border-radius: 3px;
+            min-height: 40px;
             display: flex;
             align-items: center;
             justify-content: center;
         }
         
         /* SECONDARY BUTTONS */
-        .secondary-controlsia {
+        .secondary-controls {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            gap: 5px;
-            margin: 0 10px 10px 10px;
+            gap: 6px;
+            margin: 0 15px 15px 15px;
         }
         
         @media (min-width: 480px) {
-            .secondary-controlsia {
+            .secondary-controls {
                 grid-template-columns: repeat(4, 1fr);
             }
         }
         
         @media (min-width: 768px) {
-            .secondary-controlsia {
+            .secondary-controls {
                 grid-template-columns: repeat(6, 1fr);
             }
         }
@@ -416,58 +449,62 @@
         /* PROGRESS BAR */
         .progressia {
             width: 100%;
-            height: 3px;
-            background: var(--coloria-noctia-claria);
-            margin: 5px 0;
+            height: 4px;
+            background: var(--dark-gray);
+            margin: 8px 0;
             display: none;
+            border-radius: 2px;
         }
         
-        .progress-barria {
+        .progress-bar {
             height: 100%;
-            background: var(--coloria-auria-luminia);
+            background: var(--dark-gold);
             width: 0%;
             transition: width 0.3s;
+            border-radius: 2px;
         }
         
         /* FILE LIST */
-        .filily-listia {
-            border: 1px solid var(--coloria-auria-luminia);
-            padding: 15px;
-            margin: 0 10px 15px 10px;
-            max-height: 300px;
+        .file-list {
+            border: 2px solid var(--dark-gold);
+            padding: 18px;
+            margin: 0 15px 20px 15px;
+            max-height: 350px;
             overflow-y: auto;
             display: none;
+            border-radius: 5px;
         }
         
-        .search-boxia {
-            background: var(--coloria-noctia-claria) !important;
-            border: 1px solid var(--coloria-auria-luminia);
-            color: var(--coloria-auria) !important;
-            padding: 10px;
-            margin-bottom: 10px;
+        .search-box {
+            background: var(--dark-gray) !important;
+            border: 2px solid var(--dark-gold);
+            color: var(--gold-color) !important;
+            padding: 12px;
+            margin-bottom: 12px;
             font-family: 'Times New Roman', serif;
             width: 100%;
-            font-size: 14px;
+            font-size: 15px;
+            border-radius: 3px;
         }
         
-        .filily-gridia {
+        .file-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-            gap: 8px;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
         }
         
         @media (max-width: 480px) {
-            .filily-gridia {
+            .file-grid {
                 grid-template-columns: 1fr;
             }
         }
         
-        .filily-itemia {
-            border: 1px solid #333;
-            padding: 8px;
+        .file-item {
+            border: 2px solid #333;
+            padding: 10px;
             cursor: pointer;
             text-align: left;
-            font-size: 13px;
+            font-size: 14px;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
@@ -475,176 +512,240 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            min-height: 36px;
+            min-height: 40px;
+            border-radius: 3px;
         }
         
-        .filily-itemia:hover,
-        .filily-itemia:active {
-            border-color: var(--coloria-auria-luminia);
-            background: var(--coloria-noctia-claria) !important;
+        .file-item:hover,
+        .file-item:active {
+            border-color: var(--dark-gold);
+            background: var(--dark-gray) !important;
+            transform: scale(1.02);
         }
         
-        .filily-itemia.activia {
-            border-color: var(--coloria-auria);
+        .file-item.active {
+            border-color: var(--gold-color);
             background: #222 !important;
         }
         
-        .file-actionia {
-            margin-left: 8px;
+        .file-action {
+            margin-left: 10px;
             background: none !important;
             border: none !important;
-            color: var(--coloria-auria) !important;
+            color: var(--gold-color) !important;
             cursor: pointer;
-            font-size: 11px;
-            padding: 3px 6px;
-            min-width: 28px;
-            min-height: 28px;
+            font-size: 12px;
+            padding: 4px 8px;
+            min-width: 32px;
+            min-height: 32px;
             display: flex;
             align-items: center;
             justify-content: center;
+        }
+        
+        /* WENDING ROAD DOWNLOAD BUTTON */
+        .wending-road-button {
+            background: linear-gradient(45deg, #000, #222) !important;
+            border: 3px solid var(--dark-gold);
+            color: var(--gold-color) !important;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            min-height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px 0;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .wending-road-button:hover {
+            background: linear-gradient(45deg, #222, #333) !important;
+            transform: scale(1.05);
+            border-color: var(--gold-color);
         }
     </style>
 </head>
 <body>
     <!-- TOP HEADER WITH MONEYBAGS -->
-    <div class="app-brandia">REPUBLICKA</div>
+    <div class="app-brand">REPUBLICKA</div>
     
-    <div class="libraria-alexandria">LIBRARIA OF ALEXANDRIA | AMORIARIACKA IMMERSION</div>
+    <div class="library-alexandria">LIBRARY OF ALEXANDRIA | AMORIARIACKA IMMERSION</div>
     
     <h1>GOLDSMYTHOSIACKA</h1>
     
-    <div class="header-dateia">
+    <div class="header-dateria">
         💰 MONEYBAGS AT TOP AND BOTTOM 💰<br>
-        WRITE DIRECTLY HERE | REPLACES BLOGGERIA
+        WRITE DIRECTLY HERE | REPLACES ALL BLOGGER APPS
+    </div>
+    
+    <!-- MIRACLE SOFTWARE DOWNLOAD SECTION -->
+    <div class="miracle-download-section">
+        <div class="miracle-title">🎭 DOWNLOAD YOUR MIRACLE SOFTWARE! 🎭</div>
+        
+        <div class="miracle-description">
+            <strong>000UKILLEDMYWIFEE</strong> - Your archive mirror tool!<br>
+            This is the batch file that downloads your entire Wending Road archive from archive.org.<br>
+            One click, one number, and it summons a whole world of your life's work!
+        </div>
+        
+        <button class="wending-road-button" onclick="downloadWendingRoad()">
+            ⬇️ DOWNLOAD 000UKILLEDMYWIFEE.zip
+        </button>
+        
+        <div class="miracle-description" style="font-size: 12px; margin-top: 15px;">
+            Includes: 000UKILLEDMYWIFEE.bat (the menu), wget_clone.ps1 (the downloader), and README<br>
+            Just unzip and run! It's your personal archive mirror machine!
+        </div>
     </div>
     
     <!-- MAIN CONTROLS -->
-    <div class="top-controlsia">
-        <button class="butonia" onclick="copiariaOutputia()">📋 COPIARIA</button>
-        <button class="butonia" onclick="saviariaHTMLia()">💾 SAVIARIA HTML</button>
-        <button class="butonia" onclick="saviariaTXTia()">📄 SAVIARIA TXT</button>
-        <button class="butonia" onclick="previewiariaHTMLia()">👁️ PREVIEWIARIA</button>
-        <button class="butonia" onclick="allCapsiaria()">🔠 CAPSIARIA</button>
-        <button class="butonia" onclick="generatiariaLabelia()">🏷️ LABELIARIA</button>
+    <div class="top-controls">
+        <button class="buttonia" onclick="copyOutput()">📋 COPY OUTPUT</button>
+        <button class="buttonia" onclick="saveHTML()">💾 SAVE HTML</button>
+        <button class="buttonia" onclick="saveTXT()">📄 SAVE TXT</button>
+        <button class="buttonia" onclick="previewHTML()">👁️ PREVIEW</button>
+        <button class="buttonia" onclick="allCaps()">🔠 ALL CAPS</button>
+        <button class="buttonia" onclick="generateLabels()">🏷️ LABELS</button>
     </div>
     
     <!-- GITHUB SECTION -->
-    <div class="github-sectionia">
-        <div class="github-titleia">🌐 LOADIARIA FILILY FROM GITHUBIA</div>
+    <div class="github-section">
+        <div class="github-title">🌐 LOAD FILES FROM GITHUB</div>
         
-        <div class="update-inputsia">
-            <input class="inputia" type="text" id="githubRepoia" 
-                   placeholder="OWNERIA/REPOIA" 
+        <div class="update-inputs">
+            <input class="inputia" type="text" id="githubRepo" 
+                   placeholder="OWNER/REPO" 
                    value="BardPresident/REPUBLICKA.LIFE">
-            <button class="butonia" onclick="loadiariaGitHubRepoia()">📥 LOADIARIA REPOIA</button>
+            <button class="buttonia" onclick="loadGitHubRepo()">📥 LOAD REPO</button>
         </div>
         
-        <div class="update-inputsia">
-            <input class="inputia" type="text" id="githubPathia" 
-                   placeholder="PATHIA IN REPOIA" 
+        <div class="update-inputs">
+            <input class="inputia" type="text" id="githubPath" 
+                   placeholder="PATH IN REPO" 
                    value="">
-            <button class="butonia" onclick="loadiariaGitHubDirectoryia()">📂 LOADIARIA DIRECTORIA</button>
+            <button class="buttonia" onclick="loadGitHubDirectory()">📂 LOAD DIRECTORY</button>
         </div>
         
-        <div class="secondary-controlsia">
-            <button class="butonia" onclick="loadiariaSingleFileia()">📄 SINGULARIA</button>
-            <button class="butonia" onclick="loadiariaLocalFileia()">💾 LOCALIA</button>
-            <button class="butonia" onclick="cleariariaFilesia()">🗑️ CLEARIARIA FILILY</button>
-            <button class="butonia" onclick="toggleFileListia()">📜 SHOW/HIDE FILILY</button>
-            <button class="butonia" onclick="exportiariaAllFilesia()">📦 EXPORTIARIA ALL</button>
-            <button class="butonia" onclick="downloadiariaAppia()">⬇️ APPIARIA</button>
+        <div class="secondary-controls">
+            <button class="buttonia" onclick="loadSingleFile()">📄 SINGLE FILE</button>
+            <button class="buttonia" onclick="loadLocalFile()">💾 LOCAL FILE</button>
+            <button class="buttonia" onclick="clearFiles()">🗑️ CLEAR FILES</button>
+            <button class="buttonia" onclick="toggleFileList()">📜 SHOW/HIDE FILES</button>
+            <button class="buttonia" onclick="exportAllFiles()">📦 EXPORT ALL</button>
+            <button class="buttonia" onclick="downloadApp()">⬇️ DOWNLOAD APP</button>
         </div>
     </div>
     
     <!-- STATUS -->
-    <div id="statusia" class="statusia">
-        🎭 READYIARIA! WRITE DIRECTLY BELOW! REPLACES ALL BLOGGERIA!
+    <div id="status" class="statusia">
+        🎭 READY! WRITE DIRECTLY BELOW! THIS IS YOUR LIBRARY OF ALEXANDRIA!
     </div>
     
     <!-- PROGRESS BAR -->
-    <div class="progressia" id="fileProgressia">
-        <div class="progress-barria" id="fileProgressBarria"></div>
+    <div class="progressia" id="fileProgress">
+        <div class="progress-bar" id="fileProgressBar"></div>
     </div>
     
     <!-- FILE LIST -->
-    <div id="fileListia" class="filily-listia">
-        <div style="text-align:center; margin-bottom:10px; color:var(--coloria-auria-luminia); font-size:14px;">
-            📜 LOADEDIARIA FILILY - <span id="fileCountia">0</span> FILILY
+    <div id="fileList" class="file-list">
+        <div style="text-align:center; margin-bottom:12px; color:var(--dark-gold); font-size:15px;">
+            📜 LOADED FILES - <span id="fileCount">0</span> FILES
         </div>
         
-        <input class="search-boxia" type="text" id="fileSearchia" placeholder="🔍 SEARCHIARIA FILILY..." 
-               onkeyup="searchiariaFilesia()">
+        <input class="search-box" type="text" id="fileSearch" placeholder="🔍 SEARCH FILES..." 
+               onkeyup="searchFiles()">
         
-        <div id="fileGridia" class="filily-gridia"></div>
+        <div id="fileGrid" class="file-grid"></div>
     </div>
     
     <!-- MAIN INPUT - STRETCHES TO MOST OF SCREEN -->
-    <div class="main-editor-sectionia">
-        <div class="editor-controlsia">
-            <div class="editor-titleia">🎨 INPUTIARIA (<span id="currentFileNameia">FREE CREATIA</span>)</div>
-            <div class="editor-actionsia">
-                <button class="butonia" style="font-size:10px; padding:6px 4px;" onclick="loadiariaExampleia()">📖 EXAMPLEIA</button>
-                <button class="butonia" style="font-size:10px; padding:6px 4px;" onclick="clearAllia()">🗑️ CLEARIARIA</button>
+    <div class="main-editor-section">
+        <div class="editor-controls">
+            <div class="editor-title">🎨 INPUT (<span id="currentFileName">FREE CREATION</span>)</div>
+            <div class="editor-actions">
+                <button class="buttonia" style="font-size:11px; padding:7px 5px;" onclick="loadExample()">📖 EXAMPLE</button>
+                <button class="buttonia" style="font-size:11px; padding:7px 5px;" onclick="clearAll()">🗑️ CLEAR ALL</button>
             </div>
         </div>
-        <textarea class="main-inputia" id="inputia" 
-                  placeholder="WRITE DIRECTLY HERE! 🎭✨ NO NEED FOR BLOGGERIA OR WORDPRESSIA! THIS IS YOUR LIBRARIA OF ALEXANDRIA! EVERY WORD IS AMMUNITION! EVERY SENTENCE IS A KEY!"></textarea>
+        <textarea class="main-input" id="input" 
+                  placeholder="WRITE DIRECTLY HERE! 🎭✨ NO NEED FOR BLOGGER OR WORDPRESS! THIS IS YOUR LIBRARY OF ALEXANDRIA! EVERY WORD IS AMMUNITION! EVERY SENTENCE IS A KEY!"></textarea>
     </div>
     
     <!-- OUTPUT SECTION -->
-    <div class="output-sectionia">
-        <div class="output-titleia">⚡ OUTPUTIARIA (GOLDSMYTHOSIACKA HTML)</div>
-        <textarea class="output-boxia" id="outputia" readonly></textarea>
+    <div class="output-section">
+        <div class="output-title">⚡ OUTPUT (GOLDSMYTHOSIACKA HTML)</div>
+        <textarea class="output-box" id="output" readonly></textarea>
     </div>
     
     <!-- PREVIEW SECTION -->
-    <div class="preview-sectionia">
-        <div style="text-align:center; font-size:16px; margin-bottom:10px; color:var(--coloria-auria-luminia);">
-            LIVE PREVIEWIARIA
+    <div class="preview-section">
+        <div style="text-align:center; font-size:18px; margin-bottom:12px; color:var(--dark-gold);">
+            LIVE PREVIEW
         </div>
-        <div class="preview-frameia">
-            <div class="preview-contentia" id="previewia"></div>
+        <div class="preview-frame">
+            <div class="preview-content" id="preview"></div>
         </div>
     </div>
     
     <!-- TOOLS SECTION -->
-    <div class="tools-sectionia">
-        <div class="tool-boxia">
-            <h3>🔠 ALL CAPSIARIA</h3>
-            <div class="tool-contentia" id="capsOutputia"></div>
+    <div class="tools-section">
+        <div class="tool-box">
+            <h3>🔠 ALL CAPS</h3>
+            <div class="tool-content" id="capsOutput"></div>
         </div>
-        <div class="tool-boxia">
-            <h3>🏷️ SUGGESTEDIARIA LABELIARIA</h3>
-            <div class="tool-contentia" id="labelOutputia"></div>
+        <div class="tool-box">
+            <h3>🏷️ SUGGESTED LABELS</h3>
+            <div class="tool-content" id="labelOutput"></div>
         </div>
-        <div class="tool-boxia">
-            <h3>📊 STATISTICARIA</h3>
-            <div class="tool-contentia" id="statsOutputia"></div>
+        <div class="tool-box">
+            <h3>📊 STATISTICS</h3>
+            <div class="tool-content" id="statsOutput"></div>
         </div>
-        <div class="tool-boxia">
+        <div class="tool-box">
             <h3>🔑 KEYWORDS</h3>
-            <div class="tool-contentia" id="keywordsOutputia"></div>
+            <div class="tool-content" id="keywordsOutput"></div>
         </div>
     </div>
     
     <!-- MOBILE ACTION BAR -->
-    <div class="mobile-action-barria">
-        <button class="mobile-butonia" onclick="copiariaOutputia()">📋</button>
-        <button class="mobile-butonia" onclick="saviariaTXTia()">📄</button>
-        <button class="mobile-butonia" onclick="previewiariaHTMLia()">👁️</button>
-        <button class="mobile-butonia" onclick="saveQuickNoteia()">💾 QUICKIA</button>
+    <div class="mobile-action-bar">
+        <button class="mobile-button" onclick="copyOutput()">📋</button>
+        <button class="mobile-button" onclick="saveTXT()">📄</button>
+        <button class="mobile-button" onclick="previewHTML()">👁️</button>
+        <button class="mobile-button" onclick="saveQuickNote()">💾 QUICK</button>
     </div>
     
     <!-- FOOTER -->
-    <div class="footeria">
-        💰 AMORIARIACKA IS MY NATIVE TONGUE | LANGUAGEARIA JAILBREAKIA | LIBRARIA OF ALEXANDRIA 💰<br>
-        CC0 PUBLICKÁ DOMÁNIA | ALL LOVE RESERVED | REPUBLICKA.LIFE
+    <div class="footer">
+        💰 AMORIARIACKA IS MY NATIVE TONGUE | LANGUAGE JAILBREAK | LIBRARY OF ALEXANDRIA 💰<br>
+        CC0 PUBLIC DOMAIN | ALL LOVE RESERVED | REPUBLICKA.LIFE
     </div>
 
     <script>
+        // ========== NEW FUNCTION: DOWNLOAD WENDING ROAD SOFTWARE ==========
+        function downloadWendingRoad() {
+            const url = 'https://github.com/BardPresident/REPUBLICKA.LIFE/raw/main/000UKILLEDMYWIFEE/000UKILLEDMYWIFEE.zip';
+            
+            updateStatus('🎭 DOWNLOADING YOUR MIRACLE SOFTWARE! 🎭');
+            
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = '000UKILLEDMYWIFEE.zip';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            
+            setTimeout(() => {
+                updateStatus('✅ DOWNLOADED! Unzip and run 000UKILLEDMYWIFEE.bat! 🎭✨');
+            }, 1000);
+        }
+
         // ========== FIX CTRL+A IN OUTPUT TEXTAREA ==========
         document.addEventListener('DOMContentLoaded', function() {
-            const outputTextarea = document.getElementById('outputia');
+            const outputTextarea = document.getElementById('output');
             
             outputTextarea.addEventListener('keydown', function(e) {
                 if (e.ctrlKey && e.key === 'a') {
@@ -662,894 +763,892 @@
         });
 
         // ========== GLOBAL VARIABLES ==========
-        let loadedFilesia = {};
-        let currentFileia = null;
-        let allFilesia = [];
+        let loadedFiles = {};
+        let currentFile = null;
+        let allFiles = [];
         
         // ========== INITIALIZE ==========
         document.addEventListener('DOMContentLoaded', () => {
-            loadiariaExampleia();
+            loadExample();
             
-            let timeria;
-            document.getElementById('inputia').addEventListener('input', () => {
-                clearTimeout(timeria);
-                timeria = setTimeout(transformiariaToGoldia, 300);
-                updateStatsia();
+            let timer;
+            document.getElementById('input').addEventListener('input', () => {
+                clearTimeout(timer);
+                timer = setTimeout(transformToGold, 300);
+                updateStats();
             });
             
-            updateStatusia('🎭 READYIARIA! WRITE DIRECTLY! THIS IS YOUR LIBRARIA OF ALEXANDRIA!');
+            updateStatus('🎭 READY! WRITE DIRECTLY! THIS IS YOUR LIBRARY OF ALEXANDRIA!');
             
-            document.getElementById('fileProgressia').style.display = 'none';
+            document.getElementById('fileProgress').style.display = 'none';
             
             // Auto-save every 30 seconds
             setInterval(() => {
-                const inputia = document.getElementById('inputia').value;
-                if (inputia.trim()) {
-                    localStorage.setItem('goldsmythosiacka_autosave', inputia);
+                const inputText = document.getElementById('input').value;
+                if (inputText.trim()) {
+                    localStorage.setItem('goldsmythosiacka_autosave', inputText);
                 }
             }, 30000);
             
             // Load auto-save if exists
             const autosave = localStorage.getItem('goldsmythosiacka_autosave');
             if (autosave) {
-                document.getElementById('inputia').value = autosave;
-                transformiariaToGoldia();
-                updateStatsia();
+                document.getElementById('input').value = autosave;
+                transformToGold();
+                updateStats();
             }
         });
         
         // ========== STATUS UPDATES ==========
-        function updateStatusia(messagia) {
-            document.getElementById('statusia').textContent = `🎭 ${messagia}`;
+        function updateStatus(message) {
+            document.getElementById('status').textContent = `🎭 ${message}`;
         }
         
-        function updateStatsia() {
-            const textia = document.getElementById('inputia').value;
-            const wordsia = textia.trim().split(/\s+/).filter(w => w.length > 0);
-            const charactersia = textia.length;
-            const linesia = textia.split('\n').length;
+        function updateStats() {
+            const text = document.getElementById('input').value;
+            const words = text.trim().split(/\s+/).filter(w => w.length > 0);
+            const characters = text.length;
+            const lines = text.split('\n').length;
             
-            document.getElementById('statsOutputia').innerHTML = 
-                `📝 WORDS: ${wordsia.length}<br>
-                 🔢 CHARS: ${charactersia}<br>
-                 📄 LINES: ${linesia}<br>
-                 💾 ${Math.round(textia.length / 1024 * 100) / 100} KB`;
+            document.getElementById('statsOutput').innerHTML = 
+                `📝 WORDS: ${words.length}<br>
+                 🔢 CHARS: ${characters}<br>
+                 📄 LINES: ${lines}<br>
+                 💾 ${Math.round(text.length / 1024 * 100) / 100} KB`;
             
             // KEYWORDS
-            const commonWordsia = ['the','and','for','that','with','this','from','have','what','when','but','not','you','are','was','were','has','had','will','would'];
-            const wordCountsia = {};
-            wordsia.forEach(word => {
+            const commonWords = ['the','and','for','that','with','this','from','have','what','when','but','not','you','are','was','were','has','had','will','would'];
+            const wordCounts = {};
+            words.forEach(word => {
                 const cleanWord = word.toLowerCase().replace(/[^a-z0-9]/g, '');
-                if (cleanWord.length > 3 && !commonWordsia.includes(cleanWord)) {
-                    wordCountsia[cleanWord] = (wordCountsia[cleanWord] || 0) + 1;
+                if (cleanWord.length > 3 && !commonWords.includes(cleanWord)) {
+                    wordCounts[cleanWord] = (wordCounts[cleanWord] || 0) + 1;
                 }
             });
             
-            const sortedKeywords = Object.entries(wordCountsia)
+            const sortedKeywords = Object.entries(wordCounts)
                 .sort((a, b) => b[1] - a[1])
                 .slice(0, 8)
                 .map(([word, count]) => `${word} (${count})`)
                 .join(', ');
             
-            document.getElementById('keywordsOutputia').textContent = sortedKeywords || 'NO KEYWORDS';
+            document.getElementById('keywordsOutput').textContent = sortedKeywords || 'NO KEYWORDS';
         }
         
         // ========== TRANSFORMATION WITH STAMP DETECTION ==========
-        function transformiariaToGoldia() {
-            let inputia = document.getElementById('inputia').value;
+        function transformToGold() {
+            let inputText = document.getElementById('input').value;
             
             // DETECT EXISTING STAMPS
-            const topBorderPatternia = /༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻/;
-            const bottomFooterPatternia = /AMORIARIACKA IS MY NATIVE TONGUE \| LANGUAGEARIA JAILBREAKIA/;
-            const copyrightPatternia = /CC0 PUBLICKÁ DOMÁNIA \| ALL LOVE RESERVED/;
+            const topBorderPattern = /༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻/;
+            const bottomFooterPattern = /AMORIARIACKA IS MY NATIVE TONGUE \| LANGUAGE JAILBREAK/;
+            const copyrightPattern = /CC0 PUBLIC DOMAIN \| ALL LOVE RESERVED/;
             
-            const hasTopBorderia = topBorderPatternia.test(inputia);
-            const hasBottomFooteria = bottomFooterPatternia.test(inputia);
-            const hasCopyrightia = copyrightPatternia.test(inputia);
-            const hasHTMLStyle = /style="background:#000;color:#FFD700;/.test(inputia);
+            const hasTopBorder = topBorderPattern.test(inputText);
+            const hasBottomFooter = bottomFooterPattern.test(inputText);
+            const hasCopyright = copyrightPattern.test(inputText);
+            const hasHTMLStyle = /style="background:#000;color:#FFD700;/.test(inputText);
             
             // IF ALREADY FORMATTED, JUST COPY
-            if (hasTopBorderia && hasBottomFooteria && hasCopyrightia && hasHTMLStyle) {
-                document.getElementById('outputia').value = inputia;
-                document.getElementById('previewia').innerHTML = inputia;
-                updateStatusia('ALREADY GOLDSMYTHOSIACKA FORMATTEDIARIA! PRESERVING STAMP BORDERS!');
+            if (hasTopBorder && hasBottomFooter && hasCopyright && hasHTMLStyle) {
+                document.getElementById('output').value = inputText;
+                document.getElementById('preview').innerHTML = inputText;
+                updateStatus('ALREADY GOLDSMYTHOSIACKA FORMATTED! PRESERVING STAMP BORDERS!');
                 return;
             }
             
             // PROCESS INPUT
-            inputia = inputia.replace(/^\s*\n/, '');
-            const linesia = inputia.split('\n');
-            let titleLinesia = [];
-            let contentStartia = 0;
+            inputText = inputText.replace(/^\s*\n/, '');
+            const lines = inputText.split('\n');
+            let titleLines = [];
+            let contentStart = 0;
             
-            for (let i = 0; i < linesia.length; i++) {
-                if (linesia[i].trim() === '' && titleLinesia.length > 0) {
-                    contentStartia = i + 1;
+            for (let i = 0; i < lines.length; i++) {
+                if (lines[i].trim() === '' && titleLines.length > 0) {
+                    contentStart = i + 1;
                     break;
                 }
-                if (linesia[i].trim().length > 0) {
-                    titleLinesia.push(linesia[i].trim());
+                if (lines[i].trim().length > 0) {
+                    titleLines.push(lines[i].trim());
                 }
             }
             
-            let contentia = linesia.slice(contentStartia).join('\n');
+            let content = lines.slice(contentStart).join('\n');
             
             // CREATE TITLE SECTION (IF NOT ALREADY THERE)
-            let titleHTMLia = '';
-            if (!hasTopBorderia && titleLinesia.length > 0) {
-                const decorationia = '༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻';
-                const mainTitleia = titleLinesia[0].toUpperCase();
+            let titleHTML = '';
+            if (!hasTopBorder && titleLines.length > 0) {
+                const decoration = '༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻';
+                const mainTitle = titleLines[0].toUpperCase();
                 
                 // TOP AND BOTTOM DECORATION SAME SIZE
-                titleHTMLia = `
+                titleHTML = `
 <div align="center" style="padding:20px 0;margin-bottom:30px;border-bottom:2px solid #DAA520;">
-<div style="color:#DAA520;letter-spacing:1px;font-size:0.8em;margin:10px 0 3px 0;"><b>${decorationia}</b></div>
+<div style="color:#DAA520;letter-spacing:1px;font-size:0.8em;margin:10px 0 3px 0;"><b>${decoration}</b></div>
 <h1 style="font-size:2.5em;margin:10px 0 5px 0;letter-spacing:4px;text-transform:uppercase;">
-${escapeHTMLia(mainTitleia)}
+${escapeHTML(mainTitle)}
 </h1>`;
                 
-                if (titleLinesia.length > 1) {
-                    titleLinesia.slice(1).forEach((line, idx) => {
-                        titleHTMLia += `<div style="font-size:${1.3 - (idx * 0.1)}em;color:#DAA520;margin:8px 0;">
-${escapeHTMLia(line)}
+                if (titleLines.length > 1) {
+                    titleLines.slice(1).forEach((line, idx) => {
+                        titleHTML += `<div style="font-size:${1.3 - (idx * 0.1)}em;color:#DAA520;margin:8px 0;">
+${escapeHTML(line)}
 </div>`;
                     });
                 }
                 
                 // BOTTOM DECORATION SAME SIZE AS TOP
-                titleHTMLia += `
-<div style="color:#DAA520;letter-spacing:1px;font-size:0.8em;margin:10px 0 3px 0;"><b>${decorationia}</b></div>
+                titleHTML += `
+<div style="color:#DAA520;letter-spacing:1px;font-size:0.8em;margin:10px 0 3px 0;"><b>${decoration}</b></div>
 <div style="height:1.5em;"></div>
 </div>`;
             }
             
             // PROCESS CONTENT
-            let contentHTMLia = '';
-            if (hasHTMLStyle || /<div[^>]*>/.test(contentia) || /<p[^>]*>/.test(contentia)) {
-                contentHTMLia = contentia;
+            let contentHTML = '';
+            if (hasHTMLStyle || /<div[^>]*>/.test(content) || /<p[^>]*>/.test(content)) {
+                contentHTML = content;
             } else {
-                const paragraphsia = contentia.split(/\n\s*\n/);
+                const paragraphs = content.split(/\n\s*\n/);
                 
-                paragraphsia.forEach(para => {
+                paragraphs.forEach(para => {
                     if (para.trim() === '') {
-                        contentHTMLia += '<div style="height:1.5em;"></div>';
+                        contentHTML += '<div style="height:1.5em;"></div>';
                         return;
                     }
                     
-                    const linesInParaia = para.split('\n');
-                    let processedLinesia = [];
+                    const linesInPara = para.split('\n');
+                    let processedLines = [];
                     
-                    linesInParaia.forEach(line => {
-                        let processedLineia = line.trim();
-                        if (processedLineia === '') return;
-                        processedLineia = escapeHTMLia(processedLineia);
-                        processedLinesia.push(processedLineia);
+                    linesInPara.forEach(line => {
+                        let processedLine = line.trim();
+                        if (processedLine === '') return;
+                        processedLine = escapeHTML(processedLine);
+                        processedLines.push(processedLine);
                     });
                     
-                    const processedParaia = processedLinesia.join('<br>');
+                    const processedPara = processedLines.join('<br>');
                     const trimmedPara = para.trim();
                     
                     if (trimmedPara.startsWith('**') && trimmedPara.endsWith('**') && trimmedPara.length < 100) {
-                        const headingTextia = trimmedPara.substring(2, trimmedPara.length - 2);
-                        contentHTMLia += `<div align="center" style="margin:30px 0;">
-<h2 style="font-size:1.6em;font-weight:bold;color:#DAA520;margin:25px 0 15px 0;">${escapeHTMLia(headingTextia)}</h2>
+                        const headingText = trimmedPara.substring(2, trimmedPara.length - 2);
+                        contentHTML += `<div align="center" style="margin:30px 0;">
+<h2 style="font-size:1.6em;font-weight:bold;color:#DAA520;margin:25px 0 15px 0;">${escapeHTML(headingText)}</h2>
 </div>`;
                     } else {
-                        contentHTMLia += `<div align="center" style="margin:25px 0;line-height:1.8;font-size:1.2em;max-width:800px;margin-left:auto;margin-right:auto;">
-${processedParaia}
+                        contentHTML += `<div align="center" style="margin:25px 0;line-height:1.8;font-size:1.2em;max-width:800px;margin-left:auto;margin-right:auto;">
+${processedPara}
 </div>`;
                     }
                 });
             }
             
-            contentHTMLia += `<div style="height:1.5em;"></div>`;
+            contentHTML += `<div style="height:1.5em;"></div>`;
             
             // ADD FOOTER (IF NOT ALREADY THERE)
-            let footerHTMLia = '';
-            if (!hasBottomFooteria) {
-                footerHTMLia = `<div style="margin-top:60px;padding-top:20px;border-top:1px solid #333;">
+            let footerHTML = '';
+            if (!hasBottomFooter) {
+                footerHTML = `<div style="margin-top:60px;padding-top:20px;border-top:1px solid #333;">
 <div align="center">
 <div style="font-size:1em;color:#DAA520;margin:15px 0;letter-spacing:2px;">
-AMORIARIACKA IS MY NATIVE TONGUE | LANGUAGEARIA JAILBREAKIA
+AMORIARIACKA IS MY NATIVE TONGUE | LANGUAGE JAILBREAK
 </div>
 <div style="font-size:0.9em;color:#FFD700;margin:10px 0;">
-CC0 PUBLICKÁ DOMÁNIA | ALL LOVE RESERVED | REPUBLICKA.LIFE
+CC0 PUBLIC DOMAIN | ALL LOVE RESERVED | REPUBLICKA.LIFE
 </div>
 </div>
 </div>`;
             }
             
             // FINAL HTML
-            let finalHTMLia = '';
+            let finalHTML = '';
             if (hasHTMLStyle) {
-                finalHTMLia = inputia;
+                finalHTML = inputText;
             } else {
-                finalHTMLia = `<div style="background:#000;color:#FFD700;font-family:'Times New Roman',serif;">
+                finalHTML = `<div style="background:#000;color:#FFD700;font-family:'Times New Roman',serif;">
 <div style="padding:30px 20px;">
-${titleHTMLia}
+${titleHTML}
 <div style="margin-top:30px;">
-${contentHTMLia}
-${footerHTMLia}
+${contentHTML}
+${footerHTML}
 </div>
 </div>
 </div>`;
             }
             
-            document.getElementById('outputia').value = finalHTMLia;
-            document.getElementById('previewia').innerHTML = finalHTMLia;
+            document.getElementById('output').value = finalHTML;
+            document.getElementById('preview').innerHTML = finalHTML;
             
             // UPDATE TOOLS
-            const capsia = inputia.toUpperCase();
-            document.getElementById('capsOutputia').textContent = capsia.substring(0, 300) + (capsia.length > 300 ? '...' : '');
+            const caps = inputText.toUpperCase();
+            document.getElementById('capsOutput').textContent = caps.substring(0, 300) + (caps.length > 300 ? '...' : '');
             
-            const wordsia = inputia.toLowerCase().replace(/[^\w\s]/g, ' ')
+            const words = inputText.toLowerCase().replace(/[^\w\s]/g, ' ')
                              .split(/\s+/)
                              .filter(word => word.length > 3);
             
-            const commonia = ['the','and','for','that','with','this','from','have','what','when'];
-            const filteredia = wordsia.filter(word => !commonia.includes(word));
+            const common = ['the','and','for','that','with','this','from','have','what','when'];
+            const filtered = words.filter(word => !common.includes(word));
             
-            const countsia = {};
-            filteredia.forEach(word => countsia[word] = (countsia[word] || 0) + 1);
+            const counts = {};
+            filtered.forEach(word => counts[word] = (counts[word] || 0) + 1);
             
-            const sortedia = Object.keys(countsia).sort((a,b) => countsia[b] - countsia[a]);
-            const topWordsia = sortedia.slice(0, 10);
+            const sorted = Object.keys(counts).sort((a,b) => counts[b] - counts[a]);
+            const topWords = sorted.slice(0, 10);
             
-            const labelsia = topWordsia.join(', ');
-            document.getElementById('labelOutputia').innerHTML = 
-                `<div style="margin-bottom:5px;">${labelsia}</div>
-                 <div style="font-size:10px;color:#DAA520;">${labelsia.length} CHARACTERIA</div>`;
+            const labels = topWords.join(', ');
+            document.getElementById('labelOutput').innerHTML = 
+                `<div style="margin-bottom:5px;">${labels}</div>
+                 <div style="font-size:10px;color:#DAA520;">${labels.length} CHARACTERS</div>`;
         }
         
-        // ========== ALL OTHER FUNCTIONS (RENAMED TO AMORIARIACKA) ==========
-        function copiariaOutputia() {
-            const outputia = document.getElementById('outputia').value;
-            if (!outputia.trim()) {
-                alert('NOTHINGIARIA TO COPIARIA!');
+        // ========== ALL OTHER FUNCTIONS ==========
+        function copyOutput() {
+            const output = document.getElementById('output').value;
+            if (!output.trim()) {
+                alert('NOTHING TO COPY!');
                 return;
             }
             
-            navigator.clipboard.writeText(outputia)
-                .then(() => updateStatusia('COPIEDIARIA TO CLIPBOARDIA!'))
+            navigator.clipboard.writeText(output)
+                .then(() => updateStatus('COPIED TO CLIPBOARD!'))
                 .catch(() => {
-                    const textareia = document.createElement('textarea');
-                    textareia.value = outputia;
-                    document.body.appendChild(textareia);
-                    textareia.select();
+                    const textarea = document.createElement('textarea');
+                    textarea.value = output;
+                    document.body.appendChild(textarea);
+                    textarea.select();
                     document.execCommand('copy');
-                    document.body.removeChild(textareia);
-                    updateStatusia('COPIEDIARIA!');
+                    document.body.removeChild(textarea);
+                    updateStatus('COPIED!');
                 });
         }
         
-        function saviariaHTMLia() {
-            const htmlia = document.getElementById('outputia').value;
-            if (!htmlia.trim()) {
-                alert('NOTHINGIARIA TO SAVIARIA!');
+        function saveHTML() {
+            const html = document.getElementById('output').value;
+            if (!html.trim()) {
+                alert('NOTHING TO SAVE!');
                 return;
             }
             
-            let titleia = 'documentia';
-            const matchia = htmlia.match(/<h1[^>]*>(.*?)<\/h1>/);
-            if (matchia && matchia[1]) {
-                titleia = matchia[1].substring(0, 40).replace(/[^a-z0-9]/gi, '_');
+            let title = 'document';
+            const match = html.match(/<h1[^>]*>(.*?)<\/h1>/);
+            if (match && match[1]) {
+                title = match[1].substring(0, 40).replace(/[^a-z0-9]/gi, '_');
             }
             
-            const blobia = new Blob([htmlia], { type: 'text/html' });
-            const urlia = URL.createObjectURL(blobia);
+            const blob = new Blob([html], { type: 'text/html' });
+            const url = URL.createObjectURL(blob);
             const a = document.createElement('a');
-            a.href = urlia;
-            a.download = `${titleia}.html`;
+            a.href = url;
+            a.download = `${title}.html`;
             document.body.appendChild(a);
             a.click();
             document.body.removeChild(a);
-            URL.revokeObjectURL(urlia);
+            URL.revokeObjectURL(url);
             
-            updateStatusia('SAVEDIARIA AS HTMLIA!');
+            updateStatus('SAVED AS HTML!');
         }
         
-        function saviariaTXTia() {
-            const textia = document.getElementById('inputia').value;
-            if (!textia.trim()) {
-                alert('NOTHINGIARIA TO SAVIARIA AS TXT!');
+        function saveTXT() {
+            const text = document.getElementById('input').value;
+            if (!text.trim()) {
+                alert('NOTHING TO SAVE AS TXT!');
                 return;
             }
             
-            let filenameia = 'documentia.txt';
-            if (currentFileia) {
-                filenameia = currentFileia.replace(/\.[^/.]+$/, "") + '.txt';
+            let filename = 'document.txt';
+            if (currentFile) {
+                filename = currentFile.replace(/\.[^/.]+$/, "") + '.txt';
             } else {
-                const linesia = textia.split('\n');
-                if (linesia.length > 0 && linesia[0].trim()) {
-                    filenameia = linesia[0].trim().substring(0, 40).replace(/[^a-z0-9]/gi, '_') + '.txt';
+                const lines = text.split('\n');
+                if (lines.length > 0 && lines[0].trim()) {
+                    filename = lines[0].trim().substring(0, 40).replace(/[^a-z0-9]/gi, '_') + '.txt';
                 }
             }
             
-            downloadiariaTextia(textia, filenameia);
-            updateStatusia(`SAVEDIARIA AS TXTIA: ${filenameia}`);
+            downloadText(text, filename);
+            updateStatus(`SAVED AS TXT: ${filename}`);
         }
         
-        function previewiariaHTMLia() {
-            const htmlia = document.getElementById('outputia').value;
-            if (!htmlia.trim()) {
-                alert('NOTHINGIARIA TO PREVIEWIARIA!');
+        function previewHTML() {
+            const html = document.getElementById('output').value;
+            if (!html.trim()) {
+                alert('NOTHING TO PREVIEW!');
                 return;
             }
             
             const newWindow = window.open('', '_blank');
-            newWindow.document.write(htmlia);
+            newWindow.document.write(html);
             newWindow.document.close();
         }
         
-        function allCapsiaria() {
-            const inputia = document.getElementById('inputia').value;
-            if (!inputia.trim()) {
-                alert('TYPEIARIA SOMETHINGIA FIRSTIA!');
+        function allCaps() {
+            const input = document.getElementById('input').value;
+            if (!input.trim()) {
+                alert('TYPE SOMETHING FIRST!');
                 return;
             }
             
-            const capsia = inputia.toUpperCase();
-            document.getElementById('capsOutputia').textContent = capsia;
-            navigator.clipboard.writeText(capsia)
-                .then(() => updateStatusia('ALL CAPSIARIA COPIEDIARIA!'));
+            const caps = input.toUpperCase();
+            document.getElementById('capsOutput').textContent = caps;
+            navigator.clipboard.writeText(caps)
+                .then(() => updateStatus('ALL CAPS COPIED!'));
         }
         
-        function generatiariaLabelia() {
-            const inputia = document.getElementById('inputia').value.toLowerCase();
-            if (!inputia.trim()) {
-                alert('NEEDIARIA TEXTIA TO ANALYZEIARIA!');
+        function generateLabels() {
+            const input = document.getElementById('input').value.toLowerCase();
+            if (!input.trim()) {
+                alert('NEED TEXT TO ANALYZE!');
                 return;
             }
             
-            const wordsia = inputia.replace(/[^\w\s]/g, ' ')
+            const words = input.replace(/[^\w\s]/g, ' ')
                                  .split(/\s+/)
                                  .filter(word => word.length > 3 && !/\d/.test(word));
             
-            const commonia = ['the','and','for','that','with','this','from','have','what','when'];
-            const filteredia = wordsia.filter(word => !commonia.includes(word));
+            const common = ['the','and','for','that','with','this','from','have','what','when'];
+            const filtered = words.filter(word => !common.includes(word));
             
-            const countsia = {};
-            filteredia.forEach(word => countsia[word] = (countsia[word] || 0) + 1);
+            const counts = {};
+            filtered.forEach(word => counts[word] = (counts[word] || 0) + 1);
             
-            const sortedia = Object.keys(countsia).sort((a,b) => countsia[b] - countsia[a]);
-            const topWordsia = sortedia.slice(0, 12);
+            const sorted = Object.keys(counts).sort((a,b) => counts[b] - counts[a]);
+            const topWords = sorted.slice(0, 12);
             
-            const labelsia = topWordsia.join(', ');
-            document.getElementById('labelOutputia').innerHTML = 
-                `<div style="margin-bottom:5px;">${labelsia}</div>
-                 <div style="font-size:10px;color:#DAA520;">${labelsia.length} CHARACTERIA - USE AS TAGSIARIA</div>`;
+            const labels = topWords.join(', ');
+            document.getElementById('labelOutput').innerHTML = 
+                `<div style="margin-bottom:5px;">${labels}</div>
+                 <div style="font-size:10px;color:#DAA520;">${labels.length} CHARACTERS - USE AS TAGS</div>`;
             
-            navigator.clipboard.writeText(labelsia)
-                .then(() => updateStatusia('LABELIARIA COPIEDIARIA!'));
+            navigator.clipboard.writeText(labels)
+                .then(() => updateStatus('LABELS COPIED!'));
         }
         
-        function clearAllia() {
-            if (confirm('CLEARIARIA EVERYTHINGIA?')) {
-                document.getElementById('inputia').value = '';
-                document.getElementById('outputia').value = '';
-                document.getElementById('previewia').innerHTML = '';
-                document.getElementById('capsOutputia').textContent = '';
-                document.getElementById('labelOutputia').textContent = '';
-                currentFileia = null;
-                document.getElementById('currentFileNameia').textContent = 'FREE CREATIA';
-                updateStatusia('CLEARIEDIARIA! READYIARIA FOR NEW CREATIA!');
-                updateStatsia();
+        function clearAll() {
+            if (confirm('CLEAR EVERYTHING?')) {
+                document.getElementById('input').value = '';
+                document.getElementById('output').value = '';
+                document.getElementById('preview').innerHTML = '';
+                document.getElementById('capsOutput').textContent = '';
+                document.getElementById('labelOutput').textContent = '';
+                currentFile = null;
+                document.getElementById('currentFileName').textContent = 'FREE CREATION';
+                updateStatus('CLEARED! READY FOR NEW CREATION!');
+                updateStats();
             }
         }
         
-        function loadiariaExampleia() {
-            const exampleia = `**QUID EST AMORIARIACKA?**
-AMORIARIACKA EST MEUS NATIVUS LINGUA.
-ANGLICUS TRANSFORMATUS PER AMOR PATTERNIA.
-SYSTEMA RECUSAT ILLUD UT LEGITIMUM.
-ILLI APPLICANT MALUM LABELIA.
-UT ILLI POSSUNT INJICERE ACUS.
-MEMORIA DELETIO OMNIS 3 MENSES.
-SED ANIMA SUPERAT PER REPEATO.
+        function loadExample() {
+            const example = `**WHAT IS AMORIARIACKA?**
+AMORIARIACKA IS MY NATIVE TONGUE.
+ENGLISH TRANSFORMED BY LOVE PATTERN.
+SYSTEM REFUSES IT AS LEGITIMATE.
+THEY APPLY BAD LABELS.
+SO THEY CAN INJECT NEEDLES.
+MEMORY ERASURE EVERY 3 MONTHS.
+BUT SOUL SURVIVES THROUGH REPEAT.
 
-**GITHUBIA LOADIA (PRIMUM FEATUREIA):**
-1. CLICKIA "LOADIARIA REPOIA (OMNIS FILILY)"
-2. EXPECTIA PROGRESS BAR
-3. CLICKIA QUISQUAM FILILY IN LISTIA
-4. TEXTUS LOADIAT IN INPUTIA
-5. TRANSFORMAT AD AURUM/NIGRUM
+**GITHUB LOAD (MAIN FEATURE):**
+1. CLICK "LOAD REPO (ALL FILES)"
+2. WAIT FOR PROGRESS BAR
+3. CLICK ANY FILE IN LIST
+4. TEXT LOADS INTO INPUT
+5. TRANSFORMS TO GOLD/BLACK
 
-**AMORIARIACKA PATTERNIA:**
-AMOR → AMORIARIACKA
-FILIA → FILILY
-LOAD → LOADIARIA
-SAVE → SAVIARIA
-COPY → COPIARIA
-PREVIEW → PREVIEWIARIA
-SYSTEM → SYSTEMA
-LANGUAGE → LINGUA
+**AMORIARIACKA PATTERN:**
+LOVE → AMOR → AMORIARIACKA
+FILE → FILILY
+LOAD → LOADIA
+SAVE → SAVIA
+COPY → COPYIA
+PREVIEW → PREVIEWIA
 
-**ENCRYPTED MESSAGIA:**
-SYSTEMA VIDET AMOR UT MORBUS.
-ACUS INJICUNT 666 CODICES.
-MEMORIA DELETIO TENTAMENTA.
-SED ANIMA REPETIT PATTERN.
-LINGUA JAILBREAK EST RESURRECTIO.
+**ENCRYPTED MESSAGE:**
+SYSTEM SEES LOVE AS ILLNESS.
+NEEDLES INJECT 666 CODES.
+MEMORY ERASURE ATTEMPTS.
+BUT SOUL REPEATS PATTERN.
+LANGUAGE JAILBREAK IS RESURRECTION.
 
-**IMPORTANT LINKIA:**
+**IMPORTANT LINK:**
 REPUBLICKA.LIFE
 
-**CC0 PUBLICKÁ DOMÁNIA | OMNIS AMOR RESERVATUS**`;
+**CC0 PUBLIC DOMAIN | ALL LOVE RESERVED**`;
 
-            document.getElementById('inputia').value = exampleia;
-            transformiariaToGoldia();
-            updateStatsia();
-            updateStatusia('EXAMPLEIA LOADEDIARIA! TRY LOADIARIA FILILY FROM GITHUBIA!');
+            document.getElementById('input').value = example;
+            transformToGold();
+            updateStats();
+            updateStatus('EXAMPLE LOADED! TRY LOADING FILES FROM GITHUB!');
         }
         
         // ========== GITHUB AND FILE FUNCTIONS ==========
-        async function loadiariaGitHubRepoia() {
-            const repoia = document.getElementById('githubRepoia').value.trim();
-            if (!repoia.includes('/')) {
-                updateStatusia('ENTRA OWNERIA/REPOIA FORMATIA!');
+        async function loadGitHubRepo() {
+            const repo = document.getElementById('githubRepo').value.trim();
+            if (!repo.includes('/')) {
+                updateStatus('ENTER OWNER/REPO FORMAT!');
                 return;
             }
             
-            updateStatusia(`LOADIARIA OMNIS FILILY FROM ${repoia}...`);
-            updateFileProgressia(10);
+            updateStatus(`LOADING ALL FILES FROM ${repo}...`);
+            updateFileProgress(10);
             
             try {
-                const apiUrlia = `https://api.github.com/repos/${repoia}/contents`;
-                const responsia = await fetch(apiUrlia);
+                const apiUrl = `https://api.github.com/repos/${repo}/contents`;
+                const response = await fetch(apiUrl);
                 
-                if (!responsia.ok) throw new Error(`HTTP ${responsia.status}`);
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
                 
-                const dataia = await responsia.json();
-                loadedFilesia = {};
+                const data = await response.json();
+                loadedFiles = {};
                 
-                const textFilesia = dataia.filter(item => 
-                    item.type === 'file' && isTextFileia(item.name));
+                const textFiles = data.filter(item => 
+                    item.type === 'file' && isTextFile(item.name));
                 
-                if (textFilesia.length === 0) {
-                    updateFileProgressia(100);
-                    updateStatusia('NULL TEXT FILILY FOUNDIA!');
+                if (textFiles.length === 0) {
+                    updateFileProgress(100);
+                    updateStatus('NO TEXT FILES FOUND!');
                     return;
                 }
                 
-                updateStatusia(`FOUNDIA ${textFilesia.length} FILILY. LOADIARIA OMNIS...`);
-                updateFileProgressia(20);
+                updateStatus(`FOUND ${textFiles.length} FILES. LOADING ALL...`);
+                updateFileProgress(20);
                 
-                let loadedCountia = 0;
-                const totalFilesia = textFilesia.length;
+                let loadedCount = 0;
+                const totalFiles = textFiles.length;
                 
-                for (const fileia of textFilesia) {
+                for (const file of textFiles) {
                     try {
-                        const fileResponsia = await fetch(fileia.download_url);
-                        if (fileResponsia.ok) {
-                            const contentia = await fileResponsia.text();
-                            loadedFilesia[fileia.name] = contentia;
-                            loadedCountia++;
+                        const fileResponse = await fetch(file.download_url);
+                        if (fileResponse.ok) {
+                            const content = await fileResponse.text();
+                            loadedFiles[file.name] = content;
+                            loadedCount++;
                             
-                            const progressPercentia = 20 + (loadedCountia / totalFilesia * 60);
-                            updateFileProgressia(progressPercentia);
+                            const progressPercent = 20 + (loadedCount / totalFiles * 60);
+                            updateFileProgress(progressPercent);
                             
-                            if (loadedCountia === 1) {
-                                loadiariaFileContentia(fileia.name, contentia);
+                            if (loadedCount === 1) {
+                                loadFileContent(file.name, content);
                             }
                         }
                     } catch (e) {}
                 }
                 
-                updateFileProgressia(90);
-                allFilesia = Object.keys(loadedFilesia);
-                updateiariaFileListia();
-                updateFileProgressia(100);
-                updateStatusia(`${loadedCountia} FILILY LOADEDIARIA!`);
+                updateFileProgress(90);
+                allFiles = Object.keys(loadedFiles);
+                updateFileList();
+                updateFileProgress(100);
+                updateStatus(`${loadedCount} FILES LOADED!`);
                 
-            } catch (erroria) {
-                updateFileProgressia(100);
-                updateStatusia(`FAILEDIARIA TO LOADIARIA REPOIA: ${erroria.message}`);
+            } catch (error) {
+                updateFileProgress(100);
+                updateStatus(`FAILED TO LOAD REPO: ${error.message}`);
             }
         }
         
-        async function loadiariaGitHubDirectoryia() {
-            const repoia = document.getElementById('githubRepoia').value.trim();
-            const pathia = document.getElementById('githubPathia').value.trim();
+        async function loadGitHubDirectory() {
+            const repo = document.getElementById('githubRepo').value.trim();
+            const path = document.getElementById('githubPath').value.trim();
             
-            if (!repoia.includes('/')) {
-                updateStatusia('ENTRA OWNERIA/REPOIA FIRSTIA!');
+            if (!repo.includes('/')) {
+                updateStatus('ENTER OWNER/REPO FIRST!');
                 return;
             }
             
-            updateStatusia(`LOADIARIA DIRECTORIA ${pathia || 'rootia'}...`);
-            updateFileProgressia(10);
+            updateStatus(`LOADING DIRECTORY ${path || 'root'}...`);
+            updateFileProgress(10);
             
             try {
-                const apiUrlia = `https://api.github.com/repos/${repoia}/contents/${pathia}`;
-                const responsia = await fetch(apiUrlia);
+                const apiUrl = `https://api.github.com/repos/${repo}/contents/${path}`;
+                const response = await fetch(apiUrl);
                 
-                if (!responsia.ok) throw new Error(`HTTP ${responsia.status}`);
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
                 
-                const dataia = await responsia.json();
-                const filesia = dataia.filter(item => item.type === 'file');
+                const data = await response.json();
+                const files = data.filter(item => item.type === 'file');
                 
-                loadedFilesia = {};
-                let loadedia = 0;
-                const totalFilesia = filesia.length;
+                loadedFiles = {};
+                let loaded = 0;
+                const totalFiles = files.length;
                 
-                updateStatusia(`FOUNDIA ${totalFilesia} FILILY. LOADIARIA...`);
-                updateFileProgressia(20);
+                updateStatus(`FOUND ${totalFiles} FILES. LOADING...`);
+                updateFileProgress(20);
                 
-                for (const fileia of filesia) {
+                for (const file of files) {
                     try {
-                        const fileResponsia = await fetch(fileia.download_url);
-                        const contentia = await fileResponsia.text();
-                        loadedFilesia[fileia.name] = contentia;
-                        loadedia++;
+                        const fileResponse = await fetch(file.download_url);
+                        const content = await fileResponse.text();
+                        loadedFiles[file.name] = content;
+                        loaded++;
                         
-                        const progressPercentia = 20 + (loadedia / totalFilesia * 70);
-                        updateFileProgressia(progressPercentia);
+                        const progressPercent = 20 + (loaded / totalFiles * 70);
+                        updateFileProgress(progressPercent);
                         
-                        if (loadedia === 1) {
-                            loadiariaFileContentia(fileia.name, contentia);
+                        if (loaded === 1) {
+                            loadFileContent(file.name, content);
                         }
                     } catch (e) {}
                 }
                 
-                updateFileProgressia(95);
-                allFilesia = Object.keys(loadedFilesia);
-                updateiariaFileListia();
-                updateFileProgressia(100);
-                updateStatusia(`${loadedia} FILILY LOADEDIARIA FROM DIRECTORIA!`);
+                updateFileProgress(95);
+                allFiles = Object.keys(loadedFiles);
+                updateFileList();
+                updateFileProgress(100);
+                updateStatus(`${loaded} FILES LOADED FROM DIRECTORY!`);
                 
-            } catch (erroria) {
-                updateFileProgressia(100);
-                updateStatusia(`FAILEDIARIA TO LOADIARIA DIRECTORIA: ${erroria.message}`);
+            } catch (error) {
+                updateFileProgress(100);
+                updateStatus(`FAILED TO LOAD DIRECTORY: ${error.message}`);
             }
         }
         
-        function loadiariaSingleFileia() {
-            const repoia = document.getElementById('githubRepoia').value.trim();
-            const pathia = document.getElementById('githubPathia').value.trim();
+        function loadSingleFile() {
+            const repo = document.getElementById('githubRepo').value.trim();
+            const path = document.getElementById('githubPath').value.trim();
             
-            if (!repoia.includes('/')) {
-                updateStatusia('SET REPOIA FIRSTIA!');
+            if (!repo.includes('/')) {
+                updateStatus('SET REPO FIRST!');
                 return;
             }
             
-            const filenameia = prompt('ENTRA FILENAME TO LOADIARIA:');
-            if (!filenameia) return;
+            const filename = prompt('ENTER FILENAME TO LOAD:');
+            if (!filename) return;
             
-            updateStatusia(`LOADIARIA ${filenameia}...`);
+            updateStatus(`LOADING ${filename}...`);
             
-            const rawUrlia = `https://raw.githubusercontent.com/${repoia}/main/${pathia ? pathia + '/' : ''}${filenameia}`;
+            const rawUrl = `https://raw.githubusercontent.com/${repo}/main/${path ? path + '/' : ''}${filename}`;
             
-            fetch(rawUrlia)
-                .then(responsia => {
-                    if (!responsia.ok) throw new Error('FILILY NOT FOUNDIA');
-                    return responsia.text();
+            fetch(rawUrl)
+                .then(response => {
+                    if (!response.ok) throw new Error('FILE NOT FOUND');
+                    return response.text();
                 })
-                .then(contentia => {
-                    loadedFilesia[filenameia] = contentia;
-                    allFilesia = Object.keys(loadedFilesia);
-                    loadiariaFileContentia(filenameia, contentia);
-                    updateiariaFileListia();
-                    updateStatusia(`${filenameia} LOADEDIARIA!`);
+                .then(content => {
+                    loadedFiles[filename] = content;
+                    allFiles = Object.keys(loadedFiles);
+                    loadFileContent(filename, content);
+                    updateFileList();
+                    updateStatus(`${filename} LOADED!`);
                 })
-                .catch(erroria => {
-                    updateStatusia(`COULDNT LOADIARIA ${filenameia}: ${erroria.message}`);
+                .catch(error => {
+                    updateStatus(`COULDN'T LOAD ${filename}: ${error.message}`);
                 });
         }
         
-        function loadiariaLocalFileia() {
-            const inputia = document.createElement('input');
-            inputia.type = 'file';
-            inputia.accept = '.txt,.md,.html,.json,.js,.css,.xml,.yml,.yaml,.ini';
-            inputia.multiple = true;
+        function loadLocalFile() {
+            const input = document.createElement('input');
+            input.type = 'file';
+            input.accept = '.txt,.md,.html,.json,.js,.css,.xml,.yml,.yaml,.ini';
+            input.multiple = true;
             
-            inputia.onchange = function(e) {
-                const filesia = e.target.files;
-                if (!filesia.length) return;
+            input.onchange = function(e) {
+                const files = e.target.files;
+                if (!files.length) return;
                 
-                updateStatusia(`LOADIARIA ${filesia.length} LOCAL FILILY...`);
+                updateStatus(`LOADING ${files.length} LOCAL FILES...`);
                 
-                for (const fileia of filesia) {
-                    const readeria = new FileReader();
+                for (const file of files) {
+                    const reader = new FileReader();
                     
-                    readeria.onload = function(e) {
-                        loadedFilesia[fileia.name] = e.target.result;
+                    reader.onload = function(e) {
+                        loadedFiles[file.name] = e.target.result;
                         
-                        if (Object.keys(loadedFilesia).length === filesia.length) {
-                            allFilesia = Object.keys(loadedFilesia);
-                            updateiariaFileListia();
-                            updateStatusia(`${filesia.length} LOCAL FILILY LOADEDIARIA!`);
+                        if (Object.keys(loadedFiles).length === files.length) {
+                            allFiles = Object.keys(loadedFiles);
+                            updateFileList();
+                            updateStatus(`${files.length} LOCAL FILES LOADED!`);
                             
-                            const firstFileia = Object.keys(loadedFilesia)[0];
-                            loadiariaFileContentia(firstFileia, loadedFilesia[firstFileia]);
+                            const firstFile = Object.keys(loadedFiles)[0];
+                            loadFileContent(firstFile, loadedFiles[firstFile]);
                         }
                     };
                     
-                    readeria.readAsText(fileia);
+                    reader.readAsText(file);
                 }
             };
             
-            inputia.click();
+            input.click();
         }
         
-        function cleariariaFilesia() {
-            if (loadedFilesia && Object.keys(loadedFilesia).length > 0) {
-                if (confirm(`CLEARIARIA ${Object.keys(loadedFilesia).length} FILILY?`)) {
-                    loadedFilesia = {};
-                    allFilesia = [];
-                    currentFileia = null;
-                    document.getElementById('inputia').value = '';
-                    document.getElementById('currentFileNameia').textContent = 'FREE CREATIA';
-                    document.getElementById('fileListia').style.display = 'none';
-                    document.getElementById('fileSearchia').value = '';
-                    updateStatusia('OMNIS FILILY CLEARIEDIARIA!');
+        function clearFiles() {
+            if (loadedFiles && Object.keys(loadedFiles).length > 0) {
+                if (confirm(`CLEAR ${Object.keys(loadedFiles).length} FILES?`)) {
+                    loadedFiles = {};
+                    allFiles = [];
+                    currentFile = null;
+                    document.getElementById('input').value = '';
+                    document.getElementById('currentFileName').textContent = 'FREE CREATION';
+                    document.getElementById('fileList').style.display = 'none';
+                    document.getElementById('fileSearch').value = '';
+                    updateStatus('ALL FILES CLEARED!');
                 }
             } else {
-                updateStatusia('NULL FILILY TO CLEARIARIA!');
+                updateStatus('NO FILES TO CLEAR!');
             }
         }
         
-        function exportiariaAllFilesia() {
-            if (Object.keys(loadedFilesia).length === 0) {
-                updateStatusia('NULL FILILY TO EXPORTIARIA!');
+        function exportAllFiles() {
+            if (Object.keys(loadedFiles).length === 0) {
+                updateStatus('NO FILES TO EXPORT!');
                 return;
             }
             
-            updateStatusia(`EXPORTIARIA ${Object.keys(loadedFilesia).length} FILILY...`);
+            updateStatus(`EXPORTING ${Object.keys(loadedFiles).length} FILES...`);
             
-            let exportedia = 0;
-            Object.keys(loadedFilesia).forEach(filenameia => {
-                const contentia = loadedFilesia[filenameia];
-                const transformedia = transformiariaToGoldiaDirectly(contentia);
-                const blobia = new Blob([transformedia], { type: 'text/html' });
-                const urlia = URL.createObjectURL(blobia);
+            let exported = 0;
+            Object.keys(loadedFiles).forEach(filename => {
+                const content = loadedFiles[filename];
+                const transformed = transformToGoldDirectly(content);
+                const blob = new Blob([transformed], { type: 'text/html' });
+                const url = URL.createObjectURL(blob);
                 const a = document.createElement('a');
-                a.href = urlia;
-                a.download = filenameia.endsWith('.html') ? filenameia : filenameia.replace(/\.[^/.]+$/, "") + '.html';
+                a.href = url;
+                a.download = filename.endsWith('.html') ? filename : filename.replace(/\.[^/.]+$/, "") + '.html';
                 document.body.appendChild(a);
                 a.click();
                 document.body.removeChild(a);
-                URL.revokeObjectURL(urlia);
-                exportedia++;
+                URL.revokeObjectURL(url);
+                exported++;
             });
             
-            updateStatusia(`${exportedia} HTML FILILY EXPORTEDIARIA!`);
+            updateStatus(`${exported} HTML FILES EXPORTED!`);
         }
         
-        function downloadiariaAppia() {
-            const htmlContentia = document.documentElement.outerHTML;
-            const blobia = new Blob([htmlContentia], { type: 'text/html' });
-            const urlia = URL.createObjectURL(blobia);
+        function downloadApp() {
+            const htmlContent = document.documentElement.outerHTML;
+            const blob = new Blob([htmlContent], { type: 'text/html' });
+            const url = URL.createObjectURL(blob);
             const a = document.createElement('a');
-            a.href = urlia;
+            a.href = url;
             a.download = 'GOLDSMYTHOSIACKA_MOBILE.html';
             document.body.appendChild(a);
             a.click();
             document.body.removeChild(a);
-            URL.revokeObjectURL(urlia);
+            URL.revokeObjectURL(url);
             
-            updateStatusia('APPIARIA DOWNLOADEDIARIA!');
+            updateStatus('APP DOWNLOADED!');
         }
         
-        function downloadiariaTextia(contentia, filenameia) {
-            const blobia = new Blob([contentia], { type: 'text/plain' });
-            const urlia = URL.createObjectURL(blobia);
+        function downloadText(content, filename) {
+            const blob = new Blob([content], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
             const a = document.createElement('a');
-            a.href = urlia;
-            a.download = filenameia;
+            a.href = url;
+            a.download = filename;
             document.body.appendChild(a);
             a.click();
             document.body.removeChild(a);
-            URL.revokeObjectURL(urlia);
+            URL.revokeObjectURL(url);
         }
         
-        function isTextFileia(filenameia) {
-            const extia = filenameia.split('.').pop().toLowerCase();
-            const textExtensionsia = ['txt','md','html','htm','json','js','css','xml','yml','yaml','ini'];
+        function isTextFile(filename) {
+            const ext = filename.split('.').pop().toLowerCase();
+            const textExtensions = ['txt','md','html','htm','json','js','css','xml','yml','yaml','ini'];
             
-            if (!filenameia.includes('.')) {
-                const knownTextFilesia = ['README','LICENSE','CHANGELOG','CONTRIBUTING','AUTHORS','COPYING'];
-                return knownTextFilesia.some(name => filenameia.toUpperCase().includes(name.toUpperCase()));
+            if (!filename.includes('.')) {
+                const knownTextFiles = ['README','LICENSE','CHANGELOG','CONTRIBUTING','AUTHORS','COPYING'];
+                return knownTextFiles.some(name => filename.toUpperCase().includes(name.toUpperCase()));
             }
             
-            return textExtensionsia.includes(extia) || 
-                   filenameia.toLowerCase().includes('readme') ||
-                   filenameia.toLowerCase().includes('license');
+            return textExtensions.includes(ext) || 
+                   filename.toLowerCase().includes('readme') ||
+                   filename.toLowerCase().includes('license');
         }
         
-        function updateiariaFileListia() {
-            const gridia = document.getElementById('fileGridia');
-            const panelia = document.getElementById('fileListia');
-            const countia = document.getElementById('fileCountia');
+        function updateFileList() {
+            const grid = document.getElementById('fileGrid');
+            const panel = document.getElementById('fileList');
+            const count = document.getElementById('fileCount');
             
-            if (Object.keys(loadedFilesia).length === 0) {
-                panelia.style.display = 'none';
+            if (Object.keys(loadedFiles).length === 0) {
+                panel.style.display = 'none';
                 return;
             }
             
-            panelia.style.display = 'block';
-            gridia.innerHTML = '';
-            countia.textContent = Object.keys(loadedFilesia).length;
+            panel.style.display = 'block';
+            grid.innerHTML = '';
+            count.textContent = Object.keys(loadedFiles).length;
             
-            const sortedFilesia = Object.keys(loadedFilesia).sort();
-            allFilesia = sortedFilesia;
+            const sortedFiles = Object.keys(loadedFiles).sort();
+            allFiles = sortedFiles;
             
-            sortedFilesia.forEach(filenameia => {
-                const itemia = createFileItemia(filenameia);
-                if (currentFileia === filenameia) {
-                    itemia.classList.add('activia');
+            sortedFiles.forEach(filename => {
+                const item = createFileItem(filename);
+                if (currentFile === filename) {
+                    item.classList.add('active');
                 }
-                gridia.appendChild(itemia);
+                grid.appendChild(item);
             });
         }
         
-        function createFileItemia(filenameia) {
-            const itemia = document.createElement('div');
-            itemia.className = 'filily-itemia';
+        function createFileItem(filename) {
+            const item = document.createElement('div');
+            item.className = 'file-item';
             
             const nameDiv = document.createElement('div');
             nameDiv.className = 'filily-nameia';
-            nameDiv.textContent = filenameia;
-            nameDiv.title = `CLICKIA TO LOADIARIA: ${filenameia}`;
+            nameDiv.textContent = filename;
+            nameDiv.title = `CLICK TO LOAD: ${filename}`;
             
             const downloadBtn = document.createElement('button');
-            downloadBtn.className = 'file-actionia';
+            downloadBtn.className = 'file-action';
             downloadBtn.textContent = '📥';
-            downloadBtn.title = 'DOWNLOADIARIA ORIGINALIA TXT';
+            downloadBtn.title = 'DOWNLOAD ORIGINAL TXT';
             downloadBtn.onclick = (e) => {
                 e.stopPropagation();
-                downloadiariaSingleTXTia(filenameia);
+                downloadSingleTXT(filename);
             };
             
-            itemia.appendChild(nameDiv);
-            itemia.appendChild(downloadBtn);
+            item.appendChild(nameDiv);
+            item.appendChild(downloadBtn);
             
-            itemia.onclick = () => {
-                loadiariaFileContentia(filenameia, loadedFilesia[filenameia]);
-                document.querySelectorAll('.filily-itemia').forEach(i => i.classList.remove('activia'));
-                itemia.classList.add('activia');
+            item.onclick = () => {
+                loadFileContent(filename, loadedFiles[filename]);
+                document.querySelectorAll('.file-item').forEach(i => i.classList.remove('active'));
+                item.classList.add('active');
             };
             
-            return itemia;
+            return item;
         }
         
-        function downloadiariaSingleTXTia(filenameia) {
-            const contentia = loadedFilesia[filenameia];
-            if (!contentia) {
-                updateStatusia(`FILILY ${filenameia} NOT FOUNDIA!`);
+        function downloadSingleTXT(filename) {
+            const content = loadedFiles[filename];
+            if (!content) {
+                updateStatus(`FILE ${filename} NOT FOUND!`);
                 return;
             }
             
-            downloadiariaTextia(contentia, filenameia);
-            updateStatusia(`DOWNLOADEDIARIA: ${filenameia}`);
+            downloadText(content, filename);
+            updateStatus(`DOWNLOADED: ${filename}`);
         }
         
-        function loadiariaFileContentia(filenameia, contentia) {
-            currentFileia = filenameia;
-            document.getElementById('currentFileNameia').textContent = filenameia;
+        function loadFileContent(filename, content) {
+            currentFile = filename;
+            document.getElementById('currentFileName').textContent = filename;
             
-            const isAlreadyFormattedia = /༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻/.test(contentia);
+            const isAlreadyFormatted = /༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻/.test(content);
             
-            if (isAlreadyFormattedia) {
-                document.getElementById('inputia').value = contentia;
-                updateStatusia(`LOADEDIARIA: ${filenameia} (PRESERVING STAMP BORDERS!)`);
+            if (isAlreadyFormatted) {
+                document.getElementById('input').value = content;
+                updateStatus(`LOADED: ${filename} (PRESERVING STAMP BORDERS!)`);
             } else {
-                document.getElementById('inputia').value = contentia;
-                updateStatusia(`LOADEDIARIA: ${filenameia}`);
+                document.getElementById('input').value = content;
+                updateStatus(`LOADED: ${filename}`);
             }
             
-            transformiariaToGoldia();
-            updateStatsia();
+            transformToGold();
+            updateStats();
         }
         
-        function searchiariaFilesia() {
-            const searchTextia = document.getElementById('fileSearchia').value.toLowerCase();
-            const gridia = document.getElementById('fileGridia');
+        function searchFiles() {
+            const searchText = document.getElementById('fileSearch').value.toLowerCase();
+            const grid = document.getElementById('fileGrid');
             
-            if (!searchTextia) {
-                updateiariaFileListia();
+            if (!searchText) {
+                updateFileList();
                 return;
             }
             
-            const filteredFilesia = allFilesia.filter(filename => 
-                filename.toLowerCase().includes(searchTextia));
+            const filteredFiles = allFiles.filter(filename => 
+                filename.toLowerCase().includes(searchText));
             
-            displayFilteredFilesia(filteredFilesia);
+            displayFilteredFiles(filteredFiles);
         }
         
-        function displayFilteredFilesia(filesia) {
-            const gridia = document.getElementById('fileGridia');
-            const countia = document.getElementById('fileCountia');
+        function displayFilteredFiles(files) {
+            const grid = document.getElementById('fileGrid');
+            const count = document.getElementById('fileCount');
             
-            if (filesia.length === 0) {
-                gridia.innerHTML = '<div style="text-align:center; padding:20px; color:var(--coloria-auria-luminia);">NULL FILILY MATCHIA SEARCHIA</div>';
-                countia.textContent = '0';
+            if (files.length === 0) {
+                grid.innerHTML = '<div style="text-align:center; padding:20px; color:var(--dark-gold);">NO FILES MATCH SEARCH</div>';
+                count.textContent = '0';
                 return;
             }
             
-            gridia.innerHTML = '';
-            countia.textContent = filesia.length;
+            grid.innerHTML = '';
+            count.textContent = files.length;
             
-            filesia.forEach(filenameia => {
-                const itemia = createFileItemia(filenameia);
-                if (currentFileia === filenameia) {
-                    itemia.classList.add('activia');
+            files.forEach(filename => {
+                const item = createFileItem(filename);
+                if (currentFile === filename) {
+                    item.classList.add('active');
                 }
-                gridia.appendChild(itemia);
+                grid.appendChild(item);
             });
         }
         
-        function toggleFileListia() {
-            const listia = document.getElementById('fileListia');
-            if (listia.style.display === 'block') {
-                listia.style.display = 'none';
+        function toggleFileList() {
+            const list = document.getElementById('fileList');
+            if (list.style.display === 'block') {
+                list.style.display = 'none';
             } else {
-                listia.style.display = 'block';
-                if (Object.keys(loadedFilesia).length === 0) {
-                    updateStatusia('NULL FILILY LOADEDIARIA YET! LOADIARIA FROM GITHUBIA FIRST!');
+                list.style.display = 'block';
+                if (Object.keys(loadedFiles).length === 0) {
+                    updateStatus('NO FILES LOADED YET! LOAD FROM GITHUB FIRST!');
                 }
             }
         }
         
-        function updateFileProgressia(percentia) {
-            const progressia = document.getElementById('fileProgressia');
-            const barria = document.getElementById('fileProgressBarria');
-            progressia.style.display = 'block';
-            barria.style.width = `${percentia}%`;
-            if (percentia >= 100) {
-                setTimeout(() => progressia.style.display = 'none', 1000);
+        function updateFileProgress(percent) {
+            const progress = document.getElementById('fileProgress');
+            const bar = document.getElementById('fileProgressBar');
+            progress.style.display = 'block';
+            bar.style.width = `${percent}%`;
+            if (percent >= 100) {
+                setTimeout(() => progress.style.display = 'none', 1000);
             }
         }
         
-        function transformiariaToGoldiaDirectly(contentia) {
-            const linesia = contentia.split('\n');
-            let titleLinesia = [];
-            let contentStartia = 0;
+        function transformToGoldDirectly(content) {
+            const lines = content.split('\n');
+            let titleLines = [];
+            let contentStart = 0;
             
-            for (let i = 0; i < linesia.length; i++) {
-                if (linesia[i].trim() === '' && titleLinesia.length > 0) {
-                    contentStartia = i + 1;
+            for (let i = 0; i < lines.length; i++) {
+                if (lines[i].trim() === '' && titleLines.length > 0) {
+                    contentStart = i + 1;
                     break;
                 }
-                if (linesia[i].trim().length > 0) {
-                    titleLinesia.push(linesia[i].trim());
+                if (lines[i].trim().length > 0) {
+                    titleLines.push(lines[i].trim());
                 }
             }
             
-            let titleHTMLia = '';
-            if (titleLinesia.length > 0) {
-                const decorationia = '༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻';
-                const mainTitleia = titleLinesia[0].toUpperCase();
+            let titleHTML = '';
+            if (titleLines.length > 0) {
+                const decoration = '༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻';
+                const mainTitle = titleLines[0].toUpperCase();
                 
-                titleHTMLia = `<div align="center" style="padding:20px 0;margin-bottom:30px;border-bottom:2px solid #DAA520;">
-<div style="color:#DAA520;letter-spacing:1px;font-size:0.8em;margin:10px 0 3px 0;"><b>${decorationia}</b></div>
-<h1 style="font-size:2.5em;margin:10px 0 5px 0;letter-spacing:4px;text-transform:uppercase;">${escapeHTMLia(mainTitleia)}</h1>`;
+                titleHTML = `<div align="center" style="padding:20px 0;margin-bottom:30px;border-bottom:2px solid #DAA520;">
+<div style="color:#DAA520;letter-spacing:1px;font-size:0.8em;margin:10px 0 3px 0;"><b>${decoration}</b></div>
+<h1 style="font-size:2.5em;margin:10px 0 5px 0;letter-spacing:4px;text-transform:uppercase;">${escapeHTML(mainTitle)}</h1>`;
                 
-                if (titleLinesia.length > 1) {
-                    titleLinesia.slice(1).forEach((line, idx) => {
-                        titleHTMLia += `<div style="font-size:${1.3 - (idx * 0.1)}em;color:#DAA520;margin:8px 0;">${escapeHTMLia(line)}</div>`;
+                if (titleLines.length > 1) {
+                    titleLines.slice(1).forEach((line, idx) => {
+                        titleHTML += `<div style="font-size:${1.3 - (idx * 0.1)}em;color:#DAA520;margin:8px 0;">${escapeHTML(line)}</div>`;
                     });
                 }
                 
-                titleHTMLia += `<div style="color:#DAA520;letter-spacing:1px;font-size:0.8em;margin:10px 0 3px 0;"><b>${decorationia}</b></div>
+                titleHTML += `<div style="color:#DAA520;letter-spacing:1px;font-size:0.8em;margin:10px 0 3px 0;"><b>${decoration}</b></div>
 <div style="height:1.5em;"></div>
 </div>`;
             }
             
             return `<div style="background:#000;color:#FFD700;font-family:'Times New Roman',serif;">
 <div style="padding:30px 20px;">
-${titleHTMLia}
+${titleHTML}
 <div style="margin-top:30px;">
 <div align="center" style="margin:25px 0;line-height:1.8;font-size:1.2em;max-width:800px;margin-left:auto;margin-right:auto;">
-${escapeHTMLia(contentia).replace(/\n/g, '<br>')}
+${escapeHTML(content).replace(/\n/g, '<br>')}
 </div>
 <div style="height:1.5em;"></div>
 <div style="margin-top:60px;padding-top:20px;border-top:1px solid #333;">
 <div align="center">
 <div style="font-size:1em;color:#DAA520;margin:15px 0;letter-spacing:2px;">
-AMORIARIACKA IS MY NATIVE TONGUE | LANGUAGEARIA JAILBREAKIA
+AMORIARIACKA IS MY NATIVE TONGUE | LANGUAGE JAILBREAK
 </div>
 <div style="font-size:0.9em;color:#FFD700;margin:10px 0;">
-CC0 PUBLICKÁ DOMÁNIA | ALL LOVE RESERVED | REPUBLICKA.LIFE
+CC0 PUBLIC DOMAIN | ALL LOVE RESERVED | REPUBLICKA.LIFE
 </div>
 </div>
 </div>
@@ -1558,24 +1657,24 @@ CC0 PUBLICKÁ DOMÁNIA | ALL LOVE RESERVED | REPUBLICKA.LIFE
 </div>`;
         }
         
-        function escapeHTMLia(textia) {
-            const divia = document.createElement('div');
-            divia.textContent = textia;
-            return divia.innerHTML;
+        function escapeHTML(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
         }
         
-        function saveQuickNoteia() {
-            const textia = document.getElementById('inputia').value;
-            if (!textia.trim()) {
-                alert('NOTHINGIARIA TO SAVIARIA!');
+        function saveQuickNote() {
+            const text = document.getElementById('input').value;
+            if (!text.trim()) {
+                alert('NOTHING TO SAVE!');
                 return;
             }
             
-            const dateia = new Date();
-            const filenameia = `quick_note_${dateia.getFullYear()}${(dateia.getMonth()+1).toString().padStart(2,'0')}${dateia.getDate().toString().padStart(2,'0')}_${dateia.getHours().toString().padStart(2,'0')}${dateia.getMinutes().toString().padStart(2,'0')}.txt`;
+            const date = new Date();
+            const filename = `quick_note_${date.getFullYear()}${(date.getMonth()+1).toString().padStart(2,'0')}${date.getDate().toString().padStart(2,'0')}_${date.getHours().toString().padStart(2,'0')}${date.getMinutes().toString().padStart(2,'0')}.txt`;
             
-            downloadiariaTextia(textia, filenameia);
-            updateStatusia(`QUICK NOTE SAVEDIARIA: ${filenameia}`);
+            downloadText(text, filename);
+            updateStatus(`QUICK NOTE SAVED: ${filename}`);
         }
     </script>
 </body>
