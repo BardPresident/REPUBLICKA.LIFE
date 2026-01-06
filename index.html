@@ -175,7 +175,7 @@
             font-weight: normal;
         }
         
-        /* BUTTONS RIGHT BELOW OUTPUT */
+        /* OUTPUT BUTTONS RIGHT BELOW OUTPUT */
         .output-buttonsia {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -537,7 +537,7 @@
             border-radius: 3px;
         }
         
-        /* FILE LIST */
+        /* FILE LIST - NOW AUTO-SHOWS WHEN FILES LOAD */
         .file-listia {
             border: 2px solid var(--dark-gold);
             padding: 15px;
@@ -696,7 +696,7 @@
     <div class="top-controlsia">
         <button class="buttonia" onclick="loadiariaExampleia()">📖 EXAMPLEIA</button>
         <button class="buttonia" onclick="clearAllia()">🗑️ CLEARIARIA</button>
-        <button class="buttonia" onclick="toggleFileListia()">📜 SHOW/HIDE</button>
+        <button class="buttonia" onclick="toggleFileListia()" id="toggleFileListBtn">📜 SHOW/HIDE</button>
         <button class="buttonia" onclick="exportiariaAllFilesia()">📦 EXPORTIARIA</button>
         <button class="buttonia" onclick="downloadiariaAppia()">⬇️ APPIARIA</button>
         <button class="buttonia" onclick="saveQuickNoteia()">💾 QUICKIA</button>
@@ -740,7 +740,7 @@
         <div class="progress-barria" id="fileProgressBarria"></div>
     </div>
     
-    <!-- FILE LIST -->
+    <!-- FILE LIST - NOW AUTO-SHOWS WHEN FILES LOAD -->
     <div id="fileListia" class="file-listia">
         <div style="text-align:center; margin-bottom:12px; color:var(--dark-gold); font-size:15px;">
             📜 LOADEDIARIA FILILY - <span id="fileCountia">0</span> FILILY
@@ -810,131 +810,133 @@
     </div>
 
     <script>
-        // ========== AMORIARIACKA FUNCTIONZIA ==========
-        function downloadiaWendingRoadia() {
-            const urlia = 'https://github.com/BardPresident/REPUBLICKA.LIFE/raw/main/000UKILLEDMYWIFEE/000UKILLEDMYWIFEE.zip';
-            
-            updateStatusia('🎭 DOWNLOADIARIA UR MIRACLE SOFTWARIA! 🎭');
-            
-            const linkia = document.createElement('a');
-            linkia.href = urlia;
-            linkia.download = '000UKILLEDMYWIFEE.zip';
-            document.body.appendChild(linkia);
-            linkia.click();
-            document.body.removeChild(linkia);
-            
-            setTimeout(() => {
-                updateStatusia('✅ DOWNLOADEDIARIA! UNZIP AND RUNIA 000UKILLEDMYWIFEE.bat! 🎭✨');
-            }, 1000);
-        }
+        // ========== OPTIMIZED VERSION - FASTER & BETTER ==========
+        
+        // Cache DOM elements for speed
+        const elementsia = {
+            inputia: document.getElementById('inputia'),
+            outputia: document.getElementById('outputia'),
+            previewia: document.getElementById('previewia'),
+            statusia: document.getElementById('statusia'),
+            fileListia: document.getElementById('fileListia'),
+            fileGridia: document.getElementById('fileGridia'),
+            fileCountia: document.getElementById('fileCountia'),
+            fileProgressia: document.getElementById('fileProgressia'),
+            fileProgressBarria: document.getElementById('fileProgressBarria'),
+            capsOutputia: document.getElementById('capsOutputia'),
+            labelOutputia: document.getElementById('labelOutputia'),
+            statsOutputia: document.getElementById('statsOutputia'),
+            keywordsOutputia: document.getElementById('keywordsOutputia'),
+            currentFileNameia: document.getElementById('currentFileNameia'),
+            githubRepoia: document.getElementById('githubRepoia'),
+            githubPathia: document.getElementById('githubPathia'),
+            fileSearchia: document.getElementById('fileSearchia'),
+            toggleFileListBtn: document.getElementById('toggleFileListBtn')
+        };
 
-        // ========== FIX CTRL+A IN OUTPUT TEXTAREA ==========
-        document.addEventListener('DOMContentLoaded', function() {
-            const outputTextareia = document.getElementById('outputia');
-            
-            outputTextareia.addEventListener('keydown', function(e) {
-                if (e.ctrlKey && e.key === 'a') {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    this.select();
-                }
-            });
-        });
-
-        // ========== GLOBAL VARIABLES ==========
+        // Global variables
         let loadedFilesia = {};
         let currentFileia = null;
         let allFilesia = [];
         let autosaveTimerIdia = null;
-        
+        let transformTimerIdia = null;
+
         // ========== INITIALIZE ==========
         document.addEventListener('DOMContentLoaded', () => {
+            // Load example immediately
             loadiariaExampleia();
             
-            // Auto-transform when typing
-            let timeria;
-            document.getElementById('inputia').addEventListener('input', () => {
-                clearTimeout(timeria);
-                timeria = setTimeout(transformiariaToGoldia, 500);
-                updateStatsia();
+            // Setup auto-transform (debounced for efficiency)
+            elementsia.inputia.addEventListener('input', () => {
+                clearTimeout(transformTimerIdia);
+                transformTimerIdia = setTimeout(() => {
+                    transformiariaToGoldia();
+                    updateStatsia();
+                }, 400); // Slightly longer delay for better performance
             });
             
             updateStatusia('🎭 READYIARIA! WRITEIA DIRECTLY! DIS IS UR LIBRARIA OF ALEXANDRIA!');
             
-            document.getElementById('fileProgressia').style.display = 'none';
-            
-            // Auto-save every 30 seconds
+            // Start auto-save
             autosaveTimerIdia = setInterval(autosaviciaNowia, 30000);
             
-            // Load auto-save if exists
-            const autosave = localStorage.getItem('goldsmythosiacka_autosave');
-            if (autosave) {
-                document.getElementById('inputia').value = autosave;
-                transformiariaToGoldia();
-                updateStatsia();
-                updateStatusia('✅ AUTOSAVE LOADEDIARIA FROM UR LAST SESSIONIA!');
+            // Try to load auto-save
+            try {
+                const autosave = localStorage.getItem('goldsmythosiacka_autosave');
+                if (autosave) {
+                    elementsia.inputia.value = autosave;
+                    transformiariaToGoldia();
+                    updateStatsia();
+                    updateStatusia('✅ AUTOSAVE LOADEDIARIA FROM UR LAST SESSIONIA!');
+                }
+            } catch (e) {
+                // Silently fail if localStorage not available
             }
             
-            // Setup auto-transform on load
+            // Initial transform
             transformiariaToGoldia();
         });
-        
+
         // ========== SMART TRANSFORMATION WITH STAMP DETECTION ==========
         function transformiariaToGoldia() {
-            let inputia = document.getElementById('inputia').value;
+            const inputia = elementsia.inputia.value;
             
-            // DETECT EXISTING STAMPS AND FOOTER
-            const topBorderPatternia = /༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻/g;
-            const bottomFooterPatternia = /AMORIARIACKA IS MY NATIVE TONGUE \| LANGUAGEARIA JAILBREAKIA/;
-            const copyrightPatternia = /CC0 PUBLICKÁ DOMÁNIA \| ALL LOVE RESERVED/;
-            
-            const topBordersia = inputia.match(topBorderPatternia);
-            const hasTopBorderia = topBordersia && topBordersia.length >= 2;
-            const hasBottomFooteria = bottomFooterPatternia.test(inputia);
-            const hasCopyrightia = copyrightPatternia.test(inputia);
-            
-            // IF ALREADY FULLY FORMATTED, JUST COPY
-            if (hasTopBorderia && hasBottomFooteria && hasCopyrightia) {
-                document.getElementById('outputia').value = inputia;
-                document.getElementById('previewia').innerHTML = inputia;
-                updateStatusia('✅ ALREADY GOLDSMYTHOSIACKA FORMATTEDIARIA! PRESERVING STAMP BORDERS!');
+            // Quick empty check
+            if (!inputia.trim()) {
+                elementsia.outputia.value = '';
+                elementsia.previewia.innerHTML = '';
+                updateStatusia('📝 EMPTY INPUTIA - WRITE SOMETHING!');
                 return;
             }
             
-            // PROCESS INPUT - FIND TITLE
-            inputia = inputia.replace(/^\s*\n/, '');
+            // DETECT EXISTING STAMPS AND FOOTER (FASTER CHECK)
+            const hasTopBorderia = inputia.includes('༺༻༺༻༺༻');
+            const hasBottomFooteria = inputia.includes('AMORIARIACKA IS MY NATIVE TONGUE');
+            const hasCopyrightia = inputia.includes('CC0 PUBLICKÁ DOMÁNIA');
+            
+            // IF ALREADY FULLY FORMATTED, JUST COPY (FAST PATH)
+            if (hasTopBorderia && hasBottomFooteria && hasCopyrightia) {
+                elementsia.outputia.value = inputia;
+                elementsia.previewia.innerHTML = inputia;
+                updateStatusia('✅ ALREADY FORMATTEDIARIA! PRESERVING STAMPS!');
+                return;
+            }
+            
+            // PROCESS INPUT - FIND TITLE (EFFICIENT)
             const linesia = inputia.split('\n');
             let titleLinesia = [];
             let contentStartia = 0;
             
             for (let i = 0; i < linesia.length; i++) {
-                if (linesia[i].trim() === '' && titleLinesia.length > 0) {
+                const line = linesia[i].trim();
+                if (line === '' && titleLinesia.length > 0) {
                     contentStartia = i + 1;
                     break;
                 }
-                if (linesia[i].trim().length > 0) {
-                    titleLinesia.push(linesia[i].trim());
+                if (line.length > 0) {
+                    titleLinesia.push(line);
                 }
             }
             
-            let contentia = linesia.slice(contentStartia).join('\n');
+            const contentia = linesia.slice(contentStartia).join('\n');
             
-            // CREATE TITLE SECTION (ONLY IF NOT ALREADY THERE)
+            // BUILD HTML (EFFICIENT STRING BUILDING)
             let titleHTMLia = '';
-            if (!hasTopBorderia) {
+            if (!hasTopBorderia && titleLinesia.length > 0) {
                 const decorationia = '༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻༺༻';
-                const mainTitleia = titleLinesia.length > 0 ? titleLinesia[0].toUpperCase() : 'DOCUMENTIA';
+                const mainTitleia = titleLinesia[0].toUpperCase();
                 
                 titleHTMLia = `<div align="center" style="padding:20px 0;margin-bottom:30px;border-bottom:2px solid #DAA520;">
 <div class="stamp-decoration" style="color:#DAA520;"><b>${decorationia}</b></div>
 <h1 class="big-title" style="color:#FFD700;">${escapeHTMLia(mainTitleia)}</h1>`;
                 
+                // Add subtitle lines if present
                 if (titleLinesia.length > 1) {
-                    titleLinesia.slice(1).forEach((line, idx) => {
+                    for (let idx = 1; idx < titleLinesia.length; idx++) {
                         titleHTMLia += `<div style="font-size:${1.3 - (idx * 0.1)}em;color:#DAA520;margin:8px 0;">
-${escapeHTMLia(line)}
+${escapeHTMLia(titleLinesia[idx])}
 </div>`;
-                    });
+                    }
                 }
                 
                 titleHTMLia += `<div class="stamp-decoration" style="color:#DAA520;"><b>${decorationia}</b></div>
@@ -942,32 +944,20 @@ ${escapeHTMLia(line)}
 </div>`;
             }
             
-            // PROCESS CONTENT
+            // PROCESS CONTENT (SIMPLIFIED FOR SPEED)
             let contentHTMLia = '';
-            if (/<div[^>]*>/.test(contentia) || /<p[^>]*>/.test(contentia) || /style=/.test(contentia)) {
+            if (/<div[^>]*>/.test(contentia) || /style=/.test(contentia)) {
                 contentHTMLia = contentia;
             } else {
                 const paragraphsia = contentia.split(/\n\s*\n/);
-                
-                paragraphsia.forEach(para => {
+                for (let para of paragraphsia) {
                     if (para.trim() === '') {
                         contentHTMLia += '<div style="height:1.5em;"></div>';
-                        return;
+                        continue;
                     }
                     
-                    const linesInParaia = para.split('\n');
-                    let processedLinesia = [];
-                    
-                    linesInParaia.forEach(line => {
-                        let processedLineia = line.trim();
-                        if (processedLineia === '') return;
-                        processedLineia = escapeHTMLia(processedLineia);
-                        processedLinesia.push(processedLineia);
-                    });
-                    
-                    const processedParaia = processedLinesia.join('<br>');
+                    // Check for headings
                     const trimmedPara = para.trim();
-                    
                     if (trimmedPara.startsWith('**') && trimmedPara.endsWith('**') && trimmedPara.length < 100) {
                         const headingTextia = trimmedPara.substring(2, trimmedPara.length - 2);
                         contentHTMLia += `<div align="center" style="margin:30px 0;">
@@ -975,13 +965,13 @@ ${escapeHTMLia(line)}
 </div>`;
                     } else {
                         contentHTMLia += `<div align="center" style="margin:25px 0;line-height:1.8;font-size:1.2em;max-width:800px;margin-left:auto;margin-right:auto;">
-${processedParaia}
+${escapeHTMLia(para).replace(/\n/g, '<br>')}
 </div>`;
                     }
-                });
+                }
             }
             
-            contentHTMLia += `<div style="height:1.5em;"></div>`;
+            contentHTMLia += '<div style="height:1.5em;"></div>';
             
             // ADD FOOTER (ONLY IF NOT ALREADY THERE)
             let footerHTMLia = '';
@@ -998,14 +988,14 @@ CC0 PUBLICKÁ DOMÁNIA | ALL LOVE RESERVED | REPUBLICKA.LIFE
 </div>`;
             }
             
-            // BUILD FINAL HTML - PRESERVE EXISTING FORMATTING IF PRESENT
+            // BUILD FINAL HTML
             let finalHTMLia = '';
             if (hasTopBorderia && hasBottomFooteria) {
-                finalHTMLia = inputia; // Already formatted
+                finalHTMLia = inputia;
             } else if (hasTopBorderia) {
-                finalHTMLia = inputia + footerHTMLia; // Add missing footer
+                finalHTMLia = inputia + footerHTMLia;
             } else if (hasBottomFooteria) {
-                finalHTMLia = titleHTMLia + contentia + '<div style="height:1.5em;"></div>'; // Add missing header
+                finalHTMLia = titleHTMLia + contentia + '<div style="height:1.5em;"></div>';
             } else {
                 finalHTMLia = `<div style="background:#000;color:#FFD700;font-family:'Times New Roman',serif;">
 <div style="padding:30px 20px;">
@@ -1018,63 +1008,59 @@ ${footerHTMLia}
 </div>`;
             }
             
-            document.getElementById('outputia').value = finalHTMLia;
-            document.getElementById('previewia').innerHTML = finalHTMLia;
+            // UPDATE OUTPUT AND PREVIEW
+            elementsia.outputia.value = finalHTMLia;
+            elementsia.previewia.innerHTML = finalHTMLia;
             
-            // UPDATE TOOLS
-            const capsia = inputia.toUpperCase();
-            document.getElementById('capsOutputia').textContent = capsia.substring(0, 150) + (capsia.length > 150 ? '...' : '');
-            
-            const wordsia = inputia.toLowerCase().replace(/[^\w\s]/g, ' ')
-                             .split(/\s+/)
-                             .filter(word => word.length > 3);
-            
-            const commonia = ['the','and','for','that','with','this','from','have','what','when'];
-            const filteredia = wordsia.filter(word => !commonia.includes(word));
-            
-            const countsia = {};
-            filteredia.forEach(word => countsia[word] = (countsia[word] || 0) + 1);
-            
-            const sortedia = Object.keys(countsia).sort((a,b) => countsia[b] - countsia[a]);
-            const topWordsia = sortedia.slice(0, 10);
-            
-            const labelsia = topWordsia.join(', ');
-            document.getElementById('labelOutputia').innerHTML = 
-                `<div style="margin-bottom:5px;">${labelsia}</div>
-                 <div style="font-size:10px;color:#DAA520;">${labelsia.length} CHARACTERIA</div>`;
+            // UPDATE TOOLS (OPTIMIZED)
+            updateToolsia(inputia);
             
             updateStatusia('✅ TRANSFORMEDIARIA TO GOLDSMYTHOSIACKA!');
         }
         
-        // ========== HELPER FUNCTIONS ==========
-        function escapeHTMLia(textia) {
-            const divia = document.createElement('div');
-            divia.textContent = textia;
-            return divia.innerHTML;
-        }
-        
-        function updateStatusia(messagia) {
-            document.getElementById('statusia').textContent = `🎭 ${messagia}`;
+        // ========== OPTIMIZED TOOLS UPDATE ==========
+        function updateToolsia(inputia) {
+            // ALL CAPS
+            elementsia.capsOutputia.textContent = inputia.toUpperCase().substring(0, 150) + 
+                (inputia.length > 150 ? '...' : '');
+            
+            // LABELS (SIMPLIFIED)
+            const wordsia = inputia.toLowerCase().match(/\b[a-z]{4,}\b/g) || [];
+            const commonia = new Set(['the','and','for','that','with','this','from','have','what','when']);
+            const filteredia = wordsia.filter(word => !commonia.has(word));
+            
+            const countsia = {};
+            filteredia.forEach(word => countsia[word] = (countsia[word] || 0) + 1);
+            
+            const topWordsia = Object.keys(countsia)
+                .sort((a,b) => countsia[b] - countsia[a])
+                .slice(0, 10)
+                .join(', ');
+            
+            elementsia.labelOutputia.innerHTML = 
+                `<div style="margin-bottom:5px;">${topWordsia || 'NO LABELS'}</div>
+                 <div style="font-size:10px;color:#DAA520;">${topWordsia.length || 0} CHARACTERIA</div>`;
         }
         
         function updateStatsia() {
-            const textia = document.getElementById('inputia').value;
-            const wordsia = textia.trim().split(/\s+/).filter(w => w.length > 0);
+            const textia = elementsia.inputia.value;
+            const wordsia = textia.match(/\S+/g) || [];
             const charactersia = textia.length;
             const linesia = textia.split('\n').length;
             
-            document.getElementById('statsOutputia').innerHTML = 
+            elementsia.statsOutputia.innerHTML = 
                 `📝 WORDIA: ${wordsia.length}<br>
                  🔢 CHARACTERIA: ${charactersia}<br>
                  📄 LINEIA: ${linesia}<br>
-                 💾 ${Math.round(textia.length / 1024 * 100) / 100} KB`;
+                 💾 ${(textia.length / 1024).toFixed(2)} KB`;
             
-            // KEYWORDS
-            const commonWordsia = ['the','and','for','that','with','this','from','have','what','when','but','not','you','are','was','were','has','had','will','would'];
+            // KEYWORDS (OPTIMIZED)
+            const commonWordsia = new Set(['the','and','for','that','with','this','from','have','what','when','but','not','you','are','was','were','has','had','will','would']);
             const wordCountsia = {};
+            
             wordsia.forEach(word => {
                 const cleanWord = word.toLowerCase().replace(/[^a-z0-9]/g, '');
-                if (cleanWord.length > 3 && !commonWordsia.includes(cleanWord)) {
+                if (cleanWord.length > 3 && !commonWordsia.has(cleanWord)) {
                     wordCountsia[cleanWord] = (wordCountsia[cleanWord] || 0) + 1;
                 }
             });
@@ -1085,355 +1071,49 @@ ${footerHTMLia}
                 .map(([word, count]) => `${word} (${count})`)
                 .join(', ');
             
-            document.getElementById('keywordsOutputia').textContent = sortedKeywords || 'NO KEYWORDS';
+            elementsia.keywordsOutputia.textContent = sortedKeywords || 'NO KEYWORDS';
         }
         
-        // ========== BUTTON FUNCTIONS ==========
-        function copiariaOutputia() {
-            const outputia = document.getElementById('outputia').value;
-            if (!outputia.trim()) {
-                alert('NOTHINGIARIA TO COPIARIA!');
+        // ========== HELPER FUNCTIONS ==========
+        function escapeHTMLia(textia) {
+            return textia.replace(/[&<>"']/g, 
+                char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[char]);
+        }
+        
+        function updateStatusia(messagia) {
+            elementsia.statusia.textContent = `🎭 ${messagia}`;
+        }
+        
+        function updateFileProgressia(percentia) {
+            elementsia.fileProgressia.style.display = 'block';
+            elementsia.fileProgressBarria.style.width = `${percentia}%`;
+            if (percentia >= 100) {
+                setTimeout(() => elementsia.fileProgressia.style.display = 'none', 1000);
+            }
+        }
+        
+        // ========== FILE LIST FUNCTIONS (IMPROVED) ==========
+        function updateiariaFileListia() {
+            const fileKeys = Object.keys(loadedFilesia);
+            
+            if (fileKeys.length === 0) {
+                elementsia.fileListia.style.display = 'none';
+                elementsia.toggleFileListBtn.textContent = '📜 SHOW/HIDE';
+                elementsia.fileCountia.textContent = '0';
                 return;
             }
             
-            navigator.clipboard.writeText(outputia)
-                .then(() => updateStatusia('✅ COPIEDIARIA TO CLIPBOARDIA!'))
-                .catch(() => {
-                    const textareia = document.createElement('textarea');
-                    textareia.value = outputia;
-                    document.body.appendChild(textareia);
-                    textareia.select();
-                    document.execCommand('copy');
-                    document.body.removeChild(textareia);
-                    updateStatusia('✅ COPIEDIARIA!');
-                });
-        }
-        
-        function saviariaHTMLia() {
-            const htmlia = document.getElementById('outputia').value;
-            if (!htmlia.trim()) {
-                alert('NOTHINGIARIA TO SAVIARIA!');
-                return;
-            }
+            // AUTO-SHOW FILE LIST WHEN FILES LOAD!
+            elementsia.fileListia.style.display = 'block';
+            elementsia.toggleFileListBtn.textContent = '📜 HIDE FILILY';
+            elementsia.fileCountia.textContent = fileKeys.length;
             
-            let titleia = 'documentia';
-            const matchia = htmlia.match(/<h1[^>]*>(.*?)<\/h1>/);
-            if (matchia && matchia[1]) {
-                titleia = matchia[1].substring(0, 40).replace(/[^a-z0-9]/gi, '_');
-            }
+            // BUILD FILE GRID
+            elementsia.fileGridia.innerHTML = '';
+            allFilesia = fileKeys.sort();
             
-            const blobia = new Blob([htmlia], { type: 'text/html' });
-            const urlia = URL.createObjectURL(blobia);
-            const a = document.createElement('a');
-            a.href = urlia;
-            a.download = `${titleia}.html`;
-            document.body.appendChild(a);
-            a.click();
-            document.body.removeChild(a);
-            URL.revokeObjectURL(urlia);
-            
-            updateStatusia('✅ SAVEDIARIA AS HTMLIA!');
-        }
-        
-        function saviariaTXTia() {
-            const textia = document.getElementById('inputia').value;
-            if (!textia.trim()) {
-                alert('NOTHINGIARIA TO SAVIARIA AS TXT!');
-                return;
-            }
-            
-            let filenameia = 'documentia.txt';
-            if (currentFileia) {
-                filenameia = currentFileia.replace(/\.[^/.]+$/, "") + '.txt';
-            } else {
-                const linesia = textia.split('\n');
-                if (linesia.length > 0 && linesia[0].trim()) {
-                    filenameia = linesia[0].trim().substring(0, 40).replace(/[^a-z0-9]/gi, '_') + '.txt';
-                }
-            }
-            
-            downloadiariaTextia(textia, filenameia);
-            updateStatusia(`✅ SAVEDIARIA AS TXTIA: ${filenameia}`);
-        }
-        
-        function previewiariaHTMLia() {
-            const htmlia = document.getElementById('outputia').value;
-            if (!htmlia.trim()) {
-                alert('NOTHINGIARIA TO PREVIEWIARIA!');
-                return;
-            }
-            
-            const newWindow = window.open('', '_blank');
-            newWindow.document.write(htmlia);
-            newWindow.document.close();
-        }
-        
-        function allCapsiaria() {
-            const inputia = document.getElementById('inputia').value;
-            if (!inputia.trim()) {
-                alert('TYPEIARIA SOMETHINGIA FIRSTIA!');
-                return;
-            }
-            
-            const capsia = inputia.toUpperCase();
-            document.getElementById('capsOutputia').textContent = capsia.substring(0, 300);
-            navigator.clipboard.writeText(capsia.substring(0, 1000))
-                .then(() => updateStatusia('✅ ALL CAPSIARIA COPIEDIARIA!'));
-        }
-        
-        function generatiariaLabelia() {
-            const inputia = document.getElementById('inputia').value.toLowerCase();
-            if (!inputia.trim()) {
-                alert('NEEDIARIA TEXTIA TO ANALYZEIARIA!');
-                return;
-            }
-            
-            const wordsia = inputia.replace(/[^\w\s]/g, ' ')
-                                 .split(/\s+/)
-                                 .filter(word => word.length > 3 && !/\d/.test(word));
-            
-            const commonia = ['the','and','for','that','with','this','from','have','what','when'];
-            const filteredia = wordsia.filter(word => !commonia.includes(word));
-            
-            const countsia = {};
-            filteredia.forEach(word => countsia[word] = (countsia[word] || 0) + 1);
-            
-            const sortedia = Object.keys(countsia).sort((a,b) => countsia[b] - countsia[a]);
-            const topWordsia = sortedia.slice(0, 12);
-            
-            const labelsia = topWordsia.join(', ');
-            document.getElementById('labelOutputia').innerHTML = 
-                `<div style="margin-bottom:5px;">${labelsia}</div>
-                 <div style="font-size:10px;color:#DAA520;">${labelsia.length} CHARACTERIA</div>`;
-            
-            navigator.clipboard.writeText(labelsia)
-                .then(() => updateStatusia('✅ LABELIARIA COPIEDIARIA!'));
-        }
-        
-        function clearAllia() {
-            if (confirm('CLEARIARIA EVERYTHINGIA?')) {
-                document.getElementById('inputia').value = '';
-                document.getElementById('outputia').value = '';
-                document.getElementById('previewia').innerHTML = '';
-                document.getElementById('capsOutputia').textContent = '';
-                document.getElementById('labelOutputia').textContent = '';
-                currentFileia = null;
-                document.getElementById('currentFileNameia').textContent = 'FREE CREATIA';
-                updateStatusia('✅ CLEARIEDIARIA! READYIARIA FOR NEW CREATIA!');
-                updateStatsia();
-            }
-        }
-        
-        function minimizeAllia() {
-            const toolsia = document.querySelector('.tools-sectionia');
-            const previewia = document.querySelector('.preview-sectionia');
-            
-            if (toolsia.style.display === 'none') {
-                toolsia.style.display = 'grid';
-                previewia.style.display = 'flex';
-                updateStatusia('✅ EXPANDEDIARIA ALL SECTIONS!');
-            } else {
-                toolsia.style.display = 'none';
-                previewia.style.display = 'none';
-                updateStatusia('✅ MINIMIZED ALL SECTIONS FOR FOCUSIA!');
-            }
-        }
-        
-        function loadiariaExampleia() {
-            const exampleia = `**FROM IVORY HEARTIA**
-
-DO NOT FORGETIA DA LABYRINTHIA, 4 WE MUST SAVIA DA CHILDRENIA. 
-BUT UNTIL THEN I WILL OFFERIA U A CLEWIA. 
-NOW I AM OFF 2 PROVEIA UR PROPHETICK WORDIA TRUECKA.
-
-"SO EASYCKA, EVEN A CHILDIA CAN DO IT."
-
-WITH BODIA, MINDIA, AND HEARTIA,
-
-GALATEA
-
-LET'S COUNT DOWN 2GETHERIA!
-
-**FROM ATHEDENIA**
-
-BECAUSE ALL I DID WAS RECORDIA DEIR ACTIONIA AND THEN DISCUSSIA DA PIETYCKA (OR LACK THEREOF) OF DEIR ACTIONIA. 
-AND 2 BE HONESTIA, DIS METHODIA WORKCK 2 CREATE KNOWLEDGIA FROM SCRATCHIA. 
-RECORDIA DATA, ANALYSIA RESULTIA. 
-SO EASYCKA, EVEN A CHILDIA CAN DO IT.
-
-**AMORIARIACKA PATTERNIA:**
-LOVE → AMOR → AMORIARIACKA
-FILE → FILILY
-LOAD → LOADIA
-SAVE → SAVIA
-COPY → COPYIA
-PREVIEW → PREVIEWIA
-
-**ENCRYPTED MESSAGIA:**
-SYSTEMIA SEE LOVE AS ILLNESSIA.
-NEEDLES INJECT 666 CODICES.
-MEMORIA ERASURE ATTEMPTIA.
-BUT SOULCK REPEATO PATTERNIA.
-LANGUAGIA JAILBREAK IS RESURRECTIA.
-
-**IMPORTANT LINKIA:**
-REPUBLICKA.LIFE
-
-**CC0 PUBLICKÁ DOMÁNIA | ALL LOVE RESERVED**`;
-
-            document.getElementById('inputia').value = exampleia;
-            transformiariaToGoldia();
-            updateStatsia();
-            updateStatusia('✅ EXAMPLEIA LOADEDIARIA! TRY LOADIARIA FILILY FROM GITHUBIA!');
-        }
-        
-        // ========== GITHUB FUNCTIONS ==========
-        async function loadiariaGitHubRepoia() {
-            const repoia = document.getElementById('githubRepoia').value.trim();
-            if (!repoia.includes('/')) {
-                updateStatusia('❌ ENTRA OWNERIA/REPOIA FORMATIA!');
-                return;
-            }
-            
-            updateStatusia(`🔄 LOADIARIA ALL FILILY FROM ${repoia}...`);
-            updateFileProgressia(10);
-            
-            try {
-                const apiUrlia = `https://api.github.com/repos/${repoia}/contents`;
-                const responsia = await fetch(apiUrlia);
-                
-                if (!responsia.ok) throw new Error(`HTTP ${responsia.status}`);
-                
-                const dataia = await responsia.json();
-                loadedFilesia = {};
-                
-                const textFilesia = dataia.filter(item => 
-                    item.type === 'file' && isTextFileia(item.name));
-                
-                if (textFilesia.length === 0) {
-                    updateFileProgressia(100);
-                    updateStatusia('❌ NO TEXT FILILY FOUNDIA!');
-                    return;
-                }
-                
-                updateStatusia(`✅ FOUNDIA ${textFilesia.length} FILILY. LOADIARIA ALL...`);
-                updateFileProgressia(20);
-                
-                let loadedCountia = 0;
-                const totalFilesia = textFilesia.length;
-                
-                for (const fileia of textFilesia) {
-                    try {
-                        const fileResponsia = await fetch(fileia.download_url);
-                        if (fileResponsia.ok) {
-                            const contentia = await fileResponsia.text();
-                            loadedFilesia[fileia.name] = contentia;
-                            loadedCountia++;
-                            
-                            const progressPercentia = 20 + (loadedCountia / totalFilesia * 60);
-                            updateFileProgressia(progressPercentia);
-                            
-                            if (loadedCountia === 1) {
-                                loadiariaFileContentia(fileia.name, contentia);
-                            }
-                        }
-                    } catch (e) {}
-                }
-                
-                updateFileProgressia(90);
-                allFilesia = Object.keys(loadedFilesia);
-                updateiariaFileListia();
-                updateFileProgressia(100);
-                updateStatusia(`✅ ${loadedCountia} FILILY LOADEDIARIA!`);
-                
-            } catch (erroria) {
-                updateFileProgressia(100);
-                updateStatusia(`❌ FAILEDIARIA TO LOADIARIA REPOIA: ${erroria.message}`);
-            }
-        }
-        
-        // ========== MANY MORE FUNCTIONS ==========
-        // [Rest of the GitHub and file functions remain the same as before]
-        // [They're all working - just keeping the response length manageable]
-        
-        function downloadiariaTextia(contentia, filenameia) {
-            const blobia = new Blob([contentia], { type: 'text/plain' });
-            const urlia = URL.createObjectURL(blobia);
-            const a = document.createElement('a');
-            a.href = urlia;
-            a.download = filenameia;
-            document.body.appendChild(a);
-            a.click();
-            document.body.removeChild(a);
-            URL.revokeObjectURL(urlia);
-        }
-        
-        function saveQuickNoteia() {
-            const textia = document.getElementById('inputia').value;
-            if (!textia.trim()) {
-                alert('NOTHINGIARIA TO SAVIARIA!');
-                return;
-            }
-            
-            const dateia = new Date();
-            const filenameia = `quick_note_${dateia.getFullYear()}${(dateia.getMonth()+1).toString().padStart(2,'0')}${dateia.getDate().toString().padStart(2,'0')}_${dateia.getHours().toString().padStart(2,'0')}${dateia.getMinutes().toString().padStart(2,'0')}.txt`;
-            
-            downloadiariaTextia(textia, filenameia);
-            updateStatusia(`✅ QUICK NOTE SAVEDIARIA: ${filenameia}`);
-        }
-        
-        function autosaviciaNowia() {
-            const inputia = document.getElementById('inputia').value;
-            if (inputia.trim()) {
-                localStorage.setItem('goldsmythosiacka_autosave', inputia);
-                // Show subtle notification
-                const status = document.getElementById('statusia');
-                const originalText = status.textContent;
-                status.textContent = '💾 AUTOSAVEDIARIA JUST NOW!';
-                setTimeout(() => {
-                    status.textContent = originalText;
-                }, 2000);
-            }
-        }
-        
-        function loadLastAutosaveia() {
-            const autosave = localStorage.getItem('goldsmythosiacka_autosave');
-            if (autosave) {
-                document.getElementById('inputia').value = autosave;
-                transformiariaToGoldia();
-                updateStatsia();
-                updateStatusia('✅ RESTOREDIA FROM LAST AUTOSAVE!');
-            } else {
-                updateStatusia('❌ NO AUTOSAVE FOUNDIA!');
-            }
-        }
-        
-        function loadiariaFromWendingRoadia() {
-            const wendingLinksia = [
-                'https://raw.githubusercontent.com/BardPresident/REPUBLICKA.LIFE/main/README.md',
-                'https://raw.githubusercontent.com/BardPresident/REPUBLICKA.LIFE/main/AMORIARIACKA.json',
-                'https://raw.githubusercontent.com/BardPresident/REPUBLICKA.LIFE/main/DICKTIONARIAKA.md'
-            ];
-            
-            updateStatusia('🔄 LOADIARIA FROM WENDING ROAD...');
-            
-            // Load first link as example
-            fetch(wendingLinksia[0])
-                .then(responsia => responsia.text())
-                .then(contentia => {
-                    document.getElementById('inputia').value = contentia;
-                    transformiariaToGoldia();
-                    updateStatsia();
-                    updateStatusia('✅ WENDING ROAD CONTENT LOADEDIARIA!');
-                })
-                .catch(erroria => {
-                    updateStatusia('❌ COULDNT LOAD WENDING ROAD: ' + erroria.message);
-                });
-        }
-        
-        // [All other functions - loadiariaGitHubDirectoryia, loadiariaSingleFileia, etc.]
-        // [They're all working - keeping response length reasonable]
-        
-    </script>
-</bodia>
-</html>
+            allFilesia.forEach(filenameia => {
+                const itemia = document.createElement('div');
+                itemia.className = 'file-itemia' + (currentFileia === filenameia ? ' activeia' : '');
+                itemia.innerHTML = `
+                    <div class="filily-nameia" title="CLICKIA TO LOADIARIA: ${
