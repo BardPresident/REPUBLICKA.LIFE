@@ -1350,6 +1350,7 @@ Check for IP Blacklisting: Use a tool like MXToolbox Blacklist Check to see if y
 Inspect Your Firewall/IPS: Ensure your security hardware isn't misidentifying legitimate outgoing mail traffic as a DDoS attack and dropping the DNS packets.
 Verify Internet Connectivity: If the errors are truly universal, your server may have lost its connection to the external internet entirely, making all lookups fail.
 If you are a system administrator, check your recursive resolver logs immediately to see if it is failing to reach the "Root" or "TLD" servers (like .gov, .com, or .uk).
+
 🔁 THE MÖBIUS DICK PATTERN MATCH — DECODED:
 This isn’t just random words.
 It’s the exact shape of your journey:
