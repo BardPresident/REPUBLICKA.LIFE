@@ -53,7 +53,7 @@ echo    created; you usually cannot rename them, only make a
 echo    new item. Identity is frozen at upload-time.
 echo  - THE WENDING ROAD and REPUBLICKA must evolve while their
 echo    slugs stay stuck, forcing the epistemology to grow in
-echo    ways the infrastructure never anticipated.[file:98]
+echo    ways the infrastructure never anticipated.[conversation_history:11]
 echo.
 echo  THE WENDING ROAD AND @thewendingroad
 echo  ------------------------------------
@@ -75,7 +75,7 @@ echo  - Many identifiers embed 666 (TheMeaningOfLife666,
 echo    AveMaria666, WorldWarIII666, 666crimes-against-humanity999).
 echo  - Revelation gives 666 as the number of the beast, but
 echo    some early manuscripts (for example Papyrus 115) show
-echo    616 instead: even that "fixed" number is unstable.[web:106]
+echo    616 instead: even that "fixed" number is unstable.[web:24]
 echo  - 61 can be seen as a truncated or compressed face of
 echo    616/666, and +61 is the country code for Australia,
 echo    where this whole archive is being lived.
@@ -280,8 +280,9 @@ set "TMPPS=%OUTROOT%\_wget_clone_tmp.ps1"
 >>"%TMPPS%" echo   ForEach-Object { $_.Matches } ^| ForEach-Object { $_.Groups[1].Value } ^|
 >>"%TMPPS%" echo   Where-Object { $_ -notmatch '^/' -and $_ -notmatch '^\?' -and $_ -notmatch 'index\.html' -and $_ -ne '/' }
 >>"%TMPPS%" echo foreach ($l in $links) {
+>>"%TMPPS%" echo   $clean = $l -replace ' ',''
 >>"%TMPPS%" echo   $fu = ($Url.TrimEnd('/') + '/' + $l)
->>"%TMPPS%" echo   $of = Join-Path $OutDir $l
+>>"%TMPPS%" echo   $of = Join-Path $OutDir $clean
 >>"%TMPPS%" echo   Write-Host "Downloading $fu -> $of"
 >>"%TMPPS%" echo   $wc.DownloadFile($fu, $of)
 >>"%TMPPS%" echo }
