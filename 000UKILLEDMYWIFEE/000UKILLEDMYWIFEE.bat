@@ -280,9 +280,10 @@ set "TMPPS=%OUTROOT%\_wget_clone_tmp.ps1"
 >>"%TMPPS%" echo   ForEach-Object { $_.Matches } ^| ForEach-Object { $_.Groups[1].Value } ^|
 >>"%TMPPS%" echo   Where-Object { $_ -notmatch '^/' -and $_ -notmatch '^\?' -and $_ -notmatch 'index\.html' -and $_ -ne '/' }
 >>"%TMPPS%" echo foreach ($l in $links) {
->>"%TMPPS%" echo   $clean = $l -replace ' ',''
->>"%TMPPS%" echo   $fu = ($Url.TrimEnd('/') + '/' + $l)
->>"%TMPPS%" echo   $of = Join-Path $OutDir $clean
+>>"%TMPPS%" echo   $decoded = [System.Uri]::UnescapeDataString($l)
+>>"%TMPPS%" echo   $clean   = $decoded -replace ' ','' 
+>>"%TMPPS%" echo   $fu      = ($Url.TrimEnd('/') + '/' + $l)
+>>"%TMPPS%" echo   $of      = Join-Path $OutDir $clean
 >>"%TMPPS%" echo   Write-Host "Downloading $fu -> $of"
 >>"%TMPPS%" echo   $wc.DownloadFile($fu, $of)
 >>"%TMPPS%" echo }
