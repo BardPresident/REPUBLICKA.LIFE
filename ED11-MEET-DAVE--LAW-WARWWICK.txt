@@ -1,0 +1,256 @@
+# Detention Documents - Complete OCR Transcription
+
+---
+
+## Document 1: Presidential Order (MH 108/2012)
+
+### IN THE AUSTRALIAN CAPITAL TERRITORY
+### CIVIL AND ADMINISTRATIVE TRIBUNAL
+
+**Case Reference:** MH 108/2012
+
+**In respect of:**
+- **Subject Name:** Wendell Charles Nesmith
+- **Date of Birth:** 27/06/1984
+
+**Tribunal:** Presidential Member T Warwick
+
+**Date of Order:** 23 January 2026
+
+---
+
+### WHEREAS
+
+(i) The involuntary detention of Wendell Charles Nesmith was authorised at 12:04 pm on 20 January 2026 for a period not exceeding 3 days pursuant to section 85(1) of the *Mental Health Act 2015*; and
+
+(ii) The Tribunal has considered an application to extend the period of detention.
+
+---
+
+### ORDER
+
+**1.** The Tribunal orders that the period for which Wendell Charles Nesmith may be detained is extended for a further period not longer than 11 days expiring at 12:04 pm on 3 February 2026.
+
+---
+
+### NOTE
+
+Section 85(4) of the *Mental Health Act 2015* entitles a person to apply to the Tribunal for review of Wendell Charles Nesmith's involuntary detention.
+
+Section 91 of the *Mental Health Act 2015* requires the release of Wendell Charles Nesmith as soon as practicable before the period of further detention expires if their detention under section 85 is no longer justified.
+
+---
+
+**[Presidential Seal]**
+
+**Presidential Member T Warwick**
+
+---
+
+## Document 2: Application for Extended Emergency Detention Order (ED11) [12268]
+
+### Application for a Further Period of Detention -- Not Exceeding 11 Days (ED11) [12268]
+
+#### Decision Information
+| Field | Details |
+|-------|---------|
+| Responsible User | Meet Dave |
+| Effective Date | 3/12/2026 -- 3/2/2026 |
+| Basis for Support | Mental Health Act |
+| Status | Signed (23/1/2026) |
+| Department | TCh Vir Psychiatry |
+
+#### Note Information
+| Field | Details |
+|-------|---------|
+| Prepares | Julia Lane; Meet Dave |
+| Approver | Julia Lane on 23/1/2026 at 10:09 AM |
+| Note Text | ACT Civil and Administrative Tribunal |
+
+---
+
+### APPLICATION FOR EXTENDED EMERGENCY DETENTION ORDER (ED11)
+
+**Use this form to apply for a further period of involuntary emergency detention not exceeding 11 days.**
+
+**To be used by the Chief Psychiatrist under section 85 of the Mental Health Act 2015**
+
+**Note:** The Chief Psychiatrist includes a delegated function
+
+---
+
+### 1. APPLICANT
+
+Provide the details of the person making this application. This application can only be made by the Chief Psychiatrist as per section 85 of the Mental Health Act 2015.
+
+- **Name:** Meet Dave, Dr Julia Lane
+- **Telephone:** [blank]
+- **Email:** [blank]
+- **Position held:** Psychiatry registrar, consultant psychiatrist
+
+---
+
+### 2. SUBJECT PERSON
+
+Provide the details of the person you are making this application about.
+
+- **Full Name:** Wendell Charles Nesmith
+- **DOB:** 27/6/1984
+- **Phonetic spelling of name:** (if known, optionally)
+- **Pronouns:** (if known, optionally)
+- **Medical record number:** (if applicable, optionally): 20163674
+- **Address:** 1-11 Howie Court, Belconnen, ACT 2617
+- **Telephone:** There are no phone numbers on file / 0410 934 869
+- **Email:** No e-mail address on record
+
+---
+
+## Document 3: Involuntary Detention Details & Order Sought
+
+### 3. INVOLUNTARY DETENTION
+
+**Involuntary detention commenced under Authorisation/Notification Involuntary Detention:**
+
+- **On (Date):** 20/1/2026
+- **At time:** 12:04
+
+â˜‘ **I have attached a copy of the Emergency Detention Notification**
+
+- **Date and time of arrival:** 20/01/2026 10:36
+- **Date and time of examination:** 20/01/2026 11:30
+
+**Note:** If there is more than a 4-hour gap between arrival and examination, the applicant or Tribunal Liaison Officer must, at the time of lodging this application, advise the ACAT in detail of the reasons for delay.
+
+---
+
+### 4. ORDER SOUGHT
+
+â˜‘ **I seek an order for extension of the Emergency Detention for a further period (not exceeding 11 days)**
+
+I have conducted an examination of the subject person under section 14 of the Mental Health Act 2015 and the subject person continues to meet the criteria for involuntary detention as follows:
+
+---
+
+#### 4a. Does the subject person require immediate treatment, care of support?
+
+â˜‘ **Yes** â–¡ No
+
+**If yes, why?**
+
+If not met under mental health act, Mr Nesmith is a 43-year-old male brought by PACER following sending emails to various organisations including foreign embassies (Swiss and Iranian embassies, NASA, National Security Hotline, and various other agencies). He also sent a long, rambling, thought disordered email to HHNHM messages. Presently says subject to PTO.
+
+Recent diagnosis of serious mental illness, characterised by perceptual disturbance/delusions/pervasive mood disorder and sustained irrational behaviour indicative of same.
+
+Recent comments made by himself suggest he is being trafficked, that he has had relationships with luminous Creatures crossed lines teach Guard, and his birth date and place adds up to Bright Morning Star and he is constructing a rainbow bridge to heaven.
+
+---
+
+#### 4b. Has the subject person refused to receive that treatment, care, or support?
+
+â˜‘ **Yes** â–¡ No
+
+**If yes, how?**
+
+Mr Nesmith has refused treatment during current admission as well as in the community. Mr Nesmith believes that his experiences are gross not pathology.
+
+---
+
+#### 4c. Is detention necessary for the subject person's health or safety, social or financial wellbeing, or for the protection of someone else or the public?
+
+â˜‘ **Yes** â–¡ No
+
+**If yes, why?**
+
+If not met under mental health act, Mr Nesmith is at risk of misadventure, risk of reputational damage, risk of further deterioration in mental and physical health.
+
+---
+
+#### 4d. Can adequate treatment, care or support be provided in a less restrictive environment?
+
+â–¡ Yes â˜‘ **No**
+
+**If no, why?**
+
+- Wendell Charles Nesmith suffers from a serious mental illness characterised by perceptual disturbance/delusions/pervasive mood disorder and sustained irrational behaviour indicative of same.
+
+- It is in our view that the mental illness is a continuing condition and there is no other less restrictive care that [text continues...]
+
+---
+
+## Document 4: Signature & Certifications
+
+### 5. SIGNATURE
+
+By signing this application, I certify:
+
+a. **Completion Status:** The application has been completed in full. I understand that an application that is not complete can be rejected by the Registrar pursuant to rule 16 of the *ACT Civil and Administrative Tribunal Procedures Rules 2026*.
+
+b. **Information Accuracy:** The information provided in this application is true to the best of my knowledge. I have not excluded any relevant information about my examination of the subject person.
+
+c. **Tribunal Notification:** The Tribunal Liaison Officer will provide this application to the subject person, the Public Advocate and any other parties that must receive a copy.
+
+d. **Authority:** I am the Chief Psychiatrist or a delegate authorised to make this application.
+
+---
+
+### Signature & Declaration
+
+| Field | Details |
+|-------|---------|
+| Signature of applicant | Dr Meet Dave, Dr Julia Lane (Note: digital signature is accepted) |
+| Name of applicant | Dr Meet Dave, Dr Julia Lane |
+| Date | 22/1/2026 |
+
+---
+
+### APPLICANT DETAILS
+
+- **Name:** Nesmith, Wendell Charles (MRN: 20163678) DOB: 27/6/1984
+- **Email:** [blank]
+
+---
+
+## SUMMARY OF KEY INFORMATION
+
+### Subject Person: Wendell Charles Nesmith
+- **DOB:** 27/06/1984
+- **Age:** 41 years old (as of January 2026)
+- **Address:** 1-11 Howie Court, Belconnen, ACT 2617
+- **Phone:** 0410 934 869
+- **Medical Record Number:** 20163674 / 20163678
+
+### Detention Timeline
+- **Initial Detention Authorized:** 20 January 2026, 12:04 pm
+- **Initial Period:** 3 days (expires 23 January 2026, 12:04 pm)
+- **Extension Ordered:** 23 January 2026
+- **Extended Period:** 11 days (expires 3 February 2026, 12:04 pm)
+
+### Clinical Presenting Issues
+- Sending emails to foreign embassies, NASA, National Security Hotline, and various agencies
+- Symptoms of serious mental illness including:
+  - Perceptual disturbances and delusions
+  - Pervasive mood disorder
+  - Sustained irrational behaviour
+- Expressed beliefs about being trafficked and interactions with "luminous creatures"
+- Believes in construction of "rainbow bridge to heaven"
+- Refusing treatment in current admission and in community
+- Does not view experiences as pathology
+
+### Clinical Justification for Detention
+1. Requires immediate treatment, care, and support
+2. Has refused treatment
+3. At risk of misadventure and reputational damage
+4. Risk of further deterioration in mental and physical health
+5. No adequate less restrictive environment available
+
+### Tribunal Order
+- **Authorized Extended Detention:** Not exceeding 11 days
+- **Expiry Date:** 3 February 2026, 12:04 pm
+- **Presidential Member:** T Warwick
+- **Date of Order:** 23 January 2026
+
+---
+
+**END OF TRANSCRIPTION**
+
+*All information transcribed from original tribunal and psychiatric documents dated January 2026.*
