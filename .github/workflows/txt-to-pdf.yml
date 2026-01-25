@@ -1,27 +1,21 @@
 name: TXT to PDF Converter
 
 on:
-  push:
-    paths:
-      - '**/*.txt'
   workflow_dispatch:
 
 jobs:
   convert:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Install pandoc and wkhtmltopdf
         run: |
           sudo apt-get update
           sudo apt-get install -y pandoc wkhtmltopdf
 
-      - name: Convert all .txt to .pdf into pdf/ folder
+      - name: Convert all .txt to .pdf into pdf folder
         run: |
           mkdir -p pdf
           for f in $(find . -name "*.txt" -type f); do
@@ -32,12 +26,8 @@ jobs:
             pandoc "$f" -o "$out" --pdf-engine=wkhtmltopdf || echo "FAILED: $f"
           done
 
-      - name: Commit and push PDFs
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add pdf/
-          git commit -m "Auto-generate PDFs from TXT files" || echo "No changes to commit"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Upload PDFs
+        uses: actions/upload-artifact@v4
+        with:
+          name: txt-pdfs
+          path: pdf
