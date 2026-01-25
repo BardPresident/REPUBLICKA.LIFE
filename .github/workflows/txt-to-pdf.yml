@@ -24,28 +24,21 @@ jobs:
       - name: Convert all .txt to .pdf into pdf/ folder
         run: |
           mkdir -p pdf
-          failed=""
+          FAILED_FILES=""
           while IFS= read -r -d '' f; do
             base="${f%.txt}"
             out="pdf/${base#./}.pdf"
             mkdir -p "$(dirname "$out")"
             echo "Converting: $f -> $out"
-            if ! pandoc "$f" \
-              -o "$out" \
-              --from=markdown \
-              --pdf-engine=wkhtmltopdf \
-              --metadata title="$(basename "$base")"; then
+            if ! pandoc "$f" -o "$out" --pdf-engine=wkhtmltopdf; then
               echo "FAILED: $f"
-              failed="$failed
+              FAILED_FILES="$FAILED_FILES
 $f"
             fi
           done < <(find . -name "*.txt" -type f -print0)
-
-          if [ -n "$failed" ]; then
-            echo "Some files failed to convert:"
-            printf "%b
-" "$failed"
-          fi
+          echo "Done converting."
+          echo "Failed files:"
+          echo "$FAILED_FILES"
 
       - name: Commit and push PDFs
         run: |
