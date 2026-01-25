@@ -1,0 +1,35 @@
+name: TXT to PDF
+
+on:
+  push:
+    paths:
+      - '**/*.txt'
+
+jobs:
+  build-pdf:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install pandoc
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex
+
+      - name: Convert all .txt to .pdf
+        run: |
+          mkdir -p pdf
+          for f in $(find . -name "*.txt"); do
+            base="${f%.txt}"
+            out="pdf/${base#./}.pdf"
+            mkdir -p "$(dirname "$out")"
+            pandoc "$f" -o "$out"
+          done
+
+      - name: Upload PDFs as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: txt-pdfs
+          path: pdf/
