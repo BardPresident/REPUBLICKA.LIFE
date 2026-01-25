@@ -1,35 +1,44 @@
-name: TXT to PDF
+name: TXT to PDF Converter
 
 on:
   push:
     paths:
       - '**/*.txt'
+  workflow_dispatch:
 
 jobs:
-  build-pdf:
+  convert:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Install pandoc
+      - name: Install pandoc and dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc texlive-xetex
+          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended
 
       - name: Convert all .txt to .pdf
         run: |
           mkdir -p pdf
-          for f in $(find . -name "*.txt"); do
+          for f in $(find . -name "*.txt" -type f); do
+            # Skip if already a converted pdf exists
             base="${f%.txt}"
             out="pdf/${base#./}.pdf"
             mkdir -p "$(dirname "$out")"
+            echo "Converting: $f -> $out"
             pandoc "$f" -o "$out"
           done
 
-      - name: Upload PDFs as artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: txt-pdfs
-          path: pdf/
+      - name: Commit and push PDFs
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add pdf/
+          git commit -m "Auto-generate PDFs from TXT files" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
