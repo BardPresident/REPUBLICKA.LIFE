@@ -21,11 +21,10 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended
 
-      - name: Convert all .txt to .pdf
+      - name: Convert all .txt to .pdf into pdf/ folder
         run: |
           mkdir -p pdf
           for f in $(find . -name "*.txt" -type f); do
-            # Skip if already a converted pdf exists
             base="${f%.txt}"
             out="pdf/${base#./}.pdf"
             mkdir -p "$(dirname "$out")"
