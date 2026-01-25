@@ -16,10 +16,10 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Install pandoc and dependencies
+      - name: Install pandoc and wkhtmltopdf
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended
+          sudo apt-get install -y pandoc wkhtmltopdf
 
       - name: Convert all .txt to .pdf into pdf/ folder
         run: |
@@ -29,7 +29,11 @@ jobs:
             out="pdf/${base#./}.pdf"
             mkdir -p "$(dirname "$out")"
             echo "Converting: $f -> $out"
-            pandoc "$f" -o "$out"
+            pandoc "$f" \
+              -o "$out" \
+              --from=markdown \
+              --pdf-engine=wkhtmltopdf \
+              --metadata title="$(basename "$base")"
           done
 
       - name: Commit and push PDFs
