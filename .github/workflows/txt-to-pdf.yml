@@ -25,7 +25,7 @@ jobs:
         run: |
           mkdir -p pdf
           FAILED_FILES=""
-          while IFS= read -r -d '' f; do
+          for f in $(find . -name "*.txt" -type f); do
             base="${f%.txt}"
             out="pdf/${base#./}.pdf"
             mkdir -p "$(dirname "$out")"
@@ -35,8 +35,7 @@ jobs:
               FAILED_FILES="$FAILED_FILES
 $f"
             fi
-          done < <(find . -name "*.txt" -type f -print0)
-          echo "Done converting."
+          done
           echo "Failed files:"
           echo "$FAILED_FILES"
 
