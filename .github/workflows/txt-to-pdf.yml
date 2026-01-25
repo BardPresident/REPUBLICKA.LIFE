@@ -1,28 +1,16 @@
-name: TXT to PDF Converter
-
-on:
-  workflow_dispatch:
-
+name: t2p
+on: workflow_dispatch
 jobs:
-  convert:
+  c:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-
-      - name: Install pandoc and wkhtmltopdf
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y pandoc wkhtmltopdf
-
-      - name: Convert all .txt to .pdf into pdf folder
-        run: |
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update && sudo apt-get install -y pandoc wkhtmltopdf
+      - run: |
           mkdir -p pdf
           for f in $(find . -name "*.txt" -type f); do
-            base="${f%.txt}"
-            out="pdf/${base#./}.pdf"
-            mkdir -p "$(dirname "$out")"
-            echo "Converting: $f -> $out"
-            pandoc "$f" -o "$out" --pdf-engine=wkhtmltopdf || echo "FAILED: $f"
+            b="${f%.txt}"
+            o="pdf/${b#./}.pdf"
+            mkdir -p "$(dirname "$o")"
+            pandoc "$f" -o "$o" --pdf-engine=wkhtmltopdf || echo "FAILED: $f"
           done
