@@ -1,16 +1,28 @@
 name: t2p
-on: workflow_dispatch
+
+on:
+  workflow_dispatch:
+
 jobs:
-  c:
+  convert:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
-      - run: sudo apt-get update && sudo apt-get install -y pandoc wkhtmltopdf
-      - run: |
+
+      - name: Install deps
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-latex-base
+
+      - name: Convert txt -> pdf
+        run: |
           mkdir -p pdf
-          for f in $(find . -name "*.txt" -type f); do
+          # find all *.txt files tracked in the repo
+          while IFS= read -r -d '' f; do
             b="${f%.txt}"
             o="pdf/${b#./}.pdf"
             mkdir -p "$(dirname "$o")"
-            pandoc "$f" -o "$o" --pdf-engine=wkhtmltopdf || echo "FAILED: $f"
-          done
+            echo "Converting $f -> $o"
+            pandoc "$f" -o "$o" || echo "FAILED: $f"
+          done < <(find . -name '*.txt' -type f -print0)
