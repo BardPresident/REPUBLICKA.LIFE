@@ -8,17 +8,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Install deps
         run: |
           sudo apt-get update
           sudo apt-get install -y pandoc texlive-latex-base
 
-      - name: Convert txt -> pdf
+      - name: Convert txt to pdf
         run: |
           mkdir -p pdf
-          # find all *.txt files tracked in the repo
           while IFS= read -r -d '' f; do
             b="${f%.txt}"
             o="pdf/${b#./}.pdf"
