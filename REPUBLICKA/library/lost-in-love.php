@@ -1,0 +1,83 @@
+<?php
+// Library Tome — auto-generated from local GOD file
+// Slug: lost-in-love
+// CONTENT_HASH: af20c7c50f5ad2ddb93c399ac4c602ee
+// Generated with centered layout by default
+// ✨ Users can edit this file to change layout! ✨
+
+$library_meta = array (
+  'id' => 'lost-in-love',
+  'slug' => 'lost-in-love',
+  'kind' => 'chronicle',
+  'title' => 'lost in love',
+  'published' => '2023-12-21',
+  'published_at' => '2023-12-21T05:30:00Z',
+  'created_at' => '2025-11-12T10:01:24Z',
+  'tags' => 
+  array (
+  ),
+  'shelf' => '',
+  'blogger_id' => 'tag:blogger.com,1999:blog-4695749665164044789.post-7172929423684729437',
+  'blogger_type' => 'POST',
+  'blogger_status' => 'LIVE',
+  'blogger_created' => '2025-11-12T10:01:24.197Z',
+  'blogger_filename' => '/2023/12/lost-in-love.html',
+  'blogger_location' => '',
+  'blogger_trashed' => '',
+);
+
+$page_title = 'lost in love | The Republic';
+$page_canonical = 'https://trepublic.net/library/lost-in-love.php';
+$page_description = 'What is the point of living life when you have nothing to live for? I am not advocating suicide, but not existing would be far more preferable than existing. But everything is dependent on me finding love. My happiness i…';
+
+$page_og_title = $page_title;
+$page_og_description = $page_description;
+$page_og_url = $page_canonical;
+$page_og_image = 'https://trepublic.net/images/THeart.png';
+
+$hero_title = 'Library Tome';
+$hero_tagline = '📘 Book · ⚖️ Law · 📜 Chronicle';
+
+$console_title = 'lost in love';
+
+$console_body_html = <<<'HTML'
+<style>
+.library-tome-centered {
+    text-align: center !important;
+    max-width: 800px !important;
+    margin: 0 auto !important;
+    padding: 20px !important;
+}
+.library-tome-centered * {
+    text-align: center !important;
+}
+.library-tome-centered .alignleft,
+.library-tome-centered .alignright,
+.library-tome-centered .aligncenter {
+    text-align: center !important;
+    float: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered pre,
+.library-tome-centered code {
+    text-align: left !important;
+    display: inline-block !important;
+}
+</style>
+
+<div class="library-tome-centered">
+What is the point of living life when you have nothing to live for? I am not advocating suicide, but not existing would be far more preferable than existing. But everything is dependent on me finding love. My happiness is dependent on a girl that doesn't exist. I don't want to live but at the same time I don't want to miss the opportunity to find my soul mate. So I am trapped in purgatory until I die or until I find my soul mate. This is the difference between heaven and hell. Life without my soul mate is in between death and life. Not quite dead but not alive either. Growing old without my soul mate is torture. And finally, dying without ever finding her is my eternal damnation.<div><br></div><div>All my soul has ever cared about is finding love. So much so that I dedicated my life to do so. But dedicating your life to a female who is not there is only dedicating your life to yourself. I have given myself to myself. This is the results of an individual who has embraced who he is. My love of this imaginary girl is only what I love most that I have found from the world. She is everything that I think a girl should be. She is my very own fantasy. She is my Ivory statue. And that is all she will ever be.</div><div><br></div><div>But do not get me wrong. This conception of a woman has guided me every step of the way. She has been the light of my path. I could never date another woman that doesn't reflect her qualities. I would never want to be with a woman who was not right for me. So even though I grow old without human companionship, I know deep down that I don't want what is out there. I am better off alone than with someone who is not my Ivory goddess. I just have a lot of work to do with accepting my aloneness. It is unlikely that I will find this girl, especially so late in life. I just need to now work on accepting this fact.</div><div><br></div><div>But it is hard to accept failure when all you care about in life is love. It has driven my every action. I have been a romantic all of my life. But what use is a romantic without a romance? Unused potential. A tap without a hose hooked up. I can't water the trees because I have no direction outside of love. I have no aspirations in life that are not related to love. There is nothing I want to see, nothing I want to do, and nowhere I want to go. I am stuck living out a solitary existence waiting for nothing. I have nothing to look forward to. I am just slowly dying in my apartment. I don't know what to do about it. I have already tried everything I can think of to fix it.</div><div><br></div><div>My life is so terrible yet I don't want the life of anybody else. I am glad that I have lived the life that I have lived. My constant battles with myself shaped me and ultimately controlled the content that I could experience in life. I can live free of societal oppression. At least to some extent because I don't have to watch the content that they feed me. Instead, I can dig into my mind for a while and produce content for me to experience. After I finish writing a post, I read it to correct potential errors. Then after I post it, I get text-to-speech to read it for me again. That means that I experience the content at least three or four times. This occupies my time and teaches me insightful ways to look at my situation.</div><div><br></div><div>I live the life that I think best for me. This might be a very depressing and lonely life, but I am living life to the best of my knowledge. I don't think I will ever be able to give up on the philosophy queen. Even if I get old and it is obvious that I failed, I will still think that such a relationship would be really beautiful. Maybe I would quit looking for her when I become elderly, but she will always be in my heart. Because she is my saviour. She taught me what it means to be human. She caused me to reach as high as I possibly could. She inspired me to teach her philosophy so that she could one day reach the peaks that I have scaled. And even if I never find her, the moments in time where I was actively seeking her are captured on the Internet proving that I tried my hardest to make my dreams come true.</div><div><br></div><div>How can one make their dreams come true when those dreams include other people? We are only ever in control of ourselves. We cannot rely on other people to do the right thing. They will always disappoint us. I say this but I do not want to believe this. But this is conclusions that life has taught me. But I am unique and I cannot represent any of the human population. I don't see any characters out there that even slightly represent my own. I see no people out there who are worth following. Not many people out there who share their life with the public. And the ones who do are usually not morally driven individuals. Having dreams in life that are dependent on others makes it difficult if not impossible to achieve those dreams. But these dreams still motivate us to do the things we do.</div><div><br></div><div>How can I be useful in society as a single solitary individual? Sure, I can make lots of work that will quickly be forgotten. But what can I provide society beyond personal insight? Honestly, I am not really much use to society. I just use their services but do not engage in their social activities. Why do I even want to make a lasting impact on society? What is it that the giants of our history had that I don't have? I have created more work than they ever did. Regardless, it is a mute point. I don't have a platform to speak on in which I am heard. I couldn't make a lasting impact if it was the only thing I wanted to do. Because my voice gets muted by the billions of other voices speaking at the same time. The work gets buried and forgotten.</div><div><br></div><div>I am love sick and I can't go on this way. It is time for me to accept my failure and move on with my life. So I can't be one of those guys who has a girl. So what. What else do I have to offer? What can I find in life that interests me that is independent of my idealised soul mate? What ideas can I grab to that won't point me back to this fictional girl? Living life single can be a very rewarding experience. As long as they are not obsessed about finding their soul mate. I need to spend time rebuilding myself. So I lost in love in this life. Life can provide other things. Just because I am not sharing experiences doesn't mean that I am not experiencing. There are other things to this life other than love. I just have to now start focusing on that.</div>
+</div>
+HTML;
+
+require __DIR__ . '/../shell.php';

@@ -1,0 +1,83 @@
+<?php
+// Library Tome — auto-generated from local GOD file
+// Slug: content-factory
+// CONTENT_HASH: 9dcd45509fc850676e0620bd3ba8da20
+// Generated with centered layout by default
+// ✨ Users can edit this file to change layout! ✨
+
+$library_meta = array (
+  'id' => 'content-factory',
+  'slug' => 'content-factory',
+  'kind' => 'chronicle',
+  'title' => 'content factory',
+  'published' => '2023-12-20',
+  'published_at' => '2023-12-20T21:15:00Z',
+  'created_at' => '2025-11-12T10:01:18Z',
+  'tags' => 
+  array (
+  ),
+  'shelf' => '',
+  'blogger_id' => 'tag:blogger.com,1999:blog-4695749665164044789.post-4272746235389851028',
+  'blogger_type' => 'POST',
+  'blogger_status' => 'LIVE',
+  'blogger_created' => '2025-11-12T10:01:18.959Z',
+  'blogger_filename' => '/2023/12/content-factory.html',
+  'blogger_location' => '',
+  'blogger_trashed' => '',
+);
+
+$page_title = 'content factory | The Republic';
+$page_canonical = 'https://trepublic.net/library/content-factory.php';
+$page_description = 'This is a very different format than I have used before. I have never had a blog. I have written 12 books in my past but never made a blog. This gives me complete freedom because I don\'t have to worry about educating any…';
+
+$page_og_title = $page_title;
+$page_og_description = $page_description;
+$page_og_url = $page_canonical;
+$page_og_image = 'https://trepublic.net/images/THeart.png';
+
+$hero_title = 'Library Tome';
+$hero_tagline = '📘 Book · ⚖️ Law · 📜 Chronicle';
+
+$console_title = 'content factory';
+
+$console_body_html = <<<'HTML'
+<style>
+.library-tome-centered {
+    text-align: center !important;
+    max-width: 800px !important;
+    margin: 0 auto !important;
+    padding: 20px !important;
+}
+.library-tome-centered * {
+    text-align: center !important;
+}
+.library-tome-centered .alignleft,
+.library-tome-centered .alignright,
+.library-tome-centered .aligncenter {
+    text-align: center !important;
+    float: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered pre,
+.library-tome-centered code {
+    text-align: left !important;
+    display: inline-block !important;
+}
+</style>
+
+<div class="library-tome-centered">
+This is a very different format than I have used before. I have never had a blog. I have written 12 books in my past but never made a blog. This gives me complete freedom because I don't have to worry about educating anyone. I don't have to worry about bringing the reader on an adventure where they can learn something from it. I don't have to worry about organising my work to be best understood by others. Because this is my diary and I can write whatever I want on the pages. You don't have to learn something from me. Ultimately I have nothing to teach because my philosophy failed. This is just the unfiltered stream of consciousness of a very disturbed individual.<div><br></div><div>Mainstream keeps pushing how meaningful connections are needed to live a healthy life. And maybe that is true. But I did not choose my circumstances. I did not choose to have so few meaningful connections in my life. Are these my problems or problems with society? I live a dysfunctional life. I don't have people to spend time with. I am outside of society looking in. But no place I go accepts me. I have especially not been welcome into pre-existing online communities. This caused me to try and create my own online communities but those have always failed.</div><div><br></div><div>Nothing that I do ever seems to change anything. I can make video after video after video and I can hear the crickets in the background. No one ever engages with the content. If I get comments they are almost always not related to the video. Most of the time the comments are insulting to me. So besides trying to attract a wife, what was the point of making all of those videos? I have reached very few hearts but attracted a ton of creeps. The work has not yet helped me attract a partner. But it sits there only awaiting me to find the right lady to share it with.</div><div><br></div><div>Will my past toils ever assist me in the future? Now my toils consist of me complaining about life on this blog. So these toils are not what I am complaining about. My books and my videos are all now just history, few ever going back to the work. I was making work that I wanted to gain in popularity but now I write this diary not really wanting anyone to see it. Definitely a change of my past work building it from the ground up. What will this diary become? How fast can I fill in its pages. It is just one post after another after another. I can continue this until my heart stops beating.</div><div><br></div><div>I am debating whether or not I should share this blog with my subscribers. It is probably best that I didn't. I don't really want people knowing how bad my life really is. It is hard to inspire people when your own life sucks. People want to see hope and potential. They don't want to be shot down by the truth of our world, or more specifically, my world. I think that I stopped making videos at a good time. Everything was concluded and I was ready to stop. The regular insults were getting to me. I think most of my audience watches me just to laugh at me. Another reason why they don't deserve to know about this blog. This is a blog for human. It includes everyone and no one. It deals with human issues. Those ones we hate to face because they scare us.</div><div><br></div><div>Doing stuff for others is exhausting. Whether I make videos for the public or my soul mate, I am still driven to do it by other people. That is where this blog differs from my old work. I am doing this entirely for me, which means that it is sustainable. Instead of exhausting myself writing and making videos for other people, I now write entirely for myself. This reminds me of my younger years where I used to just write and write and nobody would read. At least others can read this if they so choose. But they don't have to. That is not my motivation to continue writing here. I come to here to scream at the world for not being how I want it to be.</div><div><br></div><div>This is where I come to digest what happened over the last fourteen years of my life. It is the ending to my sad story. It is where I will spend my time in the foreseeable future. I have nowhere else to be so why not be here? It gives me something productive to do with my time and acts as an outlet for me to get my frustrations out. It is my safe space that I can say anything that I want. It will also help me reflect on the past by reading my past work and comparing my feelings to current feelings.</div><div><br></div><div>My entertainment in life has always come from me. Whether I am watching a video I made or reading text I wrote, I am the one guiding my life forward. I experience very little mainstream entertainment. Maybe this contributes to the social isolate you see before you, but I don't want their entertainment! It is bad for the soul. And the agenda always drives the type of content you receive. I much prefer feeding off of my own emotions. My productions are good for the soul, even if they cover hard topics. I can improve upon myself with the output of my own input. I don't need the input of others to live a meaningful life. All I need is myself, and I am a self sustaining content factory. I make the content in which I experience in life.</div>
+</div>
+HTML;
+
+require __DIR__ . '/../shell.php';

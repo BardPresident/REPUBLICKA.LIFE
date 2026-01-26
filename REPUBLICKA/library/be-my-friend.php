@@ -1,0 +1,83 @@
+<?php
+// Library Tome — auto-generated from local GOD file
+// Slug: be-my-friend
+// CONTENT_HASH: 8c741e41613097dd9e32df65c42d4bbf
+// Generated with centered layout by default
+// ✨ Users can edit this file to change layout! ✨
+
+$library_meta = array (
+  'id' => 'be-my-friend',
+  'slug' => 'be-my-friend',
+  'kind' => 'chronicle',
+  'title' => 'be my friend',
+  'published' => '2023-12-24',
+  'published_at' => '2023-12-24T05:11:00Z',
+  'created_at' => '2025-11-12T10:01:20Z',
+  'tags' => 
+  array (
+  ),
+  'shelf' => '',
+  'blogger_id' => 'tag:blogger.com,1999:blog-4695749665164044789.post-7486329592473710202',
+  'blogger_type' => 'POST',
+  'blogger_status' => 'LIVE',
+  'blogger_created' => '2025-11-12T10:01:20.520Z',
+  'blogger_filename' => '/2023/12/be-my-friend.html',
+  'blogger_location' => '',
+  'blogger_trashed' => '',
+);
+
+$page_title = 'be my friend | The Republic';
+$page_canonical = 'https://trepublic.net/library/be-my-friend.php';
+$page_description = 'I am going to try and use X again, the platform formally known as Twitter. I find myself needing one platform to post updates about both my blog and my YouTube channel. And I don\'t think Facebook is very good about shari…';
+
+$page_og_title = $page_title;
+$page_og_description = $page_description;
+$page_og_url = $page_canonical;
+$page_og_image = 'https://trepublic.net/images/THeart.png';
+
+$hero_title = 'Library Tome';
+$hero_tagline = '📘 Book · ⚖️ Law · 📜 Chronicle';
+
+$console_title = 'be my friend';
+
+$console_body_html = <<<'HTML'
+<style>
+.library-tome-centered {
+    text-align: center !important;
+    max-width: 800px !important;
+    margin: 0 auto !important;
+    padding: 20px !important;
+}
+.library-tome-centered * {
+    text-align: center !important;
+}
+.library-tome-centered .alignleft,
+.library-tome-centered .alignright,
+.library-tome-centered .aligncenter {
+    text-align: center !important;
+    float: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered pre,
+.library-tome-centered code {
+    text-align: left !important;
+    display: inline-block !important;
+}
+</style>
+
+<div class="library-tome-centered">
+I am going to try and use X again, the platform formally known as Twitter. I find myself needing one platform to post updates about both my blog and my YouTube channel. And I don't think Facebook is very good about sharing your content to other people when you post. My previous experience on X was an echo chamber. No one engaged in any of the posts and almost no one followed me. But I don't do it for those reasons. I need a platform to combine all of my projects into one, and X appears to be the best way to do it. I wish there were better ways to do this that were not Facebook or X. I don't really like either of the companies. But I needed a social handle that could advertise all of the projects that I invest myself in.<div><br></div><div>I don't think the social media available to the public is very good for content producers. I have not ever been able to effectively advertise. There is no public place that I can go to post my links that will be seen by other people. I have all of this content but no one and no where to share it with. I should be able to join a social network, post my links, and acquire a following that enjoys my content. I have never been able to find a place to effectively propagate my work.</div><div><br></div><div>I will probably soon share this blog with my subscribers on YouTube. But it is still very new. I wanted to build something significant here before going public on YouTube. Not a single person has emailed me requesting to see this blog so the public doesn't seem to care. I just want the public to truly have something to sink their teeth into when I do decide to release it.</div><div><br></div><div>I need more friendships in my life that occupy my time. I want to invest my life into friends that produce content. I want to get to know my friends souls. I am so bored in life. I am really glad to start this blog because it occupies a lot of my time. But I can't just occupy my time with vlogging and blogging, I have to spread it amongst other things that are outside of myself. It is not healthy for me to only consume my own content. I need to be able to discuss ideas with friends. I need part of my life to be filled with communication between friends. But finding friends like this is so difficult.</div><div><br></div><div>And I want friends who I can communicate with through vlogging and blogging. I say a lot of things in my videos and posts that are for the most part, directed at that one person. I say a lot of things here to my one friend who will read it. I like this communication style. I can talk to my friend through messages or including the information here because I know that he will most likely read it. It opens a lot of potential when bonding with other people. It is a unique and very advanced way of communicating with others you care about.</div><div><br></div><div>I don't know what writer's block is. I have never experienced it. Whenever I want to write I just come to the page and the words fill themselves in. I just have to organise the information in a way that makes sense. My heart already knows what it wants to talk about and I just have to listen to it. Listening to the heart requires a lot of quiet reflection. Then being able to articulate the abstractions the heart raises. We are clarifying an image. Enhancing its quality. Trying to get to the bottom of what life really means and what the point of living it is. Aren't these the questions we all must deal with? Why am I here and what is my point?</div><div><br></div><div>I don't know why there are not more content producers out there. Are the masses really so boring? Don't people want to express themselves? Why do people so rarely share their lives with the public? What is so scary about it? Providing your own entertainment is so rewarding. You become the hero or heroine in your own story. Why are so many people living and dying without creating their own stories? They make themselves unimportant in life. A forgettable person. Just a normie. I for one want my life to mean something. I am not afraid of being a public person. Besides being ridiculed, there are many advantages of being a public person. My motives are clear; I am a transparent person.</div><div><br></div><div>Why have I still not found friends to talk to? Why is it so hard to find friends on the Internet? I am so bored alone. All I have to occupy my time is writing and making videos. I loathe the notifications god. It isn't good to me. I am in desperate need of some meaningful notifications. Why do I fail so much socially? Is there anything else that I can do beyond what I am doing to obtain more friends? If I can't obtain love in this life then I want friends instead. But that is another goal that is dependent on other people. Why can I only depend on myself in this life? I want to depend on other people. I want to trust other people.</div><div><br></div><div>I don't want to live for myself in this life. I want to live for other people. I want other people to be my motivation to embrace life. I don't want to live a selfish life. I want to share myself with others. I want to be an important part in the lives of others. I want to have friends who I can share new experiences with. I want friends to explore the wonders of the world with. I want you, the reader, to be my friend and battle this life with me. I always admired solidarity. But I have never achieved it. Please think about joining me in this life and battling through it together. I need like minds in my life. I have been alone for so long. So what do you say? Will you be my friend?</div>
+</div>
+HTML;
+
+require __DIR__ . '/../shell.php';

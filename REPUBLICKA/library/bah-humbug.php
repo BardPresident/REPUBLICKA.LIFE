@@ -1,0 +1,83 @@
+<?php
+// Library Tome — auto-generated from local GOD file
+// Slug: bah-humbug
+// CONTENT_HASH: 355976c98dd01ea37a72354cbcb588f0
+// Generated with centered layout by default
+// ✨ Users can edit this file to change layout! ✨
+
+$library_meta = array (
+  'id' => 'bah-humbug',
+  'slug' => 'bah-humbug',
+  'kind' => 'chronicle',
+  'title' => 'bah humbug!',
+  'published' => '2023-12-22',
+  'published_at' => '2023-12-22T07:44:00Z',
+  'created_at' => '2025-11-12T10:01:20Z',
+  'tags' => 
+  array (
+  ),
+  'shelf' => '',
+  'blogger_id' => 'tag:blogger.com,1999:blog-4695749665164044789.post-8049820945358041789',
+  'blogger_type' => 'POST',
+  'blogger_status' => 'LIVE',
+  'blogger_created' => '2025-11-12T10:01:20.520Z',
+  'blogger_filename' => '/2023/12/bah-humbug.html',
+  'blogger_location' => '',
+  'blogger_trashed' => '',
+);
+
+$page_title = 'bah humbug! | The Republic';
+$page_canonical = 'https://trepublic.net/library/bah-humbug.php';
+$page_description = 'I don\'t understand the phenomena of giving and receiving gifts. I live a life of minimalism and have everything that I need. I don\'t want other people buying me junk that I will feel bad to dispose of. And I don\'t want t…';
+
+$page_og_title = $page_title;
+$page_og_description = $page_description;
+$page_og_url = $page_canonical;
+$page_og_image = 'https://trepublic.net/images/THeart.png';
+
+$hero_title = 'Library Tome';
+$hero_tagline = '📘 Book · ⚖️ Law · 📜 Chronicle';
+
+$console_title = 'bah humbug!';
+
+$console_body_html = <<<'HTML'
+<style>
+.library-tome-centered {
+    text-align: center !important;
+    max-width: 800px !important;
+    margin: 0 auto !important;
+    padding: 20px !important;
+}
+.library-tome-centered * {
+    text-align: center !important;
+}
+.library-tome-centered .alignleft,
+.library-tome-centered .alignright,
+.library-tome-centered .aligncenter {
+    text-align: center !important;
+    float: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered pre,
+.library-tome-centered code {
+    text-align: left !important;
+    display: inline-block !important;
+}
+</style>
+
+<div class="library-tome-centered">
+I don't understand the phenomena of giving and receiving gifts. I live a life of minimalism and have everything that I need. I don't want other people buying me junk that I will feel bad to dispose of. And I don't want the responsibility of purchasing someone something that they may not need or want. I guess it doesn't matter though. I don't have anyone in my life who buys me gifts. But on the up side, I don't have to try and find other people gifts. I think everybody should have what they want. If they want something, they will find a way to get it. No one wants or needs a Christmas sweater. If I want something, I work on getting it. I don't wait around for other people to be generous enough to get it for me.<div><br></div><div>I suppose when you have children things change because they have no financial way to be able to obtain the things that they want in life. So children are reliant on their parents to obtain them what they need and want in life. But does it have to be a gift? If a child really wants a game or something like that, the family should attempt to obtain that for the child. As long as the child isn't asking for an unreasonable request, parents should get their children what they need and want. But Christmas has been devised as a marketing tool to give children their wants and needs once per year (twice if you count birthdays). It creates a really odd social phenomena where parents schedule when to provide for their child.</div><div><br></div><div>In a perfect world we would not needs special days to give gifts to our children. We would give them what they want and need as those wants and needs arise. We wouldn't want to spoil our children by giving in to all of their requests. Each request would have to be assessed for its merit, because money doesn't grow on trees. But providing for your child's desires will help that child to grow into a stable adult. I just don't see why we have to mask these transactions under the category of gifts and why it only occurs at prescribed times.</div><div><br></div><div>Where is the magic of Christmas? I don't see it. Even if we look at a babe in a manger. What is so fascinating about a guy being born? He didn't even get to live out a full life because he was slaughtered by the public. Why would the public rejoice over such a sad story? And why were people worshiping a baby? I grew up in a Christian home and none of these obvious questions were answered. But outside the religious connotations of Christmas, where is its magic? I spend every Christmas alone. I don't see goodness happening over Christmas. It is just a marketing ploy to keep you spending money. And it is just another lonely day for me.</div><div><br></div><div>Can one time of year really be more fulfilling than another? Does the time of year really set our moods? What will I be doing this Christmas? Probably writing my heart out. I really enjoy what I do. I enjoy making content from information in my psychology. I love breaking apart concepts and trying to find true meaning within them. I am the person that I always wanted to be. I can direct my psychology towards this or that and then analyse those results. There is something just so special about consuming the media that you yourself create.</div><div><br></div><div>The world is yours for the taking. What you experience will come directly from yourself. And you will frolic in this paradise that you have created for yourself. Because you did not succumb to the embrace of mainstream media. At first you searched outwards for special people like myself to consume media from. But then you went internal and created a new world for yourself to experience. As a result of this unindoctrination, you now control the reality of your existence. But with great power comes great responsibility and you will come to learn that you no longer resemble your peers. Because they were a result of mainstream indoctrination and now you are not.</div><div><br></div><div>And you are alone. No one to hear your cries. Only you are here. Nothing but blackness, your eyes no longer see. Only an abyss below you. If you just jumped into that abyss everything will work out fine. You don't need life to truly live. You can become the abyss and scare others. You can become the life that your mind seeks. No woman in the world will ever be able to keep up with me. I am everywhere. My existence is built off of my work. And my work builds my existence. And I have a more rewarding time doing work than I have doing anything else. And if there is no woman out there that can handle the beast that I am, then I will just have to continue to enrich my world without her being here. And for me that is as easy as just spending my time writing or making videos.</div><div><br></div><div>I think we as a society need some of that Christmas spirit year round. If we were just generous with our time and cared about everyone's mental health then we would all be better people. I don't have anyone to help with my mental health. I just have me. So I try to help myself mentally through my work. I try to provide myself meaning and lessons that can guide my day to day actions. I may not celebrate holidays but I celebrate the human spirit every single day. Because that is what gets me through to the next day. If I can only write with my own blood, then maybe I can craft for myself something that is both enjoyable and moving.</div><div><br></div><div>After all, that is what I am doing. Playing my heart strings like a lyre. What do I want to feel today? Well let's explore. Maybe stating reality for what it is and not what we sugar coat it to be is the best step forward. Maybe I should shed my idealist clothes and become a realist. This is where I am at today. I don't really have any friends and I do not have a lover. But I live in a very rich world full of meaning. Controlling my own reality is what I am doing. And maybe this control was only ever meant for one person. Maybe this game I am playing is only a one player game. Because this much power in the hands of two people could make or break society and business as usual.</div>
+</div>
+HTML;
+
+require __DIR__ . '/../shell.php';

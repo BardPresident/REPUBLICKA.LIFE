@@ -1,0 +1,83 @@
+<?php
+// Library Tome — auto-generated from local GOD file
+// Slug: a-work-in-progress
+// CONTENT_HASH: ce53b9694781733e79236ef72f007876
+// Generated with centered layout by default
+// ✨ Users can edit this file to change layout! ✨
+
+$library_meta = array (
+  'id' => 'a-work-in-progress',
+  'slug' => 'a-work-in-progress',
+  'kind' => 'chronicle',
+  'title' => 'a work in progress',
+  'published' => '2023-12-25',
+  'published_at' => '2023-12-25T07:30:00Z',
+  'created_at' => '2025-11-12T10:01:24Z',
+  'tags' => 
+  array (
+  ),
+  'shelf' => '',
+  'blogger_id' => 'tag:blogger.com,1999:blog-4695749665164044789.post-8809525373792024967',
+  'blogger_type' => 'POST',
+  'blogger_status' => 'LIVE',
+  'blogger_created' => '2025-11-12T10:01:24.197Z',
+  'blogger_filename' => '/2023/12/a-work-in-progress.html',
+  'blogger_location' => '',
+  'blogger_trashed' => '',
+);
+
+$page_title = 'a work in progress | The Republic';
+$page_canonical = 'https://trepublic.net/library/a-work-in-progress.php';
+$page_description = 'I guess I have always idealised a lover to be capable to solve all of my problems. If I only had a lover then I wouldn\'t be lonely. I wouldn\'t need friends if I had a lover because I could spend all of my time amusing he…';
+
+$page_og_title = $page_title;
+$page_og_description = $page_description;
+$page_og_url = $page_canonical;
+$page_og_image = 'https://trepublic.net/images/THeart.png';
+
+$hero_title = 'Library Tome';
+$hero_tagline = '📘 Book · ⚖️ Law · 📜 Chronicle';
+
+$console_title = 'a work in progress';
+
+$console_body_html = <<<'HTML'
+<style>
+.library-tome-centered {
+    text-align: center !important;
+    max-width: 800px !important;
+    margin: 0 auto !important;
+    padding: 20px !important;
+}
+.library-tome-centered * {
+    text-align: center !important;
+}
+.library-tome-centered .alignleft,
+.library-tome-centered .alignright,
+.library-tome-centered .aligncenter {
+    text-align: center !important;
+    float: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered pre,
+.library-tome-centered code {
+    text-align: left !important;
+    display: inline-block !important;
+}
+</style>
+
+<div class="library-tome-centered">
+I guess I have always idealised a lover to be capable to solve all of my problems. If I only had a lover then I wouldn't be lonely. I wouldn't need friends if I had a lover because I could spend all of my time amusing her. But a lover is much more difficult to find than a friend. And a true friend is almost impossible to find. So how would I have any chance in finding a lover when I am almost incapable of finding friends? I think I should alter my dreams. It is getting a little bit late in life for me to start thinking about kids. But I would not want a lover unless we were able to have kids. I always wanted a family. I think it is time for me to accept defeat and move on with my life. I dedicated fourteen years to the pursuit of my soul mate. I could not find her. It is time to focus on trying to find content producing friends instead.<div><br></div><div>I am going to put effort into developing myself as an individual, not just a potential partner for someone else. I need to think about who I am as a person independent of a woman. This blog is the first work that I have made that is not trying to attract a woman. I have been so woman orientated in my past. I need to conclude that and move on with my life. The thought that my soul mate could be out there somewhere has caused me to pause my life and spend it solely looking for her. It is about time that I unpaused my life and began again to live it.</div><div><br></div><div>Maybe this still means that I do not have many friends to share my life with. But I have never needed others to live a meaningful life. I can live a meaningful life without the influence of others, if I have to. I do not need others to survive. However, others would enrich my social atmosphere. I would live a much better life if I had friends in my life. But if they don't want me, then it is their loss. Because I am a really cool person. And anyone out there would be lucky to have me as a friend. I am a unique person. I am not like the masses. I am someone special and I deserve to be treated with kindness.</div><div><br></div><div>But what we deserve and what we get are two different matters. I think I deserve a friendship. Hell, I think I deserve a lover. What I get is mostly haters and nothing. Haters to make me more aware that I am useless to society and crickets in the background. If I receive a comment, it is usually not very nice. But I so rarely receive comments. There is always such little engagement with my work. Is my work really so bad? Almost all content that is out there is trash. And this trash receives a great amount of attention. I see how such meaningless productions constantly go viral. I am jealous of how well the algorithm works for some people.</div><div><br></div><div>Nothing I have ever done has received much attention. My past YouTube channels were also silent. At least now I am building something for myself that is sustainable. I can just keep building the blog and my YouTube channel until the day that I die. And that would really be leaving the world a legacy. Here are the works of a lifetime. What will you do with them humanity? Will I be forgotten? How can I be forgotten when I am never known? But will I always remain in obscurity? Will I never be able to reach the public? Fourteen years of work has touched the heart of one individual. How can someone produce work their entire life and still not be known to the public? Some things in life just aren't fair.</div><div><br></div><div>This year has been a very big year for me. I started both my vlog and my blog. I should have started both of these in my childhood. If I had a public diary that stuck with me for my entire life then that would be awesome. But my past work was under my full name which caused me to obtain stalkers. I had people trying to figure out exactly where I lived and dox me. There was an entire forum dedicated to making my life a living hell. It was really scary. So I learned better and stopped using my full name. But that caused me to restart from scratch.</div><div><br></div><div>Ultimately this was a good thing because the old work was shrouded in religion and controversy. Haters had gotten a hold of my work and made me look very bad to the public. Because of what happened you can no longer experience my old work. But I guess that does not matter so much because this includes everything that I learned from my old work. I made many mistakes in my old work because much of it was led by psychosis. The doctor even said that my writing and videos were delusional. I can't agree but I did follow some pretty dark paths in my old work. I obsessed on aspects of life that I should not have been obsessing about. But now that is the past and this is the future. I will just spend the rest of my life working on my blog and vlog.</div><div><br></div><div>My new work started in the year 2023. This work has been much clearer than my old work. Now I can begin anew with my diary, both in video and text format. Each are uniquely expressive and give insight into my very soul. One can watch my videos and read my posts. I am providing a complete entertainment solution. You no longer have to invest yourself in meaningless media. You can spend your time with me discovering the truths behind our reality. Things are generally not as they seem. At least with my work you get transparency.</div><div><br></div><div>Is my work for the now or the future? YouTube algorithms tend not to advertise videos older than two weeks. But my work is timeless. I think I will have to rely on new content to attract people. The old content is there for the new follower to experience. The gateway to find new people is locked within new content. It is a hard ask to expect me to always create content but what else do I have to do in this life? I chose to be a philosopher. I have to live those consequences. If that means having to put myself out there on a daily basis then so be it. Because doing this has enabled me to reach you. And I appreciate your attention span.</div>
+</div>
+HTML;
+
+require __DIR__ . '/../shell.php';

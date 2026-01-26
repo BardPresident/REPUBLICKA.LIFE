@@ -1,0 +1,83 @@
+<?php
+// Library Tome — auto-generated from local GOD file
+// Slug: goodbye-2023
+// CONTENT_HASH: bb22b8d14354905f3aa32363bb98bd1f
+// Generated with centered layout by default
+// ✨ Users can edit this file to change layout! ✨
+
+$library_meta = array (
+  'id' => 'goodbye-2023',
+  'slug' => 'goodbye-2023',
+  'kind' => 'chronicle',
+  'title' => 'goodbye 2023',
+  'published' => '2023-12-31',
+  'published_at' => '2023-12-31T07:42:00Z',
+  'created_at' => '2025-11-12T10:01:24Z',
+  'tags' => 
+  array (
+  ),
+  'shelf' => '',
+  'blogger_id' => 'tag:blogger.com,1999:blog-4695749665164044789.post-8728986486983189964',
+  'blogger_type' => 'POST',
+  'blogger_status' => 'LIVE',
+  'blogger_created' => '2025-11-12T10:01:24.197Z',
+  'blogger_filename' => '/2023/12/goodbye-2023.html',
+  'blogger_location' => '',
+  'blogger_trashed' => '',
+);
+
+$page_title = 'goodbye 2023 | The Republic';
+$page_canonical = 'https://trepublic.net/library/goodbye-2023.php';
+$page_description = 'A new year is before me. What will I make it? This year was very productive and I found a new friend. If this year was spent establishing myself, then what can I make next? My goals in life are clear. I see more clearly …';
+
+$page_og_title = $page_title;
+$page_og_description = $page_description;
+$page_og_url = $page_canonical;
+$page_og_image = 'https://trepublic.net/images/THeart.png';
+
+$hero_title = 'Library Tome';
+$hero_tagline = '📘 Book · ⚖️ Law · 📜 Chronicle';
+
+$console_title = 'goodbye 2023';
+
+$console_body_html = <<<'HTML'
+<style>
+.library-tome-centered {
+    text-align: center !important;
+    max-width: 800px !important;
+    margin: 0 auto !important;
+    padding: 20px !important;
+}
+.library-tome-centered * {
+    text-align: center !important;
+}
+.library-tome-centered .alignleft,
+.library-tome-centered .alignright,
+.library-tome-centered .aligncenter {
+    text-align: center !important;
+    float: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered pre,
+.library-tome-centered code {
+    text-align: left !important;
+    display: inline-block !important;
+}
+</style>
+
+<div class="library-tome-centered">
+A new year is before me. What will I make it? This year was very productive and I found a new friend. If this year was spent establishing myself, then what can I make next? My goals in life are clear. I see more clearly now than I have ever seen before. Goals for 2024: find friends and find love. Grow as a content creator. Be the change that I want to see in the world. Stop being lonely. Find positive ways to spend my time other than sitting and being bored. Continue to contribute ideas to the community. Be a good role model for others to follow. Find peace within myself and who I am as an individual. Become content in being alone. What does 2024 have in store for me? There is only one way to find out. I have to live it.<div><br></div><div>I am obsessed with crafting my own world to exist within. In my childhood I could not do this. I was placed inside other people's worlds and could not break free from them. I didn't do myself any favours by marrying young. I went from my parent's world to my ex-wife's world. Only after she left me could I break free and invent the world that I truly wanted for myself. It took time. I was a broken man who was confused with religion. It took me time to discover who I was independent of any doctrine. What I wanted in a partner changed. If I would have obtained what I wanted in a partner ten years ago, I would not have what I want now. And why do I need a partner? I manage this life alright myself. And is it something really special to be a father? I think men that don't become fathers are more special because they are rare.</div><div><br></div><div>The point is, what I did want changed the more I got to know myself and accept hard truths about my life. A woman cannot make me happy if there is no woman to make me happy. I need to learn how to be happy alone without a partner. I tried and I tried and I tried to find love through the Internet. But that has not happened. But through it, I learned a new skill and established a vlog and a blog on the Internet. I became very good at expressing myself. No matter how I was feeling, I was always able to come to myself with my feelings and try and accommodate them. I turned my expressions into public works. And now if I find love, it will be on my own terms. It will be as I always envisioned it or not at all. It will be one of two fairy tale endings for me. Just because I don't get the girl doesn't mean I didn't succeed in life. If I can't find her then I will find friends worth having.</div><div><br></div><div>A friend is someone who is a role model for you. They live a public life for the world to see. They invest themselves in the areas of life that they find most meaningful and they share their experiences with the public. They grow as they create new public experiences. The formation of the individual can be seen by the experiences in which they share. A friend is someone who communicates with you daily. A friend is someone you can rely on to give you advice about your day to day troubles. I want friends in 2024. I have been so lonely in my life and I really want that to change. I want to be a social butterfly. But I can't do that if nobody comes to me to chat. It is really odd. The people I know have a much more active social life than I do. What does it take to obtain an active social life? Can sharing your heart publicly really not provide me the social life that I so desire?</div><div><br></div><div>This year I want to learn how to spend time better. Sitting and doing nothing for long periods of time makes me insane. If I can't find friends to spend time with then I need to find another outlet that occupies my time. It is difficult because I don't want to spend my time on meaningless activities. But all the world is providing for me to do is meaningless. There must be other ways to spend my time that can be fulfilling activities. I want to spend my time helping vloggers establish channels. This would be the best way to spend my time because if I do it right, I can get many years of enjoyment from it. If I can just encourage you to provide me entertainment, then maybe I would not live such a lonely and boring life.</div><div><br></div><div>Despite being very lonely, this year has been really fulfilling. I grew a lot as an individual. I overcame many problems within my own psychology. I battled many topics that were not easy to deal with. I became a better version of myself than I was last year. I have really grown a lot over the years. I was lost for a very long time. But I have found my home on the Internet here with you. I have written something and now you read it. The process of sharing would not be complete without it reaching your eyes. And hopefully, your heart. Because isn't that the point of all of this? To try and find friends. And if my words do not penetrate your soul, then how am I to ever expect you to take the leap and contact me?</div><div><br></div><div>I hope this year is a new beginning for me. Until relatively recently, I have not been sure the direction that I wanted to take my life. My past work was scattered. I didn't really know where I wanted to take video and text. I wasn't sure if it was best put in a blog format or a book format, show format or vlog format. I was chasing things that were not good for me. But this year I got my life in order. I said bye to some friends but made others. I progressed how I want to live my life. I spent the year reflecting upon many things. And my life is now better for it. I am in the right soil to grow as a healthy individual. I just need to find some like minded friends.</div><div><br></div><div>What milestones will 2024 achieve? I guess that depends on what I put into it. If I pour my heart and soul into the new year, will I find heart and soul poured back at me? If I go into the new year with a positive outlook, can I then achieve many things? What would it take to make a positive next year? This year achieved many things but it was very emotionally difficult. I was so very lonely. Can a vlog and a blog attract more people to me? Can I act as a magnet to all people interested in philosophy? Can I act as a gateway for other people to experience philosophy as it happens? Can I introduce the public into the true meaning behind the word "philosophy"?</div><div><br></div><div>I want to be a beacon of light to the public. I want to have the answers, or at least the questions. I want to shine in the field that I chose to dedicate my life to. I want to inspire others to care about morals and living a meaningful life. I want to utilise my time helping others achieve their dreams. I want to encourage others to assess their life critically and grow as a result. I want to make the word philosophy popular. I want to share with the world how fun it is to philosophise even if you have to do it alone. The world is at your fingertips. You can make realities come into existence. Through your creative pursuits, you can turn your life into a fairy tale. Or choose whatever tale you want. The only limits is your imagination.</div>
+</div>
+HTML;
+
+require __DIR__ . '/../shell.php';

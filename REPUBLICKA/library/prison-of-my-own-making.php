@@ -1,0 +1,83 @@
+<?php
+// Library Tome — auto-generated from local GOD file
+// Slug: prison-of-my-own-making
+// CONTENT_HASH: 1714f4a09b75d08ab9b14983912de386
+// Generated with centered layout by default
+// ✨ Users can edit this file to change layout! ✨
+
+$library_meta = array (
+  'id' => 'prison-of-my-own-making',
+  'slug' => 'prison-of-my-own-making',
+  'kind' => 'chronicle',
+  'title' => 'prison of my own making',
+  'published' => '2024-01-31',
+  'published_at' => '2024-01-31T03:53:00Z',
+  'created_at' => '2025-11-12T10:01:23Z',
+  'tags' => 
+  array (
+  ),
+  'shelf' => '',
+  'blogger_id' => 'tag:blogger.com,1999:blog-4695749665164044789.post-1490973990179509651',
+  'blogger_type' => 'POST',
+  'blogger_status' => 'LIVE',
+  'blogger_created' => '2025-11-12T10:01:23.695Z',
+  'blogger_filename' => '/2024/01/prison-of-my-own-making.html',
+  'blogger_location' => '',
+  'blogger_trashed' => '',
+);
+
+$page_title = 'prison of my own making | The Republic';
+$page_canonical = 'https://trepublic.net/library/prison-of-my-own-making.php';
+$page_description = 'Everything has been quiet. A few nasty comments here and there but besides that, nothing. I don\'t know how effective this advertising is. Sure, I get subscribers. But I don\'t get subscribers who engage with the content. …';
+
+$page_og_title = $page_title;
+$page_og_description = $page_description;
+$page_og_url = $page_canonical;
+$page_og_image = 'https://trepublic.net/images/THeart.png';
+
+$hero_title = 'Library Tome';
+$hero_tagline = '📘 Book · ⚖️ Law · 📜 Chronicle';
+
+$console_title = 'prison of my own making';
+
+$console_body_html = <<<'HTML'
+<style>
+.library-tome-centered {
+    text-align: center !important;
+    max-width: 800px !important;
+    margin: 0 auto !important;
+    padding: 20px !important;
+}
+.library-tome-centered * {
+    text-align: center !important;
+}
+.library-tome-centered .alignleft,
+.library-tome-centered .alignright,
+.library-tome-centered .aligncenter {
+    text-align: center !important;
+    float: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered pre,
+.library-tome-centered code {
+    text-align: left !important;
+    display: inline-block !important;
+}
+</style>
+
+<div class="library-tome-centered">
+Everything has been quiet. A few nasty comments here and there but besides that, nothing. I don't know how effective this advertising is. Sure, I get subscribers. But I don't get subscribers who engage with the content. It isn't just about endlessly adding subscribers to your account. That is not the goal. I am trying to interact with people. And even though my subscribers keep adding up, it feels empty. Like this is just the appearance and not the true reflection. But if advertising is not achieving me my desired outcome, what else can I do? I want quality over quantity. But all I am receiving now is quantity. How do I find quality subscribers? How do I encourage them to be my friend? Hardly anyone contacts me. My life is so lonely.<div><br></div><div>I have been playing around with Facebook. Been trying to post to philosophy groups. There are all of these tools available to me. Why do I struggle so much finding meaningful connections? Am I not using these tools right? There is my YouTube community. But it is quiet. There are much more active communities out there. But it is so hard finding good ones. Besides Facebook groups there is always Discord servers. But most of those servers are trash. There are always forums which I could explore. So many Internet tools available and I am still lonely. What is wrong with me? What is wrong with these communities? They don't feel like very welcoming environments to bond.</div><div><br></div><div>It is hard being a content creator. There is so much expectation to make good videos. I want my videos to be quality. That is why it is difficult sometimes because I don't have anything that I want to say. When there are no words, one must be silent. Trying to squeeze creativity out of me is sometimes difficult. Sometimes I feel that I have said everything that I could possibly ever want to say. What more content can there be when you have covered everything that you can think of? But eventually I create another unique production. Now I have said everything that I could possibly ever want to say. But there has to be more. There always has to be more. The human imagination has no limits. But can I keep this up until the day that I die? Is there enough content within me to just keep indefinitely making it?</div><div><br></div><div>Life is all about ups and downs. One day I might make a few videos. Another I might make none. It all depends what creative juices are flowing through my brain. I am no longer advertising this blog. Sure, I put the link in the description but I no longer try and convince the audience to check it out. I don't care about this blog. It is the day to day processing of me. In it, I talk about whatever is relevant to my life. I am not trying to capture the imagination of the audience. That is what my videos attempt to do. I don't need my blog doing that as well. Facebook detects my blog as spam and won't allow me to post it. It doesn't matter. My work is video work. This blog just enables dedicated subscribers to have a more in depth analysis of my life. Those who want to peek behind the curtain and see what it is that truly makes me tick.</div><div><br></div><div>I am on a Facebook dating group for awakened souls. I asked if there were any pretty girls who like philosophy. I caught a lot of flack for requesting communication of pretty girls. Many comments not appreciating how I was requesting to speak to pretty girls. Shouldn't ugly girls get to talk to you about philosophy? Just be happy with a plain girl. How can I be happy with accepting the less aesthetically pleasing option? I would never date a girl that I did not find attractive. And I am a very attractive guy. If I was not attractive then I would not be seeking a pretty girl. But I am beautiful and thus deserve a beautiful mate. I am not going to accept less than my heart desires. It is ridiculous how ugly people think that they should have the right to date beautiful people. Our looks organise us into classes. Let the beautiful people be with the beautiful people. Do not feed me this world where looks do not matter. Looks are a very important part of one's character.</div><div><br></div><div>No matter where you go, you find haters. People who disagree with your goals. But this is my life and not theirs. I am the one choosing to publicise my life. They don't do that. They can judge me because my life is public but no one can judge them because they live a private life. I spend my life invested in morals. How do they spend their life? The ones who come at me are the reprobates. They are ungrounded and have no moral foundation. They think just because they thought something that it must be true. And their thoughts are not individually created. They are collective ideas that were passed to them. Where is originality on the Internet? I am just dealing with the same people again and again but only in different forms. To be critical of the way that I live my life is to be critical of the philosophical good life. Too bad they have no idea what that means.</div><div><br></div><div>First, trolls attacked my wendellsdiary email account with a flood of subscriptions to The New York Times and many US government departments. Shortly after that, they flooded my personal email account with the same bomb of emails. This was an attack against me. The message is clear, they know who I am. My past is coming back to haunt me. How could they have known about both my old work and my new work? I kept these projects seperate. Trolls ruin everything. Now will I continue to get a ton of emails or did reporting them all as spam fix my problem? Only time will tell. I can't spend all of my time going through spam. If I can't resolve this then I will have to stop use of the email account. Will a day ever come where I will have to accept my past and live with the consequences? Will I ever have to release my full name publicly again?</div><div><br></div><div>Why do I have so many enemies in this world? I am such a peaceful person. Why am I always targeted by creeps? I understand why content producers are not contactable. There are many ways for trolls to interfere with your life if you are contactable. But how can I find friends if I am not contactable? And how can I find love if I am not contactable? This world is full of people who have bad intentions for your life. There are not many whom you can trust. How can I exist peacefully with all of these attacks from other people? What am I doing to deserve this? I just want us all to get along. I can't believe these people because I am trying to inspire other philosophers to open up on camera. And they will never do that because they see what happens when you do that. My bad experiences with the public discourage other potential philosophy content creators.</div><div><br></div><div>I don't have any hope or solutions to give you right now. I am actually quite depressed. I have not made a video in two days. What would I say? I have already said so much. And I am not receiving from the audience what I need. I have been contemplating a video about continental versus analytical philosophy. I just have not yet been inspired to make it. I don't feel like making videos. I feel like socialising. But I have so few to socialise with. So I make videos in place of socialising. I socialise with myself. So often I want to give up. I am not reaching the people that I want to reach. My experiences with people have been mostly bad. Why would I do this if it was negatively effecting me? Maybe one day I will wake up and stop. But then I would have absolutely nothing to do anymore. I live in a prison of my own making.</div>
+</div>
+HTML;
+
+require __DIR__ . '/../shell.php';

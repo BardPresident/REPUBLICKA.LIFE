@@ -1,0 +1,86 @@
+<?php
+// Library Tome — auto-generated from local GOD file
+// Slug: mastering-youtube-and-connecting-with
+// CONTENT_HASH: 11c2cd2e175014e1eff4601356c546e3
+// Generated with centered layout by default
+// ✨ Users can edit this file to change layout! ✨
+
+$library_meta = array (
+  'id' => 'mastering-youtube-and-connecting-with',
+  'slug' => 'mastering-youtube-and-connecting-with',
+  'kind' => 'chronicle',
+  'title' => 'Mastering YouTube And Connecting With Philosophical Audiences',
+  'published' => '2024-05-19',
+  'published_at' => '2024-05-19T21:45:00Z',
+  'created_at' => '2025-11-12T10:01:22Z',
+  'tags' => 
+  array (
+    0 => 'audience',
+    1 => 'philosophy',
+    2 => 'YouTube',
+  ),
+  'shelf' => '',
+  'blogger_id' => 'tag:blogger.com,1999:blog-4695749665164044789.post-580547128266896973',
+  'blogger_type' => 'POST',
+  'blogger_status' => 'LIVE',
+  'blogger_created' => '2025-11-12T10:01:22.782Z',
+  'blogger_filename' => '/2024/05/mastering-youtube-and-connecting-with.html',
+  'blogger_location' => '',
+  'blogger_trashed' => '',
+);
+
+$page_title = 'Mastering YouTube And Connecting With Philosophical Audiences | The Republic';
+$page_canonical = 'https://trepublic.net/library/mastering-youtube-and-connecting-with.php';
+$page_description = 'I read a book about YouTube and its formula. I learned a lot of things that I am doing wrong. My titles are not good enough. I am going to have to get AI involved in my titles. And I can no longer not capitalise my title…';
+
+$page_og_title = $page_title;
+$page_og_description = $page_description;
+$page_og_url = $page_canonical;
+$page_og_image = 'https://trepublic.net/images/THeart.png';
+
+$hero_title = 'Library Tome';
+$hero_tagline = '📘 Book · ⚖️ Law · 📜 Chronicle';
+
+$console_title = 'Mastering YouTube And Connecting With Philosophical Audiences';
+
+$console_body_html = <<<'HTML'
+<style>
+.library-tome-centered {
+    text-align: center !important;
+    max-width: 800px !important;
+    margin: 0 auto !important;
+    padding: 20px !important;
+}
+.library-tome-centered * {
+    text-align: center !important;
+}
+.library-tome-centered .alignleft,
+.library-tome-centered .alignright,
+.library-tome-centered .aligncenter {
+    text-align: center !important;
+    float: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered pre,
+.library-tome-centered code {
+    text-align: left !important;
+    display: inline-block !important;
+}
+</style>
+
+<div class="library-tome-centered">
+I read a book about YouTube and its formula. I learned a lot of things that I am doing wrong. My titles are not good enough. I am going to have to get AI involved in my titles. And I can no longer not capitalise my titles. Apparently doing this causes people to click a lot less. I am going to put a lot more thought into my future videos. Presentation is everything when trying to encourage others to click on your links. I have to learn who my audience is. I need to discover what my audience likes and provide that to them. For so long I have struggled with who my audience is. Because I have never really had an audience, outside of stalkers. So I am unable to learn my audience without being able to engage with them. But I can never engage with them when the work doesn't attract new people to engage with. I am stuck in a catch 22. I have to first find my audience in order to learn what they like. <div><br></div><div>What are my goals? Honestly, I just want people to talk about philosophy with. Once I obtain that, I have succeeded and anything extra is just a bonus. I want to gather a group of philosophers together to share and collaborate with each other. I want to spend my days learning from and teaching other living philosophers. I want to create a socially engaging world for myself. The world I currently inhabit does not offer philosophical friendships. I want to entertain and be entertained. I am currently entertained by people that I do not know. I think this can be a harmful practice because we give a lot to the content creators in which we follow. We trust them with our time. And why would we trust them with our time when they will not trust us with their time? This disconnection between the creator and the fan is accepted because some creators are very large and have no ability to give their fans their time. I don't think that I would like to get that large. </div><div><br></div><div>The purpose of all of this is to find more meaningful ways to spend my time. Currently, I am not very socially active. I spend most of my time reading books or watching TV. Those are not social activities. I have always wondered why it was so hard to find friends who care about philosophy. I would think these issues intrinsic to our human nature. I don't understand why everyone doesn't have a YouTube and broadcast their life. Besides it being very difficult to succeed on YouTube, YouTube still gives us a platform to pretty much broadcast anything we want. We all live life. Why do so few of us critically analyse it? Why is the foundation of all human knowledge overlooked in modern society? Why is it so rare to find people striving for eudaimonia? Why are philosophical friendships such a rarity? Through this discourse, I am discovering who my audience is. Because they are philosophers who want friends. So I am targeting lonely people who think very deeply. </div><div><br></div><div>I am one example of a lonely person who thinks very deeply. This is how I can connect with my audience. I can open up to the camera and be vulnerable in attempts to connect with my fellow thinker. I can outline my values and why I have them and hope to appeal to you so that you will also value what I value. This is what being a good role model looks like. Even if I managed to obtain a group of friends out of doing all of this, my target audience would still be lonely people. Even if I managed to solve my own loneliness, I would still desire to help others cure their loneliness. Loneliness is a problem that I really care about solving with my life. Anything that I can do to lessen the burden that lonely people feel, the better that I will feel for it. I can help myself by helping other people. That is why that none of this is financially focused. I care about the individual and their journey through life. I want to spend my life helping them in their own life. </div><div><br></div><div>Humanity is beautiful. Just because I don't know many beautiful people does not mean that they don't exist. I just have to find them. Did I expect that it would be easy to win the hearts of followers? And to convince them to become philosophers is an even more difficult task. Finding people that think deeply isn't easy. There is a lot in this world to distract us from true purpose. No wonder so many stray. But while one hundred stray, there is one who stands true in their purpose. Some people do stand out. Some people have utilised philosophy to make their lives great. And while I am here for everybody, my main focus is that one who has great amounts of potential. Because locked within every individual is a television show only waiting to come out. And then they could exist as the stars that they are. I only need to create the conditions necessary for someone to shine. I need to give them sound advice. My job is to cultivate the soil in which they grow. </div><div><br></div><div>I imagine my life if I was friends with all the great philosophers throughout our history. What a life that I would have exploring our human condition together with like minded people. That is my goal for this reality. To find or help create other philosophers who regularly produce work. I created a Facebook group called Philosophy Creators Collective in hopes to foster this vision. Who knows if it will attract the right people but it is my attempt. I had to do something. I couldn't find a single community that allowed me to share my work. This means that other philosophers would also struggle to share their work in the available communities because most places don't allow self promotion. A group where I can share all of my work is great. And it is even better if I can encourage other philosophers to also share their work, or even create it if they have no work as of yet. Life is a process. Everybody should have a YouTube channel from their childhood. But if they missed out, there is no better time to start then now. </div><div><br></div><div>The Facebook group is useless to me because Facebook detects my blog as spam and my blog is shared in the descriptions of my videos so it won't allow me to share my videos. So the Facebook platform won't allow me to share my blog or vlog so what is the point? The only reason I use Facebook now is to be able to contact my parents. Besides the selling feature, nothing else that it provides is useful to me. They have no way to review why my blog is blocked. Facebook has been a nightmare for me. It never does what I want it to. I don't know how to connect with my audience. Facebook is not a place that welcomes me. But where would welcome me? I didn't have success with X. I also was not successful in being able to post in philosophical forums. Nowhere allows self promotion so I can never promote myself anywhere. There are no safe ways for me to connect with my audience. Everywhere I go bad things happen to me. </div><div><br></div><div>My goal is simply to find people to talk to philosophy about. But no platforms are allowing me to do that. So I am forced to hope that I can connect with others through the comments section. I can't go where my audience is but I can bring my audience to me. Why is it so hard to just connect philosophically with others? It is frustrating because Facebook is now a platform that I can't use AND other people also cannot post my content. So if someone on Facebook tries to post my content, it will block it for them as well. All of this because Facebook marked my blog as spam. And there is no review process. They just do it to you and you have to live with it. I wish Facebook could be useful to me but they have made it where I can't share anything of mine. Isn't that opposite to what Facebook is trying to do? Isn't it contrary to their purpose? Goodbye Facebook. I will just use you a few times a year when communicating with my parents.</div><div><br></div><div>With my spare money, I started advertising again. But this time I went to a website that is a partner with Google. They get me about 2,500 views in a week for $65USD. It is very expensive but it's probably the most natural way of finding new followers because the recommendations are done by AI, so it will target people interested in the content. $65USD is $100 for me so it isn't something that I would be able to afford every week. That would make me poor. But I can just recharge every time I have the spare cash in hopes of finding like minds. Being a YouTuber is expensive. I can't wait until the algorithm starts working for me, which the book I read will help. I am looking forward to being monetized but I am not sure when that will happen. But I will keep trying. I will keep trying to reach you. You will be worth the effort. It took a lot for me to be able to reach you. Few will ever see this. But I can't give up because I know you exist somewhere out there and I just need to find you.</div>
+</div>
+HTML;
+
+require __DIR__ . '/../shell.php';

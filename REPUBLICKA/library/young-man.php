@@ -1,0 +1,83 @@
+<?php
+// Library Tome — auto-generated from local GOD file
+// Slug: young-man
+// CONTENT_HASH: e62ca8ae4c84aa15f9807827c0a89643
+// Generated with centered layout by default
+// ✨ Users can edit this file to change layout! ✨
+
+$library_meta = array (
+  'id' => 'young-man',
+  'slug' => 'young-man',
+  'kind' => 'chronicle',
+  'title' => 'young man',
+  'published' => '2023-12-22',
+  'published_at' => '2023-12-22T03:18:00Z',
+  'created_at' => '2025-11-12T10:01:18Z',
+  'tags' => 
+  array (
+  ),
+  'shelf' => '',
+  'blogger_id' => 'tag:blogger.com,1999:blog-4695749665164044789.post-422346413119965381',
+  'blogger_type' => 'POST',
+  'blogger_status' => 'LIVE',
+  'blogger_created' => '2025-11-12T10:01:18.959Z',
+  'blogger_filename' => '/2023/12/young-man.html',
+  'blogger_location' => '',
+  'blogger_trashed' => '',
+);
+
+$page_title = 'young man | The Republic';
+$page_canonical = 'https://trepublic.net/library/young-man.php';
+$page_description = 'I used to be a young man. I had the world at my fingertips and I had a lot to say. I was 26 after my divorce. I was with her for nine years. As philosophy grew within me, my ex-wife and I grew apart. She was not at all p…';
+
+$page_og_title = $page_title;
+$page_og_description = $page_description;
+$page_og_url = $page_canonical;
+$page_og_image = 'https://trepublic.net/images/THeart.png';
+
+$hero_title = 'Library Tome';
+$hero_tagline = '📘 Book · ⚖️ Law · 📜 Chronicle';
+
+$console_title = 'young man';
+
+$console_body_html = <<<'HTML'
+<style>
+.library-tome-centered {
+    text-align: center !important;
+    max-width: 800px !important;
+    margin: 0 auto !important;
+    padding: 20px !important;
+}
+.library-tome-centered * {
+    text-align: center !important;
+}
+.library-tome-centered .alignleft,
+.library-tome-centered .alignright,
+.library-tome-centered .aligncenter {
+    text-align: center !important;
+    float: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered pre,
+.library-tome-centered code {
+    text-align: left !important;
+    display: inline-block !important;
+}
+</style>
+
+<div class="library-tome-centered">
+I used to be a young man. I had the world at my fingertips and I had a lot to say. I was 26 after my divorce. I was with her for nine years. As philosophy grew within me, my ex-wife and I grew apart. She was not at all philosophically inclined so as I began to make my life more and more about philosophy, the relationship further deteriorated. Until one day she left, cut contact, and told all her friends which were my friends to no longer speak with me. There I was at 26 in a foreign country without any relationships at all. I was working on my philosophy degree and abandoned all hope in my future. I tried to move back to be with my family but they didn't want me.<div><br></div><div>Before going back to Australia to make a new life for myself, one of my adopted brothers stole a lot of money from me before leaving, so when I arrived in Australia, I was homeless because I could not afford bond to find a rental and I could not afford the accommodation. So I ended up dumping almost all my stuff, burning all of my documents and identification, and then just roaming the bushlands of Australia. I did this for four or five years rarely ever having a place to live. I mostly lived in a tent. Then my father offered me to come live with him. I moved to the USA for him but shortly after I arrived, he found an online girlfriend in Mexico. He then moved to Mexico and offered for me to come along.</div><div><br></div><div>I wanted to stay with my father so I went to Mexico. I met a pretty girl there and she liked me but she wasn't interested in philosophy so ultimately it did not work out. I worked as an English teacher while I was there. After the girl dumped me, I tried working there alone but I didn't know the language and I didn't know anyone. It was also very isolating. So I quit my job and moved back to Canberra. Canberra was one of the many places that I visited throughout my homeless journeys. So there I was in Canberra again homeless. Eventually they put me in a psychiatric facility and helped me acquire a home. Now I live in stable accommodation with my dog.</div><div><br></div><div>All of this was fourteen years. I created so much work during those years both in text and video. Now that work is dead. Buried by the Internet. Throughout that time I invested myself in many dating apps, but I did not find anyone even potentially viable. I went from my youth to an older man overnight. Now I look back on my youth and wonder where all the time went. If I had discovered philosophy early on in life, then I would have never married that girl. But then where would I be in life? Having no relationships at all? If I were only doing philosophy from the ages of 15-18, then I would had made very different decisions for my life. But the end result is probably the same. A reclused hermit who can't find his soul mate.</div><div><br></div><div>I choose to be single. Because I choose not to invest myself in potential relationships that have no chance of working out. I could just put my photos on my profile without a biography, but I choose to describe the kind of relationship that I want. This makes me not very desirable to women. They usually just want someone that will party with them or someone who will bring them food. I am not lying, many girls put on their profiles that they want a guy who will bring them food. What a world we live in! Finding a pretty girl interested in philosophy is finding a needle in a haystack. Actually matching with them is even harder.</div><div><br></div><div>I was once a young man, but now I am wiser. I still missed my shot at finding the love of my life. The time where it could become a reality has passed. And now it is nothing more than a dream or a fantasy that keeps me awake at night. My mind is so focused on a relationship. I need to let go. Let what has become, be. So what if I live without friendships on a day to day basis? So what if I don't have a girl by my side. They usually just make people's lives miserable. I am happy alone when the alternative is not sustainable. I want to be connected to another forever or not at all. I just need to become more content with the latter. Because not at all means being alone for the rest of your life. It is easier said than done.</div><div><br></div><div>I can idealise how things would have been different if my parents were only better. But this would not be true. I would have come to the same conclusions only more quickly. I would still have struggled to find a girl to make videos for. So instead of starting my philosophical crusade between the ages of 15-18, I started at around 22. That still isn't bad, getting my life directed correctly as soon as I was self aware enough to see true beauty. Coming from a strict Christian home, this was my unindoctrination period. I had to relearn everything that I knew because I realised that everything that they taught us was meaningless.</div><div><br></div><div>I need a new philosophy to live by. The previous one I could not make happen. I need a philosophy inside myself that is only reliant on me to obtain happiness. Writing this makes me happy. Making videos makes me happy. I need to focus on the things that make me happy that do not remind me of this imaginary girl. I need to still be open to this type of relationship forming because I still see it as my highest good. But be open to it happening while knowing that it will probably never happen. Reality always dwindles such fairy tales away. Reality doesn't play by my rules. It doesn't hesitate for my meaning. It just acts and it is cold and hard. I have to then come back to the past to sprinkle meaning over it to make it more appetising to the soul.</div>
+</div>
+HTML;
+
+require __DIR__ . '/../shell.php';

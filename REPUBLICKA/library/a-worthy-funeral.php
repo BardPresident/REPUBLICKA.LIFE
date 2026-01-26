@@ -1,0 +1,83 @@
+<?php
+// Library Tome — auto-generated from local GOD file
+// Slug: a-worthy-funeral
+// CONTENT_HASH: 2854207d649058441f94d2e9bfbee027
+// Generated with centered layout by default
+// ✨ Users can edit this file to change layout! ✨
+
+$library_meta = array (
+  'id' => 'a-worthy-funeral',
+  'slug' => 'a-worthy-funeral',
+  'kind' => 'chronicle',
+  'title' => 'a worthy funeral',
+  'published' => '2024-04-03',
+  'published_at' => '2024-04-03T04:19:00Z',
+  'created_at' => '2025-11-12T10:01:23Z',
+  'tags' => 
+  array (
+  ),
+  'shelf' => '',
+  'blogger_id' => 'tag:blogger.com,1999:blog-4695749665164044789.post-3998533653291466115',
+  'blogger_type' => 'POST',
+  'blogger_status' => 'LIVE',
+  'blogger_created' => '2025-11-12T10:01:23.695Z',
+  'blogger_filename' => '/2024/04/a-worthy-funeral.html',
+  'blogger_location' => '',
+  'blogger_trashed' => '',
+);
+
+$page_title = 'a worthy funeral | The Republic';
+$page_canonical = 'https://trepublic.net/library/a-worthy-funeral.php';
+$page_description = 'What is the purpose of my life? Philosophers throughout the ages have placed primary importance on one\'s life in relation to their social atmosphere. But I don\'t have a social life. I rarely communicate with others. I in…';
+
+$page_og_title = $page_title;
+$page_og_description = $page_description;
+$page_og_url = $page_canonical;
+$page_og_image = 'https://trepublic.net/images/THeart.png';
+
+$hero_title = 'Library Tome';
+$hero_tagline = '📘 Book · ⚖️ Law · 📜 Chronicle';
+
+$console_title = 'a worthy funeral';
+
+$console_body_html = <<<'HTML'
+<style>
+.library-tome-centered {
+    text-align: center !important;
+    max-width: 800px !important;
+    margin: 0 auto !important;
+    padding: 20px !important;
+}
+.library-tome-centered * {
+    text-align: center !important;
+}
+.library-tome-centered .alignleft,
+.library-tome-centered .alignright,
+.library-tome-centered .aligncenter {
+    text-align: center !important;
+    float: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered pre,
+.library-tome-centered code {
+    text-align: left !important;
+    display: inline-block !important;
+}
+</style>
+
+<div class="library-tome-centered">
+What is the purpose of my life? Philosophers throughout the ages have placed primary importance on one's life in relation to their social atmosphere. But I don't have a social life. I rarely communicate with others. I invest my time in exploring the fascinating world of philosophy. In a way I am very cut off from the world but in another way I am actively participating in a very long running conversation about the world and what it means to us. I spend my days learning about the history of philosophy. I slowly obtain comprehension of how we have evolved as a human civilization over the last thousands of years. I come to learn and accept the fruits of philosophical investigation. I am transformed into a certain type of person with beliefs that reflect our intellectual development over the course of our human history. I come to appreciate current applications to fields like government, economy, and the sciences. I have come to hold great respect for human knowledge and appreciate the trials it took for us to obtain it.<div><br></div><div>From a certain perspective, I am not actively engaged in a personal social life. But my social life is much more complex than just not having people to experience life with. My friends span over many generations. Those who have expressed themselves in the past have been recorded for future generations. My friendships are with the past experiences of historical philosophers. I can relate to them much easier than I can relate with the living people in my world. My response to their arguments are then recorded in the public domain, available to anyone who has the ability to find me. But I hold no grand unifying theory of everything. I am just a 21st century philosopher thinking carefully about my life. I am advantaged because I can stand on the shoulders of giants. Those in the past that have contributed their insight build upon the knowledge that I have come to believe as true. And the knowledge that I produce individually was made possible by the foundations in which I learned by my predecessors.</div><div><br></div><div>In a very real way I am much more socially involved than normal people who have friends and loved ones. I am actively engaged in and contributing towards the most important topics that humanity faces. I regularly document my progression with difficult topics. I reflect carefully on what philosophers throughout the ages have said and then contemplate very carefully how it relates to me. Over time this builds passion in me that eventually wants to come out. I then make a video or write a blog to express my concern. This is then combined with the collective information of society. This process is social by its very nature even if the information is looked over by most. It is not my responsibility to propagate information into society. Only to submit it. Who the information reaches is almost entirely out of my control. This practice is my social life. Listening to the arguments of dead people, contemplating very carefully about what they were trying to say, and then releasing my responses in a public format.</div><div><br></div><div>But philosophy is not only obtainable from the dead. There are many great philosophers of our age. With enough research, one can find courses on pretty much any subject one wants to learn. We live in a public society and for the most part, developments in society lead to a better life for all of us. The living philosophers of our time propel the discoveries of the future. I might not be friends with the philosophers that teach the material, but I can connect with them through their fruits: the courses that they publicly provide. In a dream world these people would also be my friend but I have never managed to find a friend who was a philosopher. Philosophers are not that common amongst society. Why should I expect to be friends with other philosophers when there are so few of them in the world? But what I can do is learn from them. There is so much to learn and I have to prioritise the content in which I learn. What content is most valuable to invest my time into for the life that I live?</div><div><br></div><div>What is a meaningful life? Is a life spent alone necessarily not valuable? I am a product of society. Society educated me. But it didn't effectively socialise me because I have lived a life mostly alone. But is the only way to create meaning by sharing the company of others? Can I not live a meaningful life all by my lonesome? Can my posts stand as my contributions to society? Can I live and die, have no one at my funeral, yet still have lived a meaningful life? I am critical of ancient wisdom regarding the necessity of an active social life regarding the ways that one chooses to live. If I were to have a friend, I would expect a lot out of them. I would want to in a way, share souls. I would want others to be open about who they are emotionally. I would want to aspire towards a philosophical friendship. If they have no interest in philosophy, then I have no interest in a relationship. I don't want to involve myself with people who are not morally driven.</div><div><br></div><div>Because philosophers are not people that one stumbles on regularly, it is unreasonable for me to get angry that I can't find friends. I only want to be friends with other philosophers. Philosophers are so few in this world. Thus I shouldn't be upset when I am unable to find friends. If I were to befriend people who are not philosophers, I would not be able to communicate the ways in which I want with them. What I want isn't available. I would prefer to live a life without friends than a life with friends who are not philosophers. As a result, it is unreasonable to expect to live a life with friends. This then suggests that social participation in a society is not fundamental to living a meaningful life. Experiences shared may feel more meaningful but is it? If I were to see the sunset, I might glance at it and move on with my life. Because a sunset occurs regularly. But if I were with a girl that I was attached to, I might consider that sunset more valuable than when I was alone. The sunset means something different to me depending on if I am alone or with others when I am experiencing it.</div><div><br></div><div>Take a trip to the zoo or an amusement park. I wouldn't do that if I were alone. But if I were with people whom I care about, the activity becomes more pleasant. Having experiences with other people oftentimes changes those experiences. But we could imagine that a single individual could go to the zoo or an amusement park alone and have fun doing it. It is all about how their mood is tuned to the world. We are thrown into the world and asked how we are going to respond. If I were alone at a zoo or an amusement park then I would go home because I wouldn't want to do that alone. But maybe I am missing out on amazing experiences just because I don't think they would provide me any excitement if they were experienced alone. But that is how I am tuned to the world. I would prefer to listen to a lecture than go out and do things. I have already experienced what I wanted from the external world. I am much more interested in spending the rest of my life developing my internal world.</div><div><br></div><div>Just because I don't have a rich social life does not mean that I do not have a social life. My social life is just different. I am listening to the world and responding. I am even trying my luck at the stock market, supporting companies in which I support in life. I am an active member of society, even though most of my time is spent at home studying in solitude. I am invested in the parts of the world where I want to be invested. My life is not sad. Each day is an opportunity to learn something new. So even though no one will come to my funeral, I still think that I am living a rich inner life. So what if I value different things than most people? Who ever said I had to be like other people? I am living independently a productive life. Sure, it doesn't resemble the kind of life that most people value, but I am happy and content. I am tuned to the world. I don't get bored unless I don't have anything to study. All I have to do is keep studying. The words I contemplate today will be implemented tomorrow. Philosophy really is an ever sharpening blade.</div><div><br></div><div>I made many mistakes growing up. I look upon my younger self as immature. After I found access to an unlimited amount of knowledge, I began to sort the information. What I learn today will not be integrated into my personality until tomorrow. If I only knew yesterday what I know today. Then I would have solved my problems much more strategically. My past is the dead skin of the now and my future is another revelation of my character. Each time I fail I retreat and reflect where I went wrong. And then I create another iteration of myself; a corrected self. Thus I push on until I arrive at another epiphany and thus have to yet again recreate my personality. Life is a process where we come closer and closer to the kind of person that we want to be. And hopefully by the end of it I will finally become the person who I always was. Maybe it is true that no tears will be shed for me at my funeral but my life will still have been meaningful because I created the best person that I could given the available resources. A death in solitude just represents the life that I had in solitude. And oh boy was it a good life. I had the opportunity to utilise it to think and feel. At least I was given the opportunity to try this thing called life.</div>
+</div>
+HTML;
+
+require __DIR__ . '/../shell.php';

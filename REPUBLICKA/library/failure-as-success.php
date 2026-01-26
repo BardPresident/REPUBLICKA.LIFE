@@ -1,0 +1,83 @@
+<?php
+// Library Tome — auto-generated from local GOD file
+// Slug: failure-as-success
+// CONTENT_HASH: 3e080a0ca5725bcac5105f0d84abb83b
+// Generated with centered layout by default
+// ✨ Users can edit this file to change layout! ✨
+
+$library_meta = array (
+  'id' => 'failure-as-success',
+  'slug' => 'failure-as-success',
+  'kind' => 'chronicle',
+  'title' => 'failure as success',
+  'published' => '2023-12-23',
+  'published_at' => '2023-12-23T21:59:00Z',
+  'created_at' => '2025-11-12T10:01:18Z',
+  'tags' => 
+  array (
+  ),
+  'shelf' => '',
+  'blogger_id' => 'tag:blogger.com,1999:blog-4695749665164044789.post-2379657223027855727',
+  'blogger_type' => 'POST',
+  'blogger_status' => 'LIVE',
+  'blogger_created' => '2025-11-12T10:01:18.959Z',
+  'blogger_filename' => '/2023/12/failure-as-success.html',
+  'blogger_location' => '',
+  'blogger_trashed' => '',
+);
+
+$page_title = 'failure as success | The Republic';
+$page_canonical = 'https://trepublic.net/library/failure-as-success.php';
+$page_description = 'I really love Blogger and I really love YouTube. These are two things that are in my life that are really fun for me to do. Right now I enjoy blogging much more than making videos. It is a lot less intrusive. But I am su…';
+
+$page_og_title = $page_title;
+$page_og_description = $page_description;
+$page_og_url = $page_canonical;
+$page_og_image = 'https://trepublic.net/images/THeart.png';
+
+$hero_title = 'Library Tome';
+$hero_tagline = '📘 Book · ⚖️ Law · 📜 Chronicle';
+
+$console_title = 'failure as success';
+
+$console_body_html = <<<'HTML'
+<style>
+.library-tome-centered {
+    text-align: center !important;
+    max-width: 800px !important;
+    margin: 0 auto !important;
+    padding: 20px !important;
+}
+.library-tome-centered * {
+    text-align: center !important;
+}
+.library-tome-centered .alignleft,
+.library-tome-centered .alignright,
+.library-tome-centered .aligncenter {
+    text-align: center !important;
+    float: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered pre,
+.library-tome-centered code {
+    text-align: left !important;
+    display: inline-block !important;
+}
+</style>
+
+<div class="library-tome-centered">
+I really love Blogger and I really love YouTube. These are two things that are in my life that are really fun for me to do. Right now I enjoy blogging much more than making videos. It is a lot less intrusive. But I am sure that I will in time go back to video. I have always gone between text and video to express myself over my life. And the flow that is reached while writing is amazing. It is my drug. Videos have this type of flow to them but they are only in short bursts. I can spend an hour making a video or I can spend hours writing a blog post.<div><br></div><div>I like to complain about my life but we live in the best era possible. We saw technology develop from the ground up. And there is now an AI revolution that is capturing the hearts of humanity, making difficult tasks very simple. Technology changes the ways in which humans interact with their world. By constantly trying to maximise efficiency, we speed up the rate in which our technology evolves. More has been accomplished by humanity in my lifetime than ever before in history.</div><div><br></div><div>Technology has major ramifications for the health industry. At first we look at maximising one's lifespan. But as that technology develops, the end goal becomes clear: become immortal. There are many companies investigating potential ways to achieve immortality. Although this is probably a long way off, AI drastically shortens the timeline to find such solutions. And if people can practically become immortal, then what does this mean for the human population? Will we continue to have children despite us all living for a very long time? And if we continue to have children, can this planet continue to sustain us all?</div><div><br></div><div>And what future does space travel hold for humanity? In the next ten to fifteen years we will be creating bases on the moon. Mars is also in the sights of our potential capabilities. How far will we explore and is it really true that we might be able to find something useful that is not on Earth? Is this planet all humans are capable of colonising or will we create living spaces far far away? The human spirit is capable of achieving anything that its heart sets itself on. What are the future peaks of civilisation?</div><div><br></div><div>I complain a lot about my life but all in all, I have it pretty good. I live in the best time to live, I am the person I want to live as, and I have all the tools of expression that I could ever want, thanks Google. I have great heartfelt entertainment for my life, I don't have to work, and I can spend my time discussing the topics that I care about most in my life. How good is life? I don't need another to share experiences with. I can share my experiences with the world. Sure it isn't very receptive, but the public doesn't know what is good for them.</div><div><br></div><div>As we grow into the individual we were meant to be, we change our perspectives. When one aspect of life is discarded, it changes the situation. I used to want to find a girl who revolved her life around God. Now I don't want a religious wife. Before that, I wanted my ex-wife to become a martial artist. I was a martial artist for many years of my life and I thought that was what I wanted in another. When I used to camp a lot, I wanted someone who would go camping with me. Now I am not even interested in camping. Refining as an individual means discarding the parts of ourselves that are no longer useful. I used to want a gamer girl but now I am not into games. If I had achieved any of these past goals would I be happy now? Would I be happy if I found a religious girl?</div><div><br></div><div>I am different than what I was. I discarded all of the parts of myself that were not me. Now I am left with philosophy, sociology, psychology, mythology, technology, and education. These are the only aspects of life that interests me. For the most part, everything else has been discarded. I spend my days having experiences crafted by my own hand. I didn't want what society has to offer. I had to create something for myself. I had to become the change I wanted to see in the world. And this crafted my world. I don't go out. I just stay in my house with my dog for as long periods as possible. I only leave my house to go shopping to get the things that I need in life.</div><div><br></div><div>I am a minimalist. I survive on the minimal amount possible. I don't want to go out and experience what they have out there. I want to experience what I have in here. The mind is vast and I can get lost in its abstractions. The media that the world has to offer lacks nutrition for the soul. The world lacks heartfelt content that can inspire you on your day to day adventures. Wendell means adventurer. But I am no longer homeless so I no longer need to adventure the outside landscape. I can spend my days adventuring my heart and soul in the safety of my own home. A pension provides all I need and more financially. I have no troubles existing financially in this world anymore. So instead of focusing my life on financial burdens, I can focus my life on what is truly important to me.</div><div><br></div><div>I look forward to seeing what AI can do for social networking. Will it become a lot easier to find the types of people you are looking for? I am now a refined individual. The passions that I have now are passions that I want to keep a hold of for the rest of my life. I was brainwashed in my youth into believing collective doctrine. It took me a while to develop myself into the person I am today. I had to shed a lot of stuff that was no longer important to me. So maybe it was good that I did not find a wife in my more youthful years. I could have found someone who was ultimately not good for me. At least now I know exactly what I am looking for. Now finding her is a different story.</div>
+</div>
+HTML;
+
+require __DIR__ . '/../shell.php';

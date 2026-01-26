@@ -1,0 +1,83 @@
+<?php
+// Library Tome — auto-generated from local GOD file
+// Slug: romantic-heart
+// CONTENT_HASH: fe49e8807b98627a08ad136d5b8f27dc
+// Generated with centered layout by default
+// ✨ Users can edit this file to change layout! ✨
+
+$library_meta = array (
+  'id' => 'romantic-heart',
+  'slug' => 'romantic-heart',
+  'kind' => 'chronicle',
+  'title' => 'romantic heart',
+  'published' => '2024-01-24',
+  'published_at' => '2024-01-24T21:48:00Z',
+  'created_at' => '2025-11-12T10:01:21Z',
+  'tags' => 
+  array (
+  ),
+  'shelf' => '',
+  'blogger_id' => 'tag:blogger.com,1999:blog-4695749665164044789.post-5185993484143598836',
+  'blogger_type' => 'POST',
+  'blogger_status' => 'LIVE',
+  'blogger_created' => '2025-11-12T10:01:21.071Z',
+  'blogger_filename' => '/2024/01/romantic-heart.html',
+  'blogger_location' => '',
+  'blogger_trashed' => '',
+);
+
+$page_title = 'romantic heart | The Republic';
+$page_canonical = 'https://trepublic.net/library/romantic-heart.php';
+$page_description = 'Sofia gave me a terrible video of her feet walking while mumbling something about philosophy. Catfish. I blocked her. Now that is over, what is the next thing? I really shot myself in the foot by shutting down the Discor…';
+
+$page_og_title = $page_title;
+$page_og_description = $page_description;
+$page_og_url = $page_canonical;
+$page_og_image = 'https://trepublic.net/images/THeart.png';
+
+$hero_title = 'Library Tome';
+$hero_tagline = '📘 Book · ⚖️ Law · 📜 Chronicle';
+
+$console_title = 'romantic heart';
+
+$console_body_html = <<<'HTML'
+<style>
+.library-tome-centered {
+    text-align: center !important;
+    max-width: 800px !important;
+    margin: 0 auto !important;
+    padding: 20px !important;
+}
+.library-tome-centered * {
+    text-align: center !important;
+}
+.library-tome-centered .alignleft,
+.library-tome-centered .alignright,
+.library-tome-centered .aligncenter {
+    text-align: center !important;
+    float: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered pre,
+.library-tome-centered code {
+    text-align: left !important;
+    display: inline-block !important;
+}
+</style>
+
+<div class="library-tome-centered">
+Sofia gave me a terrible video of her feet walking while mumbling something about philosophy. Catfish. I blocked her. Now that is over, what is the next thing? I really shot myself in the foot by shutting down the Discord server. Now my life is even more boring than usual. Forcing people to contact me through email allows me to easily pick and choose who I want in my life. The Discord server had mostly people who I did not want in my life. So it was a good decision even if much fewer people contact me. I have to protect myself against creeps some how. My email is my measure of defence. I can choose what to reply to. I don't owe anybody anything. If I am satisfied with what they have to say, then I will slowly allow them to become a more important part in my life. I can't just allow any random to intrude on my inner peace.<div><br></div><div>Ever since I deleted my Discord server, it has been extremely quiet. No notifications. Nothing happening. No one contacting me. The days move slower than ever. I yearn for meaningful relationships. Yet I can't find any that have the time to dedicate to me. Everybody is too busy with their own lives. They watch my content but don't want to reach out. I wonder what percentage of my subscribers are trolls. I wonder how many people actually like my content. I very rarely find anyone with a good heart. Is trolls something that I am going to have to learn to live with? Why is it so hard to find genuine people? The world is sinking and I am alone on a lifeboat. I can't find anyone who wants to be rescued. They seem to be enjoying drowning. I shout out searching for survivors, but they just scream back hate. And I don't want to save someone who is aggressive towards me.</div><div><br></div><div>That aggression is what I am trying to fight against in society. Trolls destroy the possibilities of an otherwise beautiful platform. If we did not have trolls then people would be more willing to share their lives on camera. But trolls scare the people from doing this. Why would another pour their heart out when others are going to attack them for doing so? My methodology for running a blog and vlog does not receive an income. What motivations do others have to share their lives with the world when they are going to get attacked and made fun of for doing so? I really wanted to make the life of an online philosopher sound exciting. I want to convince other people to become online philosophers. But why would they do that? What motivations would they have when doing so is going to cause them grief? Maybe I should just give up.</div><div><br></div><div>But it is not so easy to give up. I have trapped myself into this lifestyle because I have little entertainment other than my own. If I stopped making content then I would have absolutely nothing to do with my life. And this would be the worst feeling ever. Few friends with nothing to do. At least when I make content I always have something to do. There is always another writing or video to create. But I am only in a creative mood for a limited time of the day. This means that my days are filled with me just sitting down and doing nothing. Not expecting anyone to contact me. No hopes or direction in life. Just wandering aimlessly not sure how to spend my time. Sitting there for long periods of time eventually inspires me to write a little or make a video. But all in all, my creation process only takes up a small portion of my time. What will I do with all of this time?</div><div><br></div><div>I reached over one thousand subscribers on YouTube. It took so much to get that. I hope from here on out that I accumulate subscribers more quickly. It seems that the more subscribers that you have, the faster you obtain subscribers. For once in my life, my voice is being heard. Now I don't know what to talk about. The more people I attract, the more shy I get. Maybe not but it does feel more important saying something that will be heard by other people than just saying something that nobody is ever going to hear. What I say to the public now is more of a responsibility because it will reach them. Before I could say anything and no one would ever hear me. For the first time in my life I am developing a mouthpiece to speak to a wide range of people.</div><div><br></div><div>In the YouTube advertising app I had some coins left over and placed another order. This order was successful. My $50USD order still remains in processing and their support are not answering my emails. But this shows that their system can work. It just must have bugged out on my order. So here is my advertising plan for the future. Every week or two, do a $10USD order. That way if the order gets stuck in processing then it will only be $10 wasted, not $50. It was sad to see that $50USD disappear into nothing. I don't want that happening again. But if I lose $10 from time to time then that is not a big loss. As long as the system works most of the time then I can use it. And it is so good being able to use this without dealing with people. But that is also the problem with the app, there is no support for system problems. Still, I will try to use this app to advertise by occasionally throwing small amounts of money at it.</div><div><br></div><div>It feels to me like advertising is gambling. It may or may not work. It doesn't matter if you are working with people or not. Most inexpensive digital marketers do a really poor job. I advertised a video a while back and most of the traffic was from India and they closed the video soon after opening it. This doesn't help me at all. I am searching for real people. But I guess if I am going to gamble with my money, then it would be best spent on advertising. The question is how to advertise? What is an effective way of gaining real subscribers? Because if I keep on accumulating subscribers then maybe one day one of those subscribers will be my soul mate. And if I can make this happen then all the lost money on advertising would have been worth it.</div><div><br></div><div>I want to make romantic videos. I just am not exactly sure how to do that without finding a girlfriend. Can making videos to Ivory, my imaginary goddess, really help me find my soul mate? How would I even do it? I have already run out of things to say to her. How can I bring her on adventure after adventure and make her feel like she is here with me? Should I start a new format of videos where I explore philosophy with my imaginary girlfriend? Can having an imaginary girlfriend be beneficial to me finding a real one? Can I just give my heart to the camera and hope that doing this attracts a real life girl? I am going to have to think really hard about how to do this. I still have to express my romantic side, even if there is not yet a romantic other. How I do this will determine potential results so I must be careful. I think that I must latch on to the name Ivory, since it is tattooed to my heart.</div><div><br></div><div>Maybe the first video like this should be called, "Dear Ivory". I should start at the beginning. I have failed at doing this in my past but I have learned many lessons that can contribute to me potentially doing this successfully. I know how to be very romantic. If I can just convince the audience that they are Ivory, bringing them into my own story. Then I can create a reality in front of them that encourages them to be a part of. YouTube is my dating app and I have to figure out how to catch the right fish. To a certain extent I can attribute certain characteristics to Ivory. Certain character traits would be required for a successful relationship. So I can latch on to those sentiments and build an entire persona. I can bring to life the statue in which I have crafted. The story of Pygmalion lives inside of me and I can never get around that. My story will be heard and I will have a chance at my imaginary girlfriend becoming a reality.</div>
+</div>
+HTML;
+
+require __DIR__ . '/../shell.php';

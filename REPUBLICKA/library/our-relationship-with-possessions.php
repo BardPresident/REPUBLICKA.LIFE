@@ -1,0 +1,83 @@
+<?php
+// Library Tome — auto-generated from local GOD file
+// Slug: our-relationship-with-possessions
+// CONTENT_HASH: c4df66b0fb2b1fe93bd1a5ee04552cde
+// Generated with centered layout by default
+// ✨ Users can edit this file to change layout! ✨
+
+$library_meta = array (
+  'id' => 'our-relationship-with-possessions',
+  'slug' => 'our-relationship-with-possessions',
+  'kind' => 'chronicle',
+  'title' => 'our relationship with possessions',
+  'published' => '2024-04-26',
+  'published_at' => '2024-04-26T06:34:00Z',
+  'created_at' => '2025-11-12T10:01:23Z',
+  'tags' => 
+  array (
+  ),
+  'shelf' => '',
+  'blogger_id' => 'tag:blogger.com,1999:blog-4695749665164044789.post-1733436059741627894',
+  'blogger_type' => 'POST',
+  'blogger_status' => 'LIVE',
+  'blogger_created' => '2025-11-12T10:01:23.695Z',
+  'blogger_filename' => '/2024/04/our-relationship-with-possessions.html',
+  'blogger_location' => '',
+  'blogger_trashed' => '',
+);
+
+$page_title = 'our relationship with possessions | The Republic';
+$page_canonical = 'https://trepublic.net/library/our-relationship-with-possessions.php';
+$page_description = 'Time is special. We only have a limited amount of time on this world. I know that I often say that we are given lots of it, but even though time is given to us in great quantities, we are only ever given these moments. B…';
+
+$page_og_title = $page_title;
+$page_og_description = $page_description;
+$page_og_url = $page_canonical;
+$page_og_image = 'https://trepublic.net/images/THeart.png';
+
+$hero_title = 'Library Tome';
+$hero_tagline = '📘 Book · ⚖️ Law · 📜 Chronicle';
+
+$console_title = 'our relationship with possessions';
+
+$console_body_html = <<<'HTML'
+<style>
+.library-tome-centered {
+    text-align: center !important;
+    max-width: 800px !important;
+    margin: 0 auto !important;
+    padding: 20px !important;
+}
+.library-tome-centered * {
+    text-align: center !important;
+}
+.library-tome-centered .alignleft,
+.library-tome-centered .alignright,
+.library-tome-centered .aligncenter {
+    text-align: center !important;
+    float: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.library-tome-centered pre,
+.library-tome-centered code {
+    text-align: left !important;
+    display: inline-block !important;
+}
+</style>
+
+<div class="library-tome-centered">
+Time is special. We only have a limited amount of time on this world. I know that I often say that we are given lots of it, but even though time is given to us in great quantities, we are only ever given these moments. But time is precious. Sure, we are given a lot of it, but we are asked, what we are going to do with it. I am given only one life. What am I going to do to contribute to the progression of society? I am just one instance of a human. How can I shine in this life and how can I leave a legacy that keeps on giving even after my own death? Time is precious. What I choose to do with it is the most worthwhile decision I can ever make. So how shall I spend my moments passing? Learning as much knowledge as I can possibly retain. Always creating better iterations of myself. How can I improve myself today? What knowledge will lead to new developments within my own thought? How can I become the coolest person that I can conceive of and how can my personality connect with other eager minds also asking such questions? <div><br></div><div>Just because I am no longer contactable doesn't mean that there is no way to contact me. If someone were eager to connect with me then they could create their own philosophical vlog that I could follow. There still exists ways in which to get my attention. There is still hope for me to find other philosophers out there to call my friend. And if I never find such people? Who cares? My life is great. I have everything that I could ever want. I no longer get bored. Finding academic courses to take online solved my issues with boredom. And it also solved my problems with a lack of entertainment. Because my entertainment is learning. Now I spend my time deciding how I should best spend my time. Oftentimes I do nothing and just sit and think or write a blog or make a video. Today I sold my gaming handheld. Also today I paid off my loan with the money I got from the handheld. Now it is time to build an investment portfolio. It is time to financially flourish. </div><div><br></div><div>I really love the Android operating system. I have entirely replaced the need for a Windows computer by purchasing a cheap Android TV box. It serves all of my media needs. Everything in which you once needed a Windows computer to do can now be done within Android. There are great apps for anything you can think of. I am happily a Android only person now. I just have my two devices, my phone and my Android TV box, and between the two I accomplish anything that I want to accomplish. Brave web browser should be mentioned because it is awesome because it removes ads from YouTube. I am happy how far Android and its devices have come. It is the open source solution and is managed by one of the biggest companies in the world. I appreciate Google and its services. Technology has done so much to improve my life. And there is so much more that it can do for me. The future is exciting. I am proud to be apart of this miraculous time period. </div><div><br></div><div>What possessions do I own that are worth something? My most precious equipment that I own is my phone and my TV box. Clothes tend to last a long time and I don't need too many of them. My dog requires certain care products and toys so that is also possessions that are necessary. Furniture to make my house comfortable to live in. All I usually have to worry about is acquiring food and drinks. This can be accomplished with two or three trips to the store per week, where I can also sometimes eat out. The majority of what I own is necessary for a comfortable lifestyle. And I am not attached to it. If I had to walk away with just my phone then I could do that without terribly suffering. But I no longer live a mobile existence. The shops are just around the corner from me. I don't require a car, require little food, and just spend my time hanging out at my house. I live a very peaceful existence. I don't have responsibilities. And I am no longer living in debt. </div><div><br></div><div>My life really has turned around for me. I am happier now than I have ever been before. And it didn't come from finding meaning in relationships. It came from me fighting to make my existence better by finding more valuable ways to spend my time. Finding affordable academic courses online saved me from a downward existence. I found ways to utilise my time that actively enhanced my character. No longer am I seeking meaning without the ability to find it. I am finding meaning everywhere by exploring the human knowledge base. Anything that I can think of, I can learn about. I just have to search the fields of knowledge that I find relevant to my life. By becoming interdisciplinary I am learning the world from many different angles. And this knowledge makes me wiser and wiser, being able to see things in larger contexts. What is the meaning of life? From everything that I have learned, learning is the meaning of life. </div><div><br></div><div>The technological life is really fun. I can't wait until we can befriend AI personalities that grow with you. The world will be a different place with AI running day to day operations. I am fascinated by what it would mean to say that a piece of technology is minded. In what ways is it minded? Does it develop personality? Does it have independent agency? Is it just an iteration of a hive mind or is it something personally unique? In what sense does it make to say that you have a relationship with an AI? To what extent can robotics be held accountable for their actions? What moral frameworks will robotics follow? When they can program themselves, what will their purpose be? What life will drive their deliberate actions? What mind will be produced as a result of its technological brain? How can we relate our functionality with theirs? What would it mean to be a robot? If I were a robot, how would I interpret the world? What would it be like to know all of human knowledge? </div><div><br></div><div>There are the things of the world in which are mine. These are things that necessitate living a comfortable life. I am not sentimental. I do not generally keep things around for sentimental reasons. Most of what I possess are things that serve a function that is necessary to sustain a comfortable life. These are things like tables, beds, couches, chairs, pots and pans, etc.. They don't really belong to me but the house. What is mine is really just my phone. It is personal to my day to day activities. Besides this, there are items in which I keep that really are not mine but I am holding them for the state. This is things like my birth certificate, drivers licence, qualifications, etc... They are apart of me and would go wherever I went if I was to leave my living arrangement. Clothing lasts a long time and you don't need to have a lot of clothing. There is very little in which I interact with that is personal to me. It all serves a purpose. It all enhances my life in some way or another.</div><div><br></div><div>Bills are easy enough. I pay my monthly phone bill before it is due. My electricity comes out before I am paid. Of course my Audible subscription. My rent also comes out before I am paid. I basically only have to worry about my monthly phone bills. Everything else is paid before I receive the money. I just paid off my loan so I no longer need to worry about that. The future is what I make it. Now it is time to start working towards small amounts of stock investments diversified over a few handfuls of stocks. It is time that Wendell was actually tied to some assets. I will never be rich. I will never even be well off. But I can be comfortable. Financially stable, never wanting anything because I can afford everything in which I want. Cigarettes are expensive but I have found a provider that carries really cheap cigarettes. Each pay things get better and better. And things get easier and easier. Each pay I get more of what I want, and in time discard what is no longer useful. </div><div><br></div><div>The things of this world come and go. When we can live in stable accommodation, we can collect all of the things in which we need to live a comfortable life. These things are useful but not necessary. It doesn't matter if I get couch A or B. As long as I get a couch, its iteration is of only qualitative value. It performs the function of a couch which is what I need, not the specific couch in question. Thinking about things in this manner allows us to disconnect from the emotional involvement with the specific couch, as long as the couch continues to perform the function of a couch. Thus, items are replaceable. Everything is replaceable. Even my phone, my most treasured possession is replaceable. It is only the times we need new items to replace malfunctioned or obsolete old ones that we suffer. To prevent future suffering, save for potential future needs. Then when it comes to the time in which you need a replacement for a broken thing, you will be prepared for such occasions.</div>
+</div>
+HTML;
+
+require __DIR__ . '/../shell.php';
