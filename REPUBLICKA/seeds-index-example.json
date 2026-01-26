@@ -1,0 +1,20 @@
+{
+  "seeds": [
+    {
+      "id": "archive-constellator",
+      "title": "Archive Constellator",
+      "preview": "turn a lifetime of scattered work into a living, navigable atlas dat reveals hidden connections",
+      "keeper": "The Republic",
+      "date": "2025-12-13",
+      "order": 1
+    },
+    {
+      "id": "civic-foundry",
+      "title": "Civic Foundry", 
+      "preview": "turn a North Star into an unstoppable movement wit strategy, structure, and soul",
+      "keeper": "The Republic",
+      "date": "2025-12-13",
+      "order": 2
+    }
+  ]
+}

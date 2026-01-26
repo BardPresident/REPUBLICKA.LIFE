@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- THE REPUBLIC • SOVEREIGN CIVILIZATION • 0001 MC         -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+
+  <!-- Home -->
+  <url>
+    <loc>https://trepublic.net/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- CORE SACRED PAGES                                       -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+
+  <!-- Rainbow Bridge - The Liberation Path -->
+  <url>
+    <loc>https://trepublic.net/rainbow-bridge.php</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- 911 -->
+  <url>
+    <loc>https://trepublic.net/library/truth-of-911-who-did-it-and-why.php</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+    <!-- WENDY MEMORIAL -->
+  <url>
+    <loc>https://trepublic.net/library/wendy-memorial-september-3-2008.php</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+      <!-- HEAVEN AURELIUS -->
+  <url>
+    <loc>https://trepublic.net/library/heaven-aurelius.php</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+        <!-- BIG BANG -->
+  <url>
+    <loc>https://trepublic.net/library/life.php</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+    <!-- Receipts - The Witness Dock -->
+  <url>
+    <loc>https://trepublic.net/receipts.php</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Receipts - The Witness Dock -->
+  <url>
+    <loc>https://trepublic.net/receipts.php</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- The Throne -->
+  <url>
+    <loc>https://trepublic.net/YESHUA-HAMASHIACH.PHP</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- STARSHIP CONSOLE                                        -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+
+  <!-- Crown - Sovereignty -->
+  <url>
+    <loc>https://trepublic.net/crown.php</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Seeds - The Plantings -->
+  <url>
+    <loc>https://trepublic.net/seeds.php</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Shards - Memory Fragments -->
+  <url>
+    <loc>https://trepublic.net/shards.php</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Codex - The Knowledge -->
+  <url>
+    <loc>https://trepublic.net/codex.php</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Craft - Creation Tools -->
+  <url>
+    <loc>https://trepublic.net/craft.php</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+    <!-- SYNC666 -->
+  <url>
+    <loc>https://trepublic.net/sync-666.php</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- ARCHIVE                                                 -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+
+  <!-- Library - 32 Years of Documents -->
+  <url>
+    <loc>https://trepublic.net/library.php</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Cinema - 1,492 Videos -->
+  <url>
+    <loc>https://trepublic.net/cinema.php</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Comic - Visual Stories -->
+  <url>
+    <loc>https://trepublic.net/comic.php</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- CONTACT & CAPTURE                                       -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+
+  <!-- First Contact -->
+  <url>
+    <loc>https://trepublic.net/first-contact.php</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Capture - Evidence Collection -->
+  <url>
+    <loc>https://trepublic.net/capture.php</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- PARADOX ENGINE                                          -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+
+  <!-- Paradox - The Portal -->
+  <url>
+    <loc>https://trepublic.net/PARADOX.php</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Glitchy - Reality Breaks -->
+  <url>
+    <loc>https://trepublic.net/glitchy.php</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- SYSTEM                                                  -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+
+  <!-- Backup -->
+  <url>
+    <loc>https://trepublic.net/backup.php</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Shell -->
+  <url>
+    <loc>https://trepublic.net/shell.php</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>
