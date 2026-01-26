@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "chrome-shard",
+  "version": "3.2",
+  "description": "Shard any page into your notebook.",
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_title": "Shard this page",
+    "default_icon": {
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "48": "icon48.png"
+    }
+  },
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "chrome-shard.js",
+    "type": "module"
+  }
+}
